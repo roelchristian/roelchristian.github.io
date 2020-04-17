@@ -94,6 +94,7 @@ table {
   overflow: hidden;
   width: 500px;
   border-radius: 10px;
+  margin-bottom:1.5em;
 }
 
 th, td {

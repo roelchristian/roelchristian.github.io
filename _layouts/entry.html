@@ -1,10 +1,10 @@
 ---
 layout: default
+title: {{ word | append: ' - Iridian Dictionary' }}
 ---
 
-
 <div class="entry">
-  <span><b>{{ page.title }}</b> /{{ page.ipa }}/</span>
+  <span><b>{{ page.word }}</b> /{{ page.ipa }}/</span>
 
   <p>{{page.definition}}</p>
 
@@ -39,6 +39,12 @@ layout: default
   </table>
 </div>
 
+{% endif %}
+
+{% if page.relcount %}
+<div class="related-words">
+  <p class="breakAfter">See also: {{ page.relwords }}</p>
+</div>
 {% endif %}
 
 <div class="back-to-index">
