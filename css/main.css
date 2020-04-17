@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=DidactGothic:wght@400;600;800&display=swap');
+
+
 body {
+  font-family: 'Cardo', 'Times New Roman', serif;
     margin: 60px auto;
     width: 70%;
 }
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: 'Didact Gothic', sans-serif;
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -21,8 +25,9 @@ a:hover {
 }
 h1 {
     font-size: 2em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: 'Didact Gothic', sans-serif;
 }
+
 p {
     font-size: 1em;
     line-height: 1.2em;
@@ -82,4 +87,25 @@ blockquote footer:before {
 
 p.breakAfter{
   margin-bottom:2em;
+}
+
+
+table {
+  border-collapse: collapse;
+  background-color: white;
+  overflow: hidden;
+  width: 500px;
+  border-radius: 10px;
+}
+
+th, td {
+  font-family:'Didact Gothic', sans-serif;
+  text-align: left;
+  font-size: 12px;
+  padding: 10px;
+}
+
+th {
+  background-color: #7691ab;
+  color: white;
 }
