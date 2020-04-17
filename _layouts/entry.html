@@ -15,6 +15,32 @@ layout: default
   {{ page.examples }}
 </div>
 
+{ % if page.partofspeech = 'noun' %}
+
+<div class="decl-table">
+  <h2>Declension table</h2>
+  <table>
+    <tr>
+      <td><b>Agentive</b></td>
+      <td>{{ page.agentive }}</td>
+    </tr>
+    <tr>
+      <td><b>Patientive</b></td>
+      <td>{{ page.patientive }}</td>
+    </tr>
+    <tr>
+      <td><b>Genitive</b></td>
+      <td>{{ page.genitive }}</td>
+    </tr>
+    <tr>
+      <td><b>Instrumental</b></td>
+      <td>{{ page.instrumental }}</td>
+    </tr>
+  </table>
+</div>
+
+{ % endif %}
+
 <div class="back-to-index">
   <a href="https://roelchristian.github.io/dictionary">&lt; Back to Alphabetical Index</a>
 </div>
