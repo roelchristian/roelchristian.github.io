@@ -1,0 +1,37 @@
+main:
+  - sortunder: a
+    words:
+      - entry: avt
+      - entry: avtist
+  - sortunder: b
+  - sortunder: c
+  - sortunder: č
+  - sortunder: d
+  - sortunder: e
+  - sortunder: f
+  - sortunder: g
+  - sortunder: h
+  - sortunder: i
+  - sortunder: j
+  - sortunder: k
+  - sortunder: l
+  - sortunder: m
+    words:
+      - entry: maty
+      - entry: mámka
+      - entry: mámkám
+  - sortunder: n
+  - sortunder: o
+  - sortunder: p
+  - sortunder: q
+  - sortunder: r
+  - sortunder: s
+  - sortunder: š
+  - sortunder: t
+  - sortunder: u
+  - sortunder: v
+  - sortunder: w
+  - sortunder: x
+  - sortunder: y
+  - sortunder: z
+  - sortunder: ž

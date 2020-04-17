@@ -2,16 +2,17 @@
 layout: default
 ---
 
-<!-- Html Elements for Search -->
-
-<div class="wrapper">
-  <div class="container-search">
-    <h1>Search the Dictionary</h1>
-    <div class="container-input">
-      <input type="text" list="psychology_theories_list" id="psychology_theories_search" class="search-term" placeholder="Search on name, category, tags etc.">
-      <button type="submit" class="search-button" id="selectTheory">
-        <i class="fa fa-search"></i>
-     </button>
-    </div>
-  </div>
+<div class="alph-list">
+  {% for head in site.data.entries.main %}
+  <span><a href="/dictionary/entry/{{ head.sortunder }}">{{ head.sortunder | capitalize }} </a></span>
+  {% endfor %}
 </div>
+
+<!-- List all words -->
+{% for head in site.data.entries.main %}
+  {% for word in head.words %}
+      <a href="/dictionary/entry/{{ head.sortunder }}/{{ word.entry }}">
+        {{ word.entry }}
+      </a><br/>
+  {% endfor %}
+{% endfor %}
