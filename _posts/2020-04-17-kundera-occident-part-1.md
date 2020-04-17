@@ -2,6 +2,7 @@
 layout: post
 title: "Kundera's Kidnapped West, Part 1"
 date: 2020-04-17
+tags: ["Milan Kundera"]
 ---
 
-This is supposed to contain something.
+I remember translating
