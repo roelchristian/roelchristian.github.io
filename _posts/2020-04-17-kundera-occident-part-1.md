@@ -7,7 +7,8 @@ tags: ["Milan Kundera"]
 
 I remember translating (or attempting to, and badly) the first few paragraph's of Milan Kundera's *Unbearable Lightness of Being* some four, five years ago, when I rediscovered my
 
->Pojesztan míc latre sznocznache, kovásztekda Nicze duma nétu freczcha: as míciz latrem van déminekarju, latroczkemda nét
+>Pojesztan míc latre sznocznache, kovásztekda Nicze duma nétu freczcha: as míciz latrem van déminekarju, latroczkemda nét.
+>
 >Nymu, cmiran nai latre sznocznache, den rutasztost szivan la koczanum ka, la latranychum, mosznikostda, dimostda trokaju; tém vojeczchom, to cztésztchom, to novítchom, prekodan voyec, novít, czészt byla. Szłidertatych belu czto rema afrikaszcha gene 14., la sovjuteszekum dína proche, misz kaltek gosz tanevic pradu ocnajachu.
 Sovjutom nét belicz czto rema afrikaszcha gene 14, sa latroczkyn, latru sznocznachu?
 Sovjutan: kviszjo,
