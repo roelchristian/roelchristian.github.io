@@ -1,8 +1,9 @@
 ---
 layout: default
+title: Dictionary - Alphabetical Index
 ---
 
-<div class="alph-list">
+<div class="alph-list" style="margin-bottom:1.5em">
   {% for head in site.data.entries.main %}
   <span><a href="/dictionary/entry/{{ head.sortunder }}">{{ head.sortunder | capitalize }} </a></span>
   {% endfor %}
@@ -16,3 +17,8 @@ layout: default
       </a><br/>
   {% endfor %}
 {% endfor %}
+
+<div class="back-to-index">
+  <p  style="margin-bottom:1.5em"><a href="../">&lt; Back to Home Page</a>
+</p>
+</div>

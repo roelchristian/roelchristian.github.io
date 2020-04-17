@@ -14,12 +14,20 @@ main:
   - sortunder: i
   - sortunder: j
   - sortunder: k
+    words:
+      - entry: kvartir
+      - entry: kvas
   - sortunder: l
+    words:
+      - entry: lóbek
   - sortunder: m
     words:
       - entry: maty
       - entry: mámka
       - entry: mámkám
+      - entry: mlaciek
+      - entry: mlaz
+      - entry: mlažka
   - sortunder: n
   - sortunder: o
   - sortunder: p

@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<div class="list-words">
+  {% for head in site.data.entries.main %}
+    {% if head.sortunder == page.letter %}
+    <h3>Entries Starting with &lsquo;{{ page.letter | capitalize }}&rsquo; ({{ head.words | size }})</h3>
+    <!-- List all words -->
+      {% for word in head.words %}
+          <a href="/dictionary/entry/{{ page.letter }}/{{ word.entry }}">
+            {{ word.entry }}
+          </a><br/>
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+</div>
+
+<div class="back-to-index">
+  <p class="breakAfter"><a href="../../../dictionary">&lt; Back to Alphabetical Index</a>
+</p>
+</div>
