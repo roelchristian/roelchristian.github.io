@@ -79,3 +79,7 @@ blockquote footer:before {
 	position: absolute;
 	left: -.6em;
 }
+
+p.breakAfter{
+  margin-bottom:2em;
+}
