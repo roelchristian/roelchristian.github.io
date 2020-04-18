@@ -1,16 +1,28 @@
 body{
-  margin: 84px auto;
-  width: 70%;
+  margin: 120px auto;
+  width: 60%;
+  color: #333;
 }
 
-.greeting{
-  font-size: 72px;
+.namespace{
+  font-size: 25px;
   font-family: 'Cardo', 'Garamond', serif;
-  margin-bottom: 1em;
+  margin-bottom: .75em;
 
 }
 
 .blurb-text{
-  font-size: 30px;
-  font-family: Raleway;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 1em;
+}
+
+.blurb{
+  width: 60%;
+}
+
+.nav-bottom{
+  text-transform: uppercase;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
 }
