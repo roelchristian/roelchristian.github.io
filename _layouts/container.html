@@ -11,6 +11,7 @@
     <!-- Reference to Google Fonts-->
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Cardo" />
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open-Sans" />
 
     <!-- For mobile scaling-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -24,27 +25,9 @@
       {{ page.namespace }}
     </div>
     <div class="blurb">
-      <div class="blurb-text">
-          {{ page.blurb }}
-      </div>
+        {{ page.blurb s}}
     </div>
 
-    <div class="nav-bottom">
-
-      <a href="/me/links">Stuff I Like</a> /
-      <a href="/projects"> Projects</a> /
-      <a href="/blog">Blog</a> /
-      <a href="/me/about"> Profile</a>
-
-    </div>
-
-    <div class="social">
-      {% for social in site.data.social %}
-        <a href="{{ social.link }}" target="_blank">
-          <img src="/assets/icons/{{ social.name }}.svg" alt="{{ social.name }}" size="10px">
-        </a>
-      {% endfor %}
-    </div>
 
     <div class="footer">
        © 2020 Roel Christian Yambao.
