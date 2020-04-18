@@ -149,3 +149,24 @@ b{
 .blog-foot {
   font-size: 14px;
 }
+
+@media screen and (max-width:480px) {
+  body{
+     margin-top: 80px;
+     width: 90%;
+
+   }
+   .blurb {
+     font-size: 14px;
+     width: 90%;
+ }
+   .namespace{
+     font-size: 22px;
+   }
+   .blurb-text{
+     font-size: 16px;
+   }
+   .nav-bottom{
+     font-size: 12px;
+   }
+}
