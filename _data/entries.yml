@@ -4,7 +4,11 @@ main:
       - entry: avt
       - entry: avtist
   - sortunder: b
+    words:
+      - entry: byró
   - sortunder: c
+    words:
+      - entry: cigra
   - sortunder: č
   - sortunder: d
   - sortunder: e
@@ -13,10 +17,14 @@ main:
   - sortunder: f
   - sortunder: g
   - sortunder: h
+    words:
+      - entry: hravá
   - sortunder: i
   - sortunder: j
   - sortunder: k
     words:
+      - entry: kávé
+      - entry: kávémašt
       - entry: kvartir
       - entry: kvas
   - sortunder: l
@@ -26,9 +34,12 @@ main:
     words:
       - entry: mámka
       - entry: mámkám
+      - entry: mámku
       - entry: mašine
       - entry: mašinist
       - entry: maty
+      - entry: Mažaróma
+      - entry: mažarevní
       - entry: mlaciek
       - entry: mlaz
       - entry: mlažka
@@ -37,9 +48,16 @@ main:
       - entry: nebo
   - sortunder: o
   - sortunder: p
+    words:
+      - entry: piaščá
+      - entry: piaštá
+      - entry: piaštómašt
+      - entry: piaštou
   - sortunder: q
   - sortunder: r
   - sortunder: s
+    words:
+      - entry: stojá
   - sortunder: š
   - sortunder: t
   - sortunder: u

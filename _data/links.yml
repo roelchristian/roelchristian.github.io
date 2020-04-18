@@ -2,7 +2,7 @@ main:
   - sub: Blogs and Websites Worth Checking
     gohere:
       - sitealias: Signals By Levi Masuli
-        siteurl: levimasuli.com
+        siteurl: "https://levimasuli.com"
         description: "test"
       - sitealias: caliath
         siteurl:

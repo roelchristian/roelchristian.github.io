@@ -100,3 +100,43 @@ caption {
   font-style: normal;
   font-weight: 600;
 }
+
+.ird{
+  font-style: italic;
+  font-weight: 600;
+}
+
+.IPA{
+  font-family: Gentium,'Gentium Plus',GentiumAlt,'DejaVu Sans','Segoe UI','Lucida Grande','Charis SIL','Doulos SIL','TITUS Cyberbit Basic','Code2000','Lucida Sans Unicode',sans-serif;
+}
+
+b{
+  font-weight: 600;
+}
+.conj-table{
+  font-size: 14px;
+  border: 0;
+}
+
+.conj-div td{
+  background: #d4d4d4;
+  font-style: italic;
+}
+
+.conj-tabl table{
+  border: none;
+  border-collapse: collapse;
+}
+
+.conj-table table, td,tr, th{
+  padding: 10px;
+  padding-right: 15px;
+  background: #fafafa;
+  border: none;
+}
+
+.conj-table th{
+  font-style: normal;
+  font-weight: 600;
+  background: #abacae;
+}

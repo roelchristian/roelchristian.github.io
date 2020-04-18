@@ -10,14 +10,14 @@
 		</head>
 		<body>
 			<div class="nav-up">
-					<a href="../../../../">Home</a> / <a href="../../../">Iridian</a> / <a href="../../"> Dictionary </a> / <a href="../">{{ page.letter | capitalize}}</a> / <b>{{ page.word }}</b>
+					<a href="../../../../">Home</a> / <a href="../../../">Iridian</a> / <a href="../../"> Dictionary </a> / <a href="../{{page.letter}}">{{ page.letter | capitalize}}</a> / <b>{{ page.word }}</b>
 			</div>
 
 			<div class="container">
 
         <div class="entry">
           <div class="word">
-            <span><b>{{ page.word }}</b> /{{ page.ipa }}/</span>
+            <span style="font-weight:600;">{{ page.word }} <span class="IPA">[{{ page.ipa }}]</span></span>
           </div>
 
           <p>{{page.definition}}</p>
@@ -58,7 +58,134 @@
           </table>
         </div>
 
+				{% elsif page.partofspeech == "verb" %}
+
+				<p><b>Conjugation Table</b></p>
+
+				<table class="conj-table" cellspacing="0" cellpadding="0">
+					<thead>
+						<th></th>
+						<th>Unmarked</th>
+						<th>Agentive</th>
+						<th>Patientive</th>
+						<th>Benefactive</th>
+						<th>Locative</th>
+						<th>Instrumental</th>
+						<th>Reflexive</th>
+					</thead>
+					<tr>
+						<td>Infinitive</td>
+						<td>{{page.word}}</td>
+						<td>{{page.infag}}</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr class="conj-div">
+						<td colspan="8">Indicative mood</td>
+					</tr>
+					<tr>
+						<td>Perfective</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Retrospective</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Continuous</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Progressive</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Contemplative</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr class="conj-div">
+						<td colspan="8">Imperative and hortative mood</td>
+					</tr>
+					<tr>
+						<td>Imperative</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Prohibitive</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Hortative</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Neg. Hortative</td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+
+
+				</table>
+
         {% endif %}
+
+
 
         {% if page.relcount %}
         <div class="related-words">
