@@ -1,11 +1,20 @@
 main:
   - sub: Blogs and Websites Worth Checking
     gohere:
+      - sitealias: "Read a little poetry"
+        siteurl: "https://readalittlepoetry.wordpress.com/"
+        description: "The loveliest place in the internet"
       - sitealias: Signals By Levi Masuli
         siteurl: "https://levimasuli.com"
-        description: "test"
+        description: "A blog by John Levi Masuli, a Filipino writer and musician."
       - sitealias: caliath
-        siteurl:
-        description:
+        siteurl: "https://caliath.com/"
+        description: "Poetry and prose by Jo&atilde;o-Maria."
       - sitealias: "Ezra Koenig&rsquo;s Internet Vibes"
+      - sitealias: "Lagimlim"
+        siteurl: "https://lagimlim.wordpress.com/"
+        description: "Blog ni Abner Dormiendo, may-akda ng &lsquo;Sa Antipolo pa rin ang Antipolo&lsquo;"
+      - sitealias: "Kasper Sevaj, Scrampton Vet"
+        siteurl: "http://www.sevaj.dk/indexeng.php"
+        description: "An odd place in an odd world. Don&rsquo;t forget to check his <a href='http://www.sevaj.dk/kharms/kharmseng.htm'>collection of stories</a> by Daniil Kharms."
   - sub: Random Articles
