@@ -1,57 +1,80 @@
----
-layout: default
-title: {{ word | append: ' - Iridian Dictionary' }}
----
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>{{ page.title }}</title>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+			<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Cardo" />
+			<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+		</head>
+		<body>
+			<div class="nav-up">
+					<a href="../../../../">Home</a> / <a href="../../../">Iridian</a> / <a href="../../"> Dictionary </a> / <a href="../">{{ page.letter | capitalize}}</a> / <b>{{ page.word }}</b>
+			</div>
 
-<div class="entry">
-  <span style="font-size:125%;""><b>{{ page.word }}</b> /{{ page.ipa }}/</span>
+			<div class="container">
 
-  <p>{{page.definition}}</p>
+        <div class="entry">
+          <div class="word">
+            <span><b>{{ page.word }}</b> /{{ page.ipa }}/</span>
+          </div>
 
-  <p>{{ page.etymology }}</p>
+          <p>{{page.definition}}</p>
 
-</div>
-<div class="examples">
-  {{ page.examples }}
-</div>
+          <p>{{ page.etymology }}</p>
 
-{% if page.partofspeech == "noun" %}
+        </div>
 
-<div class="decl-table">
-  <p style="font-size:115%; font-family: Raleway;">Declension Table</p>
-  <table>
-    <tr>
-      <td><b>Agentive</b></td>
-      <td>{{ page.agentive }}</td>
-    </tr>
-    <tr>
-      <td><b>Patientive</b></td>
-      <td>{{ page.patientive }}</td>
-    </tr>
-    <tr>
-      <td><b>Genitive</b></td>
-      <td>{{ page.genitive }}</td>
-    </tr>
-    <tr>
-      <td><b>Instrumental</b></td>
-      <td>{{ page.instrumental }}</td>
-    </tr>
-    <tr>
-      <td><b>Vocative</b></td>
-      <td>{{ page.vocative }}</td>
-    </tr>
-  </table>
-</div>
+        <div class="examples">
+          {{ page.examples }}
+        </div>
 
-{% endif %}
+        {% if page.partofspeech == "noun" %}
 
-{% if page.relcount %}
-<div class="related-words">
-  <p class="breakAfter">See also: {{ page.relwords }}</p>
-</div>
-{% endif %}
+        <div class="decl-table">
+          <p><b>Declension Table</b></p>
+          <table class="conj">
+            <tr>
+              <td>Agentive</td>
+              <td>{{ page.agentive }}</td>
+            </tr>
+            <tr>
+              <td>Patientive</td>
+              <td>{{ page.patientive }}</td>
+            </tr>
+            <tr>
+              <td>Genitive</td>
+              <td>{{ page.genitive }}</td>
+            </tr>
+            <tr>
+              <td>Instrumental</td>
+              <td>{{ page.instrumental }}</td>
+            </tr>
+            <tr>
+              <td>Vocative</td>
+              <td>{{ page.vocative }}</td>
+            </tr>
+          </table>
+        </div>
 
-<div class="back-to-index">
-  <p class="breakAfter"><a href="../../../dictionary">&lt; Back to Alphabetical Index</a>
-</p>
-</div>
+        {% endif %}
+
+        {% if page.relcount %}
+        <div class="related-words">
+          <p class="breakAfter">See also: {{ page.relwords }}</p>
+        </div>
+        {% endif %}
+
+        <div class="back-to-index">
+          <p class="breakAfter"><a href="../../../dictionary">&lt; Back to Alphabetical Index</a>
+        </p>
+        </div>
+
+			</div><!-- /.container -->
+
+			<div class="footer">
+	    © 2020 Roel Christian Yambao.
+		</div>
+		</body>
+	</html>

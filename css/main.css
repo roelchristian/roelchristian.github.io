@@ -1,7 +1,7 @@
 
 body{
   font-family: "Open Sans", sans-serif;
-  margin: 120px auto;
+  margin: 85px auto;
   width: 60%;
   color: #333;
 }
@@ -21,4 +21,28 @@ a{
 a:hover{
   color: #306754;
   border-bottom: 1px dotted #000;
+}
+
+.back-to-index {
+  font-size: 90%;
+}
+.footer{
+  color: #333;
+  font-weight: 300;
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 1em;
+}
+
+.word{
+  font-size: 20px;
+  padding-top: 1em;
+}
+
+table, td, tr{
+  width: inherit;
+  padding-right: 60px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: left;
 }

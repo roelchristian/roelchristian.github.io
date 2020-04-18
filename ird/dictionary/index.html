@@ -4,16 +4,22 @@ title: Dictionary - Alphabetical Index
 irdsec: "Dictionary"
 ---
 
+<div class="search-container">
+
+</div>
+
+
+
 <div class="alph-list" style="margin-bottom:1.5em">
   {% for head in site.data.entries.main %}
-  <span><a href="/dictionary/entry/{{ head.sortunder }}">{{ head.sortunder | capitalize }} </a></span>
+  <span><a href="/ird/dictionary/entry/{{ head.sortunder }}">{{ head.sortunder | capitalize }} </a></span>
   {% endfor %}
 </div>
 
 <!-- List all words -->
 {% for head in site.data.entries.main %}
   {% for word in head.words %}
-      <a href="/dictionary/entry/{{ head.sortunder }}/{{ word.entry }}">
+      <a href="/ird/dictionary/entry/{{ head.sortunder }}/{{ word.entry }}">
         {{ word.entry }}
       </a><br/>
   {% endfor %}
