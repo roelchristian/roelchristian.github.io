@@ -55,9 +55,27 @@ table, td, tr{
 }
 
 
-
 input[type=text]{
   border: none;
   font-size: 20px;
 
+}
+
+h1{
+  font-size: 25px;
+  font-family: 'Open Sans', 'Helvetica', sans-serif;
+  margin-bottom: .75em;
+  font-weight: 600;
+}
+
+
+h2{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+h3{
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400
 }

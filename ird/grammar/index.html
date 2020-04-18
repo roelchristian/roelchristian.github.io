@@ -1,23 +1,22 @@
 ---
 layout: default
 title: Index of Online Grammar
+irdsec: Grammar
 ---
-
-<h1>Index of Online Grammar</h1>
-
+<h1>{{ page.title }}</h1>
 <p> The glosses are still a work in progress but you can download the grammar as a pdf file or compile the latex code yourself <a href="https://github.com/roelchristian/iridian-reference-grammar">here.</a></p>
-<ol>
-    <li>An Overview of Iridian</li>
-    <li>Phonology</li>
-    <li>Nouns</li>
 
-    <li>Verbs
-      <ol>
-        <li>Aspect</li>
-        <li>Grammatical Mood</li>
-        <li>Modality</li>
-      </ol>
+<ul>
+  {% for chapt in site.data.grammar.main %}
+    <li>
+      <a href="{{ page.url }}{{ chapt.curl }}">{{ chapt.chapter }}</a>
+        <ul>
+          {% for sec in chapt.subs %}
+            <li>
+              <a href="{{ page.url }}{{ chapt.curl }}#{{ sec.tag }}">{{ sec.section }}</a>
+            </li>
+          {% endfor %}
+        </ul>
     </li>
-    <li>Minor Word Class</li>
-    <li>Lexicon and Derivation</li>
-</ol>
+  {% endfor %}
+</ul>
