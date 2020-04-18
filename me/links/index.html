@@ -2,5 +2,15 @@
 layout: container
 title: Stuff I Like - Roel Yambao
 namespace: Links to Stuff I Like
-
 ---
+
+<div class="extlinks">
+  {% for subname in site.data.links.main %}
+    <p class="subname">{{ subname.sub | capitalize}}</p>
+    <ul>
+      {% for item in subname.gohere %}
+        <li><a href="{{ item.siteurl }}">{{ item.sitealias }}.</a> {{ item.description }}</li>
+      {% endfor %}
+    </ul>
+  {% endfor %}
+</div>

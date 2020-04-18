@@ -74,3 +74,18 @@ body{
 .footer a:hover{
   border-bottom: 1px dotted #000;
 }
+
+
+.subname {
+  font-weight: 600;
+}
+
+.extlinks a{
+  color: #306754;
+  text-decoration: none;
+}
+
+.extlinks a:hover{
+  color: #306754;
+  border-bottom: 1px dotted #000;
+}
