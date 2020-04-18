@@ -19,7 +19,7 @@
         <div class="list-words">
           {% for head in site.data.entries.main %}
             {% if head.sortunder == page.letter %}
-            <h3>Entries Starting with &lsquo;{{ page.letter | capitalize }}&rsquo; ({{ head.words | size }})</h3>
+            <h2>Entries Starting with &lsquo;{{ page.letter | capitalize }}&rsquo; ({{ head.words | size }})</h2>
             <!-- List all words -->
               {% for word in head.words %}
                   <a href="/ird/dictionary/entry/{{ page.letter }}/{{ word.entry }}">

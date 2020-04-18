@@ -70,6 +70,10 @@ a:hover{
   text-decoration: underline;
 }
 
+.footer-link{
+  padding-right: 10px;
+}
+
 .footer{
   color: #333;
   font-weight: 300;
@@ -86,6 +90,11 @@ a:hover{
   border-bottom: 1px dotted #000;
 }
 
+.footer p{
+  padding: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
 
 .subname {
   font-weight: 600;
