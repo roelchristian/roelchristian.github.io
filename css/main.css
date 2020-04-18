@@ -1,8 +1,9 @@
 
-body {
+body{
   font-family: "Open Sans", sans-serif;
-    margin: 60px;
-    width: 70%;
+  margin: 120px auto;
+  width: 60%;
+  color: #333;
 }
 
 nav ul, footer ul {
