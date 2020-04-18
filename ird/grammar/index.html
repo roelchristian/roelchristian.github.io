@@ -13,7 +13,7 @@ irdsec: Grammar
         <ul>
           {% for sec in chapt.subs %}
             <li>
-              <a href="{{ page.url }}{{ chapt.curl }}#{{ sec.tag }}">{{ sec.section }}</a>
+              <a href="{{ chapt.curl }}#{{ sec.tag }}">{{ sec.section }}</a>
             </li>
           {% endfor %}
         </ul>

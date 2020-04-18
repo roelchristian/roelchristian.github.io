@@ -68,6 +68,9 @@ h1{
   font-weight: 600;
 }
 
+blockquote{
+  font-size: 14px;
+}
 
 h2{
   font-size: 20px;
@@ -78,4 +81,22 @@ h3{
   font-size: 18px;
   font-style: italic;
   font-weight: 400
+}
+
+.grammartab table, td, tr{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+caption {
+  display: table-caption;
+  caption-side: bottom;
+  text-align: left;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.caption-head{
+  font-style: normal;
+  font-weight: 600;
 }

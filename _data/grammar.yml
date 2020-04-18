@@ -17,6 +17,9 @@ main:
     subs:
       - section: Introduction
       - section: Grammatical Aspect
+      - section: Voice
+      - section: Valency
+        tag: valency
       - section: Grammatical Mood
       - section: Modality
   - chapter: Nouns
