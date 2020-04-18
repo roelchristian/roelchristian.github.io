@@ -12,7 +12,6 @@ body{
 }
 
 a{
-  text-decoration: none;
   color: #306754;
   font-weight: 400;
   text-decoration: none;
@@ -20,7 +19,7 @@ a{
 
 a:hover{
   color: #306754;
-  border-bottom: 1px dotted #000;
+  text-decoration: underline;
 }
 
 .back-to-index {
@@ -78,9 +77,10 @@ h2{
 }
 
 h3{
-  font-size: 18px;
-  font-style: italic;
-  font-weight: 400
+  font-size: 14px;
+  font-weight: 600
+  margin-bottom: 15px;
+  margin-top: 50px;
 }
 
 .grammartab table, td, tr{
