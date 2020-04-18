@@ -1,0 +1,8 @@
+- name: twitter
+  link: "https://twitter.com/roelzinho"
+  iftext: Twitter
+  uname: "@roelzinho"
+- name: facebook
+  link: "https://facebook.com"
+  iftext: facebook
+  uname: roelchristian

@@ -1,9 +1,10 @@
 
 body {
-  font-family: 'Cardo', 'Garamond','Times New Roman', serif;
+  font-family: "Open Sans", sans-serif;
     margin: 60px;
     width: 70%;
 }
+
 nav ul, footer ul {
     font-family: 'Raleway', sans-serif;
     padding: 0px;
