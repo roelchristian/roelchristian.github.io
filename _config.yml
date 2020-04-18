@@ -1,5 +1,6 @@
-name: Roel's Language Stuff
-title: Roel's Language Stuff
+name: Roel Christian Yambao
+title: Roel Christian Yambao
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
-gems: ['jekyll-lunr-js-search']
+plugins:
+  -jekyl-sitemap
