@@ -4,7 +4,7 @@ title: {{ word | append: ' - Iridian Dictionary' }}
 ---
 
 <div class="entry">
-  <span><b>{{ page.word }}</b> /{{ page.ipa }}/</span>
+  <span style="font-size:125%;""><b>{{ page.word }}</b> /{{ page.ipa }}/</span>
 
   <p>{{page.definition}}</p>
 
@@ -18,7 +18,7 @@ title: {{ word | append: ' - Iridian Dictionary' }}
 {% if page.partofspeech == "noun" %}
 
 <div class="decl-table">
-  <h3>Declension table</h3>
+  <p style="font-size:115%; font-family: Raleway;">Declension Table</p>
   <table>
     <tr>
       <td><b>Agentive</b></td>

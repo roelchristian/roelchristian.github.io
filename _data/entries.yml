@@ -8,6 +8,8 @@ main:
   - sortunder: č
   - sortunder: d
   - sortunder: e
+    words:
+      - entry: etapa
   - sortunder: f
   - sortunder: g
   - sortunder: h
@@ -22,13 +24,17 @@ main:
       - entry: lóbek
   - sortunder: m
     words:
-      - entry: maty
       - entry: mámka
       - entry: mámkám
+      - entry: mašine
+      - entry: mašinist
+      - entry: maty
       - entry: mlaciek
       - entry: mlaz
       - entry: mlažka
   - sortunder: n
+    words:
+      - entry: nebo
   - sortunder: o
   - sortunder: p
   - sortunder: q

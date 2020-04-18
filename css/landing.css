@@ -1,0 +1,16 @@
+body{
+  margin: 84px auto;
+  width: 70%;
+}
+
+.greeting{
+  font-size: 72px;
+  font-family: 'Cardo', 'Garamond', serif;
+  margin-bottom: 1em;
+
+}
+
+.blurb-text{
+  font-size: 30px;
+  font-family: Raleway;
+}
