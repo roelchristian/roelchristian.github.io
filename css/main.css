@@ -22,6 +22,11 @@ a:hover{
   text-decoration: underline;
 }
 
+.fineprint{
+  font-size: 14px;
+}
+
+
 .back-to-index {
   font-size: 90%;
 }
@@ -78,7 +83,7 @@ h2{
 
 h3{
   font-size: 14px;
-  font-weight: 600
+  font-weight: 600;
   margin-bottom: 15px;
   margin-top: 50px;
 }
