@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -32,14 +32,22 @@
     <div class="nav-bottom">
 
       <a href="/curiosities">Stuff I Like</a> /
-      <a href="/projects"> Project</a> /
+      <a href="/projects"> Projects</a> /
       <a href="/blog">Blog</a> /
-      <a href="/me/links"> Me Elsewhere</a>
+      <a href="/me/about"> Profile</a>
 
     </div>
 
+    <div class="social">
+      {% for social in site.data.social %}
+        <a href="{{ social.link }}" target="_blank">
+          <img src="/assets/icons/{{ social.name }}.svg" alt="{{ social.name }}" size="10px">
+        </a>
+      {% endfor %}
+    </div>
+
     <div class="footer">
-       © 2020 Roel Christian Yambao. en fr es pt
+       © 2020 Roel Christian Yambao.
     </div>
 
 
