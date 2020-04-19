@@ -58,20 +58,18 @@ a:hover + #arr {
 }
 
 .toplogo{
-  font-family: "Cormorant Garamond", serif;
-  font-weight: 500;
-  font-size: 40px;
+  font-family: "Open Sans", "Helvetica", sans-serif;
+  font-size: 18px;
+  padding-bottom: 0;
 }
 
 .toplogo a{
   text-decoration: none;
-  color: #333;
+  color: #306754;
 }
 
 .toplogo a:hover{
-  font-style: italic;
-  font-weight: 600;
-
+  color: #333;
 }
 
 @media screen and (max-width:480px) {

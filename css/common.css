@@ -4,8 +4,10 @@ Site-wite attributes
 */
 
 body{
-  font-family: "Open Sans", "Helvetica", sans-serif;
+  font-family: "IBM Plex Sans", "Helvetica", sans-serif;
   font-kerning: auto;
+  font-weight: 300;
+  font-size: 16px;
   text-rendering: optimizeLegibility;
   color: #333;
 }
@@ -38,7 +40,7 @@ a:hover{
 }
 
 h1{
-  font-family: "Cardo", "Garamond", serif;
+  font-family: "Spectral", "Cardo", "Garamond", serif;
   font-size: 30px;
   font-weight: 400;
 }
@@ -53,91 +55,4 @@ h3{
   font-weight: 600;
   margin-bottom: 15px;
   margin-top: 50px;
-}
-
-
-.logo {
-  position: fixed;
-  top: 0;
-  left: 0;
-  display: table;
-  width: 30px;
-  height: 20px;
-  color: #fff;
-  text-align: center;
-  text-decoration: none;
-  border-bottom: 0;
-  background-color: #333;
-  z-index: 5;
-}
-
-
-.logotext {
-  display: table-cell;
-  vertical-align: middle;
-  position: relative;
-}
-
-div.logotext {
-    font-family: "Staatliches","Ubuntu","Cardo", "Garamond", sans-serif;
-
-    font-size: 40px;
-    position: relative;
-    -moz-user-select: none;
-    webkit-user-select: none;
-    ms-user-select: none;
-}
-
-.logotext a{
-  color: white;
-}
-
-.logotext a:hover{
-  text-decoration: none;
-}
-
-.logo:hover{
-  background-color: #306754;
-}
-
-/* static logo */
-
-.logo-static {
-  position: fixed;
-  top: 0;
-  left: 0;
-  display: table;
-  width: 80px;
-  height: 80px;
-  font-size: 14px;
-  color: #fff;
-  text-align: center;
-  text-decoration: none;
-  border-bottom: 0;
-  background-color: #306754;
-  z-index: 5;
-}
-
-
-.logotext-static {
-  display: table-cell;
-  vertical-align: middle;
-  position: relative;
-}
-
-div.logotext-static {
-    font-family: "Ubuntu", "Garamond", sans-serif;
-
-    font-size: 40px;
-    position: relative;
-    -moz-user-select: none;
-    webkit-user-select: none;
-    ms-user-select: none;
-}
-.logotext-static a{
-  color: white;
-}
-
-.logotext-static a:hover{
-  text-decoration: none;
 }
