@@ -12,13 +12,13 @@ body{
 }
 
 a{
-  color: #306754;
+  color: #339966;
   font-weight: 400;
   text-decoration: none;
 }
 
 a:hover{
-  color: #306754;
+  color: #339966;
   text-decoration: underline;
 }
 
@@ -66,10 +66,11 @@ input[type=text]{
 }
 
 h1{
-  font-size: 25px;
+
   font-family: 'Open Sans', 'Helvetica', sans-serif;
   margin-bottom: .75em;
-  font-weight: 600;
+  font-size: 27px;
+  font-weight: 500;
 }
 
 blockquote{

@@ -1,0 +1,6 @@
+- name: Sitemap
+  url: "#"
+- name: "Contact Me"
+  url: "/me/contact"
+- name: "Terms"
+  url: "/terms"

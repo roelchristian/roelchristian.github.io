@@ -6,43 +6,48 @@
     <title>{{ page.title }}</title>
 
     <!-- Call landing page stylesheet -->
-    <link rel="stylesheet" type="text/css" href="/css/landing.css">
+    <link rel="stylesheet" type="text/css" href="/css/common.css">
+    <link rel="stylesheet" type="text/css" href="/css/pages.css">
+
 
     <!-- Reference to Google Fonts-->
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Cardo" />
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open-Sans" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
 
     <!-- For mobile scaling-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
   </head>
   <body>
-
-
-    <div class="namespace">
-      {{ page.namespace }}
+    <div class="topnav">
+      <div class="toplogo">
+        <a href="/contents">Roel.</a>
+      </div>
+       <a class="active" href="#home">Home</a>
+       <a href="#news">Projects</a>
+       <a href="#contact">Blog</a>
+       <a href="#about">Stuff I Like</a>
     </div>
+    <div class="wrapper">
+      <div class="page-title">
+        <h1>{{ page.displaytitle }}</h1>
+      </div>
 
-    <div class="nav-bottom">
-      <a href="../../">&lt; Home</a>
+      <div class="container">
+
+          {{ content }}
+
+      </div>
+
+      <div class="footer">
+         <p>© 2020 Roel Christian Yambao. All rights reserved.</p>
+         <p>
+           {% for link in site.data.footerlinks %}
+              <span class="footer-link"><a href="{{ link.url }}">{{ link.name }}</a></span>
+           {% endfor %}
+         </p>
+      </div>
     </div>
-
-    <div class="container">
-
-        {{ content }}
-
-    </div>
-
-
-    <div class="footer">
-       <p>© 2020 Roel Christian Yambao. All rights reserved.</p>
-       <p>
-         <span class="footer-link">Sitemap</span>
-         <span class="footer-link"> <a href="/me/contact">Contact Me</a></span>
-         <span class="footer-link">  <a href="/terms">Terms</a> </span>
-       </p>
-    </div>
-
   </body>
 </html>

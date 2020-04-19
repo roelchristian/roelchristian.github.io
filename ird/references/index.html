@@ -1,0 +1,17 @@
+---
+layout: container
+title: "Iridian/References - Roel Yambao"
+shorttitle: References
+---
+
+<h1>{{page.shorttitle}}</h1>
+
+<ol>
+  {% for ref in site.data.references %}
+    {% if ref.reftype == 'book' %}
+      <li id="{{ref.bibname}}">
+        {{ref.author}}. {{ref.year}}. <i>{{ref.reftitle}}</i>. [<a href="{{ref.url}}">Link to source</a>] [<a href="{{ref.archurl}}">Link to archived version</a>]
+      </li>
+    {% endif %}
+  {% endfor %}
+</ol>

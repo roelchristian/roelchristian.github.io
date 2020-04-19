@@ -1,0 +1,81 @@
+/*
+Stylesheet for pages using the container layout
+*/
+
+a:hover + #arr {
+  transform:translateX(3px);
+  opacity: 1;
+}
+
+
+.arrow-appear{
+  transition:.2s;
+  transform:translateX(0);
+  opacity: 0;
+}
+
+.arrow-appear:hover{
+  transform:translateX(3px);
+  opacity: 1;
+}
+
+.gohome{
+  text-transform: uppercase;
+}
+
+.gohome a:hover{
+  text-decoration: none;
+}
+
+#home:hover + #larr{
+  transform:translateX(3px);
+  opacity: 1;
+}
+
+.wrapper{
+  width: 50%;
+  margin: auto;
+  margin-top: 150px;
+}
+
+.topnav{
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-size: 14px;
+  text-align: center;
+  background: white;
+}
+.topnav a{
+  padding: 10px;
+  display: inline-block;
+}
+
+.topnav a:hover{
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.toplogo{
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.toplogo a{
+  text-decoration: none;
+  color: #333;
+}
+
+.toplogo a:hover{
+  font-style: italic;
+  font-weight: 600;
+
+}
+
+@media screen and (max-width:480px) {
+  .wrapper{
+    width: 80%;
+  }
+}

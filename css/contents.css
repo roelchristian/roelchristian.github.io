@@ -1,0 +1,79 @@
+/*
+Stylesheet for the content page
+*/
+
+html{
+  background-color: #306754;
+  color: white;
+}
+
+.main-wrapper{
+  width: 50%;
+}
+
+a{
+  color: white;
+}
+
+.footer {
+  color: white;
+}
+
+.footer a{
+  color: white;
+}
+
+.footer a:hover{
+  color: white;
+}
+
+h1, h2, h3{
+  color: white;
+}
+
+h2{
+  font-weight: 400;
+  font-size: 16px;
+  padding-top:5px;
+  padding-bottom: 5px;
+}
+
+.proj-container{
+  padding-top: -10px;
+  padding-bottom: 15px;
+  display: flex
+}
+
+
+.proj-container a:hover{
+  text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+a:hover + #arr {
+  transform:translateX(3px);
+  opacity: 1;
+    color: white;
+}
+.arrow-appear{
+  transition:.2s;
+  transform:translateX(0);
+  opacity: 0;
+    color: white;
+}
+
+.arrow-appear:hover{
+  transform:translateX(3px);
+  opacity: 1;
+    color: white;
+}
+
+.proj-bin{
+  flex:50%;
+}
+
+@media screen and (max-width:480px) {
+  .main-wrapper{
+    width: 80%;
+  }
+}
