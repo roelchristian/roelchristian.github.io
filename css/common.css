@@ -3,8 +3,12 @@ css/common.css
 Site-wite attributes
 */
 
+
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans');
+@import url('https://fonts.googleapis.com/css?family=Oranienbaum');
+
 body{
-  font-family: "IBM Plex Sans", "Helvetica", sans-serif;
+  font-family: IBM Plex Sans, "Helvetica", sans-serif;
   font-kerning: auto;
   font-weight: 300;
   font-size: 16px;
@@ -40,7 +44,7 @@ a:hover{
 }
 
 h1{
-  font-family: "Oranienbaum", "Suranna", "Didot", "Bodoni", serif;
+  font-family: Oranienbaum, "Suranna", "Didot", "Bodoni", serif;
   font-size: 30px;
   font-weight: 400;
 }
