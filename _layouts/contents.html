@@ -28,7 +28,14 @@
 
     {{ content }}
 
+    <div class="languages">
+      <a href="/fr">fran&ccedil;ais</a> &#8226;
+      <a href="/pt">portugu&ecirc;s</a> &#8226; 
+      <a href="/es">espa&ntilde;ol</a>
+    </div>
+
     <footer>
+
       <div class="social">
         {% for social in site.data.social %}
           <a href="{{ social.link }}" target="_blank">
