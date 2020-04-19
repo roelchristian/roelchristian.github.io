@@ -102,4 +102,10 @@ blockquote{
   .footer{
     font-size: 10px;
   }
+  .const-message{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 20px;
+  }
 }
