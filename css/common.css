@@ -1,0 +1,40 @@
+/*
+css/common.css
+Site-wite attributes
+*/
+
+body{
+  font-family: "Open Sans", "Helvetica", sans-serif;
+  font-kerning: auto;
+  text-rendering: optimizeLegibility;
+  color: #333;
+  width: 60%;
+  margin: 120px auto;
+}
+
+a{
+  text-decoration: none;
+  color: #339966;
+}
+
+a:hover{
+  text-decoration: underline;
+  color: #306754;
+}
+
+h1{
+  font-size: 27px;
+  font-weight: 500;
+}
+
+h2{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+h3{
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  margin-top: 50px;
+}
