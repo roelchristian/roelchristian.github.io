@@ -18,4 +18,9 @@ main:
       - sitealias: "Kasper Sevaj, Scrampton Vet"
         siteurl: "http://www.sevaj.dk/indexeng.php"
         description: "An odd place in an odd world. Don&rsquo;t forget to check his <a href='http://www.sevaj.dk/kharms/kharmseng.htm'>collection of stories</a> by Daniil Kharms."
+      - sitealias: "Laudator temporis acti"
+        siteurl: "https://laudatortemporisacti.blogspot.com/"
+        description: "A <i>blog</i> by Michael Gilleland."
   - sub: Random Articles
+  - sub: Music, Films and Television
+  - sub: Books

@@ -5,12 +5,17 @@ namespace: Links to Stuff I Like
 permalink: "links"
 ---
 
+<div class="namespace">
+    <h1>{{page.namespace}}</h1>
+</div>
+
 <div class="extlinks">
   {% for subname in site.data.links.main %}
-    <p class="subname">{{ subname.sub | capitalize}}</p>
+    <div class="subname"><h2>{{ subname.sub | capitalize}}</h2></div>
     <ul>
       {% for item in subname.gohere %}
-        <li><a href="{{ item.siteurl }}">{{ item.sitealias }}.</a> {{ item.description }}</li>
+        <li><a href="{{ item.siteurl }}" >{{ item.sitealias }}. <i class="fa fa-external-link" style="font-size:10px;"></i>
+ </a> {{ item.description }}</li>
       {% endfor %}
     </ul>
   {% endfor %}

@@ -7,6 +7,8 @@ html{
   color: white;
 }
 
+
+
 .main-wrapper{
   width: 50%;
 }
@@ -56,6 +58,7 @@ a:hover + #arr {
   opacity: 1;
     color: white;
 }
+
 .arrow-appear{
   transition:.2s;
   transform:translateX(0);
@@ -82,6 +85,11 @@ a:hover + #arr {
   font-weight: 500;
   color: white;
 }
+
+h1.subname{
+ font-size: 22px;
+}
+
 
 @media screen and (max-width:480px) {
   .main-wrapper{

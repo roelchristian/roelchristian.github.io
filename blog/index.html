@@ -3,6 +3,11 @@ layout: container
 title: Blog Posts
 namespace: Blog Posts
 ---
+
+<h1>Blog Posts</h1>
+
+You could check the contents of my old <a href="https://gimlafraogh.wordpress.com">wordpress blog,</a> which will remain active while I migrate the contents to this page.
+
 <ul class="posts">
   {% for post in site.posts %}
     <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>

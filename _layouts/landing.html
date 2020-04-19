@@ -5,6 +5,9 @@
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
 
+        <!-- font awesome -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <!-- Call common stylesheet -->
     <link rel="stylesheet" type="text/css" href="/css/common.css">
     <!-- Call landing page stylesheet -->
@@ -44,8 +47,8 @@
     <footer>
       <div class="social">
         {% for social in site.data.social %}
-          <a href="{{ social.link }}" target="_blank">
-            <img src="/assets/icons/{{ social.name }}.svg" alt="{{ social.name }}" size="10px">
+          <a class="hvr-icon-float" href="{{ social.link }}" target="_blank">
+            <img class="hvr-icon" src="/assets/icons/{{ social.name }}.svg" alt="{{ social.name }}" size="10px">
           </a>
         {% endfor %}
       </div>

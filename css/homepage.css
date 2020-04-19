@@ -43,9 +43,3 @@ Stylesheet for the landing page
 .main-wrapper{
   text-align: center;
 }
-
-@media screen and (max-width:480px) {
-  .footer{
-    font-size: 10px;
-  }
-}
