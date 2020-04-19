@@ -1,8 +1,8 @@
 - name: Sitemap
-  url: "{{ site.baseurl }}/map"
+  url: "/map"
 - name: "Impressum"
-  url: "{{ site.baseurl }}/impressum"
+  url: "/impressum"
 - name: "Contact Me"
-  url: "{{ site.baseurl }}/contact"
+  url: "/contact"
 - name: "Terms"
-  url: "{{ site.baseurl }}/terms"
+  url: "/terms"
