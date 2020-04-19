@@ -6,7 +6,9 @@
     <title>{{ page.title }}</title>
 
     <!-- Call landing page stylesheet -->
-    <link rel="stylesheet" type="text/css" href="/css/landing.css">
+    <link rel="stylesheet" type="text/css" href="/css/common.css">
+    <link rel="stylesheet" type="text/css" href="/css/homepage.css">
+
 
     <!-- Reference to Google Fonts-->
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Cardo" />
@@ -20,27 +22,37 @@
   <body>
 
 
-    <div class="namespace">
-      {{ page.namespace }}
-    </div>
 
 
-    <div class="container">
+    <div class="main-wrapper">
+      <h1>
+        {{ page.namespace }}
+      </h1>
 
+      <div class="error-message">
         {{ content }}
+      </div>
+
+
+      <footer>
+        <div class="social">
+          {% for social in site.data.social %}
+            <a href="{{ social.link }}" target="_blank">
+              <img src="/assets/icons/{{ social.name }}.svg" alt="{{ social.name }}" size="10px">
+            </a>
+          {% endfor %}
+        </div>
+        <div class="footer">
+           <p>© 2020 Roel Christian Yambao. All rights reserved.</p>
+           <p>
+             {% for link in site.data.footerlinks %}
+                <span class="footer-link"><a href="{{ link.url }}">{{ link.name }}</a></span>
+             {% endfor %}
+           </p>
+        </div>
+      </footer>
 
     </div>
-
-
-    <div class="footer">
-       <p>© 2020 Roel Christian Yambao. All rights reserved.</p>
-       <p>
-         <span class="footer-link">Sitemap</span>
-         <span class="footer-link"> <a href="/me/contact">Contact Me</a></span>
-         <span class="footer-link">  <a href="/terms">Terms</a> </span>
-       </p>
-    </div>
-
 
   </body>
 </html>
