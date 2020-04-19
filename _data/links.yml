@@ -11,6 +11,7 @@ main:
         siteurl: "https://caliath.com/"
         description: "Poetry and prose by Jo&atilde;o-Maria."
       - sitealias: "Ezra Koenig&rsquo;s Internet Vibes"
+        siteurl: "https://internetvibes.blogspot.com/"
       - sitealias: "Lagimlim"
         siteurl: "https://lagimlim.wordpress.com/"
         description: "Blog ni Abner Dormiendo, may-akda ng &lsquo;Sa Antipolo pa rin ang Antipolo&lsquo;"
