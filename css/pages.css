@@ -2,9 +2,17 @@
 Stylesheet for pages using the container layout
 */
 
+
+.proj-name a:hover{
+  text-decoration: none;
+  font-weight: 500;
+}
+
 a:hover + #arr {
   transform:translateX(3px);
   opacity: 1;
+  text-decoration: none;
+  font-weight: 500;
 }
 
 
@@ -12,6 +20,7 @@ a:hover + #arr {
   transition:.2s;
   transform:translateX(0);
   opacity: 0;
+  color: #306754;
 }
 
 .arrow-appear:hover{
@@ -19,31 +28,21 @@ a:hover + #arr {
   opacity: 1;
 }
 
-.gohome{
-  text-transform: uppercase;
-}
-
-.gohome a:hover{
-  text-decoration: none;
-}
-
-#home:hover + #larr{
-  transform:translateX(3px);
-  opacity: 1;
+.footer {
+  text-align: center;
+  margin-top: 100px;
 }
 
 .wrapper{
   width: 50%;
   margin: auto;
-  margin-top: 150px;
+  margin-top: 50px;
 }
 
 .topnav{
   padding: 10px;
-  position: fixed;
-  top: 0;
   width: 100%;
-  font-size: 14px;
+  font-size: 16px;
   text-align: center;
   background: white;
 }
@@ -58,18 +57,19 @@ a:hover + #arr {
 }
 
 .toplogo{
-  font-family: "Open Sans", "Helvetica", sans-serif;
-  font-size: 18px;
+  font-family: "Oranienbaum", "Didot", "Bodoni", serif;
+  font-size: 20px;
   padding-bottom: 0;
 }
 
 .toplogo a{
   text-decoration: none;
-  color: #306754;
+  color: #333;
 }
 
 .toplogo a:hover{
-  color: #333;
+  color: #306754;
+  font-weight: 400;
 }
 
 @media screen and (max-width:480px) {
