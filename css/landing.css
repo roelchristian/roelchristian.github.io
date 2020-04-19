@@ -128,7 +128,7 @@ blockquote{
 
 h2{
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 h3{
@@ -145,6 +145,32 @@ h4{
   font-style: italic;
 }
 
+.projname h2{
+  font-weight: 500;
+}
+
+.proj-container{
+  padding-top: -10px;
+  padding-bottom: 15px;
+  width: 55%;
+}
+.proj-container a:hover{
+  text-decoration: none;
+}
+a:hover + #arr {
+  transform:translateX(3px);
+  opacity: 1;
+}
+.arrow-appear{
+  transition:.2s;
+  transform:translateX(0);
+  opacity: 0;
+}
+
+.arrow-appear:hover{
+  transform:translateX(3px);
+  opacity: 1;
+}
 
 @media screen and (max-width:480px) {
   body{
