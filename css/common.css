@@ -18,6 +18,13 @@ body{
   margin: 120px auto;
 }
 
+.const-message{
+  width: 35%;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
 a{
   text-decoration: none;
   color: #306754;
