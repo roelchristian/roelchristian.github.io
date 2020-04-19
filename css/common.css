@@ -4,9 +4,6 @@ Site-wite attributes
 */
 
 
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans');
-@import url('https://fonts.googleapis.com/css?family=Oranienbaum');
-
 body{
   font-family: IBM Plex Sans, "Helvetica", sans-serif;
   font-kerning: auto;
