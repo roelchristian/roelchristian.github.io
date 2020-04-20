@@ -11,8 +11,13 @@ html{
 
 .main-wrapper{
   width: 50%;
+  margin-top: 80px;
+
 }
 
+.greet h1{
+  font-size: 40px;
+}
 
 
 a{
@@ -81,6 +86,7 @@ a:hover + #arr {
 .languages{
   color: white;
   font-weight: 300;
+  font-family: "IBM Plex Sans", "Helvetica", sans-serif;
 }
 
 .languages a:hover{

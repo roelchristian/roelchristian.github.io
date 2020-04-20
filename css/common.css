@@ -6,7 +6,7 @@ Site-wite attributes
 
 
 body{
-  font-family: "IBM Plex Sans", "Helvetica", sans-serif;
+  font-family: "IBM Plex Sans", Helvetica, sans-serif;
   font-kerning: auto;
   font-weight: 400;
   font-size: 16px;
@@ -21,9 +21,10 @@ em{
 .photo{
   padding-top: 30px;
   padding-bottom: 30px;
-  font-family: "Cardo", serif;
-  font-style: italic;
-  font-size: 15px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 300;
 }
 
 img{
@@ -54,11 +55,12 @@ a:hover{
 }
 
 .footer{
-
+  font-family: "IBM Plex Sans", "Helvetica", sans-serif;
   color: #333;
   font-weight: 300;
   font-size: 12px;
   margin-top: 15px;
+  line-height: normal;
 }
 
 .footer a{
@@ -69,13 +71,19 @@ a:hover{
   text-decoration: underline;
 }
 
+.greet h1{
+    font-family: Oranienbaum,serif;
+    font-size: 50px;
+}
+
 h1{
-  font-family: Oranienbaum, "Suranna", "Didot", "Bodoni", serif;
-  font-size: 30px;
-  font-weight: 400;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 35px;
+  font-weight: 300;
 }
 
 h2{
+  font-family: "IBM Plex Sans", sans-serif;
   font-size: 20px;
   font-weight: 300;
 }
