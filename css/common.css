@@ -46,7 +46,11 @@ img{
 
 a{
   text-decoration: none;
-  color: #306754;
+  color: #7a0000;
+}
+
+.error-message{
+  line-height: 26px;
 }
 
 a:hover{
