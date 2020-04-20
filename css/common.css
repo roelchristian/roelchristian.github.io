@@ -131,6 +131,24 @@ blockquote{
   transform: translateY(-6px);
 }
 
+.IPA{
+  font-family: Helvetica,sans-serif;
+  font-weight: inherit;
+
+}
+
+.end-notes{
+  margin-top: 25px;
+  background: #fafafa;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 14px;
+  font-family: "IBM Plex Sans", Helvetica,sans-serif;
+  line-height: 20px;
+}
+
 
 @media screen and (max-width:480px) {
   .footer{
