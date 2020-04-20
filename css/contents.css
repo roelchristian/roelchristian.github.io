@@ -56,20 +56,24 @@ h2{
 a:hover + #arr {
   transform:translateX(3px);
   opacity: 1;
-    color: white;
+  color: inherit;
+}
+
+.fa-angle-right{
+  color: white;
 }
 
 .arrow-appear{
   transition:.2s;
   transform:translateX(0);
   opacity: 0;
-    color: white;
+  color: white;
 }
 
 .arrow-appear:hover{
   transform:translateX(3px);
   opacity: 1;
-    color: white;
+  color: white;
 }
 
 .proj-bin{
