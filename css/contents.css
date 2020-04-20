@@ -14,6 +14,7 @@ html{
 }
 
 
+
 a{
   color: white;
 }
@@ -47,21 +48,18 @@ h2{
   display: flex
 }
 
-
 .proj-container a:hover{
   text-decoration: none;
     color: white;
-    font-weight: 600;
+    font-style: italic;
 }
+
 a:hover + #arr {
   transform:translateX(3px);
   opacity: 1;
   color: inherit;
 }
 
-.fa-angle-right{
-  color: white;
-}
 
 .arrow-appear{
   transition:.2s;
@@ -73,7 +71,7 @@ a:hover + #arr {
 .arrow-appear:hover{
   transform:translateX(3px);
   opacity: 1;
-  color: white;
+
 }
 
 .proj-bin{
@@ -82,11 +80,12 @@ a:hover + #arr {
 
 .languages{
   color: white;
+  font-weight: 300;
 }
 
 .languages a:hover{
   text-decoration: none;
-  font-weight: 500;
+  font-style: italic;
   color: white;
 }
 

@@ -4,14 +4,32 @@ Site-wite attributes
 */
 
 
+
 body{
   font-family: "IBM Plex Sans", "Helvetica", sans-serif;
   font-kerning: auto;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 16px;
   text-rendering: optimizeLegibility;
   color: #333;
 }
+
+em{
+  font-style: normal;
+}
+
+.photo{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-family: "Cardo", serif;
+  font-style: italic;
+  font-size: 15px;
+}
+
+img{
+  padding-bottom: 10px;
+}
+
 
 .main-wrapper{
   width: 60%;
@@ -31,8 +49,8 @@ a{
 }
 
 a:hover{
-  text-decoration: underline;
-  color: #306754;
+  text-decoration: none;
+  color: #808080;
 }
 
 .footer{
@@ -55,7 +73,7 @@ h1{
 
 h2{
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 h3{

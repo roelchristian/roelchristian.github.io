@@ -10,22 +10,22 @@ Stylesheet for pages using the container layout
 
 .proj-name a:hover{
   text-decoration: none;
-  font-weight: 500;
 }
 
 a:hover + #arr {
   transform:translateX(3px);
   opacity: 1;
   text-decoration: none;
-  font-weight: 500;
+
 }
+
 
 
 .arrow-appear{
   transition:.2s;
   transform:translateX(0);
   opacity: 0;
-  color: #306754;
+  color: #808080;
 }
 
 .arrow-appear:hover{
@@ -45,11 +45,14 @@ a:hover + #arr {
 }
 
 .topnav{
+  font-family: "IBM Plex Sans", "Helvetica", sans-serif;
+  text-transform: uppercase;
   padding: 10px;
   width: 100%;
-  font-size: 16px;
+  font-size: 18px;
   text-align: center;
   background: white;
+  font-weight: 300;
 }
 .topnav a{
   padding: 10px;
@@ -58,28 +61,38 @@ a:hover + #arr {
 
 .topnav a:hover{
   text-decoration: none;
-  font-weight: 600;
+  color:  	#808080;
 }
 
 .toplogo{
-  font-family: "Oranienbaum", "Didot", "Bodoni", serif;
-  font-size: 20px;
+  font-size: 24px;
+  color: #333;
+  font-family: Oranienbaum, "Suranna", "Didot", "Bodoni", serif;
   padding-bottom: 0;
+  font-weight: 700;
+  text-transform: none;
 }
 
 .toplogo a{
   text-decoration: none;
   color: #333;
+  font-stretch: ultra-expanded;
+
 }
 
 .toplogo a:hover{
   color: #306754;
-  font-weight: 400;
+  text-transform: none;
+
 }
 
 
 .blog-footer{
     padding-top: 15px;
+}
+
+.post-title{
+  padding-bottom: 200px;
 }
 
 @media screen and (max-width:480px) {
