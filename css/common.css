@@ -65,6 +65,10 @@ a:hover{
   color: #333;
 }
 
+.footer a:hover{
+  text-decoration: underline;
+}
+
 h1{
   font-family: Oranienbaum, "Suranna", "Didot", "Bodoni", serif;
   font-size: 30px;
