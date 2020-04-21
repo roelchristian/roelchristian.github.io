@@ -28,6 +28,13 @@ em{
   font-weight: 300;
 }
 
+.foreword{
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 300;
+}
+
 img{
   padding-bottom: 10px;
 }
