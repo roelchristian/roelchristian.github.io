@@ -3,7 +3,7 @@ body{
   font-family: "Open Sans", sans-serif;
   margin: 85px auto;
   width: 60%;
-  color: #333;
+  color: #444;
 }
 
 .navup{
@@ -31,7 +31,7 @@ a:hover{
   font-size: 90%;
 }
 .footer{
-  color: #333;
+  color: #444;
   font-weight: 300;
   font-size: 12px;
   font-family: "Open Sans", sans-serif;

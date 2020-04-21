@@ -3,6 +3,9 @@ css/common.css
 Site-wite attributes
 */
 
+html{
+  background: #eeeeee;
+}
 
 
 body{
@@ -11,7 +14,7 @@ body{
   font-weight: 400;
   font-size: 16px;
   text-rendering: optimizeLegibility;
-  color: #333;
+  color: #444;
 }
 
 em{
@@ -68,7 +71,7 @@ a:hover{
 
 .footer{
   font-family: "IBM Plex Sans", "Helvetica", sans-serif;
-  color: #333;
+  color: #444;
   font-weight: 300;
   font-size: 12px;
   margin-top: 15px;
@@ -76,7 +79,7 @@ a:hover{
 }
 
 .footer a{
-  color: #333;
+  color: #444;
 }
 
 .footer a:hover{

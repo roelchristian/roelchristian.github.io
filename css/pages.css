@@ -54,7 +54,6 @@ a:hover + #arr {
   width: 100%;
   font-size: 15px;
   text-align: center;
-  background: white;
   font-weight: 300;
 
 }
@@ -70,7 +69,7 @@ a:hover + #arr {
 
 .toplogo{
   font-size: 24px;
-  color: #333;
+  color: #444;
   font-family: Oranienbaum, "Suranna", "Didot", "Bodoni", serif;
   padding-bottom: 0;
 
@@ -79,7 +78,7 @@ a:hover + #arr {
 
 .toplogo a{
   text-decoration: none;
-  color: #333;
+  color: #444;
   font-stretch: ultra-expanded;
 
 }
