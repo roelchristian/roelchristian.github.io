@@ -1,48 +1,22 @@
-<!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-			<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Cardo" />
-			<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
-			<meta name="viewport" content="width=device-width, initial-scale=1">
-		</head>
-		<body>
+---
+layout: container
+---
 
-			<div class="nav-up">
-					<p><a href="../../../../">Home</a> / <a href="../../../">Iridian</a> / <a href="../../"> Dictionary </a> / <b>{{ page.letter | capitalize}}</b></p>
-			</div>
+<div class="list-words">
+  {% for head in site.data.entries.main %}
+    {% if head.sortunder == page.letter %}
+    <h1>Entries Starting with &lsquo;{{ page.letter | capitalize }}&rsquo; ({{ head.words | size }})</h1>
+    <!-- List all words -->
+      {% for word in head.words %}
+          <a href="/ird/dictionary/entry/{{ page.letter }}/{{ word.entry }}">
+            {{ word.entry }}
+          </a><br/>
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+</div>
 
-
-
-        <div class="list-words">
-          {% for head in site.data.entries.main %}
-            {% if head.sortunder == page.letter %}
-            <h2>Entries Starting with &lsquo;{{ page.letter | capitalize }}&rsquo; ({{ head.words | size }})</h2>
-            <!-- List all words -->
-              {% for word in head.words %}
-                  <a href="/ird/dictionary/entry/{{ page.letter }}/{{ word.entry }}">
-                    {{ word.entry }}
-                  </a><br/>
-              {% endfor %}
-            {% endif %}
-          {% endfor %}
-        </div>
-
-        <div class="back-to-index">
-          <p class="breakAfter"><a href="../../../dictionary">&lt; Back to Alphabetical Index</a>
-        </p>
-        </div>
-
-
-				<div class="footer">
-					 <p>© 2020 Roel Christian Yambao. All rights reserved.</p>
-					 <p>
-						 <span class="footer-link">Sitemap</span>
-						 <span class="footer-link"> <a href="/me/contact">Contact Me</a></span>
-						 <span class="footer-link">  <a href="/terms">Terms</a> </span>
-					 </p>
-				</div>
-		</body>
-	</html>
+<div class="back-to-proj">
+  <p class="breakAfter"><a href="../../../dictionary">&lt; Back to Alphabetical Index</a>
+</p>
+</div>

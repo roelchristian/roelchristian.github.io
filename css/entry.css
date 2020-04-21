@@ -8,8 +8,9 @@ p.breakAfter{
 table {
   border-collapse: collapse;
   background-color: white;
-  overflow: hidden;
-  width: 500px;
+  overflow: scroll;
+  width: inherit;
+
   border-radius: 10px;
 }
 

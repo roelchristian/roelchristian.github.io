@@ -18,6 +18,7 @@ em{
   font-style: normal;
 }
 
+
 .photo{
   padding-top: 30px;
   padding-bottom: 30px;
@@ -132,7 +133,7 @@ blockquote{
 }
 
 .IPA{
-  font-family: Helvetica,sans-serif;
+    font-family: Gentium,'Gentium Plus',GentiumAlt,'DejaVu Sans','Segoe UI','Lucida Grande','Charis SIL','Doulos SIL','TITUS Cyberbit Basic','Code2000','Lucida Sans Unicode',sans-serif;
   font-weight: inherit;
 
 }
@@ -147,6 +148,44 @@ blockquote{
   font-size: 14px;
   font-family: "IBM Plex Sans", Helvetica,sans-serif;
   line-height: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  background-color: white;
+  overflow: hidden;
+  line-height: normal;
+  font-family: "IBM Plex Sans", Helvetica,sans-serif;
+
+}
+
+th, td {
+  text-align: left;
+  font-size: 12px;
+  padding: 10px;
+
+}
+
+tr{  background: #fafafa;}
+
+th {
+  background-color: #7e8087;
+  color: white;
+}
+
+tr.conj-div{
+  background: #d4d4d4;
+  font-style: italic;
+}
+
+
+.example{
+  line-height: 14px;
+  font-size: 14px;
+  border: none;
+  border-bottom: 1px dotted #ccc;
+  border-top: 1px dotted #ccc;
+
 }
 
 

@@ -67,3 +67,5 @@ main:
   - sortunder: y
   - sortunder: z
   - sortunder: ž
+    words:
+      - entry: žužá
