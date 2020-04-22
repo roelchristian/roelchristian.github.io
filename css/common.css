@@ -87,8 +87,8 @@ a:hover{
 }
 
 .greet h1{
-    font-family: Oranienbaum,serif;
-    font-size: 50px;
+  font-family: Oranienbaum,serif;
+  font-size: 50px;
 }
 
 h1{
@@ -143,7 +143,7 @@ blockquote{
 }
 
 .IPA{
-    font-family: Gentium,'Gentium Plus',GentiumAlt,'DejaVu Sans','Segoe UI','Lucida Grande','Charis SIL','Doulos SIL','TITUS Cyberbit Basic','Code2000','Lucida Sans Unicode',sans-serif;
+  font-family: Gentium,'Gentium Plus',GentiumAlt,'DejaVu Sans','Segoe UI','Lucida Grande','Charis SIL','Doulos SIL','TITUS Cyberbit Basic','Code2000','Lucida Sans Unicode',sans-serif;
   font-weight: inherit;
 
 }
