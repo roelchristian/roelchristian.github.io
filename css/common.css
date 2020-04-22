@@ -5,6 +5,7 @@ Site-wite attributes
 
 html{
   background: #eeeeee;
+    overflow-x: hidden;
 }
 
 
