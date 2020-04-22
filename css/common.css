@@ -31,6 +31,14 @@ em{
   font-weight: 300;
 }
 
+.photo a{
+    border-bottom: 1px solid #7a0000;
+    color: #444;
+}
+.photo > a:hover{
+    border-bottom: 1px solid #444;
+}
+
 .foreword{
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 13px;

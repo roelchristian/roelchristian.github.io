@@ -112,11 +112,13 @@ a:hover + #arr {
 .topnav a{
   padding: 10px;
   display: inline-block;
+
+
 }
 
 .topnav a:hover{
   text-decoration: none;
-  color:  	#808080;
+  color:  	#444;
 }
 
 .toplogo{
