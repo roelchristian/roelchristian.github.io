@@ -6,7 +6,7 @@ Stylesheet for the landing page
 .main-title{
   font-style: Oranienbaum,serif;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 
@@ -48,4 +48,10 @@ Stylesheet for the landing page
 
 .main-wrapper{
   text-align: center;
+}
+
+@media screen and (max-width:480px) {
+  .main-wrapper{
+    width: 90%;
+  }
 }
