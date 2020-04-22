@@ -73,9 +73,9 @@ a:hover{
   font-family: "IBM Plex Sans", "Helvetica", sans-serif;
   color: #444;
   font-weight: 300;
-  font-size: 12px;
+  font-size: 14px;
   margin-top: 15px;
-  line-height: normal;
+  line-height: 14px;
 }
 
 .footer a{

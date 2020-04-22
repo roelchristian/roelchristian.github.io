@@ -44,7 +44,7 @@
     <footer>
       <div class="social">
         {% for social in site.data.social %}
-        <a class="hvr-icon-float" href="{{ social.link }}" target="_blank">
+        <a class="hvr-icon-float" href="{{ social.link }}" target="_blank" rel="noreferrer">
           <img class="hvr-icon" src="/assets/icons/{{ social.name }}.svg" alt="{{ social.name }}" size="10px">
         </a>
         {% endfor %}
