@@ -22,5 +22,11 @@ main:
         siteurl: "https://laudatortemporisacti.blogspot.com/"
         description: "A <i>blog</i> by Michael Gilleland."
   - sub: Random Articles
+    gohere:
+      - sitealias: "T.S. Eliot&rsquo;s <i>Paris Review</i> interview"
+      - siteurl: "https://www.theparisreview.org/interviews/4738/the-art-of-poetry-no-1-t-s-eliot"
   - sub: Music, Films and Television
+    gohere:
+      - sitealias: "My last.fm Profile"
+        siteurl: "https://www.last.fm/user/roelchristian/library"
   - sub: Books

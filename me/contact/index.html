@@ -5,4 +5,33 @@ permalink: "/contact"
 ---
 
 <h1>{{page.title}}</h1>
-<a href="mailto:yambaoroelchristian@gmail.com">Send me an email</a>
+<div class="form-disclaimer">
+  You can also send an email directly to <a href="mailto:info@roelchristian.com?subject=Hello">info@roelchristian.com</a>. Do not use this form to submit sensitive or confidential information. This form is powered by Formspree.
+</div>
+
+<div class="form-contact">
+  <form
+    action="https://formspree.io/mpzjvzbr"
+    method="POST"
+  >
+
+    <label>
+      Name:
+      <input type="text" name="name">
+    </label>
+    <label>
+      Email:
+      <input type="text" name="_replyto">
+    </label>
+    <label>
+      Message:
+      <textarea name="message"></textarea>
+    </label>
+
+    <!-- your other form fields go here -->
+    <div class="submit-disclaimer">
+      By clicking Submit, you agree to the <a href="/terms">Terms and Conditions</a> of this website.
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+</div>
