@@ -4,10 +4,17 @@ layout: container
 
 <h1>{{ page.title }}</h1>
 
-<div class="post">
+<div class="blog-wrapper">
   {{ content }}
 </div>
 
 <div class="blog-footer">
-  <p class="meta">Published by Roel on {{ page.date | date_to_string }}.</p>
+  <p class="meta">
+    <span>
+        {% for tag in page.tags %}
+           <a class="tag" href="/blog/tags/#{{ tag | slugify }}"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;
+{{ tag }}&nbsp;&nbsp;</a>
+        {% endfor %}
+    </span>
+  </p>
 </div>
