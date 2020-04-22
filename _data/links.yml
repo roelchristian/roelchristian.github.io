@@ -21,6 +21,8 @@ main:
       - sitealias: "Laudator temporis acti"
         siteurl: "https://laudatortemporisacti.blogspot.com/"
         description: "A <i>blog</i> by Michael Gilleland."
+      - sitealias: Infinite Summer
+        siteurl: "http://infinitesummer.org/"
   - sub: Random Articles
     gohere:
       - sitealias: "T.S. Eliot&rsquo;s <i>Paris Review</i> interview"
