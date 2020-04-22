@@ -1,37 +1,42 @@
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }}</title>
 
-    <!-- Call common stylesheet -->
-    <link rel="stylesheet" type="text/css" href="/css/common.css">
-    <!-- Call landing page stylesheet -->
-    <link rel="stylesheet" type="text/css" href="/css/homepage.css">
+  <!-- Call common stylesheet -->
+  <link rel="stylesheet" type="text/css" href="/css/common.css">
+  <!-- Call landing page stylesheet -->
+  <link rel="stylesheet" type="text/css" href="/css/homepage.css">
 
-    <!-- Reference to Google Fonts-->
-    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:200,300,300i,400,500,600&display=swap&subset=cyrillic,latin-ext" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Oranienbaum&display=swap&subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+  <!-- Reference to Google Fonts-->
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:200,300,300i,400,500,600&display=swap&subset=cyrillic,latin-ext" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oranienbaum&display=swap&subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
 
-    <!-- For mobile scaling-->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- For mobile scaling-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/png" href="/assets/favicon/favicon.png"/>
 
 
-  </head>
+
+
+</head>
 
 
 
-  <body>
+<body>
 
   <div class="main-wrapper">
 
-      <div class="greet">
-        <h1>{{ page.greeting }}</h1>
-      </div>
-      <div class="subgreet">
-          {{ page.blurb }}
-      </div>
+    <div class="greet">
+      <h1>{{ page.greeting }}</h1>
+    </div>
+    <div class="subgreet">
+      {{ page.blurb }}
+    </div>
 
 
     <div class="homenav">
@@ -44,27 +49,27 @@
     <footer>
       <div class="social">
         {% for social in site.data.social %}
-          <a href="{{ social.link }}" target="_blank">
-            <img src="/assets/icons/{{ social.name }}.svg" alt="{{ social.name }}" size="10px">
-          </a>
+        <a href="{{ social.link }}" target="_blank">
+          <img src="/assets/icons/{{ social.name }}.svg" alt="{{ social.name }}" size="10px">
+        </a>
         {% endfor %}
       </div>
       <div class="footer">
-         <p>© 2020 Roel Christian Yambao. Todos los derechos reservados.</p>
-         <p>
-           {% for link in site.data.footerlinks %}
-              <span class="footer-link"><a href="{{ link.url }}">{{ link.name }}</a></span>
-           {% endfor %}
-         </p>
-         <p>
-           <span> <a href="../">EN</a> </span>
-           <span> <b>ES</b> </span>
-           <span> <a href="/es">FR</a> </span>
-           <span> <a href="/es">PT</a> </span>
+        <p>© 2020 Roel Christian Yambao. Todos los derechos reservados.</p>
+        <p>
+          {% for link in site.data.footerlinks %}
+          <span class="footer-link"><a href="{{ link.url }}">{{ link.name }}</a></span>
+          {% endfor %}
+        </p>
+        <p>
+          <span> <a href="../">EN</a> </span>
+          <span> <b>ES</b> </span>
+          <span> <a href="/es">FR</a> </span>
+          <span> <a href="/es">PT</a> </span>
 
-         </p>
+        </p>
       </div>
     </footer>
   </div><!-- main-wrapper -->
-  </body>
+</body>
 </html>
