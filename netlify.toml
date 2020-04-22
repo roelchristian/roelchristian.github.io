@@ -1,0 +1,7 @@
+# A redirect rule with all the supported properties
+[[redirects]]
+  from = "/blog/*"
+  to = "https://blog.roelchristian.com/:splat"
+  status = 301
+  force = true
+  headers = {X-From = "Netlify"}

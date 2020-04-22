@@ -1,6 +1,19 @@
 ---
-layout: landing
-title: Home - Roel Christian Yambao
-greeting: Hi, I&rsquo;m Roel.
-blurb: "Welcome to my little piece of the internet."
+layout: container
+title: Blog Posts
+namespace: Blog Posts
 ---
+
+<h1>Blog Posts</h1>
+
+You could check the contents of my old <a href="https://gimlafraogh.wordpress.com">wordpress blog,</a> which will remain active while I migrate the contents to this page.
+
+<div class="blog-wrapper">
+  <div class="bloglist">
+
+    {% for post in site.posts %}
+      <p><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> &mdash; <span class="blogdate">{{ post.date | date_to_string }}</span> </p>
+    {% endfor %}
+
+  </div>
+</div>
