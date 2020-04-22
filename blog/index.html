@@ -8,8 +8,10 @@ namespace: Blog Posts
 
 You could check the contents of my old <a href="https://gimlafraogh.wordpress.com">wordpress blog,</a> which will remain active while I migrate the contents to this page.
 
-<ul class="posts">
+<div class="bloglist">
+
   {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+    <p> <i><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> </i>&mdash; <span class="blogdate">{{ post.date | date_to_string }}</span></p>
   {% endfor %}
-</ul>
+
+</div>

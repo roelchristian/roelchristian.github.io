@@ -19,6 +19,15 @@ a:hover + #arr {
 
 }
 
+.bloglist{
+  line-height: 18px;
+}
+
+.blogdate{
+  color: #707070;
+  font-size: 15px;
+}
+
 
 
 .arrow-appear{
