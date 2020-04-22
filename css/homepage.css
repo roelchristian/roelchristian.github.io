@@ -3,6 +3,19 @@ Stylesheet for the landing page
 */
 
 
+.main-title{
+  font-style: Oranienbaum,serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+@media screen and (max-width:480px) {
+  .main-title{
+    font-size: 16px;
+  }
+}
+
 .social{
   margin-top: 6em;
   margin-bottom: 1em;
@@ -28,9 +41,9 @@ Stylesheet for the landing page
 
 .homenav{
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 14px;
   padding-top: 16px;
-  font-weight: 300;
+  font-weight: 500;
   font-stretch: ultra-expanded;
 }
 

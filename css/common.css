@@ -9,7 +9,7 @@ html{
 
 
 body{
-  font-family: "IBM Plex Sans", Helvetica, sans-serif;
+  font-family: "Montserrat", Helvetica, sans-serif;
   font-kerning: auto;
   font-weight: 400;
   font-size: 16px;
@@ -25,22 +25,22 @@ em{
 .photo{
   padding-top: 30px;
   padding-bottom: 30px;
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 13px;
   line-height: 20px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .photo a{
-    border-bottom: 1px solid #7a0000;
+    border-bottom: 2px solid #7a0000;
     color: #444;
 }
 .photo > a:hover{
-    border-bottom: 1px solid #444;
+    border-bottom: 2px solid #444;
 }
 
 .foreword{
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 13px;
   line-height: 20px;
   font-weight: 300;
@@ -77,8 +77,11 @@ a:hover{
   color: #444;
 }
 
+
+
+
 .footer{
-  font-family: "IBM Plex Sans", "Helvetica", sans-serif;
+  font-family: "Montserrat", "Helvetica", sans-serif;
   color: #444;
   font-weight: 300;
   font-size: 14px;
@@ -96,7 +99,7 @@ a:hover{
 
 .greet h1{
   font-family: Oranienbaum,serif;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 h1{
@@ -107,9 +110,9 @@ h1{
 }
 
 h2{
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 20px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 h3{
@@ -165,7 +168,7 @@ blockquote{
   padding-left: 10px;
   padding-right: 10px;
   font-size: 14px;
-  font-family: "IBM Plex Sans", Helvetica,sans-serif;
+  font-family: "Montserrat", Helvetica,sans-serif;
   line-height: 20px;
 }
 
@@ -174,7 +177,7 @@ table {
   background-color: white;
   overflow: hidden;
   line-height: normal;
-  font-family: "IBM Plex Sans", Helvetica,sans-serif;
+  font-family: "Montserrat", Helvetica,sans-serif;
 
 }
 

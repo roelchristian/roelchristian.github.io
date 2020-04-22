@@ -36,7 +36,9 @@
   <div class="main-wrapper">
 
     <div class="greet">
-      <h1>{{ page.greeting }}</h1>
+      <div class="main-title-cont">
+        <h1> <span class="main-title"> {{page.greeting}} </span> </h1>
+      </div>
     </div>
     <div class="subgreet">
       {{ page.blurb }}
@@ -76,16 +78,5 @@
     </footer>
   </div><!-- main-wrapper -->
 
-  <script type="text/javascript">
-          /* Open when someone clicks on the span element */
-        function openNav() {
-        document.getElementById("myNav").style.width = "100%";
-        }
-
-        /* Close when someone clicks on the "x" symbol inside the overlay */
-        function closeNav() {
-        document.getElementById("myNav").style.width = "0%";
-        }
-  </script>
 </body>
 </html>

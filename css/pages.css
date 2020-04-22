@@ -5,8 +5,8 @@ Stylesheet for pages using the container layout
 .meta {
   font-size: 14px;
   font-kerning: normal;
-  font-weight: 300;
-  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
 }
 
 .proj-name a:hover{
@@ -88,7 +88,7 @@ a:hover + #arr {
 
 .sans{
     font-size: 12px;
-    font-family: "IBM Plex Sans", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 
@@ -99,14 +99,15 @@ a:hover + #arr {
 }
 
 .topnav{
-  font-family: "IBM Plex Sans", "Helvetica", sans-serif;
+  font-family: "Montserrat", "Helvetica", sans-serif;
   text-transform: uppercase;
   padding: 10px;
   width: 100%;
   font-size: 15px;
   text-align: center;
-  font-weight: 300;
+  font-weight: 400;
 }
+
 
 
 .topnav a{
@@ -116,9 +117,11 @@ a:hover + #arr {
 
 }
 
-.topnav a:hover{
+.top-link:hover{
   text-decoration: none;
   color:  	#444;
+  border-bottom: 3px solid #7a0000;
+
 }
 
 .toplogo{
@@ -144,7 +147,7 @@ a:hover + #arr {
 }
 
 .back-to-proj{
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   weight: 300;
 }
 
