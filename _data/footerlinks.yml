@@ -1,5 +1,5 @@
 - name: Sitemap
-  url: "/map"
+  url: "/map.xml"
 - name: "Impressum"
   url: "/impressum"
 - name: "Contact Me"
