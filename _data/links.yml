@@ -25,8 +25,10 @@ main:
         siteurl: "http://infinitesummer.org/"
   - sub: Random Articles
     gohere:
+      - sitealias: "Borge&rsquo;s <i>Paris Review</i> interview"
+        siteurl: "https://www.theparisreview.org/interviews/4331/the-art-of-fiction-no-39-jorge-luis-borges"
       - sitealias: "T.S. Eliot&rsquo;s <i>Paris Review</i> interview"
-      - siteurl: "https://www.theparisreview.org/interviews/4738/the-art-of-poetry-no-1-t-s-eliot"
+        siteurl: "https://www.theparisreview.org/interviews/4738/the-art-of-poetry-no-1-t-s-eliot"
   - sub: Music, Films and Television
     gohere:
       - sitealias: "My last.fm Profile"

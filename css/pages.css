@@ -161,6 +161,27 @@ a:hover + #arr {
 }
 
 
+.contact-info{
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
+.contact-info span{
+    display: block;
+}
+
+.contact-info a{
+  color: #444;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.contact-info a:hover{
+  color: #444;
+  text-decoration: none;
+}
+
+
 @media screen and (max-width:480px) {
   .wrapper{
     width: 95%;

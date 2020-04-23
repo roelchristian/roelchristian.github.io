@@ -1,6 +1,6 @@
 ---
 layout: container
-title: Stuff I Like - Roel Christian Yambao
+title: Stuff I Like &mdash; Roel Christian Yambao
 namespace: Links to Stuff I Like
 permalink: "links"
 ---
@@ -14,7 +14,7 @@ permalink: "links"
     <div class="subname"><h2>{{ subname.sub | capitalize}}</h2></div>
     <ul>
       {% for item in subname.gohere %}
-        <li><a href="{{ item.siteurl }}" >{{ item.sitealias }}. <i class="fa fa-external-link" style="font-size:10px;"></i>
+        <li><a href="{{ item.siteurl }}" target="_blank" rel="noreferrer">{{ item.sitealias }}. <i class="fa fa-external-link" style="font-size:10px;"></i>
  </a> {{ item.description }}</li>
       {% endfor %}
     </ul>
