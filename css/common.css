@@ -43,7 +43,7 @@ body{
   font-family: "Montserrat", sans-serif;
   font-size: 13px;
   line-height: 20px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 img{
@@ -250,6 +250,18 @@ button[type=submit] {
 .submit-disclaimer{
   margin: 20px 0;
 }
+
+.post-nav {
+    display: flex;
+}
+.post-nav div {
+    /* flex-grow, flex-shrink, flex-basis */
+    flex: 1 1 0;
+}
+.post-nav-next {
+    text-align: right;
+}
+
 
 @media screen and (max-width:480px) {
   .footer{
