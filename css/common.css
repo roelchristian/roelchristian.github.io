@@ -9,7 +9,7 @@ html{
 
 
 body{
-  font-family: "Montserrat", Helvetica, sans-serif;
+  font-family: "Open Sans", Helvetica, sans-serif;
   font-kerning: auto;
   font-weight: 400;
   font-size: 16px;
@@ -29,7 +29,7 @@ body{
 .photo{
   padding-top: 30px;
   padding-bottom: 30px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Alegreya Sans", sans-serif;
   font-size: 13px;
   line-height: 20px;
   font-weight: 400;
@@ -44,7 +44,6 @@ body{
 }
 
 .foreword{
-  font-family: "Montserrat", sans-serif;
   font-size: 13px;
   line-height: 20px;
   font-weight: 400;
@@ -114,7 +113,6 @@ h1{
 }
 
 h2{
-  font-family: "Montserrat", sans-serif;
   font-size: 15px;
   text-transform: uppercase;
   font-weight: 500;
@@ -133,6 +131,7 @@ blockquote{
   border-left: 3px solid #ccc;
   padding-left: 15px;
   font-size: 18px;
+  font-family: "Alegreya",serif;
 }
 
 /* Icon Float */
@@ -174,7 +173,7 @@ blockquote{
   padding-left: 10px;
   padding-right: 10px;
   font-size: 14px;
-  font-family: "Montserrat", Helvetica,sans-serif;
+  font-family: "Open Sans", Helvetica,sans-serif;
   line-height: 20px;
 }
 
@@ -183,7 +182,7 @@ table {
   background-color: white;
   overflow: hidden;
   line-height: normal;
-  font-family: "Montserrat", Helvetica,sans-serif;
+  font-family: "Open Sans", Helvetica,sans-serif;
 
 }
 
