@@ -29,6 +29,10 @@ a:hover + #arr {
   font-size: 15px;
 }
 
+.notes{
+  font-size: 16px;
+}
+
 
 
 .arrow-appear{
@@ -53,15 +57,25 @@ a:hover + #arr {
   margin: auto;
   margin-top: 50px;
   line-height: 28px;
-  font-family: "Georgia",serif;
-  font-size: 16px;
+  font-family: "EB Garamond", "Cardo",serif;
+  font-size: 20px;
 }
 
 
 .blog-wrapper p > a{
   color: #444;
-  border-bottom: 3px solid #7a0000;
+  border-bottom: 1px solid #7a0000;
 }
+
+.blog-wrapper > p.secstart::first-letter{
+  font-size: 75px;
+  font-family: Oranienbaum, serif;
+}
+.blog-wrapper > p.secstart{
+  padding-top: 45px;
+}
+
+
 
 .blog-wrapper a:hover{
   border-bottom: none;
