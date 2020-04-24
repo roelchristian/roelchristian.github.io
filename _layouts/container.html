@@ -1,23 +1,37 @@
 <!DOCTYPE html>
 {% include header.html %}
 
+
+{% assign gitlink = "https://github.com/roelchristian/roelchristian.github.io/tree/master/" %}
+{% assign mysource = gitlink | append: page.path %}
+
+
 <body>
-  <div class="topnav">
+    <div class="wrapper">
+      {% if page.namespace %}
+      <div class="toplogo">
+          <h1>{{ page.namespace }}</h1>
+      </div>
 
-    <div class="toplogo">
-      <a href="/contents"><span class="main-title">Roel Christian Yambao</span> </a>
-    </div>
+      {% elsif page.displaytitle %}
 
-    <a href="/"> <span class="top-link">Home</span> </a>
-    <a href="/about"> <span class="top-link">About</span> </a>
-    <a href="{{site.baseurl}}/projects"> <span class="top-link">Projects</span> </a>
-    <a href="{{site.baseurl}}/blog"> <span class="top-link">Blog</span> </a>
-    <a href="{{site.baseurl}}/links"> <span class="top-link">Links</span> </a>
-  </div>
-  <div class="wrapper">
-    <div class="page-title">
-      <h1>{{ page.displaytitle }}</h1>
-    </div>
+      <div class="toplogo">
+          <h1>{{ page.displaytitle }}</h1>
+      </div>
+
+      {% endif %}
+      <div class="topnav">
+
+
+        <a href="/"> <span class="top-link">Home</span> </a>
+        <a href="/about"> <span class="top-link">About</span> </a>
+        <a href="{{site.baseurl}}/projects"> <span class="top-link">Projects</span> </a>
+        <a href="{{site.baseurl}}/blog"> <span class="top-link">Blog</span> </a>
+        <a href="{{site.baseurl}}/links"> <span class="top-link">Links</span> </a>
+        <a href="#"> <span class="top-link"><i class="fa fa-search" aria-hidden="true"></i></span> </a>
+      </div>
+
+
 
     <div class="container">
 
@@ -26,6 +40,7 @@
     </div>
 
     <div class="footer">
+
       <p>© 2020 Roel Christian Yambao. All rights reserved.</p>
       <p>
         {% for link in site.data.footerlinks %}

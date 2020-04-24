@@ -64,8 +64,8 @@ a:hover + #arr {
 }
 
 .blog-wrapper a:hover{
-  border-bottom: 3px solid #444;
-  cursor: pointer;
+  border-bottom: none;
+
 }
 
 .blogdate{
@@ -101,36 +101,70 @@ a:hover + #arr {
 .topnav{
   font-family: "Montserrat", "Helvetica", sans-serif;
   text-transform: uppercase;
-  padding: 10px;
-  width: 100%;
-  font-size: 15px;
+  padding: 12px;
+  font-size: 13px;
   text-align: center;
-  font-weight: 400;
+  margin: auto;
+  font-weight: 500;
+  border-bottom: 0.5px solid #CCC;
+  border-top: 0.5px solid #CCC;
+  margin-bottom: 90px;
 }
 
 
 
 .topnav a{
-  padding: 10px;
   display: inline-block;
-
-
+  padding: 0 10px;
 }
 
 .top-link:hover{
   text-decoration: none;
   color:  	#444;
-  border-bottom: 3px solid #7a0000;
-
 }
+
+footer{
+  position:absolute;
+bottom:0;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.head-wrap{
+  background-color:#444;
+  color: white;
+  padding: 5px;
+  font-weight: 700;
+  font-style: italic;
+  width: 100%;
+}
+
+
+.name-head > a {
+  font-family: "Playfair display", "Bodoni", "Didot", serif;
+  color: white;
+  padding: 5px;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.name-head  > a:hover p.new-label:after{
+    content: 'ADD';
+}
+
+
 
 .toplogo{
   font-size: 24px;
   color: #444;
   font-family: Oranienbaum, "Suranna", "Didot", "Bodoni", serif;
   padding-bottom: 0;
-
   text-transform: none;
+  font-weight: 300;
+  text-align: center;
+  padding: 15px;
+  margin: auto;
 }
 
 .toplogo a{
@@ -145,6 +179,11 @@ a:hover + #arr {
   text-transform: none;
 
 }
+
+
+
+
+
 
 .back-to-proj{
   font-family: "Montserrat", sans-serif;
@@ -180,6 +219,27 @@ a:hover + #arr {
   color: #444;
   text-decoration: none;
 }
+
+.cvsec {
+  margin-bottom: 40px;
+}
+
+#languages-spoken{
+  line-height: normal;
+}
+
+.cvsec > h3{
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.cvsec > h2{
+  padding-bottom: 5px;
+  border-bottom: 1px dotted #7a0000;
+}
+
 
 
 @media screen and (max-width:480px) {

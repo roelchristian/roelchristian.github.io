@@ -16,11 +16,10 @@ body{
   font-size: 16px;
   text-rendering: optimizeLegibility;
   color: #444;
+  margin: 0;
+  height: 100%;
 }
 
-em{
-  font-style: normal;
-}
 
 
 .photo{
@@ -112,8 +111,9 @@ h1{
 
 h2{
   font-family: "Montserrat", sans-serif;
-  font-size: 20px;
-  font-weight: 400;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
 }
 
 h3{
