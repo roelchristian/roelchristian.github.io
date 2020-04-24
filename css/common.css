@@ -5,7 +5,6 @@ Site-wite attributes
 
 html{
   background: #eeeeee;
-  overflow-x: hidden;
 }
 
 
@@ -21,6 +20,11 @@ body{
 }
 
 
+.epigraph{
+    font-style: italic;
+    font-size: 18px;
+    text-align: right;
+}
 
 .photo{
   padding-top: 30px;
