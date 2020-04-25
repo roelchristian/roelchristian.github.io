@@ -221,6 +221,12 @@ tr.conj-div{
 
 }
 
+.conj{
+  padding: 10px;
+  background: inherit;
+}
+
+
 
 input, textarea{
   width: 100%;
