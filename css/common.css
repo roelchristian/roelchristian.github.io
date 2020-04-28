@@ -19,7 +19,9 @@ body{
   height: 100%;
 }
 
-
+.cite{
+  text-align: right;
+}
 .epigraph{
     font-style: italic;
     font-size: 18px;
