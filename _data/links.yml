@@ -31,6 +31,8 @@ main:
         siteurl: "https://www.theparisreview.org/interviews/4738/the-art-of-poetry-no-1-t-s-eliot"
       - sitealias: "&lsquo;The Made-Up Man&rsquo; from <i>The New Yorker</i>"
         siteurl: "https://www.newyorker.com/magazine/2018/01/01/the-made-up-man"
+      - sitealias: "Andre Braugher, Undercover Comedian"
+        siteurl: "https://www.nytimes.com/2014/10/05/magazine/andre-braugher-the-undercover-comedian-of-brooklyn-nine-nine.html"
   - sub: Music, Films and Television
     gohere:
       - sitealias: "My last.fm Profile"
