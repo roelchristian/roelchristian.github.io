@@ -33,6 +33,8 @@ main:
         siteurl: "https://www.newyorker.com/magazine/2018/01/01/the-made-up-man"
       - sitealias: "Andre Braugher, Undercover Comedian"
         siteurl: "https://www.nytimes.com/2014/10/05/magazine/andre-braugher-the-undercover-comedian-of-brooklyn-nine-nine.html"
+      - sitealias: "A 1977 <i>Panorama</i> interview with Clarice Lispector (in Portuguese)"
+        siteurl: "https://youtu.be/ohHP1l2EVnU"
   - sub: Music, Films and Television
     gohere:
       - sitealias: "My last.fm Profile"
