@@ -276,7 +276,7 @@ button[type=submit] {
 
 @media screen and (max-width:480px) {
   .footer{
-    font-size: 10px;
+    font-size: 1px;
   }
   .const-message{
     width: 80%;
