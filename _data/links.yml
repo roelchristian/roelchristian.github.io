@@ -1,5 +1,5 @@
 main:
-  - sub: Blogs and Websites Worth Checking
+  - sub: Blogs, Podcasts and Websites Worth Checking
     gohere:
       - sitealias: "Read a little poetry"
         siteurl: "https://readalittlepoetry.wordpress.com/"
@@ -23,6 +23,8 @@ main:
         description: "A <i>blog</i> by Michael Gilleland."
       - sitealias: Infinite Summer
         siteurl: "http://infinitesummer.org/"
+      - sitealias: "Radiolab Presents More Perfect"
+        siteurl: "https://www.npr.org/podcasts/481105292/more-perfect"
   - sub: Random Articles
     gohere:
       - sitealias: "Borges&rsquo;s <i>Paris Review</i> interview"
@@ -35,6 +37,8 @@ main:
         siteurl: "https://www.nytimes.com/2014/10/05/magazine/andre-braugher-the-undercover-comedian-of-brooklyn-nine-nine.html"
       - sitealias: "A 1977 <i>Panorama</i> interview with Clarice Lispector (in Portuguese)"
         siteurl: "https://youtu.be/ohHP1l2EVnU"
+      - sitealias: "The Radical Transparency of Tilda Swinton"
+        siteurl: "https://www.nytimes.com/2011/12/04/magazine/tilda-swinton.html"
   - sub: Music, Films and Television
     gohere:
       - sitealias: "My last.fm Profile"
