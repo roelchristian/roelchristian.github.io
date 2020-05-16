@@ -1,6 +1,8 @@
 name: Roel Christian Yambao
 title: Roel Christian Yambao
 description: "Roel Christian&rsquo;s personal blog."
+url: "https://roelchristian.com"
+author: Roel Christian Yambao
 markdown: kramdown
 permalink: /blog/:year/:title
 
