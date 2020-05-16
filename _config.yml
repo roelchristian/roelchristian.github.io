@@ -2,3 +2,6 @@ name: Roel Christian Yambao
 title: Roel Christian Yambao
 markdown: kramdown
 permalink: /blog/:year/:title
+
+plugins:
+  - jekyll-feed
