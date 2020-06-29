@@ -57,7 +57,7 @@ a:hover + #arr {
   margin: auto;
   margin-top: 50px;
   line-height: 28px;
-  font-family: "Alegreya Sans",sans-serif;
+  font-family: "EB Garamond", "Garamond", "Adobe Garamond Pro", serif;
   font-size: 20px;
 }
 
@@ -255,9 +255,12 @@ bottom:0;
 }
 
 
+.stanza{
+  margin-bottom: 14px;
+}
 
 @media screen and (max-width:480px) {
   .wrapper{
-    width: 95%;
+    width: 88%;
   }
 }

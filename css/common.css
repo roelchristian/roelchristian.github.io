@@ -31,7 +31,7 @@ body{
 .photo{
   padding-top: 30px;
   padding-bottom: 30px;
-  font-family: "Alegreya Sans", sans-serif;
+  font-family: "EB Garamond", "Garamond", "Adobe Garamond Pro", serif;
   font-size: 13px;
   line-height: 20px;
   font-weight: 400;
@@ -133,7 +133,7 @@ blockquote{
   border-left: 3px solid #ccc;
   padding-left: 15px;
   font-size: 18px;
-  font-family: "Alegreya",serif;
+  font-family: "EB Garamond", "Garamond", "Adobe Garamond Pro", serif;
 }
 
 /* Icon Float */
