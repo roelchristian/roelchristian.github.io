@@ -7,10 +7,13 @@ namespace: Blog Posts
 
 You could check the contents of my old <a href="https://gimlafraogh.wordpress.com">wordpress blog,</a> which will remain active while I migrate the contents to this page.
 
-  <div class="bloglist">
+  <div class="publish-wrap">
 
     {% for post in site.posts %}
-      <p><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> &mdash; <span class="blogdate">{{ post.date | date_to_string }}</span> </p>
+    <div class="publish-div">
+    	<div class="publish-title"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></div>
+		<div class="publish-date">{{ post.date | date_to_string }}</div>    	
+    </div>
     {% endfor %}
 
   </div>
