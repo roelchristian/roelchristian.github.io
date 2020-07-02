@@ -107,8 +107,9 @@ a:hover{
 }
 
 h1{
-  font-family: Oranienbaum, "Bodoni", "Didot",serif;
-  font-size: 35px;
+  font-family: EB Garamond, Adobe Garamond Pro, Garamond, serif;
+  font-style: italic;
+  font-size: 40px;
   font-weight: 300;
   line-height: 40px;
 }
