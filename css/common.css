@@ -9,10 +9,10 @@ html{
 
 
 body{
-  font-family: "Open Sans", Helvetica, sans-serif;
+  font-family: EB Garamond, Adobe Garamond Pro, Garamond, serif;
   font-kerning: auto;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
   text-rendering: optimizeLegibility;
   color: #444;
   margin: 0;
@@ -86,7 +86,7 @@ a:hover{
 
 
 .footer{
-  font-family: "Open Sans", "Helvetica", sans-serif;
+  font-family: EB Garamond, Adobe Garamond Pro, Garamond, serif;
   color: #444;
   font-weight: 400;
   font-size: 14px;
@@ -103,7 +103,6 @@ a:hover{
 }
 
 .greet h1{
-  font-family: Oranienbaum,serif;
   font-size: 40px;
 }
 

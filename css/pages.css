@@ -6,7 +6,7 @@ Stylesheet for pages using the container layout
   font-size: 14px;
   font-kerning: normal;
   font-weight: 400;
-  font-family: "Open Sans", sans-serif;
+  font-family: EB Garamond, Adobe Garamond Pro, Garamond, serif;
 }
 
 .proj-name a:hover{
@@ -22,7 +22,7 @@ a:hover + #arr {
 
 
 .publish-date{
-  color: #808080;
+  color: #606060;
   font-size: 12px;
   font-family: Open Sans, sans-serif;
   font-weight: 500;
