@@ -22,12 +22,10 @@ a:hover + #arr {
 
 
 .publish-date{
-  color: #707070;
+  color: #808080;
   font-size: 12px;
   font-family: Open Sans, sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+  font-weight: 500;
 }
 
 .publish-div{
@@ -35,6 +33,7 @@ a:hover + #arr {
   margin-bottom: 16px;
   border-bottom: 0.5px solid #CCC;
   padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .publish-wrap{
@@ -92,8 +91,8 @@ a:hover + #arr {
 }
 
 .blog-wrapper > p.secstart::first-letter{
-  font-size: 75px;
-  font-family: Oranienbaum, serif;
+  font-size: 85px;
+  font-family: EB Garamond, 'Adobe Garamond Pro', 'Garamond', serif;
 }
 .blog-wrapper > p.secstart{
   padding-top: 45px;
