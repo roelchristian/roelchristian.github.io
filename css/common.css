@@ -32,17 +32,16 @@ body{
   padding-top: 30px;
   padding-bottom: 30px;
   font-family: "EB Garamond", "Garamond", "Adobe Garamond Pro", serif;
-  font-size: 13px;
+  font-size: 15px;
   line-height: 20px;
   font-weight: 400;
 }
 
 .photo a{
-    border-bottom: 2px solid #7a0000;
-    color: #444;
+    color: #7a0000;
 }
 .photo > a:hover{
-    border-bottom: 2px solid #444;
+    border-bottom: 2px solid #7a0000;
 }
 
 .foreword{
