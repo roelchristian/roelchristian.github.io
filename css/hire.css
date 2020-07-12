@@ -1,0 +1,59 @@
+html{
+	font-size: 100%;
+}
+
+body{
+	font-family:"Raleway";
+}
+
+.main{
+	margin: 5% 25% 0% 25%;
+}
+
+@media only screen and (max-width: 600px) {
+  .main {
+    margin: 5% 5% 0% 5%;
+  }
+  .off-item{
+  	font-size: 18px;
+  }
+  .off-title{
+  	font-size: 22px;
+  }
+}
+
+.blurb{
+	font-size: 20px;
+	text-align: center;
+	margin: 45px 20px;
+	font-family: "Raleway";
+}
+
+.off-item{
+	font-family: "Open Sans";
+	font-size: 15px;
+	text-align: center;
+}
+
+.off-title{
+	font-size: 20px;
+	font-weight: 200px;
+	margin-bottom: 15px;
+}
+
+.get-quote{
+	margin:18px 0;
+}
+
+.footnotes{
+	color:gray;
+	font-size: 15px;
+}
+
+img{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
+  	margin-bottom: 15px; 
+}
