@@ -15,13 +15,21 @@ body{
   div.off-item{
   	font-size: 18px;
   	margin-bottom: 25px;
+  	background: #add8e6;
+  	padding-top: 20px;
   }
  div.off-title{
-  	font-size: 22px;
-
+	font-size: 18px;
+	letter-spacing: 2px;
+	font-weight: 100;
+	text-transform: uppercase;
+	margin-top: 40px;
   }
   div.blurb{
   	margin: 10px 10px 60px 10px;
+  }
+  div.offpers{
+  	background: #add8e6;
   }
    
 }
