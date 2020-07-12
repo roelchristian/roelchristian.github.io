@@ -1,6 +1,4 @@
-html{
-	font-size: 100%;
-}
+
 
 body{
 	font-family:"Raleway";
@@ -10,17 +8,25 @@ body{
 	margin: 5% 25% 0% 25%;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .main {
     margin: 5% 5% 0% 5%;
   }
-  .off-item{
+  div.off-item{
   	font-size: 18px;
+  	margin-bottom: 25px;
   }
-  .off-title{
+ div.off-title{
   	font-size: 22px;
+
   }
+  div.blurb{
+  	margin: 10px 10px 60px 10px;
+  }
+   
 }
+
+
 
 .blurb{
 	font-size: 20px;
@@ -31,7 +37,7 @@ body{
 
 .off-item{
 	font-family: "Open Sans";
-	font-size: 15px;
+	font-size: 16px;
 	text-align: center;
 }
 
