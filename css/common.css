@@ -9,7 +9,6 @@ html{
 
 
 body{
-  height: 100%;
   font-kerning: auto;
   font-weight: 400;
   font-size: 18px;
@@ -55,6 +54,7 @@ img{
 
 .main-wrapper{
   width: 60%;
+  height: 100%;
   margin: 120px auto;
 }
 
@@ -86,7 +86,7 @@ a:hover{
   color: #d3d3d3;
   font-weight: 400;
   font-size: 14px;
-  position: fixed;
+  position: relative;
   bottom: 0;
   width: 100%;
   background-color: #444;
