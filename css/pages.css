@@ -6,7 +6,7 @@ Stylesheet for pages using the container layout
   font-size: 14px;
   font-kerning: normal;
   font-weight: 400;
-  font-family: EB Garamond, Adobe Garamond Pro, Garamond, serif;
+
 }
 
 .proj-name a:hover{
@@ -80,7 +80,6 @@ a:hover + #arr {
   margin: auto;
   margin-top: 50px;
   line-height: 28px;
-  font-family: "EB Garamond", "Garamond", "Adobe Garamond Pro", serif;
   font-size: 20px;
 }
 
@@ -92,7 +91,7 @@ a:hover + #arr {
 
 .blog-wrapper > p.secstart::first-letter{
   font-size: 85px;
-  font-family: EB Garamond, 'Adobe Garamond Pro', 'Garamond', serif;
+
 }
 .blog-wrapper > p.secstart{
   padding-top: 45px;
@@ -136,7 +135,6 @@ a:hover + #arr {
 }
 
 .topnav{
-  font-family: EB Garamond, 'Adobe Garamond Pro', 'Garamond', Georgia, serif;
   text-transform: uppercase;
   padding: 12px;
   font-size: 15px;

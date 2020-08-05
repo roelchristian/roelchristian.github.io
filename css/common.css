@@ -5,11 +5,12 @@ Site-wite attributes
 
 html{
   background: #eeeeee;
+  font-family: Source Sans Pro, Open Sans, Helvetica, sans-serif;
 }
 
 
 body{
-  font-family: EB Garamond, Adobe Garamond Pro, Garamond, serif;
+  
   font-kerning: auto;
   font-weight: 400;
   font-size: 18px;
@@ -30,9 +31,7 @@ body{
 
 .photo{
   padding-top: 30px;
-  padding-bottom: 30px;
-  font-family: "EB Garamond", "Garamond", "Adobe Garamond Pro", serif;
-  font-size: 15px;
+  padding-bottom: 30px;  font-size: 15px;
   line-height: 20px;
   font-weight: 400;
 }
@@ -85,7 +84,6 @@ a:hover{
 
 
 .footer{
-  font-family: EB Garamond, Adobe Garamond Pro, Garamond, serif;
   color: #444;
   font-weight: 400;
   font-size: 14px;
@@ -106,8 +104,6 @@ a:hover{
 }
 
 h1{
-  font-family: EB Garamond, Adobe Garamond Pro, Garamond, serif;
-  font-style: italic;
   font-size: 40px;
   font-weight: 300;
   line-height: 40px;
@@ -133,8 +129,8 @@ blockquote{
   font-style: italic;
   border-left: 3px solid #ccc;
   padding-left: 15px;
-  font-size: 18px;
-  font-family: "EB Garamond", "Garamond", "Adobe Garamond Pro", serif;
+  font-size: 18px;s
+
 }
 
 /* Icon Float */
