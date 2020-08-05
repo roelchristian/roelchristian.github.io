@@ -7,3 +7,9 @@ package = "netlify-plugin-rss"
   site_url = "https://roelchristian.com"
   title = "roelchristian.com"
   rssDescription = "roelchristian.com RSS Feed"
+
+[[redirects]]
+  from = "/assets/pub_cv.pdf"
+  to = "/cv/cv_en.pdf"
+  status = 301
+  force = true
