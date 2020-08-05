@@ -294,4 +294,8 @@ button[type=submit] {
     margin: auto;
     padding-bottom: 20px;
   }
+  .footer{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
 }
