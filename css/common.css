@@ -89,7 +89,6 @@ a:hover{
   position: relative;
   bottom: 0;
   width: 100%;
-  text-align: center;
   background-color: #444;
   padding: 10px;
 }
@@ -294,7 +293,4 @@ button[type=submit] {
     margin: auto;
     padding-bottom: 20px;
   }
-    .footer{
-    padding-left: 8px;
-    padding-right: 8px;
-  }}
+}
