@@ -34,6 +34,7 @@
     <div class="greet">
       <h1>{{ page.greeting }}</h1>
     </div>
+    <hr width="20%">
     <div class="subgreet">
       {{ page.blurb }}
     </div>
@@ -45,31 +46,22 @@
       <a href="/me/links">Enlaces</a> /
       <a href="/contact">Contacto</a>
     </div>
-
-    <footer>
-      <div class="social">
+    <div class="social">
         {% for social in site.data.social %}
-        <a href="{{ social.link }}" target="_blank" rel="noreferrer">
-          <img src="/assets/icons/{{ social.name }}.svg" alt="{{ social.name }}" size="10px">
+        <a class="hvr-icon-float" href="{{ social.link }}" target="_blank" rel="noreferrer">
+          <i class="soc-link fa fa-{{ social.name }} hvr-icon" aria-hidden="true"></i>
         </a>
         {% endfor %}
       </div>
-      <div class="footer">
-        <p>© 2020 Roel Christian Yambao. Todos los derechos reservados.</p>
-        <p>
-          {% for link in site.data.footerlinks %}
-          <span class="footer-link"><a href="{{ link.url }}">{{ link.name }}</a></span>
-          {% endfor %}
-        </p>
-        <p>
-          <span> <a href="../">EN</a> </span>
-          <span> <b>ES</b> </span>
-          <span> <a href="/es">FR</a> </span>
-          <span> <a href="/es">PT</a> </span>
 
-        </p>
+  </div><!-- main-wrapper -->
+        <footer>
+      
+      <div class="footer">
+        <div class="foottext">
+          © 2020 Roel Christian Yambao. Todos los derechos reservados &middot; <a href="/terms">Pol&iacute;tica de uso (en ingl&eacute;s)</a> &middot; View the website <a href="..">in English</a> &middot; Tamb&eacute;m dispon&iacute;vel <a href="/pt">em portugu&ecirc;s</a>
+        </div>
       </div>
     </footer>
-  </div><!-- main-wrapper -->
 </body>
 </html>
