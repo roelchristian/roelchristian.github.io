@@ -16,26 +16,24 @@
       {{ content }}
     </div>
 
-
-    <footer>
-      <div class="social">
+     <div class="social">
         {% for social in site.data.social %}
         <a class="hvr-icon-float" href="{{ social.link }}" target="_blank" rel="noreferrer">
-          <img class="hvr-icon" src="/assets/icons/{{ social.name }}.svg" alt="{{ social.name }}" size="10px">
+          <i class="soc-link fa fa-{{ social.name }} hvr-icon" aria-hidden="true"></i>
         </a>
         {% endfor %}
       </div>
-      <div class="footer">
-        <p>(c) 2020 Roel Christian Yambao. All rights reserved.</p>
-        <p>
-          {% for link in site.data.footerlinks %}
-          <span class="footer-link"><a href="{{ link.url }}">{{ link.name }}</a></span>
-          {% endfor %}
-        </p>
-      </div>
-    </footer>
 
   </div>
+
+        <footer>
+      
+      <div class="footer">
+        <div class="foottext">
+          © 2020 by Roel Christian Yambao. All rights reserved &middot; <a href="/terms">Terms of Use </a> &middot; Ver esta p&aacute;gina <a href="/es">en espa&ntilde;ol </a> &middot; Tamb&eacute;m dispon&iacute;vel <a href="/pt">em portugu&ecirc;s</a>
+        </div>
+      </div>
+    </footer>
 
 </body>
 </html>
