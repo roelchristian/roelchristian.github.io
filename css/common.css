@@ -50,7 +50,9 @@ body{
 img{
   padding-bottom: 10px;
 }
-
+.foottext{
+  width: 95%;
+}
 
 .main-wrapper{
   width: 60%;
@@ -86,11 +88,11 @@ a:hover{
   color: #d3d3d3;
   font-weight: 400;
   font-size: 14px;
-  position: relative;
+  position: fixed;
   bottom: 0;
   width: 100%;
   background-color: #444;
-  padding: 10px;
+  padding: 10px 30px 10px 10px;
 }
 
 .footer a{
