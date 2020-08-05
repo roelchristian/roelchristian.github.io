@@ -34,7 +34,9 @@ body{
    
 }
 
-
+a{
+	color:#00468C;
+}
 
 .blurb{
 	font-size: 20px;
