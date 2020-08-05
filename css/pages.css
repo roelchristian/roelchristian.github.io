@@ -70,10 +70,6 @@ a:hover + #arr {
   opacity: 1;
 }
 
-.footer {
-  text-align: center;
-  margin-top: 100px;
-}
 
 .wrapper{
   width: 50%;
@@ -160,12 +156,7 @@ a:hover + #arr {
   color:  	#444;
 }
 
-footer{
-  position:absolute;
-bottom:0;
-  width: 100%;
-  font-family: "Open Sans", sans-serif;
-}
+
 
 .head-wrap{
   background-color:#444;
@@ -219,7 +210,9 @@ bottom:0;
 
 
 
-
+footer{
+  margin-top: 100px;
+}
 
 
 .back-to-proj{
@@ -227,10 +220,6 @@ bottom:0;
   weight: 300;
 }
 
-
-.blog-footer{
-    padding-top: 15px;
-}
 
 .post-title{
   padding-bottom: 200px;
