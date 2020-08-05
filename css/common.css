@@ -86,7 +86,7 @@ a:hover{
   color: #d3d3d3;
   font-weight: 400;
   font-size: 14px;
-  position: relative;
+  position: fixed;
   bottom: 0;
   width: 100%;
   background-color: #444;
