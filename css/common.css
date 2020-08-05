@@ -276,6 +276,7 @@ button[type=submit] {
 
 .post-nav {
     display: flex;
+    margin-top: 75px;
 }
 .post-nav div {
     /* flex-grow, flex-shrink, flex-basis */
