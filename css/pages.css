@@ -21,7 +21,9 @@ a:hover + #arr {
 }
 
 
-
+.footer{
+  position: relative;
+}
 
 .publish-date{
   color: #707070;
