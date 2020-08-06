@@ -87,6 +87,7 @@ a:hover + #arr {
 
 .blog-wrapper > p.secstart::first-letter{
   font-size: 85px;
+  font-family: Playfair Display, Bodoni, Didot, serif;
 
 }
 .blog-wrapper > p.secstart{
