@@ -39,6 +39,9 @@ main:
         siteurl: "https://youtu.be/ohHP1l2EVnU"
       - sitealias: "The Radical Transparency of Tilda Swinton"
         siteurl: "https://www.nytimes.com/2011/12/04/magazine/tilda-swinton.html"
+      - sitealias: "My Family&rsquo;s Slave by Alex Tizon"
+        siteurl: "https://www.theatlantic.com/magazine/archive/2017/06/lolas-story/524490/"
+        description: "From the <i>Atlantic.</i>"
   - sub: Music, Films and Television
     gohere:
       - sitealias: "My last.fm Profile"
@@ -48,3 +51,8 @@ main:
       - sitealias: "Greta Gerwig, <i>Ladybird</i>"
         siteurl: "https://www.netflix.com/title/80205227"
   - sub: Books
+    gohere:
+      - sitealias: "Jia Tolentino, <em>Trick Mirror</em>"
+        siteurl: "https://www.goodreads.com/book/show/43126457-trick-mirror"
+      - sitealias: "Isabel Wilkerson, <em>The Warmth of Other Suns</em>"
+        siteurl: "https://www.goodreads.com/book/show/8171378-the-warmth-of-other-suns"
