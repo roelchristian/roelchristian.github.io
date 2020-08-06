@@ -133,11 +133,11 @@ h3{
 }
 
 blockquote{
-  margin: 0;
+  margin-left: -20px;
   font-style: italic;
   border-left: 3px solid #ccc;
-  padding-left: 15px;
-  font-size: 18px;s
+  padding-left: 20px;
+  font-size: 22px;
 
 }
 
@@ -271,7 +271,6 @@ button[type=submit] {
   text-decoration: none;
   margin: 4px 2px;
   cursor: pointer;
-  font-family: Georgia,serif;
   font-size: 18px;
 }
 
@@ -279,16 +278,48 @@ button[type=submit] {
   margin: 20px 0;
 }
 
-.post-nav {
-    display: flex;
-    margin-top: 75px;
-    margin-bottom: 50px;
+
+.post-meta{
+    margin-top: 100px;
+    margin-bottom: 75px;
     border-bottom: 0.5px solid #CCC;
     border-top: 0.5px solid #CCC;
+}
+
+.post-dets{
+    border-bottom: 0.5px solid #CCC;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 15px;
+    display: flex;
+
+}
+
+.post-dets a{
+  color: #444;
+}
+
+.post-dets a:hover{
+  color: #7a0000;
+}
+
+.post-dets div {
+    /* flex-grow, flex-shrink, flex-basis */
+    flex: 1 1 0;
+}
+
+.icons-share{
+  letter-spacing: 2px;
+  text-align: right;
+}
+
+.post-nav {
+    display: flex;
     padding-top: 15px;
     padding-bottom: 15px;
     font-size: 14px;
-
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 .post-nav div {
     /* flex-grow, flex-shrink, flex-basis */
