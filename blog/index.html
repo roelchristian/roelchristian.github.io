@@ -11,8 +11,7 @@ You could check the contents of my old <a href="https://gimlafraogh.wordpress.co
 
     {% for post in site.posts %}
     <div class="publish-div">
-    	<div class="publish-title"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></div>
-		<div class="publish-date">{{ post.date | date: '%B %d, %Y'  }}</div>    	
+    	<span class="publish-title"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></span> <span class="publish-date"> &middot; {{post.date | date: '%B %d, %Y' }}</span> 	
     </div>
     {% endfor %}
 

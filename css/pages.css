@@ -21,13 +21,6 @@ a:hover + #arr {
 }
 
 
-.publish-date{
-  color: #707070;
-  font-size: 12px;
-  font-family: Open Sans, sans-serif;
-  font-weight: 600;
-}
-
 .publish-div{
   margin-top: 16px;
   margin-bottom: 16px;
@@ -41,8 +34,12 @@ a:hover + #arr {
   margin-bottom: 12px;
 }
 
-.publish-title{
-  font-size: 22px;
+.publish-title, .publish-date{
+  font-size: 16px;
+}
+
+.publish-date{
+  color:#b8b8b8;
 }
 
 .notes{
