@@ -282,6 +282,13 @@ button[type=submit] {
 .post-nav {
     display: flex;
     margin-top: 75px;
+    margin-bottom: 50px;
+    border-bottom: 0.5px solid #CCC;
+    border-top: 0.5px solid #CCC;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 14px;
+
 }
 .post-nav div {
     /* flex-grow, flex-shrink, flex-basis */
