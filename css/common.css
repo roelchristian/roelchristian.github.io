@@ -28,10 +28,13 @@ body{
 }
 
 .photo{
-  padding-top: 30px;
-  padding-bottom: 30px;  font-size: 15px;
+  padding-top: 60px;
+  padding-bottom: 60px;  font-size: 15px;
   line-height: 20px;
   font-weight: 400;
+  position: relative;
+  z-index : 1;
+
 }
 
 .photo a{
@@ -41,6 +44,14 @@ body{
     border-bottom: 2px solid #7a0000;
 }
 
+.photo:after{
+  content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    width: 15%; /* Change this to whatever width you want. */
+    padding-top: 20px; /* This creates some space between the element and the border. */
+    border-bottom: 6px solid #7a0000; }
+
+
 .foreword{
   font-size: 13px;
   line-height: 20px;
@@ -49,7 +60,10 @@ body{
 
 img{
   padding-bottom: 10px;
+  width: 100%;
+
 }
+
 .foottext{
   width: 90%;
 }

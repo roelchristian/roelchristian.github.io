@@ -47,11 +47,17 @@ a:hover + #arr {
 .notes{
   border-top: 0.5px solid #CCC;
   padding-top: 20px;
-  margin-top: 20px;
+  margin-top: 120px;
+  margin-left: 0;
   font-size: 16px;
 }
 
 
+.notes:before{
+  content: "Footnotes";
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
 
 .fn{
   font-size: 60%;
