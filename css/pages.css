@@ -85,9 +85,15 @@ a:hover + #arr {
 }
 
 
+
+
 .blog-wrapper p > a{
-  color: #444;
-  border-bottom: 3px solid #7a0000;
+  color: #7a0000;
+  text-decoration: none;
+}
+
+#article{
+  padding-top: 20px;
 }
 
 .blog-wrapper > p.secstart::first-letter{
@@ -103,8 +109,7 @@ a:hover + #arr {
 
 
 .blog-wrapper a:hover{
-  border-bottom: none;
-  color: #7a0000;
+  color: #444;
 }
 
 .blogdate{
