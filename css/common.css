@@ -52,7 +52,7 @@ body{
     border-bottom: 6px solid #7a0000;
   }
 
-.foreword:before,{
+.foreword:before{
   content: "";
   display: block;
   width: 15%;
@@ -68,7 +68,7 @@ body{
   padding-bottom: 10px;
   border-top: 5px solid  #7a0000;
   padding-top: 10px;
-  margin-left-left:-10px;
+  margin-left:-10px;
 }
 
 .poetry{
