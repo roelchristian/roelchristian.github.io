@@ -99,6 +99,7 @@ a:hover + #arr {
 .blog-wrapper > p.secstart::first-letter{
   font-size: 140px;
   font-family: Vast Shadow, Playfair Display, Bodoni, Didot, serif;
+  padding-right: 10px;
 
 }
 .blog-wrapper > p.secstart{
