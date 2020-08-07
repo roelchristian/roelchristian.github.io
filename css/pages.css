@@ -309,4 +309,7 @@ footer{
   padding-right: 30px;
 }
 
+.blog-wrapper > p.secstart::first-letter{
+  font-size: 100px;}
+
 }
