@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+{% include header.html %}
+
+
+{% assign gitlink = "https://github.com/roelchristian/roelchristian.github.io/tree/master/" %}
+{% assign mysource = gitlink | append: page.path %}
+
+
+<body>
+    <div class="wrapper">
+      {% if page.namespace %}
+      <div class="top-blog">
+          <h1>{{ page.namespace }}</h1>
+      </div>
+
+      {% elsif page.displaytitle %}
+
+      <div class="top-blog">
+          <h1>{{ page.displaytitle }}</h1>
+      </div>
+
+      {% endif %}
+
+      <div class="by-line">
+        
+        Roel Christian Yambao &middot; {{page.date | date: '%B %d, %Y' }} 
+
+      </div>
+
+    <div class="container">
+
+      {{ content }}
+
+    </div>
+  </div>
+</body>
+</html>

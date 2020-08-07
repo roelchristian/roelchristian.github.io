@@ -196,6 +196,23 @@ a:hover + #arr {
   margin: auto;
 }
 
+.by-line{
+  font-size: 16px;
+  text-align: center;
+}
+
+.top-blog{
+  font-size: 24px;
+  color: #444;
+  font-family: "Playfair Display", Oranienbaum, "Suranna", "Didot", "Bodoni", serif;
+  padding-bottom: 0;
+  text-transform: none;
+  font-weight: 300;
+  text-align: center;
+  padding: 15px;
+  margin-top: 200px;
+}
+
 .toplogo a{
   text-decoration: none;
   color: #444;
