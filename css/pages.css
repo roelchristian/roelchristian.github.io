@@ -290,6 +290,33 @@ footer{
   border-bottom: 1px dotted #7a0000;
 }
 
+.next-arrow {
+    position: fixed;
+    top: 50%;
+    margin-top: -.5em;
+    right: 0;
+    padding: .5em 1em;
+    background-color: #efefef;
+    color: #c2c2c2;
+    font-size: 24px;
+}
+
+.prev-arrow:hover, .next-arrow:hover{
+  color: #7a0000;
+  background-color: #efdfdf;
+}
+
+.prev-arrow {
+    font-size: 24px;
+    position: fixed;
+    top: 50%;
+    margin-top: -.5em;
+    left: 0;
+    padding: .5em 1em;
+    background-color: #efefef;
+    color: #c2c2c2;
+  }
+
 
 .stanza{
   margin-bottom: 16px;
@@ -312,4 +339,7 @@ footer{
 .blog-wrapper > p.secstart::first-letter{
   font-size: 100px;}
 
+.next-arrow, .prev-arrow{
+  display: none;
+}
 }
