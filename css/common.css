@@ -251,7 +251,7 @@ input, textarea{
   padding: 12px 18px;
   margin: 8px 0;
   box-sizing: border-box;
-  font-family: Georgia, serif;
+  font-family: Source Sans Pro, Open Sans, Helvetica, sans-serif;
 }
 
 textarea{
