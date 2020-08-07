@@ -86,7 +86,7 @@ a:hover + #arr {
 
 .blog-wrapper > p.secstart::first-letter{
   font-size: 140px;
-  font-family: Playfair Display, Bodoni, Didot, serif;
+  font-family: Vast Shadow, Playfair Display, Bodoni, Didot, serif;
 
 }
 .blog-wrapper > p.secstart{
@@ -184,6 +184,7 @@ a:hover + #arr {
 
 .blog-head{
   margin-bottom: 360px;
+
 }
 
 .toplogo{
@@ -207,13 +208,15 @@ a:hover + #arr {
 .top-blog{
   font-size: 24px;
   color: #444;
-  font-family: "Merriweather", serif;
+  font-family: DM Serif Display, Playfair Display, Bodoni, Didot serif;
   padding-bottom: 0;
   text-transform: none;
   font-weight: 300;
   text-align: center;
   padding: 15px;
   margin-top: 200px;
+  padding-left: 60px;
+  padding-right: 60px;
 }
 
 .toplogo a{
