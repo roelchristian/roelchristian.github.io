@@ -91,7 +91,7 @@ a:hover + #arr {
 }
 .blog-wrapper > p.secstart{
   padding-top: 40px;
-  margin-top: 500px;
+  margin-top: 250px;
 }
 
 
@@ -182,7 +182,9 @@ a:hover + #arr {
     content: 'ADD';
 }
 
-
+.blog-head{
+  margin-bottom: 300px;
+}
 
 .toplogo{
   font-size: 24px;
@@ -199,6 +201,7 @@ a:hover + #arr {
 .by-line{
   font-size: 16px;
   text-align: center;
+  color:#808080;
 }
 
 .top-blog{

@@ -8,7 +8,9 @@
 
 <body>
     <div class="wrapper">
+    <div class="blog-head">
       {% if page.namespace %}
+
       <div class="top-blog">
           <h1>{{ page.namespace }}</h1>
       </div>
@@ -22,10 +24,12 @@
       {% endif %}
 
       <div class="by-line">
-        
-        Roel Christian Yambao &middot; {{page.date | date: '%B %d, %Y' }} 
+
+        Roel Christian Yambao &middot; {{page.date | date: '%B %d, %Y' }} <br>
+        <a href="#article">Read</a> &middot; <a href="../">Return</a>
 
       </div>
+    </div>
 
     <div class="container">
 
