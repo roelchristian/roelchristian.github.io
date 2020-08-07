@@ -287,8 +287,8 @@ button[type=submit] {
 
 .post-dets{
     border-bottom: 0.5px solid #CCC;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
     font-size: 15px;
     display: flex;
 
@@ -314,8 +314,8 @@ button[type=submit] {
 
 .post-nav {
     display: flex;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 1px;

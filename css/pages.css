@@ -26,11 +26,9 @@ a:hover + #arr {
 
 
 .publish-div{
-  margin-top: 16px;
-  margin-bottom: 16px;
   border-bottom: 0.5px solid #CCC;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 .publish-wrap{
@@ -73,7 +71,7 @@ a:hover + #arr {
 
 
 .wrapper{
-  width: 50%;
+  width: 45%;
   margin: auto;
   margin-top: 50px;
   line-height: 30px;
@@ -87,7 +85,7 @@ a:hover + #arr {
 }
 
 .blog-wrapper > p.secstart::first-letter{
-  font-size: 85px;
+  font-size: 120px;
   font-family: Playfair Display, Bodoni, Didot, serif;
 
 }
@@ -99,7 +97,7 @@ a:hover + #arr {
 
 .blog-wrapper a:hover{
   border-bottom: none;
-
+  color: #7a0000;
 }
 
 .blogdate{
@@ -273,7 +271,7 @@ footer{
   margin-bottom: 16px;
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:960px) {
   .wrapper{
     width: 88%;
   }
