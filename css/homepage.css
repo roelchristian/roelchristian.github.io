@@ -2,14 +2,6 @@
 Stylesheet for the landing page
 */
 
-
-.main-title{
-  font-family: EB Garamond,serif;
-  font-weight: 500;
-  font-size: 30px;
-}
-
-
 .social{
   margin-top: 30px;
   margin-bottom: 60px;
@@ -52,7 +44,7 @@ Stylesheet for the landing page
 .arrow-down-home{
   font-size: 30px;
   padding-top: 50px;
-  padding-bottom:100px;
+
 }
 
 .arrow-down-arrow{

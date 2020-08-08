@@ -11,11 +11,11 @@
     <div class="greet">
       <h1> {{page.greeting}}</h1>
       <div class="landing-blurb">Welcome to my little piece of the internet.</div>
-    </div>
+    
 
 
       <div class="arrow-down-home"><a id="arrow" href="#hidden" onclick="toggle('hidden');"><i class="fa fa-angle-down arrow-down-arrow" aria-hidden="true"></i></a>
-
+        </div>
       </div>
 
       <div id="hidden">
@@ -36,12 +36,7 @@
         </a>
         {% endfor %}
       </div>
-
-
-      </div>
-  </div><!-- main-wrapper -->
-
-      <footer>
+ <footer>
       
       <div class="footer">
         <div class="foottext">
@@ -53,6 +48,11 @@
       </div>
     </footer>
 
+
+      </div>
+  </div><!-- main-wrapper -->
+
+     
 <script language="JavaScript">
     function toggle(id) {
         var state = document.getElementById(id).style.display;
@@ -62,8 +62,12 @@
             } else {
                 document.getElementById(id).style.display = 'block';
                 document.getElementById("arrow").innerHTML = "<i class='fa fa-angle-up arrow-down-arrow' aria-hidden='true'></i>";
+            
+
             }
+
         } 
+
 </script> 
 
 </body>
