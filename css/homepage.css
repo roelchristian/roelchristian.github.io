@@ -31,7 +31,7 @@ Stylesheet for the landing page
     font-size: 12px;
   letter-spacing: 2px;
   font-family: 'Josefin Sans', sans-serif;
-  padding-top: 100px;
+  padding-top: 60px;
   font-weight: 400;
   letter-spacing: 1.5px;
   font-stretch: ultra-expanded;
@@ -79,4 +79,10 @@ padding-top: 15px;}
   .main-wrapper{
     width: 90%;
   }
+  #hidden{
+    padding-top: 30px;}
+}
+
+.arrow-down-home{
+  padding-bottom:10px;
 }
