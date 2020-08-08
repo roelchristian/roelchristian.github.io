@@ -72,7 +72,8 @@ Stylesheet for the landing page
 }
 
 #hidden{display: none;
-padding-top: 15px;}
+padding-top: 50px;
+padding-bottom: 50px;}
 
 
 @media screen and (max-width:480px) {
@@ -80,7 +81,8 @@ padding-top: 15px;}
     width: 90%;
   }
   #hidden{
-    padding-top: 50px;}
+    padding-top: 50px;
+    padding-bottom: 0;}
 }
 
 .arrow-down-home{
