@@ -49,6 +49,32 @@ Stylesheet for the landing page
   text-align: center;
 }
 
+.arrow-down-home{
+  font-size: 30px;
+  padding-top: 30px;
+  padding-bottom:600px;
+}
+
+.arrow-down-arrow{
+    animation: slide1 1s ease-in-out infinite;
+}
+
+.arrow-down-arrow:hover{
+  font-size: 40px;
+}
+
+@keyframes slide1 {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+
+  50% {
+    transform: translate(0, 10px);
+  }
+}
+
+
 @media screen and (max-width:480px) {
   .main-wrapper{
     width: 90%;

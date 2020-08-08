@@ -124,6 +124,7 @@ a:hover{
 
 
 .footer{
+  display: none;
   color: #d3d3d3;
   font-weight: 400;
   font-size: 14px;
@@ -427,8 +428,14 @@ button[type=submit] {
     padding-bottom: 15px;
   }
 
+  .greet h1{
+    font-size: 22px;
+    font-weight: 400;
+  }
+
   .toplogo h1{
     font-size: 22px;
+    font-weight: 400;
   }
 
   .home-page-mobile{
