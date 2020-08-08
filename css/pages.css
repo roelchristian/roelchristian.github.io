@@ -34,6 +34,7 @@ a:hover + #arr {
 .publish-wrap{
   padding-top: 22px;
   margin-bottom: 12px;
+  font-weight: 400;
 }
 
 .publish-title, .publish-date{
@@ -378,6 +379,7 @@ footer{
 .stanza{
   margin-bottom: 16px;
 }
+
 
 @media screen and (max-width:840px) {
   .wrapper{

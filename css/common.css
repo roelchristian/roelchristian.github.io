@@ -18,6 +18,10 @@ body{
   height: 100%;
 }
 
+pre{
+  font-family: inherit;
+}
+
 .cite{
   text-align: right;
 }
