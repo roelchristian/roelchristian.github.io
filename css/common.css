@@ -143,11 +143,19 @@ a:hover{
   border-bottom: solid 1px white;
 }
 
-
-
 .greet h1{
-  font-family: DM Serif Display, "Playfair Display",Suranna,Didot,Bodoni,serif;
-  font-size: 30px;
+      font-family: Josefin Sans, sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #7a0000;
+    letter-spacing: 2px;
+}
+
+.greet{
+  margin-top:140px;
+  margin-bottom: 100px;
+}
 
 }
 
@@ -377,9 +385,12 @@ button[type=submit] {
     padding-bottom: 20px;
   }
 
-  .g-line{
-    width: 20%;
+  .footer{
+    display: none;
   }
-
-
+  .footer-mobile{
+    display: visible;
+    text-align: center;
+    font-size: 14px;
+  }
 }
