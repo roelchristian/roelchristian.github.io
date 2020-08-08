@@ -153,8 +153,8 @@ a:hover{
 }
 
 .greet{
-  margin-top:140px;
-  margin-bottom: 100px;
+  margin-top:180px;
+  margin-bottom: 60px;
 }
 
 }
@@ -376,6 +376,9 @@ button[type=submit] {
     text-align: right;
 }
 
+.footer-mobile{
+  display: none;
+}
 
 @media screen and (max-width:480px) {
   .const-message{
@@ -394,3 +397,5 @@ button[type=submit] {
     font-size: 14px;
   }
 }
+
+

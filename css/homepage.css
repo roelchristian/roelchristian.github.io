@@ -11,7 +11,7 @@ Stylesheet for the landing page
 
 
 .social{
-  margin-top: 6em;
+  margin-top: 30px;
   margin-bottom: 1em;
 }
 
@@ -36,7 +36,7 @@ Stylesheet for the landing page
 .homenav{
   text-transform: uppercase;
   font-size: 14px;
-  padding-top: 16px;
+  padding-top: 100px;
   font-weight: 400;
   letter-spacing: 1.5px;
   font-stretch: ultra-expanded;
