@@ -5,21 +5,27 @@
 
 <body>
 
+
   <div class="main-wrapper">
 
-    <div class="greet">
-      <h1>{{ page.greeting }}</h1>
+    <div class="greet" id="greet-container">
+      <h1> {{page.greeting}}</h1>
+      <div class="landing-blurb">Bienvenido a mi peque&ntilde;o pedacito del internet.</div>
+    
+
+
+      <div class="arrow-down-home"><a id="arrow" href="#hidden" onclick="toggle('hidden');"><i class="fa fa-angle-down arrow-down-arrow" aria-hidden="true"></i></a>
+        </div>
     </div>
-    <hr width="20%">
-    <div class="subgreet">
-      {{ page.blurb }}
-    </div>
+
+      <div id="hidden">
+        Hola! Soy Roel, un diletante de veinte y pico a&ntilde;os. Me encanta leer y ver filmes. Me form&eacute; en contabilidad y llevo tres a&ntilde;os trabajando como un analista en la industr&iacute;a financiera y en inform&aacute;tica. Tambi&eacute;n escribo y puedes clicar abajito para leer mi blog donde guardo mis divagaciones en toda su incoherencia.
 
 
     <div class="homenav">
-      <a href="/es/cv">Currículo</a> /
-      <a href="/blog">Blog</a> /
-      <a href="/me/links">Enlaces</a> /
+      <a href="/cv">Cur&iacute;culo</a> &middot;
+      <a href="/blog">Blog</a> &middot;
+      <a href="/links">Enlaces</a> &middot;
       <a href="/contact">Contacto</a>
     </div>
     <div class="social">
@@ -29,15 +35,33 @@
         </a>
         {% endfor %}
       </div>
-
-  </div><!-- main-wrapper -->
-        <footer>
+ <footer>
       
       <div class="footer">
         <div class="foottext">
-          © 2020 Roel Christian Yambao. Todos los derechos reservados &middot; <a href="/terms">Pol&iacute;tica de uso (en ingl&eacute;s)</a> &middot; View the website <a href="..">in English</a> &middot; Tamb&eacute;m dispon&iacute;vel <a href="/pt">em portugu&ecirc;s</a>
+          <a href="/terms">T&eacute;rminos de uso</a> &middot; <a href="../">Englsh</a> &middot; <a href="/pt">Portugu&ecirc;s</a>
         </div>
       </div>
+      <div class="footer-mobile">
+        <a href="/terms">T&eacute;rminos</a> &middot; <a href="/es">Espa&ntilde;ol</a> &middot; <a href="/pt">Portugu&ecirc;s</a>
+      </div>
     </footer>
+
+
+      </div>
+  </div><!-- main-wrapper -->
+
+     
+<script language="JavaScript">
+
+    function toggle(id) {
+        var state = document.getElementById(id).style.display;
+        document.getElementById(id).style.display = 'block';
+        document.getElementById("greet-container").style.display = 'none';
+        document.getElementById("arrow").innerHTML = "<i class='fa fa-angle-up arrow-down-arrow' aria-hidden='true'></i>";
+    } 
+    
+</script> 
+
 </body>
 </html>
