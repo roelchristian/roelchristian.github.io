@@ -363,6 +363,12 @@ footer{
   letter-spacing: 2px;
 
 }
+.hangind p{
+  padding-left: 20px;
+    text-indent: -20px;
+    margin:0;
+}
+
 
 .sec-wrap{
   margin-top: 40px;
