@@ -157,6 +157,19 @@ a:hover{
   margin-bottom: 60px;
 }
 
+.home-page{
+  text-align: center;
+  margin-top: -30px;
+  font-size: 14px;
+}
+.home-page-mobile{
+  text-align: center;
+  margin-top: -20px;
+  font-size: 16px;
+}
+
+.head-cont{
+  margin-bottom: 50px;
 }
 
 h1{
@@ -380,6 +393,16 @@ button[type=submit] {
   display: none;
 }
 
+.home-page a{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.home-page-mobile{
+  display: none;
+}
+
 @media screen and (max-width:480px) {
   .const-message{
     width: 80%;
@@ -398,6 +421,17 @@ button[type=submit] {
     padding-top: 60px;
     padding-bottom: 15px;
   }
+
+  .toplogo h1{
+    font-size: 22px;
+  }
+
+  .home-page-mobile{
+    display: block;
+  }
+ .home-page{
+  display: none;
+ }
 }
 
 

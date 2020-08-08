@@ -8,6 +8,7 @@
 
 <body>
     <div class="wrapper">
+      <div class="head-cont">
       {% if page.namespace %}
       <div class="toplogo">
           <h1>{{ page.namespace }}</h1>
@@ -20,17 +21,19 @@
       </div>
 
       {% endif %}
-      <div class="topnav">
 
+      <div class="home-page">
+        <span><a href="../">Home</a></span> /
+        <span><a href="../blog">Blog</a></span> /
+        <span><a href="../links">Links</a></span> /
+        <span><a href="../contact">Contact</a></span>
 
-        <a href="/"> <span class="top-link">Home</span> </a>
-        <a href="/cv"> <span class="top-link">About</span> </a>
-        <a href="{{site.baseurl}}/blog"> <span class="top-link">Blog</span> </a>
-        <a href="{{site.baseurl}}/links"> <span class="top-link">Links</span> </a>
-        <a href="/search"> <span class="top-link"><i class="fa fa-search" aria-hidden="true"></i></span> </a>
       </div>
+      <div><a href="../"><i class="fa fa-home home-page-mobile" aria-hidden="true"></i>
+</a></div>
 
 
+      </div>
 
     <div class="container">
 
