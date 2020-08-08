@@ -14,7 +14,7 @@
     </div>
 
 
-      <div class="arrow-down-home"><a href="#hidden" onclick="toggle('hidden');"><i class="fa fa-angle-down arrow-down-arrow" aria-hidden="true"></i></a>
+      <div class="arrow-down-home"><a id="arrow" href="#hidden" onclick="toggle('hidden');"><i class="fa fa-angle-down arrow-down-arrow" aria-hidden="true"></i></a>
 
       </div>
 
@@ -60,8 +60,10 @@
         var state = document.getElementById(id).style.display;
             if (state == 'block') {
                 document.getElementById(id).style.display = 'none';
+                document.getElementById("arrow").innerHTML = "<i class='fa fa-angle-down arrow-down-arrow' aria-hidden='true'></i>";
             } else {
                 document.getElementById(id).style.display = 'block';
+                document.getElementById("arrow").innerHTML = "<i class='fa fa-angle-up arrow-down-arrow' aria-hidden='true'></i>";
             }
         } 
 </script> 

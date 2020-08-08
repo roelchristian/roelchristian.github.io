@@ -59,9 +59,6 @@ Stylesheet for the landing page
     animation: slide1 1s ease-in-out infinite;
 }
 
-.arrow-down-arrow:hover{
-  font-size: 40px;
-}
 
 @keyframes slide1 {
   0%,
@@ -74,7 +71,8 @@ Stylesheet for the landing page
   }
 }
 
-#hidden{display: none;}
+#hidden{display: none;
+padding-top: 15px;}
 
 
 @media screen and (max-width:480px) {
