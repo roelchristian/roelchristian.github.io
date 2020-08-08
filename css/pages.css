@@ -200,11 +200,12 @@ a:hover + #arr {
 }
 
 .toplogo{
-  font-size: 24px;
+  font-size: 20px;
   color: #444;
-  font-family: DM Serif Display, "Playfair Display", Oranienbaum, "Suranna", "Didot", "Bodoni", serif;
+  font-family: 'Josefin Sans', sans-serif;
+
   padding-bottom: 0;
-  text-transform: none;
+  text-transform: uppercase;
   font-weight: 300;
   text-align: center;
   padding: 15px;
@@ -218,18 +219,19 @@ a:hover + #arr {
 }
 
 .top-blog{
-  font-size: 24px;
+  font-size: 18px;
   color: #444;
-  font-family: DM Serif Display, Playfair Display, Bodoni, Didot serif;
-  padding-bottom: 0;
-  text-transform: none;
-  font-weight: 300;
+  text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 100;
   text-align: center;
   padding: 15px;
   margin-top: 200px;
-  padding-left: 60px;
-  padding-right: 60px;
+  line-height: 50px;
+  margin-left: -30px;
+  padding-right: -30px;
 }
+
 
 .toplogo a{
   text-decoration: none;
@@ -334,7 +336,7 @@ footer{
   margin-bottom: 16px;
 }
 
-@media screen and (max-width:960px) {
+@media screen and (max-width:840px) {
   .wrapper{
     width: 88%;
   }
@@ -342,11 +344,7 @@ footer{
   font-size: 16px;
 }
 
-.top-blog{
 
-  padding-left: 30px;
-  padding-right: 30px;
-}
 
 .blog-wrapper > p.secstart::first-letter{
   font-size: 120px;}
