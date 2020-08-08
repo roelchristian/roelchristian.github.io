@@ -393,8 +393,14 @@ button[type=submit] {
   display: none;
 }
 
-.home-page a{
+.by-line a{
   text-transform: uppercase;
+  font-size: 75%;
+  letter-spacing: 2px;
+}
+
+.home-page a{
+
   letter-spacing: 2px;
   font-family: 'Josefin Sans', sans-serif;
 }

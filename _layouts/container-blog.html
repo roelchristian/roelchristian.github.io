@@ -25,7 +25,7 @@
 
       <div class="by-line">
 
-        {% if page.author %}{{ page.author }}{% else %}Roel Christian Yambao{% endif %} &middot; {{page.date | date: '%B %d, %Y' }} <br>
+        <span class="author">{% if page.author %}{{ page.author }}{% else %}Roel Christian Yambao{% endif %} &middot; </span>{{page.date | date: '%B %d, %Y' }} <br>
         <a href="#article">Read</a> &middot; <a href="../">Return</a>
 
       </div>
