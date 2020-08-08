@@ -403,8 +403,9 @@ button[type=submit] {
 }
 
 .home-page a{
-
-  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2.5px;
   font-family: 'Josefin Sans', sans-serif;
 }
 

@@ -250,7 +250,7 @@ a:hover + #arr {
 }
 
 .toplogo h1, .top-blog h1{
-  font-weight: 200;
+  font-weight: 300;
 }
 
 
@@ -369,5 +369,10 @@ footer{
  font-weight: 400 !important; 
 }
 
+.top-blog h1{
+  line-height: 1;
+  font-size: 24px;
+  font-weight: 400;
+}
 
 }
