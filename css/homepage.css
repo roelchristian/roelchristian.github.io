@@ -12,21 +12,15 @@ Stylesheet for the landing page
 
 .social{
   margin-top: 30px;
-  margin-bottom: 1em;
+  margin-bottom: 60px;
+
 }
 
-.social img{
-  height:25px;
-  width: 25px;
-}
 
 .social a{
   text-decoration: none;
 }
 
-.social img {
-  padding-right: 0.5em;
-}
 
 .blurb{
   width: 60%;

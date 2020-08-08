@@ -392,9 +392,10 @@ button[type=submit] {
     display: none;
   }
   .footer-mobile{
-    display: visible;
+    display: block;
     text-align: center;
     font-size: 14px;
+    padding-top: 60px;
   }
 }
 
