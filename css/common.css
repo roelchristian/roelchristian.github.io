@@ -382,8 +382,9 @@ button[type=submit] {
     border-bottom: 0.5px solid #CCC;
     padding-top: 12px;
     padding-bottom: 12px;
-    font-size: 15px;
+    font-size: 13px;
     display: flex;
+    font-family: 'Josefin Sans', sans-serif;
 
 }
 
@@ -409,9 +410,10 @@ button[type=submit] {
     display: flex;
     padding-top: 12px;
     padding-bottom: 12px;
-    font-size: 14px;
+    font-size: 12px;
     text-transform: uppercase;
-    letter-spacing: 1px;
+
+    font-family: 'Josefin Sans', sans-serif;
 }
 .post-nav div {
     /* flex-grow, flex-shrink, flex-basis */
