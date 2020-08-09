@@ -7,6 +7,12 @@ html{
   font-family: Source Sans Pro, Open Sans, Helvetica, sans-serif;
 }
 
+::selection {
+  background: #ffb7b7; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #ffb7b7; /* Gecko Browsers */
+}
 
 body{
   font-kerning: auto;
@@ -218,7 +224,7 @@ blockquote{
   margin-left: -20px;
   font-style: normal;
   font-size: 80%;
-  border-left: 3px solid #ccc;
+  border-left: none;
   padding-left: 20px;
   line-height: 1.3;
  
