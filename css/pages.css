@@ -75,7 +75,10 @@ a:hover + #arr {
 .notes:before{
   content: "Footnotes";
   text-transform: uppercase;
-  letter-spacing: 1.5px;
+  letter-spacing: 1.6px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14px;
+
 }
 
 .fn{
@@ -86,7 +89,43 @@ a:hover + #arr {
   font-size: 12px;
   margin-top: 0;
   padding-top: 0;
-  font-weight: 500;
+  background: #efdfdf;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  color: #7a0000;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 20px;
+  margin-right: 5px;
+  text-align: center;
+  width: 20px;
+}
+
+.fn:hover, .ret:hover{
+  color: #444;
+  background-color: #efefef; 
+}
+
+.ret{
+    color: #7a0000;
+  margin-left: 2px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 0;
+  padding-top: 0;
+  background: #efdfdf;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  color: #7a0000;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 20px;
+  margin-right: 5px;
+  text-align: center;
+  width: 20px;
+  margin-left: 5px;
 }
 
 
@@ -103,18 +142,6 @@ li span {
   left: 15px;
 }
 
-
-.arrow-appear{
-  transition:.2s;
-  transform:translateX(0);
-  opacity: 0;
-  color: #808080;
-}
-
-.arrow-appear:hover{
-  transform:translateX(3px);
-  opacity: 1;
-}
 
 
 .wrapper{
@@ -444,7 +471,7 @@ footer{
   margin-bottom: 3px;
   }
 .publish-date{
-  font-size: 12px;
+  font-size: 11px;
 }
 
 
