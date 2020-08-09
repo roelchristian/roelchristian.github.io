@@ -410,6 +410,7 @@ button[type=submit] {
   text-transform: uppercase;
   font-size: 12px;
   letter-spacing: 1.5px;
+  margin-bottom: 10px;
 }
 
 .post-nav {
@@ -418,6 +419,7 @@ button[type=submit] {
     padding-bottom: 12px;
     font-size: 14px;
     font-family: 'Josefin Sans', sans-serif;
+    line-height: 1;
 }
 .post-nav div {
     /* flex-grow, flex-shrink, flex-basis */
@@ -425,6 +427,7 @@ button[type=submit] {
 }
 .post-nav-next {
     text-align: right;
+
 }
 
 .footer-mobile{
