@@ -427,7 +427,10 @@ button[type=submit] {
 }
 .post-nav-next {
     text-align: right;
-
+    margin-left: 5px;
+}
+.post-nav-prev{
+  margin-right: 5px;
 }
 
 .footer-mobile{
