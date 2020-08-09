@@ -27,22 +27,39 @@ a:hover + #arr {
 
 .publish-div{
   border-bottom: 0.5px solid #CCC;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+
 }
 
 .publish-wrap{
-  padding-top: 22px;
   margin-bottom: 12px;
   font-weight: 400;
+  border-top: 0.5px solid #CCC;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
-.publish-title, .publish-date{
-  font-size: 18px;
+
+
+.publish-title a{
+  font-size: 16px;
+  font-weight: 600;
+  color: #444;
+  letter-spacing: 1;
 }
+
+.publish-title a:hover{
+  color: #7a0000;
+}
+
+
 
 .publish-date{
-  color:#b8b8b8;
+  color:#444;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
 }
 
 .notes{
@@ -239,7 +256,7 @@ p.secstart{
 .toplogo{
   font-size: 20px;
   color: #444;
-  font-family: 'DM serif Display', serif;
+  font-family: 'Josefin Sans', sans-serif;
   padding-bottom: 0;
   text-transform: uppercase;
   font-weight: 400;
@@ -421,10 +438,14 @@ footer{
   .wrapper{
     width: 88%;
   }
-  .publish-title, .publish-date{
-  font-size: 16px;
+  .publish-title{
+  font-size: 17px;
+  line-height: 1.1;
+  margin-bottom: 3px;
+  }
+.publish-date{
+  font-size: 12px;
 }
-
 
 
 .blog-wrapper > p.secstart::first-letter{
