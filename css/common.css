@@ -29,7 +29,15 @@ pre{
     font-style: italic;
     font-size: 18px;
     text-align: right;
+    margin: 0;
 }
+
+.epigraph-cite{
+  font-style: normal;
+  text-align: right;
+
+}
+
 
 .photo{
   padding-top: 60px;

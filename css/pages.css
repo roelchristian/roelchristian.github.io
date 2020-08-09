@@ -104,6 +104,17 @@ a:hover + #arr {
 
 }
 
+p.secstart::first-letter{
+  font-size: 140px;
+  font-family: Vast Shadow, Playfair Display, Bodoni, Didot, serif;
+  padding-right: 7px;
+
+}
+
+p.secstart{
+  padding-top: 70px;
+}
+
 .blog-wrapper > p.secstart{
   padding-top: 40px;
   margin-top: 250px;
