@@ -207,10 +207,20 @@ h3{
 }
 
 blockquote{
-  margin-left: -20px;
+  margin-left: -15px;
   font-style: italic;
   border-left: 3px solid #ccc;
+  padding-left: 15px;
+ 
+}
+
+.notes blockquote{
+  margin-left: -20px;
+  font-style: normal;
+  font-size: 80%;
+  border-left: 3px solid #ccc;
   padding-left: 20px;
+  line-height: 1.3;
  
 }
 
