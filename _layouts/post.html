@@ -26,12 +26,14 @@ layout: container-blog
 <div class="post-nav">
   <div>
     {% if page.previous.url %}
-    <a href="{{page.previous.url}}"><i class="fa fa-angle-left" aria-hidden="true"></i>&nbsp;{{page.previous.title}}</a>
+    <div class="prev-next"><i class="fa fa-angle-left" aria-hidden="true"></i>&nbsp;Previous</div>
+    <a href="{{page.previous.url}}">{{page.previous.title}}</a>
     {% endif %}
   </div>
   <div class="post-nav-next">
     {% if page.next.url %}
-    <a href="{{page.next.url}}">{{page.next.title}}&nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+    <div class="prev-next">Next&nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></div>
+    <a href="{{page.next.url}}">{{page.next.title}}</a>
     {% endif %}
   </div>
 </div>
