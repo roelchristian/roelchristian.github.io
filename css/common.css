@@ -8,10 +8,12 @@ html{
 }
 
 ::selection {
-  background: #ffb7b7; /* WebKit/Blink Browsers */
+  background: #efdfdf; /* WebKit/Blink Browsers */
+  color: #444;
 }
 ::-moz-selection {
-  background: #ffb7b7; /* Gecko Browsers */
+  background: #efdfdf; /* Gecko Browsers */
+  color: #444;
 }
 
 body{
