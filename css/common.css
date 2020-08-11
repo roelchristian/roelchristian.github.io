@@ -31,6 +31,13 @@ pre{
   font-family: inherit;
 }
 
+.hide{
+  display: none;
+  margin: none;
+  padding-top: 0;
+  border-top: none;
+}
+
 .cite{
   text-align: right;
 }
@@ -40,6 +47,7 @@ pre{
     margin-bottom: 0;
     margin-left: 30%;
 }
+
 
 .epigraph-cite{
   font-style: normal;

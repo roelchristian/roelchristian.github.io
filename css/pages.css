@@ -500,4 +500,8 @@ footer{
   font-weight: 400;
 }
 
+.no-padding{
+  padding-bottom: 0;
+}
+
 }
