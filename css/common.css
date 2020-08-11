@@ -517,6 +517,7 @@ button[type=submit] {
  .post-nav{
   padding-top: 20px;
   padding-bottom: 20px;
+  font-size: 17px;
  }
 
  .post-nav-prev, .post-nav-next{
