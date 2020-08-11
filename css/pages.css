@@ -398,26 +398,36 @@ footer{
     margin-top: -.5em;
     right: 0;
     padding: .5em 1em;
-    background-color: #efefef;
+
     color: #c2c2c2;
-    font-size: 24px;
+    font-size: 45px;
 }
 
 .prev-arrow:hover, .next-arrow:hover{
   color: #7a0000;
-  background-color: #efdfdf;
+}
+
+.prev-arrow:hover>a, .next-arrow:hover>a{
+  color: #7a0000;
+}
+
+.prev-arrow a, .next-arrow a{
+  color: #c2c2c2;
 }
 
 .prev-arrow {
-    font-size: 24px;
+    font-size: 45px;
     position: fixed;
     top: 50%;
     margin-top: -.5em;
     left: 0;
     padding: .5em 1em;
-    background-color: #efefef;
+
     color: #c2c2c2;
   }
+
+
+
 
 .sec-head{
   text-align: center;
