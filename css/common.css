@@ -226,6 +226,7 @@ blockquote{
   font-size: 90%;
   border-left: 3px solid #ccc;
   padding-left: 15px;
+  margin-right: inherit;
  
 }
 

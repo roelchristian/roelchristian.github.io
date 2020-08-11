@@ -464,6 +464,7 @@ footer{
 @media screen and (max-width:840px) {
   .wrapper{
     width: 88%;
+    font-size: 17px;
   }
   .publish-title{
   font-size: 17px;
