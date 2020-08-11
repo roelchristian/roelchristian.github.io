@@ -14,26 +14,23 @@ layout: container-blog
     <a href="http://twitter.com/share?text=I'm reading Roel's blog post, {{ page.title }}&url={{ site.url }}{{ page.url }}"target="_blank" rel="noreferrer"><i class="fa fa-twitter" aria-hidden="true"></i> </a> <a href="http://www.reddit.com/submit?url={{site.url}}{{page.url}}&title={{page.title}}" target="_blank" rel="noreferrer"><i class="fa fa-reddit" aria-hidden="true"></i></a> <a href="mailto:?subject={{ page.title }}&body={{site.url}}{{page.url}}"target="_blank" rel="noreferrer"><i class="fa fa-envelope" aria-hidden="true"></i> </a>
   </div>
 </div>
-<div>
-  {% if page.previous.url %}
-  <a class="prev-arrow" href="{{page.previous.url}}"><i class="fa fa-angle-left" aria-hidden="true"></i> </a>
-  {% endif %}
 
-  {% if page.next.url %}
-  <a class="next-arrow" href="{{page.next.url}}"><i class="fa fa-angle-right" aria-hidden="true"></i> </a>
-  {% endif%}
-</div>
 <div class="post-nav">
   <div class="post-nav-prev">
     {% if page.previous.url %}
-    <div class="prev-next"><i class="fa fa-angle-left" aria-hidden="true"></i>&nbsp;Previous</div>
+    <div class="prev-arrow"><a href="{{page.previous.url}}"><i class="fa fa-angle-left" aria-hidden="true"></i> </a></div>
+
+    <span class="prev-next"><span class="hide-on-mobile"><i class="fa fa-angle-left" aria-hidden="true"></i>&nbsp;</span>Previous</span>
     <a href="{{page.previous.url}}">{{page.previous.title}}</a>
+
     {% endif %}
   </div>
   <div class="post-nav-next">
     {% if page.next.url %}
-    <div class="prev-next">Next&nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></div>
+    <span class="prev-next">Next&nbsp;<i class="fa fa-angle-right hide-on-mobile" aria-hidden="true"></i></span>
     <a href="{{page.next.url}}">{{page.next.title}}</a>
+
+    <div class="next-arrow"><a href="{{page.next.url}}"><i class="fa fa-angle-right" aria-hidden="true"></i> </a></div>
     {% endif %}
   </div>
 </div>
