@@ -17,5 +17,5 @@ package = "netlify-plugin-rss"
 [[redirects]]
   from = "/assets/temp/vertiv"
   to = "https://drive.google.com/drive/folders/1-7VqjYafnVkwimKGBOLVwT3KyHhd1Dy9?usp=sharing"
-  status = 301
+  status = 302
   force = true
