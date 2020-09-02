@@ -169,6 +169,7 @@ li span {
   font-family: Vast Shadow, Playfair Display, Bodoni, Didot, serif;
   padding-right: 10px;
   line-height: 0;
+  
 
 }
 
@@ -186,6 +187,7 @@ p.secstart{
 .blog-wrapper > p.secstart{
   padding-top: 40px;
   margin-top: 250px;
+
 }
 
 
@@ -487,7 +489,8 @@ footer{
 
 
 .blog-wrapper > p.secstart::first-letter{
-  font-size: 120px;}
+  font-size: 120px;
+  }
 
 .next-arrow, .prev-arrow{
   display: none;
