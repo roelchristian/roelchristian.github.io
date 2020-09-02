@@ -540,6 +540,9 @@ button[type=submit] {
   display: none;
  }
 
+ .epigraph{
+    margin-left: 50%;
+}
 
 }
 
