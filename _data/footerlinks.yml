@@ -1,8 +1,0 @@
-- name: "Sitemap"
-  url: "/map.xml"
-- name: "Impressum"
-  url: "/impressum"
-- name: "Contact Me"
-  url: "/contact"
-- name: "Terms"
-  url: "/terms"

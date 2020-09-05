@@ -1,0 +1,27 @@
+body{
+	margin: 10% 50% 10% 20%;
+	font-family: 'Source Sans Pro','Open Sans', 'Helvetica', 'Calibri', sans-serif;
+}
+
+h1{
+	font-weight: 400;
+	text-transform: uppercase;
+	font-family: Josefin Sans, Gill Sans, sans-serif;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+a{
+	color: #800000;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+	body{
+		margin: 20% 8% 8% 8%;
+	}
+}
