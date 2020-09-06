@@ -1,0 +1,155 @@
+.publish-div{
+  border-bottom: 0.5px solid #CCC;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+.publish-wrap{
+  margin-bottom: 12px;
+  font-weight: 400;
+  border-top: 0.5px solid #CCC;
+}
+
+.publish-title{
+  margin-bottom: 5px;
+}
+
+
+.publish-title a{
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1;
+}
+
+.publish-title a:hover{
+  color: #444;
+  text-decoration: none;
+}
+
+
+
+.publish-date{
+  color:#444;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+article{
+  margin-top: 25px;
+}
+
+blockquote{
+  margin-left: -15px;
+  font-size: 90%;
+  border-left: 3px solid #ccc;
+  padding-left: 15px;
+  margin-right: inherit;
+ 
+}
+
+.post-meta{
+    margin-top: 100px;
+    margin-bottom: 75px;
+    border-bottom: 0.5px solid #CCC;
+    border-top: 0.5px solid #CCC;
+}
+
+.post-dets{
+    border-bottom: 0.5px solid #CCC;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 13px;
+    display: flex;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.post-dets a{
+  color: #444;
+}
+
+.post-dets a:hover{
+  color: #7a0000;
+}
+
+.post-dets div {
+    /* flex-grow, flex-shrink, flex-basis */
+    flex: 1 1 0;
+}
+
+.icons-share{
+  letter-spacing: 2px;
+}
+
+.header-wrapper a:hover{
+  text-decoration: none;
+  color: #7a0000;
+}
+
+.header-wrapper a{
+  color: #444;
+}
+.prev-next{
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.post-nav {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.post-nav-next, .post-nav-prev {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.post-nav-next {
+    text-align: right;
+    margin-left: 5px;
+}
+.post-nav-prev{
+  margin-right: 5px;
+}
+
+
+
+
+@media screen and (max-width:480px) {
+
+  .post-nav{
+    padding-top: 20px;
+    padding-bottom: 20px;
+   }
+
+   .post-nav-prev, .post-nav-next{
+        flex:100%;
+        text-align:left;
+        margin:0;
+   }
+
+   .post-nav-next{
+    padding-top: 20px;
+    border-top: 0.5px solid #CCC;
+   }
+
+   .post-nav-prev{
+    padding-bottom: 20px;
+   }
+
+
+}

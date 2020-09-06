@@ -1,0 +1,19 @@
+---
+layout: container
+title: Blog Posts
+---
+
+<div class="title-wrapper">
+	<h1>{{ page.title }}</h1>
+</div>
+
+<div class="publish-wrap">
+
+{% for post in site.posts %}
+<div class="publish-div">
+	<div class="publish-title"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></div>
+	<div class="publish-date">{{post.date | date: '%B %d, %Y' }}</div>
+</div>
+{% endfor %}
+
+</div>

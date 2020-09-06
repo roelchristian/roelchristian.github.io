@@ -1,5 +1,5 @@
 body{
-	margin: 10% 50% 10% 20%;
+	margin: 10% 40% 10% 20%;
 	font-family: 'Source Sans Pro','Open Sans', 'Helvetica', 'Calibri', sans-serif;
 }
 
@@ -11,6 +11,12 @@ h1{
 	letter-spacing: 2px;
 }
 
+h2{
+	font-weight: 600;
+	font-size: 16px;
+	padding-top:25px;
+}
+
 a{
 	color: #800000;
 	text-decoration: none;
@@ -18,6 +24,15 @@ a{
 
 a:hover{
 	text-decoration: underline;
+}
+
+::selection {
+  background: #efdfdf; /* WebKit/Blink Browsers */
+  color: #444;
+}
+::-moz-selection {
+  background: #efdfdf; /* Gecko Browsers */
+  color: #444;
 }
 
 @media (max-width: 480px) {
