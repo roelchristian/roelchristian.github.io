@@ -1,7 +1,7 @@
 body{
-	margin: 10% 35% 10% 20%;
-	font-family: 'Source Sans Pro','Open Sans', 'Helvetica', 'Calibri', sans-serif;
-	line-height: 1.5;
+	margin: 10% 25% 10% 25%;
+	font-family: PT Serif, Georgia, sans-serif;
+	line-height: 1.6;
   	font-size: 16px;
 }
 
@@ -11,6 +11,7 @@ h1{
 	font-family: Josefin Sans, Gill Sans, sans-serif;
 	font-size: 20px;
 	letter-spacing: 2px;
+
 }
 
 h2{
@@ -27,6 +28,11 @@ a{
 a:hover{
 	text-decoration: underline;
 }
+li{
+	margin-top:10px;
+	padding-left: 10px;
+}
+
 
 .nav{
 	margin-top: 30px; 
@@ -37,9 +43,6 @@ a:hover{
 	letter-spacing: 2px;
 }
 
-.nav a{
-	color: #444;
-}
 
 ::selection {
   background: #efdfdf; /* WebKit/Blink Browsers */
