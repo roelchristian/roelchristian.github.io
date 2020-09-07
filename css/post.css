@@ -151,6 +151,7 @@ blockquote{
   border-bottom: 1px solid #ddd;
   border-top: 1px solid #ddd;
   margin-top: 30px;
+  color: #444;
 }
 
 .ref-block::before{
@@ -161,6 +162,18 @@ blockquote{
   text-transform: uppercase;
   letter-spacing: 1.3px;
   font-size: 90%;
+}
+
+.note{
+  border-bottom: 1px dotted #ddd;
+  border-top: 1px dotted #ddd;
+  margin: 15px 0;
+  padding: 15px 0;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #444;
+
 }
 
 .hanging-indent {
