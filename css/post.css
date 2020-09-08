@@ -168,6 +168,11 @@ blockquote{
   font-family: "Alegreya Sans SC", Helvetica, sans-serif;
 }
 
+.gloss-block::before{
+  content: " ";
+  display: inline;
+}
+
 div.gloss-block{
   display: inline;
   clear: none;
