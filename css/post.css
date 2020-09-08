@@ -170,7 +170,8 @@ blockquote{
 
 .gloss-block::before{
   content: " ";
-  display: inline;
+  display: inline-block;
+  clear: both;
 }
 
 div.gloss-block{
