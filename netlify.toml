@@ -21,7 +21,7 @@ package = "netlify-plugin-rss"
   force = true
 
 [[redirects]]
-  from = "https://lang.roelchristian.com/grammar/git"
+  from = "/grammar/git"
   to = "https://github.com/roelchristian/iridian-reference-grammar"
   status = 301
   force = true
