@@ -19,3 +19,9 @@ package = "netlify-plugin-rss"
   to = "https://drive.google.com/drive/folders/1-7VqjYafnVkwimKGBOLVwT3KyHhd1Dy9?usp=sharing"
   status = 302
   force = true
+
+[[redirects]]
+  from = "https://lang.roelchristian.com/grammar/git"
+  to = "https://github.com/roelchristian/iridian-reference-grammar"
+  status = 301
+  force = true
