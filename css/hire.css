@@ -15,7 +15,6 @@ body{
   div.off-item{
   	font-size: 18px;
   	margin-bottom: 25px;
-  	background: #add8e6;
   	padding-top: 20px;
   }
  div.off-title{
@@ -28,14 +27,12 @@ body{
   div.blurb{
   	margin: 10px 10px 60px 10px;
   }
-  div.offpers{
-  	background: #add8e6;
-  }
-   
+
 }
 
 a{
 	color:#00468C;
+	text-decoration: none;
 }
 
 .blurb{
@@ -70,6 +67,6 @@ img{
 	display: block;
   	margin-left: auto;
   	margin-right: auto;
-  	width: 50%;
+  	width: 100%;
   	margin-bottom: 15px; 
 }
