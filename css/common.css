@@ -43,11 +43,19 @@ pre{
 .cite{
   text-align: right;
 }
+
 .epigraph{
     font-style: italic;
     font-size: 16px;
     margin-bottom: 0;
     margin-left: 50%;
+}
+
+.epigraph-long{
+    font-style: italic;
+    font-size: 90%;
+    margin-bottom: 0;
+    margin-left: 20%;
 }
 
 
