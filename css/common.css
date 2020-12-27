@@ -47,7 +47,7 @@ pre{
 .epigraph{
     font-size: 14px;
     margin-bottom: 10px;
-    margin-left: 30%;
+    margin-left: 20%;
 }
 
 .epigraph-long{
@@ -550,7 +550,7 @@ button[type=submit] {
  }
 
  .epigraph{
-    margin-left: 50%;
+    margin-left: 30%;
 }
 
 }
