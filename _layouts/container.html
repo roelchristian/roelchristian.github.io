@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 {% include header.html %}
 
-
 {% assign gitlink = "https://github.com/roelchristian/roelchristian.github.io/tree/master/" %}
 {% assign mysource = gitlink | append: page.path %}
 
@@ -10,7 +9,7 @@
     <div class="wrapper">
 
       <div class="head-cont">
-        <div><a href="../"><i class="fa fa-home home-page-mobile" aria-hidden="true"></i>
+        <div><a href="{{site.baseurl}}/"><i class="fa fa-home home-page-mobile" aria-hidden="true"></i>
 </a></div>
 
       {% if page.namespace %}
@@ -27,10 +26,10 @@
       {% endif %}
 
       <div class="home-page">
-        <span><a href="../">Home</a></span> &middot;
-        <span><a href="../blog">Blog</a></span> &middot;
-        <span><a href="../links">Links</a></span> &middot;
-        <span><a href="../contact">Contact</a></span>
+        <span><a href="{{site.baseurl}}/">Home</a></span> &middot;
+        <span><a href="{{site.baseurl}}/blog">Blog</a></span> &middot;
+        <span><a href="{{site.baseurl}}/links">Links</a></span> &middot;
+        <span><a href="{{site.baseurl}}/contact">Contact</a></span>
 
       </div>
       
