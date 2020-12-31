@@ -2,6 +2,10 @@
 Stylesheet for pages using the container layout
 */
 
+.wrapper p{
+  text-indent: 20px;
+}
+
 .meta {
   font-size: 14px;
   font-kerning: normal;
