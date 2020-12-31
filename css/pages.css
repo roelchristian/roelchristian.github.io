@@ -295,10 +295,9 @@ p.secstart{
 }
 
 .by-line{
-  font-size: 16px;
+  font-size: 12pz;
   text-align: center;
   color:#808080;
-   font-family: 'Josefin Sans', sans-serif;
 }
 
 .top-blog{
