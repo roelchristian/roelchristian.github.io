@@ -149,7 +149,7 @@ li span {
   margin: auto;
   margin-top: 50px;
   line-height: 1.6;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 
@@ -476,7 +476,6 @@ footer{
 @media screen and (max-width:840px) {
   .wrapper{
     width: 88%;
-    font-size: 17px;
   }
   .publish-title{
   font-size: 17px;
