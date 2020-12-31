@@ -1,7 +1,42 @@
----
-layout: container-blog
----
+<!DOCTYPE html>
+{% include header.html %}
 
-<div class="blog-wrapper" id="article">
-  {{ content }}
-</div>
+
+{% assign gitlink = "https://github.com/roelchristian/roelchristian.github.io/tree/master/" %}
+{% assign mysource = gitlink | append: page.path %}
+
+
+<body>
+    <div class="wrapper">
+    <div class="blog-head">
+      {% if page.namespace %}
+
+      <div class="top-blog">
+          <h1>{{ page.namespace }}</h1>
+      </div>
+
+      {% elsif page.displaytitle %}
+
+      <div class="top-blog">
+          <h1>{{ page.displaytitle }}</h1>
+      </div>
+
+      {% endif %}
+
+      <div class="by-line">
+
+        <a href="#article">Read</a> &middot; <a href="{{site.baseurl}}/projects/sufjan">Return</a>
+
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="blog-wrapper" id="article">
+        {{ content }}
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
