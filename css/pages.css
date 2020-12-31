@@ -128,16 +128,16 @@ a:hover + #arr {
 
 
 li{
-  margin: 15px 0;
+  margin: 10px 0;
 }
 
 ul,ol{
-  margin-left: -15px;
+  margin-left: -10px;
 }
 
 li span {
   position: relative;
-  left: 15px;
+  left: 10px;
 }
 
 
