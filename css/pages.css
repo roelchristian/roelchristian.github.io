@@ -84,7 +84,7 @@ a:hover + #arr {
   color: #7a0000;
   margin-left: 2px;
   cursor: pointer;
-  font-size: 12px;
+  font-size: 10px;
   margin-top: 0;
   padding-top: 0;
   background: #efdfdf;
@@ -94,10 +94,10 @@ a:hover + #arr {
   color: #7a0000;
   display: inline-block;
   font-weight: bold;
-  line-height: 20px;
-  margin-right: 5px;
+  line-height: 14px;
+  margin-right: 4px;
   text-align: center;
-  width: 20px;
+  width: 14px;
 }
 
 .fn:hover, .ret:hover{
@@ -109,7 +109,7 @@ a:hover + #arr {
     color: #7a0000;
   margin-left: 2px;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 10px;
   margin-top: 0;
   padding-top: 0;
   background: #efdfdf;
@@ -119,11 +119,11 @@ a:hover + #arr {
   color: #7a0000;
   display: inline-block;
   font-weight: bold;
-  line-height: 20px;
-  margin-right: 5px;
+  line-height: 14px;
+  margin-right: 4px;
   text-align: center;
-  width: 20px;
-  margin-left: 5px;
+  width: 14px;
+  margin-left: 4px;
 }
 
 
