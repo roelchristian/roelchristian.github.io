@@ -56,3 +56,5 @@ main:
         siteurl: "https://www.goodreads.com/book/show/43126457-trick-mirror"
       - sitealias: "Isabel Wilkerson, <em>The Warmth of Other Suns</em>"
         siteurl: "https://www.goodreads.com/book/show/8171378-the-warmth-of-other-suns"
+      - sitealias: "<em>Cathay,</em> Translations from the Chinese by Ezra Pound"
+        siteurl: "https://www.gutenberg.org/files/50155/50155-h/50155-h.htm"
