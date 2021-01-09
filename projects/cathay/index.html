@@ -6,7 +6,7 @@ namespace: Cathay
 <div class="extlinks">
     <ol>
       {% for poem in site.data.cathay.poems %}
-        <li><a href="/poems{{ poem.link }}" target="_blank" rel="noreferrer">{{ poem.title }}.</a></li>
+        <li><a href="poems{{ poem.link }}">{{ poem.title }}.</a></li>
       {% endfor %}
     </ol>
 </div>
