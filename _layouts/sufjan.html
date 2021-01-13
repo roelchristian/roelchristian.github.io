@@ -9,20 +9,9 @@
 <body>
     <div class="wrapper">
     <div class="blog-head">
-      {% if page.namespace %}
-
-      <div class="top-blog">
-          <h1>{{ page.namespace }}</h1>
-      </div>
-
-      {% elsif page.displaytitle %}
-
-      <div class="top-blog">
+      <div class="proj-top-blog">
           <h1>{{ page.displaytitle }}</h1>
       </div>
-
-      {% endif %}
-
       <div class="by-line">
 
         <a href="#article">Read</a> &middot; <a href="../">Return</a>
