@@ -480,6 +480,18 @@ footer{
   margin-top: 20px;
 }
 
+.proj-top-blog h1{
+  font-size: 18px;
+  line-height: 10px;
+}
+
+.proj-top-blog{
+  text-transform: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
 
 @media screen and (max-width:840px) {
   .wrapper{
