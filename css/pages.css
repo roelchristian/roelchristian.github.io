@@ -496,6 +496,15 @@ footer{
   margin-bottom: 10px;
 }
 
+.proj-nav{
+  font-size: 12px;
+}
+
+.proj-nav hr{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 
 
 @media screen and (max-width:840px) {
@@ -510,6 +519,7 @@ footer{
 .publish-date{
   font-size: 11px;
 }
+
 
 
 .blog-wrapper > p.secstart::first-letter{
