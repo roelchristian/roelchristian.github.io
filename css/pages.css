@@ -493,16 +493,28 @@ footer{
 .proj-top-blog{
   text-transform: none;
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 60px;
 }
 
 .proj-nav{
   font-size: 12px;
+  margin-bottom: 40px;
 }
 
 .proj-nav hr{
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.proj-top-blog::after{
+    content: "❦";
+    position: absolute;
+    width: 10px;
+    left: 50%;
+    margin-left: -5px;
+    margin-bottom: 20px;
+    color: maroon;
+    font-size: 18px;
 }
 
 
