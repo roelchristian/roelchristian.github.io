@@ -466,12 +466,6 @@ button[type=submit] {
 .footer-mobile{
   display: none;
 }
-
-.by-line a{
-  font-size: 75%;
-  letter-spacing: 1px;
-}
-
 .home-page a{
   text-transform: uppercase;
   font-size: 12px;
