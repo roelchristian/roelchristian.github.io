@@ -261,15 +261,9 @@ p.secstart{
 }
 
 .top-blog{
-  font-size: 18px;
   color: #444;
-  text-transform: uppercase;
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 400;
-  text-align: center;
-  padding: 15px;
+  font-weight: 600;
   margin-top: 200px;
-  line-height: 50px;
   padding-left: -30px;
   padding-right: -30px;
 
