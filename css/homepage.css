@@ -2,6 +2,15 @@
 Stylesheet for the landing page
 */
 
+.main-greet{
+     display: block;
+    margin-bottom: 20px;
+    font-size: 1.3em;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
+
+
 .social{
   margin-top: 30px;
   margin-bottom: 60px;
@@ -55,7 +64,7 @@ Stylesheet for the landing page
   }
 }
 
-#start-message{
+.start-message{
   padding-top: 30px;
   padding-bottom: 30px;
   width: 50%;
@@ -68,7 +77,7 @@ Stylesheet for the landing page
   .main-wrapper{
     width: 90%;
   }
-  #start-message{
+  .start-message{
     padding-top: 50px;
     padding-bottom: 0;
     width: 95%;}
