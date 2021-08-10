@@ -37,23 +37,9 @@ a:hover + #arr {
 
 
 
-.publish-title a{
-  font-size: 14px;
-  font-weight: 600;
-  color: #444;
-  letter-spacing: 1;
-}
-
-.publish-title a:hover{
-  color: #7a0000;
-}
-
-
-
 .publish-date{
   color:#444;
   font-size: 12px;
-  letter-spacing: 1px;
 
 }
 
