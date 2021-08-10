@@ -191,18 +191,6 @@ a:hover{
   width: 100%;
 }
 
-.greet h1{
-      font-family: Josefin Sans, sans-serif;
-    font-size: 35px;
-    text-transform: uppercase;
-    color: #7a0000;
-    letter-spacing: 2px;
-}
-
-.greet{
-  margin-top:180px;
-  height: 50vh;
-}
 
 .err-greet{
   margin-top:180px;
@@ -225,7 +213,8 @@ a:hover{
 h1{
   font-size: 2em;
   line-height:2.5em;
-  font-weight:600;
+  font-weight:800;
+  color:#444;
 }
 
 h2{
