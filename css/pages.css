@@ -281,15 +281,11 @@ p.secstart{
 }
 
 .toplogo{
-  font-size: 20px;
-  color: #444;
-  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2em;
+  line-height:2.5em;
+  color: #111;
   padding-bottom: 0;
-  text-transform: uppercase;
-  font-weight: 400;
-  text-align: center;
-  padding: 15px;
-  margin: auto;
+  font-weight: 600;
   line-height: 50px;
 
 }
