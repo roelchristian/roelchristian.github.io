@@ -9,6 +9,13 @@
 <body>
     <div class="wrapper">
     <div class="blog-head">
+        
+       <div class="by-line">
+
+           <span>{{page.date | date: '%B %d, %Y' }} </span>
+
+      </div>
+        
       {% if page.namespace %}
 
       <div class="top-blog">
@@ -23,12 +30,7 @@
 
       {% endif %}
 
-      <div class="by-line">
-
-        <span class="author">{% if page.author %}{{ page.author }}{% else %}Roel Christian Yambao{% endif %} &middot; </span>{{page.date | date: '%B %d, %Y' }} <br>
-        <a href="#article">Read</a> &middot; <a href="../">Return</a>
-
-      </div>
+      
     </div>
 
     <div class="container">
