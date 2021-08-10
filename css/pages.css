@@ -241,10 +241,6 @@ p.secstart{
     content: 'ADD';
 }
 
-.blog-head{
-  margin-bottom: 360px;
-
-}
 
 .toplogo{
   color: #111;
@@ -255,15 +251,12 @@ p.secstart{
 }
 
 .by-line{
-  font-size: 12pz;
-  text-align: center;
   color:#808080;
 }
 
 .top-blog{
   color: #444;
   font-weight: 600;
-  margin-top: 200px;
   padding-left: -30px;
   padding-right: -30px;
 
