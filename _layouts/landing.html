@@ -12,46 +12,15 @@
         <span class="main-greet">Hi, I&rsquo;m Roel Christian!</span> I&rsquo;m a twenty-something dilettante from Manila who loves watching films. I&rsquo;m an accountant by trade, having worked as a data analyst in finance and IT for about three years now. I also write, and this website is home to my (mostly incoherent) ramblings.
 
 
-    <div class="homenav">
-      <a href="/cv" class="homenav-link">R&eacute;sum&eacute;</a> &middot;
-      <a href="/blog" class="homenav-link">Blog</a> &middot;
-      <a href="/links" class="homenav-link">Links</a> &middot;
-      <a href="/contact" class="homenav-link">Contact</a>
-    </div>
-    <div class="social">
-        {% for social in site.data.social %}
-        <a class="hvr-icon-float" href="{{ social.link }}" target="_blank" rel="noreferrer">
-          <i class="soc-link fa fa-{{ social.name }} hvr-icon" aria-hidden="true"></i>
-        </a>
-        {% endfor %}
+      <div class="homenav">
+        <a href="/cv" class="homenav-link">CV</a> &middot;
+        <a href="/blog" class="homenav-link">Blog</a> &middot;
+        <a href="/links" class="homenav-link">Links</a> &middot;
+        <a href="/contact" class="homenav-link">Connect</a>
       </div>
- <footer>
-      
-      <div class="footer">
-        <div class="foottext">
-          <a href="/terms">Terms of Use </a> &middot; <a href="/es">Espa&ntilde;ol </a> &middot; <a href="/pt">Portugu&ecirc;s</a>
-        </div>
-      </div>
-      <div class="footer-mobile">
-        <a href="/terms">Terms</a> &middot; <a href="/es">Espa&ntilde;ol</a> &middot; <a href="/pt">Portugu&ecirc;s</a>
-      </div>
-    </footer>
-
 
       </div>
   </div><!-- main-wrapper -->
-
-     
-<script language="JavaScript">
-
-    function toggle(id) {
-        var state = document.getElementById(id).style.display;
-        document.getElementById(id).style.display = 'block';
-        document.getElementById("greet-container").style.display = 'none';
-        document.getElementById("arrow").innerHTML = "<i class='fa fa-angle-up arrow-down-arrow' aria-hidden='true'></i>";
-    } 
-    
-</script> 
 
 </body>
 </html>
