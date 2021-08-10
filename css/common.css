@@ -191,6 +191,12 @@ a:hover{
   width: 100%;
 }
 
+return-landing {
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #777;
+    font-weight: 400;
+}
 
 .err-greet{
   margin-top:180px;
