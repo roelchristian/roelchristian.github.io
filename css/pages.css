@@ -145,12 +145,12 @@ li span {
   padding-top: 20px;
 }
 
-.blog-wrapper > p.secstart::first-letter{
+.blog-wrapper > p.secstart::first-line{
   font-weight:600;
 
 }
 
-p.secstart::first-letter{
+p.secstart::first-line{
   font-weight:600;
   
 }
