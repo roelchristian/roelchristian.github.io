@@ -22,9 +22,11 @@ html { font-family: 'Inter', sans-serif; }
 body{
   font-kerning: auto;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 13px;
+  letter-spacing:0.002em;
+  line-height:1.38;
   text-rendering: optimizeLegibility;
-  color: #444;
+  color: #111;
   margin: 0;
   height: 100%;
 }
@@ -148,7 +150,6 @@ img{
 
 .const-message{
   width: 35%;
-  text-align: center;
   margin: auto;
   padding-bottom: 20px;
 }
@@ -170,7 +171,6 @@ a:hover{
 
 .footer{
       display: block;
-    text-align: center;
     font-size: 12px;
     margin: auto;
 
@@ -209,12 +209,10 @@ a:hover{
 }
 
 .home-page{
-  text-align: center;
   margin-top: -30px;
   font-size: 14px;
 }
 .home-page-mobile{
-  text-align: center;
   margin-top: -20px;
   font-size: 16px;
 }
@@ -493,7 +491,6 @@ button[type=submit] {
 @media screen and (max-width:480px) {
   .const-message{
     width: 80%;
-    text-align: center;
     margin: auto;
     padding-bottom: 20px;
   }
@@ -503,7 +500,6 @@ button[type=submit] {
   }
   .footer-mobile{
     display: block;
-    text-align: center;
     font-size: 14px;
     padding-top: 60px;
     padding-bottom: 15px;
