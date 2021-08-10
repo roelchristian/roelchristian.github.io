@@ -534,18 +534,6 @@ footer{
   display: none;
 }
 
-.toplogo h1{
- font-size: 28px;
- line-height: 1;
- font-weight: 400 !important; 
-
-}
-
-.top-blog h1{
-  line-height: 1;
-  font-size: 24px;
-  font-weight: 400;
-}
 
 .no-padding{
   padding-bottom: 0;
