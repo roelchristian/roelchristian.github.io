@@ -135,11 +135,6 @@ li span {
 
 
 
-.blog-wrapper p > a{
-  color: #7a0000;
-  text-decoration: none;
-}
-
 #article{
   padding-top: 20px;
 }
@@ -164,11 +159,6 @@ p.secstart{
 
 }
 
-
-
-.blog-wrapper a:hover{
-  color: #444;
-}
 
 .blogdate{
   font-size: 14px;
