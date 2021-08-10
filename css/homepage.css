@@ -27,9 +27,7 @@ Stylesheet for the landing page
   font-size: 14px;
 }
 
-.homenav-link:a{
-  color:#111;
-}
+
 .homenav{
   text-transform: uppercase;
     font-size: 12px;
@@ -38,33 +36,6 @@ Stylesheet for the landing page
   font-weight: 600;
   letter-spacing: 1.5px;
   font-stretch: ultra-expanded;
-}
-
-.homenav a:hover{
-    border-bottom: 3px solid #7a0000;
-}
-
-
-.arrow-down-home{
-  font-size: 30px;
-  padding-top: 50px;
-
-}
-
-.arrow-down-arrow{
-    animation: slide1 1s ease-in-out infinite;
-}
-
-
-@keyframes slide1 {
-  0%,
-  100% {
-    transform: translate(0, 0);
-  }
-
-  50% {
-    transform: translate(0, 10px);
-  }
 }
 
 .start-message{
