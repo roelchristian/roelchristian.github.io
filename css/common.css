@@ -22,9 +22,9 @@ html { font-family: 'Inter', sans-serif; }
 body{
   font-kerning: auto;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 16px;
+  line-height:24px;
   letter-spacing:0.002em;
-  line-height:1.38;
   text-rendering: optimizeLegibility;
   color: #111;
   margin: 0;
