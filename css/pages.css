@@ -281,8 +281,6 @@ p.secstart{
 }
 
 .toplogo{
-  font-size: 2em;
-  line-height:2.5em;
   color: #111;
   padding-bottom: 0;
   font-weight: 600;
@@ -324,12 +322,6 @@ p.secstart{
   text-transform: none;
 
 }
-
-.toplogo h1, .top-blog h1{
-  font-weight: 400;
-}
-
-
 
 footer{
   margin-top: 100px;
