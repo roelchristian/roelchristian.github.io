@@ -55,7 +55,7 @@ Stylesheet for the landing page
   }
 }
 
-#hidden{
+#start-message{
   display: none;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -69,7 +69,7 @@ Stylesheet for the landing page
   .main-wrapper{
     width: 90%;
   }
-  #hidden{
+  #start-message{
     padding-top: 50px;
     padding-bottom: 0;
     width: 95%;}
