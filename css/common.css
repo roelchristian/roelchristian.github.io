@@ -50,7 +50,7 @@ pre{
 }
 
 .epigraph{
-    font-size: 12px;
+    font-size: 90%;
     margin-bottom: 10px;
     margin-left: 20%;
 }
@@ -125,7 +125,6 @@ pre{
 }
 
 .poetry{
-  background-color: #fdfbfb;
   padding-left:15px;
   padding-bottom: 2px;
   border-bottom: 1px solid #ddd;
@@ -142,6 +141,11 @@ img{
   padding-bottom: 10px;
   width: 100%;
 
+}
+
+return-landing{
+  color:#444;
+  font-size:90%;
 }
 
 
