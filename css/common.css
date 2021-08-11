@@ -91,10 +91,10 @@ pre{
 }
 
 .photo a{
-    color: #7a0000;
+    color: #e86100;
 }
 .photo > a:hover{
-    border-bottom: 2px solid #7a0000;
+    color:#e86100;
 }
 
 .photo:after{
