@@ -29,7 +29,9 @@ Stylesheet for the landing page
 
 
 .homenav{
-  
+  text-transform: uppercase;
+  letter-spacing:1.2px;
+  font-size:90%;
   padding-top: 60px;
   font-weight: 600;
 }
