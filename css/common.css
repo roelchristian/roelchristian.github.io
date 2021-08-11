@@ -256,10 +256,14 @@ h2{
 }
 
 h3{
-  font-size: 14px;
   font-weight: 600;
   margin-bottom: 15px;
   margin-top: 50px;
+}
+
+.cv-company-dets{
+  color:#888;
+  margin-bottom:20px;
 }
 
 blockquote{
