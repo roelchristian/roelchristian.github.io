@@ -11,12 +11,12 @@ html { font-family: 'Inter', sans-serif; }
 }
 
 ::selection {
-  background: #efdfdf; /* WebKit/Blink Browsers */
-  color: #444;
+  background: #e86100; /* WebKit/Blink Browsers */
+  color: #fff;
 }
 ::-moz-selection {
-  background: #efdfdf; /* Gecko Browsers */
-  color: #444;
+  background: #e86100; /* Gecko Browsers */
+  color: #fff;
 }
 
 html{
@@ -55,6 +55,8 @@ pre{
     margin-left: 20%;
 }
 
+
+
 .epigraph-long{
     font-size: 12px;
     line-height:98%;
@@ -78,6 +80,9 @@ pre{
   font-style: normal;
 }
 
+.post-twitter-link{
+  margin-top:20px;
+}
 
 .photo{
   padding-top: 60px;
