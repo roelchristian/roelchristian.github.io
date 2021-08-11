@@ -30,6 +30,10 @@ a:hover + #arr {
 
 }
 
+.publish-div:hover > publish-title{
+  color: #E86100;
+}
+
 .publish-wrap{
   margin-bottom: 12px;
   font-weight: 400;
