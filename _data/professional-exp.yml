@@ -1,8 +1,17 @@
 main:
+ - company: Vertiv Co.  
+    start: September 2020
+    end: present
+    location: Mandaluyong, Manila Philippines
+    location-url: "https://goo.gl/maps/xii1jaUD5U6PwDnGA"
+    company-website: "https://www.vertiv.com/"
+    position: Master data management analyst
+
   - company: Infosys BPM Ltd
     start: August 2019
     end: July 2020
     location: BGC, Manila, Philippines
     location-url: "https://goo.gl/maps/nuTsEdP8azVqK5QK6"
+    company-website: "https://www.infosysbpm.com/philippines.html"
     position: Senior technical process executive
-    job-description: "I was hired as a Spanish resource for a engagement with a US-based client. I also created a tool to automate ticket tracking and report generation for use in monitoring weekly and monthly account performance. I also worked with the Quality team to assess engagement opportunities and ways to better deal with engagement data by standardizing collection and archiving. Recently I joined a Continuous Improvement training where I submitted a six-sigma project aimed at reducing turnaround time for one of our LOBs."
+    job-description: "Created a tool to automate ticket tracking and report generation for use in monitoring weekly and monthly account performance. Worked with the Quality team and Operations to assess engagement opportunities and ways to better deal with engagement data by standardizing collection and archiving. Joined a Continuous Improvement training where I submitted a six-sigma project aimed at reducing turnaround time for one of our LOBs."
