@@ -19,9 +19,9 @@ I’m a data scientist specializing in providing IT and financial solutions. Hav
   <div class="cv-company-div">
     <h3>{{ job.position }}</h3>
     <div class="cv-company-dets">
-        <div class="cv-company-name"><a href="{{ job.company-website }}"><i class="fa fa-arrow-landmark" aria-hidden="true"></i>&nbsp;{{ job.company }}</a></div>
-        <div class="cv-company-tenure"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;{{ job.start }} — {{ job.end }}</div>
-      <div class="cv-company-address"><a href="{{ job.location-url }}"><i class="fa fa-arrow-map-pin" aria-hidden="true"></i>&nbsp;{{ job.location }}</a></div>
+        <div class="cv-company-name"><a href="{{ job.company-website }}">{{ job.company }}</a></div>
+        <div class="cv-company-tenure">{{ job.start }} — {{ job.end }}</div>
+      <div class="cv-company-address"><a href="{{ job.location-url }}">{{ job.location }}</a></div>
         
     </div>
     <div class="cv-job-description">{{ job.job-description }}</div>
