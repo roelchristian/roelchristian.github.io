@@ -6,8 +6,7 @@ main:
     location-url: "https://goo.gl/maps/xii1jaUD5U6PwDnGA"
     company-website: "https://www.vertiv.com/"
     position: Master data management analyst
-
-  - company: Infosys BPM Ltd
+ - company: Infosys BPM Ltd
     start: August 2019
     end: July 2020
     location: BGC, Manila, Philippines
