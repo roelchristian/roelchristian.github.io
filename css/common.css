@@ -19,6 +19,9 @@ html { font-family: 'Inter', sans-serif; }
   color: #444;
 }
 
+html{
+  background:#F3DDF2;}
+
 body{
   font-kerning: auto;
   font-weight: 400;
