@@ -21,19 +21,19 @@ layout: container-blog
 <div class="post-nav">
   <div class="post-nav-prev {% unless page.next.url %} no-padding {% endunless %}">
     {% if page.previous.url %}
-    <div class="prev-arrow"><a href="{{page.previous.url}}"><i class="fa fa-angle-left" aria-hidden="true"></i> </a></div>
+    <div class="prev-arrow"><a href="{{page.previous.url}}">← </a></div>
 
-    <span class="prev-next"><span class="hide-on-mobile"><i class="fa fa-angle-left" aria-hidden="true"></i>&nbsp;</span>Previous</span>
+    <span class="prev-next"><span class="hide-on-mobile">←&nbsp;</span>Previous</span>
     <a href="{{page.previous.url}}">{{page.previous.title}}</a>
 
     {% endif %}
   </div>
   <div class="{% if page.next.url %} post-nav-next {% else %} none {% endif %}">
     {% if page.next.url %}
-    <span class="prev-next">Next&nbsp;<i class="fa fa-angle-right hide-on-mobile" aria-hidden="true"></i></span>
+    <span class="prev-next">Next&nbsp;<span class="hide-on-mobile>→</span></span>
     <a href="{{page.next.url}}">{{page.next.title}}</a>
 
-    <div class="next-arrow"><a href="{{page.next.url}}"><i class="fa fa-angle-right" aria-hidden="true"></i> </a></div>
+    <div class="next-arrow"><a href="{{page.next.url}}">→</a></div>
     {% endif %}
   </div>
 </div>
