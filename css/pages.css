@@ -30,7 +30,7 @@ a:hover + #arr {
 
 }
 
-.publish-div:hover > publish-title{
+.publish-div:hover > span.publish-title{
   color: #E86100;
 }
 
