@@ -38,6 +38,10 @@ Stylesheet for the landing page
   font-stretch: ultra-expanded;
 }
 
+.homenav-link{
+  padding-right:8px;
+}
+
 .start-message{
   padding-top: 30px;
   padding-bottom: 30px;
