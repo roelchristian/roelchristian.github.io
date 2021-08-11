@@ -35,7 +35,7 @@ a:hover + #arr {
   font-weight: 400;
 }
 
-publish-wrap h2 {
+.publish-wrap h2 {
     border-top: solid 3px #444;
     padding-top: 20px;
 }
