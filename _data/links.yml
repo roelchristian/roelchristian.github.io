@@ -54,8 +54,8 @@ main:
       - sitealias: "Greta Gerwig, <i>Ladybird</i>"
         siteurl: "https://www.netflix.com/title/80205227"
   - sub: "Books"
-    gohere:
     fa-name: book-alt
+    gohere:
       - sitealias: "Jia Tolentino, <em>Trick Mirror</em>"
         siteurl: "https://www.goodreads.com/book/show/43126457-trick-mirror"
       - sitealias: "Isabel Wilkerson, <em>The Warmth of Other Suns</em>"
