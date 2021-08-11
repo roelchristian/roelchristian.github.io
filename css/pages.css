@@ -357,11 +357,11 @@ footer{
 }
 
 .prev-arrow:hover, .next-arrow:hover{
-  color: #7a0000;
+  color: #e86100;
 }
 
 .prev-arrow:hover>a, .next-arrow:hover>a{
-  color: #7a0000;
+  color: #e86100;
 }
 
 .prev-arrow a, .next-arrow a{
@@ -398,7 +398,7 @@ footer{
   content: ".";;
   display: inline;
   font-size: 30px;
-  color: #7a0000;
+  color: #e86100;
 }
 
 .sec-name{
