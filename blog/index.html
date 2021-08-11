@@ -17,7 +17,7 @@ namespace: Blog Posts
 
     <div class="publish-div" onclick="location.href='{{ post.url }}';" style="cursor: pointer;">
 	<span class="publish-title"><b>{{ post.title }}</b></span> <span class="publish-date">{{post.date | date: '%B %-d' }}</span>
-	    <div><span>{{ post.content | strip_html | truncatewords: 25 }}</span>&nbsp;<a href="{{ post.url }}" title="{{ post.title }}"><i class="fa fa-arrow-right" aria-hidden="true"></i>  </a></div>
+	    <div><span>{{ post.content | strip_html | truncatewords: 25 }}</span>&nbsp;<a href="{{ post.url }}" title="{{ post.title }}">→</a></div>
 	</div>
 
     {% if forloop.last %}
