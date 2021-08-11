@@ -8,7 +8,7 @@ permalink: "links"
 
 <div class="extlinks">
   {% for subname in site.data.links.main %}
-    <div class="subname"><h2>{{ subname.sub }}</h2></div>
+    <div class="subname"><h2><i class='fa fa-{{ subname.fa-name }}' aria-hidden='true'></i>&emsp;{{ subname.sub }}</h2></div>
     <ul>
       {% for item in subname.gohere %}
         <li><a href="{{ item.siteurl }}" target="_blank" rel="noreferrer">{{ item.sitealias }}.
