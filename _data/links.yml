@@ -42,7 +42,7 @@ main:
       - sitealias: "My Family&rsquo;s Slave by Alex Tizon"
         siteurl: "https://www.theatlantic.com/magazine/archive/2017/06/lolas-story/524490/"
         description: "From the <i>Atlantic.</i>"
-  - sub: "<i class='fa fa-itunes-note' aria-hidden='true'></i>&nbsp;Music, Films and Television"
+  - sub: "<i class='fa fa-headphones' aria-hidden='true'></i>&nbsp;Music, Films and Television"
     gohere:
       - sitealias: "My last.fm Profile"
         siteurl: "https://www.last.fm/user/roelchristian/library"
@@ -50,7 +50,7 @@ main:
         siteurl: "https://www.theguardian.com/film/filmblog/2011/dec/19/in-the-mood-for-love"
       - sitealias: "Greta Gerwig, <i>Ladybird</i>"
         siteurl: "https://www.netflix.com/title/80205227"
-  - sub: "<i class='fa fa-book-open' aria-hidden='true'></i>&nbsp;Books"
+  - sub: "<i class='fa fa-book' aria-hidden='true'></i>&nbsp;Books"
     gohere:
       - sitealias: "Jia Tolentino, <em>Trick Mirror</em>"
         siteurl: "https://www.goodreads.com/book/show/43126457-trick-mirror"
