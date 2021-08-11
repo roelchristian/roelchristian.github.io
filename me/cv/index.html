@@ -14,4 +14,17 @@ I’m a data scientist specializing in providing IT and financial solutions. Hav
 
 <h2>Professional Experience</h2>
 
+{% for job in site.data.links.main %}
 
+  <div class="cv-company-div">
+    <h3>{{ job.position }}</h3>
+    <div class="cv-company-dets">
+        <div class="cv-company-name">{{ job.company }}</div>
+        <div class="cv-company-tenure">{{ job.start }} — {{ job.end }}</div>
+        <div class="cv-company-address">{{ job.location }}</div>
+        
+    </div>
+    <div class="cv-job-description">{{ job.job-description }}</div>
+    </div>
+
+{% endfor %}
