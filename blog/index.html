@@ -16,8 +16,8 @@ namespace: Blog Posts
     {% endif %}
 
     <div class="publish-div">
-	<span class="publish-title"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></span>
-	    <div><span>{{ post.content | strip_html | truncatewords: 12 }}</span><span class="publish-date">{{post.date | date: '%B %-d' }}</span></div>
+	<span class="publish-title"><b>{{ post.title }}</b></span><span class="publish-date">{{post.date | date: '%B %-d' }}</span>
+	    <div><span>{{ post.content | strip_html | truncatewords: 25 }}</span>... <a href="{{ post.url }}" title="{{ post.title }}"> Read more<i class="fa fa-angle-right" aria-hidden="true"></i>  </a></div>
 	</div>
 
     {% if forloop.last %}
