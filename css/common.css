@@ -528,8 +528,6 @@ button[type=submit] {
 
 @media screen and (max-width:480px) {
   .const-message{
-    width: 80%;
-    margin: auto;
     padding-bottom: 20px;
   }
 
