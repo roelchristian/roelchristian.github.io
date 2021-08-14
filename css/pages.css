@@ -73,7 +73,7 @@ a:hover + #arr {
   vertical-align: super;
   cursor: pointer;
   font-size: 12px;
-  font-weight: 600;
+  font-weight: inherit;
   line-height: 1;
 }
 
