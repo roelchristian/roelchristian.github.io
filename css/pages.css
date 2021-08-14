@@ -104,7 +104,7 @@ a:hover + #arr {
 
 
 li{
-  margin: 10px 0;
+  margin: 5px 10px 5px -10px;
 }
 
 ul,ol{
@@ -113,7 +113,7 @@ ul,ol{
 
 li span {
   position: relative;
-  left: 10px;
+  left: 5px;
 }
 
 
