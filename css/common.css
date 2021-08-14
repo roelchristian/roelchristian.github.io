@@ -184,10 +184,8 @@ return-landing a{
 }
 
 .const-message{
-  width: 35%;
-  margin: auto;
-  padding-bottom: 20px;
-  text-align:center;
+
+  padding-bottom: 30px;
 }
 
 a{
