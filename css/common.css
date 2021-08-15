@@ -271,17 +271,16 @@ h3{
   margin-top: 50px;
 }
 
-.cv-company-dets{
+.cv-company-dets, .cv-other-dets{
   color:#888;
   margin-bottom:20px;
 }
 
-.cv-company-dets, .cv-job-description{
+.cv-company-dets, .cv-job-description, .cv-other-dets{
   font-size:95%;
 }
 
-.cv-company-dets a{
-  color:#888;
+.cv-company-dets a, .cv-other-dets a{
   font-weight: 400;
 }
 
@@ -463,10 +462,6 @@ button[type=submit] {
 
 .post-dets a{
   color: #444;
-}
-
-.post-dets a:hover{
-  color: #7a0000;
 }
 
 .post-dets div {
