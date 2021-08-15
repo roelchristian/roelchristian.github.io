@@ -13,4 +13,19 @@ main:
    location-url: "https://goo.gl/maps/nuTsEdP8azVqK5QK6"
    company-website: "https://www.infosysbpm.com/philippines.html"
    position: Senior technical process executive
-   job-description: "Created a tool to automate ticket tracking and report generation for use in monitoring weekly and monthly account performance. Worked with the Quality team and Operations to assess engagement opportunities and ways to better deal with engagement data by standardizing collection and archiving. Joined a Continuous Improvement training where I submitted a six-sigma project aimed at reducing turnaround time for one of our LOBs."
+   job-desc-list:
+    - bullet: "Created a tool to automate ticket tracking and report generation for use in monitoring weekly and monthly account performance"
+    - bullet: " Worked with the Quality team and Operations to assess engagement opportunities and ways to better deal with engagement data by standardizing collection and archiving."
+    - bullet: "Joined a Continuous Improvement training where I submitted a six-sigma project aimed at reducing turnaround time for one of our LOBs."
+ - company: Institutional Shareholder Services
+   start: January 2018
+   end: July 2019
+   location: Makati, Manila, Philippines
+   location-url: "https://goo.gl/maps/y9cpSZCoXhH9Szx28"
+   company-website: "https://www.issgovernance.com/"
+   position: "Junior data analyst, Latin America"
+   job-desc-list:
+    - bullet: "Created data manuals and standardized work process for LATAM team"
+    - bullet: "Participated in and led cross-department trainings, mainly in relation to corporate governance practices for Latin American markets, particularly Brazil"
+    - bullet: "Automated queue management, job assignment and feedback tracking for LATAM markets"
+    - bullet: "Liaised with other teams to standardize and improve proxy data quality and align policies for Latin America with company and industry practices"
