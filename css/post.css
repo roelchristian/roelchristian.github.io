@@ -108,6 +108,7 @@ blockquote{
 
 .post-nav a{
   color: black;
+  font-weight: 600;
 }
 
 .post-nav-next, .post-nav-prev {
