@@ -4,37 +4,14 @@ html { font-family: 'Inter', sans-serif; }
   html { font-family: 'Inter var', sans-serif; }
 }
 body{
-		margin: 10% 28% 10% 28%;
-		line-height: 1.5;
-		font-size: 16px;
-		font-size: var(--fontSize);
-	  line-height: var(--lineHeight);
-
-	  letter-spacing: -0.004em;
-
-	  font-weight: 400;
-
-	  -webkit-text-size-adjust: 100%;
-	  -ms-text-size-adjust: 100%;
-
-	  -webkit-overflow-scrolling: touch;
-	  scroll-behavior: smooth;
-
-	  font-kerning: normal;
-	    -webkit-font-kerning: normal;
-	    -ms-font-kerning: normal;
-	    -moz-font-kerning: normal;
-	    -o-font-kerning: normal;
-
-	  font-variant-ligatures: contextual common-ligatures;
-	    -webkit-font-variant-ligatures: contextual common-ligatures;
-	    -ms-font-variant-ligatures: contextual common-ligatures;
-	    -moz-font-variant-ligatures: contextual common-ligatures;
-	    -o-font-variant-ligatures: contextual common-ligatures;
-
-	  /* required to work around letter-spacing bug in Chrome: */
-	  font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1;
-
+	margin: 10% 28% 10% 28%;
+	line-height: 1.5;
+	font-size: 14px;
+	font-size: var(--fontSize);
+	font-weight: 400;
+	font-kerning: normal;
+	font-variant-ligatures: contextual common-ligatures;
+	font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1;
 }
 
 h1{
