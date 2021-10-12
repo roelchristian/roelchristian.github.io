@@ -209,6 +209,11 @@ p.ird {
   margin-bottom:10px;
 }
 
+.gloss{
+  text-transform: uppercase;
+  font-size:80%;
+}
+
 @media screen and (max-width:480px) {
 
   .post-nav{
