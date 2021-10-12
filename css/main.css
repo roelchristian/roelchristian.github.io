@@ -1,6 +1,10 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
 body{
 	margin: 10% 28% 10% 28%;
-	font-family: Source Sans Pro, 'Segoe UI',Helvetica, sans-serif;
 	line-height: 1.5;
   	font-size: 16px;
 }
