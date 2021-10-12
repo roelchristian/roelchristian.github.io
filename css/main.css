@@ -32,6 +32,15 @@ h2{
 	color: #444;
 }
 
+h3{
+	font-style: italic;
+	font-size: 16px;
+	padding-top:30px;
+	color: #444;
+}
+
+
+
 a{
 	color: #800000;
 	text-decoration: none;
