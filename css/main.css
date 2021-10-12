@@ -7,7 +7,6 @@ body{
 	margin: 10% 28% 10% 28%;
 	line-height: 1.5;
 	font-size: 14px;
-	font-size: var(--fontSize);
 	font-weight: 400;
 	font-kerning: normal;
 	font-variant-ligatures: contextual common-ligatures;
@@ -37,7 +36,6 @@ h2{
 	font-weight: 600;
 	font-size: 16px;
 	padding-top:30px;
-	color: #444;
 }
 
 h3{
