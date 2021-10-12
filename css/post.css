@@ -90,7 +90,7 @@ blockquote{
 }
 .prev-next{
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 10px;
   letter-spacing: 1.5px;
   margin-bottom: 10px;
   display: block;
@@ -102,8 +102,12 @@ blockquote{
   width: 100%;
   padding-top: 12px;
   padding-bottom: 12px;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1;
+}
+
+.post-nav a{
+  color: black;
 }
 
 .post-nav-next, .post-nav-prev {
