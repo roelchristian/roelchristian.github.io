@@ -72,7 +72,6 @@ blockquote{
     padding-bottom: 12px;
     font-size: 13px;
     display: flex;
-    font-family: 'Josefin Sans', sans-serif;
 
 }
 
@@ -155,9 +154,6 @@ blockquote{
   font-size: 90%;
 }
 
-.gloss{
-  font-family: "Alegreya Sans SC", Helvetica, sans-serif;
-}
 
 .gloss-block::before{
   content: " ";
