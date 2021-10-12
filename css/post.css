@@ -38,20 +38,8 @@ article{
   margin-top: 75px;
 }
 
-blockquote::before {
-  content: "";
-  display: block;
-  width: 25%;
-  border-top: 5px solid #ddd;
-  padding-top: 5px;
-  margin-top: 15px;
-  margin-left: -10px;
-}
-
 blockquote{
-  background-color: #fdfbfb;
   margin-left: -15px;
-  border-bottom: 1px solid #ddd;
   padding-left: 15px;
   padding-right: 10px;
   padding-bottom: 5px;
