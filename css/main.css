@@ -12,7 +12,6 @@ body{
 h1{
 	font-weight: 400;
 	text-transform: uppercase;
-	font-family: Josefin Sans, Gill Sans, sans-serif;
 	font-size: 20px;
 	letter-spacing: 2px;
 
@@ -37,9 +36,8 @@ h2{
 }
 
 h3{
-	font-style: italic;
-	font-weight: 400;
-	font-size: 16px;
+	font-weight: 600;
+	font-size: 14px;
 	padding-top:30px;
 	color: #444;
 }
@@ -67,7 +65,6 @@ li{
 	margin-top: 30px; 
 	font-weight: 400;
 	text-transform: uppercase;
-	font-family: Josefin Sans, Gill Sans, sans-serif;
 	font-size: 13px;
 	letter-spacing: 2px;
 }
