@@ -254,6 +254,7 @@ h1{
   font-size: 2em;
   line-height:1.5em;
   font-weight:600;
+  color:#fff;
 }
 
 h2{
@@ -262,6 +263,7 @@ h2{
   font-weight: 600;
   margin-top:50px;
   line-height:1.5;
+  color:#fff;
 }
 
 h3{
@@ -489,7 +491,8 @@ button[type=submit] {
   padding-top: 12px;
   padding-bottom: 12px;
   font-size: 12px;
-  line-height: 1;
+  line-height: 1.5;
+  letter-spacing:.3px;
 }
 
 .post-nav-next, .post-nav-prev {
