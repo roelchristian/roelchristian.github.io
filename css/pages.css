@@ -236,6 +236,10 @@ p.secstart{
   margin-bottom:-20px;
 }
 
+.post-date-nav {
+    font-weight: 600;
+}
+
 .top-blog{
   color: #444;
   font-weight: 600;
