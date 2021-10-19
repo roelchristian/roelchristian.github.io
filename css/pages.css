@@ -122,6 +122,8 @@ li span {
 
 }
 
+
+
 p.secstart::first-line{
   font-weight:600;
   
@@ -137,6 +139,18 @@ p.secstart{
 
 }
 
+.blog-wrapper a:hover {
+    color: white;
+    background: #e86100;
+}
+.blog-wrapper a {
+    font-weight: 400;
+    border-bottom: 2px solid #e86100;
+}
+
+.ret a, .fn a{
+  border-bottom: none;
+}
 
 .blogdate{
   font-size: 14px;
