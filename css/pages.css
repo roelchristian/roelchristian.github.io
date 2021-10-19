@@ -39,6 +39,10 @@ a:hover + #arr {
   font-weight: 400;
 }
 
+.publish-title{
+  font-weight:600;
+}
+
 .publish-wrap h2 {
     border-bottom: solid 2px #444;
     padding-top: 20px;
