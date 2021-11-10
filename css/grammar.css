@@ -36,3 +36,22 @@
   color: #0062cc;
   text-decoration: none;
 }
+
+table{
+  margin: 20px 0;
+}
+
+table.full-wd{
+  width: 100%;
+}
+
+table.mid-wd{
+  width: 75%;
+}
+
+thead
+
+td, th {
+    padding: 5px;
+    text-align: left;
+}
