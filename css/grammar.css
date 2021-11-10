@@ -37,6 +37,10 @@
   text-decoration: none;
 }
 
+.ird{
+ font-style: italic;
+}
+
 table{
   margin: 20px 0;
 }
