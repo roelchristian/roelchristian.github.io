@@ -49,9 +49,20 @@ table.mid-wd{
   width: 75%;
 }
 
-thead
+table {
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    border-collapse: collapse;
+}
 
-td, th {
+table thead tr {
+    border-bottom: 1px solid;
+}
+
+th, td{
     padding: 5px;
     text-align: left;
 }
+
+th{
+  
