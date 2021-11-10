@@ -27,3 +27,12 @@
     font-size: 12px;
     font-weight: 600;
 }
+
+.grammar-nav a{
+  color: #777;
+}
+
+.grammar-nav a:hover{
+  color: #0062cc;
+  text-decoration: none;
+}
