@@ -50,13 +50,13 @@ table.mid-wd{
 }
 
 table {
-    border-bottom: 1px solid;
-    border-top: 1px solid;
+    border-bottom: 1px solid #777;
+    border-top: 1px solid #777;
     border-collapse: collapse;
 }
 
 table thead tr {
-    border-bottom: 1px solid;
+    border-bottom: 1px solid #777;
 }
 
 th, td{
