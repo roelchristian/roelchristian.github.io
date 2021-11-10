@@ -12,3 +12,18 @@
 .index-subsection-links{
   color: #777;
 }
+
+/* grammar pages */
+.grammar-nav {
+    border-bottom: 2px solid;
+    border-top: 2px solid;
+    color: #777;
+    padding: 8px 0;
+}
+
+.grammar-nav-sec {
+    display: inline;
+    margin: 0 5px;
+    font-size: 12px;
+    font-weight: 600;
+}
