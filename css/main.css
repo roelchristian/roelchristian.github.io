@@ -61,8 +61,10 @@ li{
 .under-construction-flag {
     margin: 15px 0;
     padding: 10px;
-    background: #ffcccc;
+    background: #ffe28a;
     font-weight: 600;
+    border: 1px solid #755800;
+    color: #755800;
 }
 
 
