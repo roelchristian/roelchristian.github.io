@@ -13,15 +13,3 @@ layout: container
 {{ content }}
 
 </article>
-
-<script>
-      $(function(){
-    var counter=1;
-    $('ol.example').each(function(){
-      $this = $(this);
-      $this.attr('start',counter);
-      counter += $(this).find('li:not(:has(ol))').length
-    });
-  });
-    
-</script>
