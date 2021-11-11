@@ -3,6 +3,14 @@
   padding: 10px 0;
 }
 
+.chapter-container a{
+  color: inherit;
+}
+
+.chapter-container h2{
+  font-size: inherit;
+}
+
 .chapter-title{
   padding-bottom: 5px;
   font-size: 18px;
@@ -11,6 +19,11 @@
 
 .index-subsection-links{
   color: #777;
+}
+
+.index-subsection-links:not(:last-child):after {
+    content: "·";
+    padding: 8px;
 }
 
 /* grammar pages */
