@@ -88,14 +88,11 @@ th{
   letter-spacing: 1px;
 }
   
-article { 
-    counter-reset: example-cnt; 
-}
 ol.example li {
     list-style: none;
 }
-ol.example li:before { 
-    content: counter(example-cnt) "."; 
+.example li::before { 
+    content: counter(example-cnt) ". "; 
     counter-increment: example-cnt;
     position:relative;
     text-align: right;
