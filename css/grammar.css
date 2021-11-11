@@ -88,13 +88,13 @@ th{
   letter-spacing: 1px;
 }
   
-ol.start { 
-    counter-reset: mycounter; 
+ol li {
+  counter-increment: mycounter;
 }
-ol.start li, ol.continue li {
-    list-style: none;
-}
-ol.start li:before, ol.continue li:before { 
-    content: counter(mycounter) ". "; 
-    counter-increment: mycounter;
-}
+    article { counter-reset: mycounter; }
+    ol.continue { /*counter-reset: mycounter 2; */}
+    ol li { 
+        counter-increment: mycounter;
+        list-style-type: none;
+    }
+    ol li:before { content: counter(mycounter) ". "; }
