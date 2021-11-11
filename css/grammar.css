@@ -101,14 +101,13 @@ ol.example > li {
 ol.example > li:before { 
     content: counter(mycounter) "."; 
     counter-increment: mycounter;
-  position:relative;
-    text-align: right;
-    width:25px;
-    display:block;
-    float:left;
-    left:-30px;
+    position: relative;
+    text-align:right;
+    float: left;
+    left: -30px;
+    width: 25px;
 }
 
-.example p{
+li > p{
   line-height: 0.5;
 }
