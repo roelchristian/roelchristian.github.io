@@ -97,6 +97,7 @@ article {
 }
 .example:before {
   content: counter(example-counter) ". ";
+  counter-increment: example-counter;
   display: block;
   position: absolute;
   margin-left: -75px;
