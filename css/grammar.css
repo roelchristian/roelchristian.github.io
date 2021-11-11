@@ -108,3 +108,7 @@ ol.example > li:before {
     float:left;
     left:-30px;
 }
+
+.example p{
+  line-heigh: 0.5;
+}
