@@ -88,29 +88,13 @@ th{
   letter-spacing: 1px;
 }
   
-article { 
-    counter-reset: example-cnt; 
+ol.start { 
+    counter-reset: mycounter; 
 }
-
-ol.example li {
+ol.start li, ol.continue li {
     list-style: none;
 }
-.example li::before { 
-    content: counter(example-cnt) ". "; 
-  .example li::before { 
-    content: counter(example-cnt) ". "; 
-    counter-increment: example-cnt;
-    position:relative;
-    text-align: right;
-    width:25px;
-    display:block;
-    float:left;
-    left:-30px;
-}
-    position:relative;
-    text-align: right;
-    width:25px;
-    display:block;
-    float:left;
-    left:-30px;
+ol.start li:before, ol.continue li:before { 
+    content: counter(mycounter) ". "; 
+    counter-increment: mycounter;
 }
