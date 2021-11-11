@@ -98,11 +98,13 @@ ol.example > li {
 
 }
 
-ol.example ol{
-  display:inline-grid;
-}
-
 ol.example > li:before { 
     content: counter(mycounter) "."; 
     counter-increment: mycounter;
+  position:relative;
+    text-align: right;
+    width:25px;
+    display:block;
+    float:left;
+    left:-30px;
 }
