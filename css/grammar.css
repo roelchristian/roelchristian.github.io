@@ -88,7 +88,7 @@ th{
   letter-spacing: 1px;
 }
   
-ol.example { 
+article { 
     counter-reset: example-cnt; 
 }
 ol.example li {
