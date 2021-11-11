@@ -88,3 +88,21 @@ th{
   letter-spacing: 1px;
 }
   
+
+html { 
+    counter-reset: mycounter; 
+}
+
+ol.example > li {
+    list-style: none;
+
+}
+
+ol.example ol{
+  display:inline-grid;
+}
+
+ol.example > li:before { 
+    content: counter(mycounter) "."; 
+    counter-increment: mycounter;
+}
