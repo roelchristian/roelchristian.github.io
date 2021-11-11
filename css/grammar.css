@@ -88,18 +88,16 @@ th{
   letter-spacing: 1px;
 }
   
-article { 
-    counter-reset: mycounter; 
+article {
+  counter-reset: example-counter;
 }
-ol.example{
-counter-increment: example-counter;
+
+.example{
+  counter-increment: example-counter;
 }
-ol.example li {
-    list-style: none;
-}
-ol.example li:before { 
-    content: counter(mycounter) ". "; 
-    display: block;
+.example:before {
+  content: counter(example-counter) ". ";
+  display: block;
   position: absolute;
   margin-left: -75px;
   top: 0;
