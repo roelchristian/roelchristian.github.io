@@ -88,17 +88,3 @@ th{
   letter-spacing: 1px;
 }
   
-article {
-  counter-reset: example-counter;
-}
-
-.example{
-  counter-increment: example-counter;
-}
-.example:before {
-  content: counter(example-counter) ". ";
-  display: block;
-  position: absolute;
-  margin-left: -75px;
-  top: 0;
-}
