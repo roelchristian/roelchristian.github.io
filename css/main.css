@@ -45,7 +45,7 @@ h3{
 
 
 a{
-	color: #0062cc;
+	color: #3D550C;
 	text-decoration: none;
 }
 
@@ -78,12 +78,12 @@ li{
 
 
 ::selection {
-  background: #efdfdf; /* WebKit/Blink Browsers */
-  color: #444;
+  background: #3D550C; /* WebKit/Blink Browsers */
+  color: #fff;
 }
 ::-moz-selection {
-  background: #efdfdf; /* Gecko Browsers */
-  color: #444;
+  background: #3D550C; /* Gecko Browsers */
+  color: #fff;
 }
 
 @media (max-width: 480px) {
