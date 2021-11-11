@@ -19,6 +19,7 @@
 
 .index-subsection-links{
   color: #777;
+  display: inline;
 }
 
 .index-subsection-links:not(:last-child):after {
