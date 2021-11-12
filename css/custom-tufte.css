@@ -1,0 +1,19 @@
+html { 
+    counter-reset: mycounter; 
+}
+
+.example > li {
+    counter-increment: mycounter;
+}
+
+.example > li::marker {
+    content: counter(mycounter) ".";
+}
+
+li > p{
+  line-height: 0.5;
+}
+
+ird{
+  font-style: italic;
+}
