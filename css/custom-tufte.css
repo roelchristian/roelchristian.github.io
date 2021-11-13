@@ -42,7 +42,8 @@ p.ird {
     margin: 0em;
     padding: 0em 0.5em;
 }
-ir{
+
+.ir, .ird{
     font-style: italic;
 }
 
