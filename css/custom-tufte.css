@@ -2,6 +2,10 @@ html {
     counter-reset: mycounter; 
 }
 
+li{
+    padding-left: 2rem
+}
+
 .example > li {
     counter-increment: mycounter;
 }
