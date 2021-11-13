@@ -10,9 +10,6 @@ html {
     content: counter(mycounter) ".";
 }
 
-li > p{
-  line-height: 0.5;
-}
 
 ird{
   font-style: italic;
