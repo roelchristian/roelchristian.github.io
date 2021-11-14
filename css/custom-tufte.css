@@ -1,17 +1,17 @@
 html { 
-    counter-reset: mycounter; 
+    counter-reset: example-counter; 
 }
 
 li{
-    padding-left: calc(var(--line-height)*1.2);
+    padding-left: var(--font-size);
 }
 
 .example > li {
-    counter-increment: mycounter;
+    counter-increment: example-counter;
 }
 
 .example > li::marker {
-    content: counter(mycounter) ".";
+    content: counter(example-counter) ".";
 }
 
 .gloss-block::before{
