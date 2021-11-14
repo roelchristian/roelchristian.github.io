@@ -24,8 +24,8 @@ html {
   --font-size: 15px;
   --var-font-size: 13px;
   --footnote-size: 11px;
-  --line-height: calc(var(--font-size) * 1.6);
-  --var-line-height: calc(var(--var-font-size) * 1.6);
+  --line-height: calc(var(--font-size) * 1.55);
+  --var-line-height: calc(var(--var-font-size) * 1.55);
 }
 
 body {
