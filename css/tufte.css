@@ -13,11 +13,11 @@ html {
 
 :root{
   --main-font: "Inter";
-  --title-font: "InterDisplay";
+  --title-font: "Inter";
   --mono-font: "IBM Plex Mono";
-  --main-bg-color:  #333;
+  --main-bg-color:  #fffff8;
   --main-color: #111;
-  --darkmode-bg-color: #121212;
+  --darkmode-bg-color: #333;
   --darkmode-color: #ddd;
   --font-size: 14px;
   --line-height: calc(var(--font-size) * 1.5);
