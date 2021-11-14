@@ -10,6 +10,10 @@ li p{
     margin:0;
 }
 
+ol.example{
+    padding-left: var(--font-size);
+}
+
 .example > li {
     counter-increment: example-counter;
 }
