@@ -25,6 +25,7 @@ html {
   --var-font-size: 13px;
   --footnote-size: 11px;
   --line-height: calc(var(--font-size) * 1.6);
+  --var-line-height: calc(var(--var-font-size) * 1.6);
 }
 
 body {
@@ -52,7 +53,7 @@ h1 {
     margin-top: calc(var(--line-height*2));
     margin-bottom: var(--line-height);
     font-size: 2.2rem;
-    line-height: 1;
+    line-height: var(--line-height);
 }
 
 h2 {
@@ -61,7 +62,7 @@ h2 {
     margin-top: 3em;
     margin-bottom: margin-bottom: var(--line-height);
     font-size: 1.2rem;
-    line-height: 1;
+    line-height: var(--line-height);
 }
 
 h3 {
@@ -69,7 +70,7 @@ h3 {
     font-size: var(--font-size);
     margin-top: calc(var(--line-height*1.2));
     margin-bottom: var(--line-height);
-    line-height: 1;
+    line-height: var(--line-height);
     color: var(--var-color-gray);
 }
 
@@ -95,7 +96,7 @@ p.subtitle {
     margin-bottom: var(--line-height);
     font-size: 1.5rem;
     display: block;
-    line-height: 1;
+    line-height: var(--line-height);
 }
 
 sub{
@@ -214,7 +215,7 @@ figcaption {
     margin-top: 0;
     margin-bottom: 0;
     font-size: var(--font-size);
-    line-height: 1.6;
+    line-height: var(--line-height);
     vertical-align: baseline;
     position: relative;
     max-width: 40%;
@@ -280,7 +281,7 @@ img {
     margin-top: 0.3rem;
     margin-bottom: 0;
     font-size: var(--var-font-size);
-    line-height: 1.3;
+    line-height: var(--var-line-height);
     vertical-align: baseline;
     position: relative;
 }
@@ -332,8 +333,8 @@ div.table-wrapper {
 
 code, pre > code {
     font-family: var(--mono-font), Consolas, Menlo, Courier, monospace;
-    font-size: var(--font-size);
-    line-height: 1.42;
+    font-size: var(--var-font-size);
+    line-height: var(--var-line-height);
     -webkit-text-size-adjust: 100%; /* Prevent adjustments of font size after orientation changes in iOS. See https://github.com/edwardtufte/tufte-css/issues/81#issuecomment-261953409 */
 }
 
