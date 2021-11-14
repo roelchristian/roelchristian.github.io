@@ -20,8 +20,8 @@ html {
   --main-color: #111;
   --darkmode-bg-color: #222;
   --darkmode-color: #ddd;
-  --font-size: 14px;
-  --var-font-size: 12px;
+  --font-size: 15px;
+  --var-font-size: 13px;
   --line-height: calc(var(--font-size) * 1.5);
 }
 
@@ -45,8 +45,8 @@ body {
 }
 
 h1 {
-    font-family: var(--title-font);
-    font-weight: 400;
+    font-family: var(--main-font);
+    font-weight: 600;
     margin-top: calc(var(--line-height*2));
     margin-bottom: var(--line-height);
     font-size: 2.2rem;
