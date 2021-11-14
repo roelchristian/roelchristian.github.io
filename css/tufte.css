@@ -305,11 +305,11 @@ table.fullwidth {
 
 div.table-wrapper {
     overflow-x: auto;
-    font-family: "Trebuchet MS", "Gill Sans", "Gill Sans MT", sans-serif;
+    font-family: var(--sans-font), sans-serif;
 }
 
 .sans {
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    font-family: var(--sans-font), sans-serif;
     letter-spacing: .03em;
 }
 
@@ -383,7 +383,7 @@ label.margin-toggle:not(.sidenote-number) {
 
 @media (max-width: 760px) {
     body {
-        width: 84%;
+        width: 95%;
         padding-left: 8%;
         padding-right: 8%;
     }
