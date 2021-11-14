@@ -62,3 +62,21 @@ th, td {
     text-align: left;
     padding: 5px 0;
 }
+
+table.full-wd{
+  width: 100%;
+}
+
+table.mid-wd{
+  width: 75%;
+}
+
+table {
+    border-bottom: 1px solid #777;
+    border-top: 1px solid #777;
+    border-collapse: collapse;
+}
+
+table thead tr {
+    border-bottom: 1px solid #777;
+}
