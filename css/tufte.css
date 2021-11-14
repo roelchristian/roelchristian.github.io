@@ -1,7 +1,5 @@
 @charset "UTF-8";
 
-@import url('https://rsms.me/inter/inter.css');
-
 html {
   font-family: var(--main-font);
 }
@@ -12,13 +10,13 @@ html {
 }
 
 :root{
-  --main-font: "Merriweather", Georgia, serif;
-  --sans-font: "Merriweather Sans", Calibri, -system-ui, sans-serif;
-  --title-font: "Inter";
+  --main-font: "PT Serif", Georgia, serif;
+  --sans-font: "PT Sans", Calibri, -system-ui, sans-serif;
+  --title-font: "PT Serif";
   --mono-font: "IBM Plex Mono";
   --main-bg-color:  #fffff8;
   --main-color: #111;
-  --darkmode-bg-color: #333;
+  --darkmode-bg-color: #222;
   --darkmode-color: #ddd;
   --font-size: 14px;
   --line-height: calc(var(--font-size) * 1.5);
