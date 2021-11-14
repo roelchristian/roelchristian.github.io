@@ -475,6 +475,6 @@ label.margin-toggle:not(.sidenote-number) {
     }
   
     div.ex-cont{
-      max-width:95%;
+      width:95%;
   }
 }
