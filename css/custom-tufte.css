@@ -3,7 +3,7 @@ html {
 }
 
 li{
-    padding-left: 2rem
+    padding-left: calc(var(--line-height)*1.2);
 }
 
 .example > li {
