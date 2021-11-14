@@ -416,8 +416,9 @@ label.margin-toggle:not(.sidenote-number) {
 
     section > dl,
     section > ol,
-    section > ul {
-        width: 90%;
+    section > ul,
+    ol.example {
+        width: 95%;
     }
 
     figure {
