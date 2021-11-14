@@ -64,13 +64,19 @@ h2 {
 }
 
 h3 {
-    font-weight: 400;
+    font-weight: 600;
     font-size: var(--font-size);
     margin-top: calc(var(--line-height*1.2));
     margin-bottom: var(--line-height);
     line-height: 1;
     color: var(--var-color-gray);
 }
+
+section h3:not(:first-of-type) {
+    margin-top: 4em;
+    margin-bottom: 0;
+}
+
 
 hr {
     display: block;
