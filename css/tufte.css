@@ -10,9 +10,10 @@ html {
 }
 
 :root{
-  --main-font: "IBM Plex Serif", Georgia, serif;
-  --sans-font: "IBM Plex Sans", Calibri, -system-ui, sans-serif;
-  --title-font: "IBM Plex Serif";
+  --main-font: "Source Sans Pro", serif;
+  --var-serif-font: serif;
+  --sans-font: "Raleway", Calibri, -system-ui, sans-serif;
+  --title-font: "Raleway";
   --mono-font: "IBM Plex Mono";
   --main-bg-color:  #fffff8;
   --main-color: #111;
@@ -52,6 +53,7 @@ h1 {
 
 h2 {
     font-weight: 400;
+    font-family: var(--title-font);
     margin-top: calc(var(--line-height*1.5));
     margin-bottom: var(--line-height);
     font-size: 1.2rem;
