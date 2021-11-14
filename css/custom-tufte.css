@@ -39,7 +39,7 @@ div.gloss-block{
 div.unit {
     float: left;
     margin-bottom: 0.3em;
-    padding-right: 1em;
+    padding-right: 1.2em;
 }
 
 div.ex-cont{
@@ -53,7 +53,6 @@ p.en {
 }
 p.ird {
     margin: 0em;
-    padding: 0 0.5em;
 
 }
 
