@@ -46,7 +46,7 @@ body {
 
 h1 {
     font-family: var(--main-font);
-    font-weight: 600;
+    font-weight: 200;
     margin-top: calc(var(--line-height*2));
     margin-bottom: var(--line-height);
     font-size: 2.2rem;
@@ -54,8 +54,8 @@ h1 {
 }
 
 h2 {
-    font-weight: 400;
-    font-family: var(--title-font);
+    font-weight: 200;
+    font-family: var(--main-font);
     margin-top: calc(var(--line-height*1.5));
     margin-bottom: var(--line-height);
     font-size: 1.2rem;
