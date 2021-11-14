@@ -57,3 +57,8 @@ p.ird {
 .gloss{
     font-family: var(--small-caps-font);
 }
+
+th, td {
+    text-align: left;
+    padding: 5px 0;
+}
