@@ -10,6 +10,10 @@ li p{
     margin:0;
 }
 
+ol.example{
+    max-width: 55%; /* Keep same size as paragraph*/
+}
+
 .example > li {
     counter-increment: example-counter;
 }
@@ -40,10 +44,6 @@ div.unit {
     float: left;
     margin-bottom: 0.3em;
     padding-right: 1.2em;
-}
-
-div.ex-cont{
-    max-width: 550px;
 }
 
 p.en {
