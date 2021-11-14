@@ -7,13 +7,22 @@ html { font-family: 'Inter', sans-serif; }
   html { font-family: 'Inter var', sans-serif; }
 }
 
+:root{
+  --main-bg-color:  #fffff8;
+  --main-color: #111;
+  --darkmode-bg-color: #121212;
+  --darkmode-color: #ddd;
+  --font-size: 14px;
+  --line-height: calc(var(--font-size) * 1.5);
+}
+
 body {
     width: 87.5%;
     margin-left: auto;
     margin-right: auto;
     padding-left: 12.5%;
-    background-color: #fffff8;
-    color: #111;
+    background-color: var(--main-bg-color);
+    color: var(--main-color);
     max-width: 1400px;
     counter-reset: sidenote-counter;
 }
@@ -21,8 +30,8 @@ body {
 /* Adds dark mode */
 @media (prefers-color-scheme: dark) {
     body {
-        background-color: #121212;
-        color: #ddd;
+        background-color: var(--darkmode-bg-color);
+        color: var(--darkmode-color);
     }
 }
 
@@ -35,11 +44,10 @@ h1 {
 }
 
 h2 {
-    font-style: italic;
     font-weight: 400;
     margin-top: 1.5rem;
     margin-bottom: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     line-height: 1;
 }
 
@@ -89,8 +97,8 @@ p,
 dl,
 ol,
 ul {
-    font-size: 1rem;
-    line-height: 1.5rem;
+    font-size: var(--font-size);
+    line-height: var(--line-height);
 }
 
 p {
@@ -135,7 +143,7 @@ blockquote p {
 
 blockquote footer {
     width: 55%;
-    font-size: 0.9rem;
+    font-size: var(--font-size);
     text-align: right;
 }
 
@@ -175,7 +183,7 @@ figcaption {
     clear: right;
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 0.9rem;
+    font-size: var(--font-size);
     line-height: 1.6;
     vertical-align: baseline;
     position: relative;
@@ -241,7 +249,7 @@ img {
     width: 50%;
     margin-top: 0.3rem;
     margin-bottom: 0;
-    font-size: 1rem;
+    font-size: var(--font-size);
     line-height: 1.3;
     vertical-align: baseline;
     position: relative;
@@ -259,14 +267,14 @@ img {
 
 .sidenote-number:after {
     content: counter(sidenote-counter);
-    font-size: 1rem;
+    font-size: var(--font-size);
     top: -0.5rem;
     left: 0.1rem;
 }
 
 .sidenote:before {
     content: counter(sidenote-counter) " ";
-    font-size: 1rem;
+    font-size: var(--font-size);
     top: -0.5rem;
 }
 
@@ -294,24 +302,24 @@ div.table-wrapper {
 
 code, pre > code {
     font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
-    font-size: 1.0rem;
+    font-size: var(--font-size);
     line-height: 1.42;
     -webkit-text-size-adjust: 100%; /* Prevent adjustments of font size after orientation changes in iOS. See https://github.com/edwardtufte/tufte-css/issues/81#issuecomment-261953409 */
 }
 
 .sans > code {
-    font-size: 1rem;
+    font-size: var(--font-size);
 }
 
 h1 > code,
 h2 > code,
 h3 > code {
-    font-size: 0.80em;
+    font-size: var(--font-size);
 }
 
 .marginnote > code,
 .sidenote > code {
-    font-size: 1rem;
+    font-size: var(--font-size);
 }
 
 pre > code {
@@ -331,10 +339,6 @@ pre.fullwidth > code {
     clear:both;
 }
 
-span.newthought {
-    font-variant: small-caps;
-    font-size: 1.2em;
-}
 
 input.margin-toggle {
     display: none;
