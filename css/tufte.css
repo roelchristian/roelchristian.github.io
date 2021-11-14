@@ -20,8 +20,8 @@ html {
   --main-color: #111;
   --darkmode-bg-color: #222;
   --darkmode-color: #ddd;
-  --font-size: 15px;
-  --var-font-size: 13px;
+  --font-size: 14px;
+  --var-font-size: 12px;
   --line-height: calc(var(--font-size) * 1.5);
 }
 
