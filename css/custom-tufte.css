@@ -38,21 +38,21 @@ div.unit {
     float: left;
     margin-bottom: 0.3em;
     margin-left: -0.5em;
-    padding-right: 0.2em;
+    padding-right: 1em;
 }
 
 div.ex-cont{
-    width: 55%
+    max-width: 55%
 };
 
 p.en {
     margin: 0em;
-    padding: 0em 0.5em;
+    padding-right: 0.5em;
     font-size: var(--var-font-size);
 }
 p.ird {
     margin: 0em;
-    padding: 0em 0.5em;
+    padding-right: 0.5em;
 }
 
 .ir, .ird{
