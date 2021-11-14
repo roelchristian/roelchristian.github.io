@@ -18,6 +18,7 @@ html {
   --mono-font: "IBM Plex Mono";
   --main-bg-color:  #fffff8;
   --main-color: #111;
+  --var-color-grey: #888;
   --darkmode-bg-color: #222;
   --darkmode-color: #ddd;
   --font-size: 15px;
@@ -54,7 +55,7 @@ h1 {
 }
 
 h2 {
-    font-weight: 200;
+    font-weight: 400;
     font-family: var(--main-font);
     margin-top: calc(var(--line-height*1.5));
     margin-bottom: var(--line-height);
@@ -63,11 +64,12 @@ h2 {
 }
 
 h3 {
-    font-weight: 600;
+    font-weight: 400;
     font-size: var(--font-size);
     margin-top: calc(var(--line-height*1.2));
     margin-bottom: var(--line-height);
     line-height: 1;
+    color: var(--var-color-gray);
 }
 
 hr {
