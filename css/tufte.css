@@ -3,16 +3,17 @@
 @import url('https://rsms.me/inter/inter.css');
 
 html {
-  font-family: var(--main-font), -system-ui, system-ui, sans-serif;
+  font-family: var(--main-font);
 }
 
 @supports (font-variation-settings: normal) {
-  html { font-family: var(--main-font), -system-ui, system-ui, sans-serif;
+  html { font-family: var(--main-font);
   }
 }
 
 :root{
-  --main-font: "Inter";
+  --main-font: "Merriweather", Georgia, serif;
+  --sans-font: "Merriweather Sans", Calibri, -system-ui, sans-serif;
   --title-font: "Inter";
   --mono-font: "IBM Plex Mono";
   --main-bg-color:  #fffff8;
