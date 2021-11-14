@@ -11,7 +11,7 @@ li p{
 }
 
 ol.example{
-    padding-left: var(--font-size);
+    padding-left: calc(var(--line-height) * 1.2 );
 }
 
 .example > li {
