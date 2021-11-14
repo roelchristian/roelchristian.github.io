@@ -58,7 +58,7 @@ h2 {
     font-weight: 400;
     font-family: var(--main-font);
     margin-top: 3em;
-    margin-bottom: 0;
+    margin-bottom: margin-bottom: var(--line-height);
     font-size: 1.2rem;
     line-height: 1;
 }
