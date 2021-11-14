@@ -6,6 +6,10 @@ li{
     padding-left: var(--font-size);
 }
 
+li p{
+    margin:0;
+}
+
 .example > li {
     counter-increment: example-counter;
 }
