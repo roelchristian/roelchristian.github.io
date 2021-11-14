@@ -10,10 +10,6 @@ li p{
     margin:0;
 }
 
-ol.example{
-    max-width: 50%; /* Keep same size as paragraph*/
-}
-
 .example > li {
     counter-increment: example-counter;
 }
