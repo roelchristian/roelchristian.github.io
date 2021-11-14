@@ -93,6 +93,14 @@ sub{
   font-size: var(--var-font-size);
 }
 
+table{
+  font-size: var(--var-font-size);
+}
+
+table.mid-wd {
+    width: 35%;
+}
+
 
 .danger {
     color: red;
