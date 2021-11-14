@@ -66,25 +66,25 @@ body {
 
 h1 {
     font-weight: 400;
-    margin-top: 4rem;
-    margin-bottom: 1.5rem;
-    font-size: 3.2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 2.2rem;
     line-height: 1;
 }
 
 h2 {
     font-style: italic;
     font-weight: 400;
-    margin-top: 2.1rem;
-    margin-bottom: 1.4rem;
-    font-size: 2.2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
     line-height: 1;
 }
 
 h3 {
     font-style: italic;
     font-weight: 400;
-    font-size: 1.7rem;
+    font-size: 1.2rem;
     margin-top: 2rem;
     margin-bottom: 1.4rem;
     line-height: 1;
@@ -104,7 +104,7 @@ p.subtitle {
     font-style: italic;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     display: block;
     line-height: 1;
 }
@@ -122,21 +122,21 @@ article {
 }
 
 section {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
 }
 
 p,
 dl,
 ol,
 ul {
-    font-size: 1.4rem;
-    line-height: 2rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
 }
 
 p {
-    margin-top: 1.4rem;
-    margin-bottom: 1.4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     padding-right: 0;
     vertical-align: baseline;
 }
@@ -166,7 +166,7 @@ div.epigraph > blockquote > footer > cite {
 /* end chapter epigraphs styles */
 
 blockquote {
-    font-size: 1.4rem;
+    font-size: 1rem;
 }
 
 blockquote p {
@@ -176,7 +176,7 @@ blockquote p {
 
 blockquote footer {
     width: 55%;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     text-align: right;
 }
 
@@ -216,7 +216,7 @@ figcaption {
     clear: right;
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     line-height: 1.6;
     vertical-align: baseline;
     position: relative;
@@ -282,7 +282,7 @@ img {
     width: 50%;
     margin-top: 0.3rem;
     margin-bottom: 0;
-    font-size: 1.1rem;
+    font-size: 1rem;
     line-height: 1.3;
     vertical-align: baseline;
     position: relative;
@@ -342,7 +342,7 @@ code, pre > code {
 }
 
 .sans > code {
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 h1 > code,
