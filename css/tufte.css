@@ -390,9 +390,9 @@ label.margin-toggle:not(.sidenote-number) {
 
 @media (max-width: 760px) {
     body {
-        width: 95%;
-        padding-left: 8%;
-        padding-right: 8%;
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
     }
 
     hr,
