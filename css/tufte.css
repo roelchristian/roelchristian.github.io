@@ -10,9 +10,9 @@ html {
 }
 
 :root{
-  --main-font: "PT Serif", Georgia, serif;
-  --sans-font: "PT Sans", Calibri, -system-ui, sans-serif;
-  --title-font: "PT Serif";
+  --main-font: "IBM Plex Serif", Georgia, serif;
+  --sans-font: "IBM Plex Sans", Calibri, -system-ui, sans-serif;
+  --title-font: "IBM Plex Serif";
   --mono-font: "IBM Plex Mono";
   --main-bg-color:  #fffff8;
   --main-color: #111;
