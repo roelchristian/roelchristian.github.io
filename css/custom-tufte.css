@@ -43,17 +43,15 @@ div.unit {
 }
 
 div.ex-cont{
-    max-width: 500px;
+    max-width: 550px;
 }
 
 p.en {
     margin: 0em;
-    padding: 0 0.5em;
     font-size: var(--var-font-size);
 }
 p.ird {
     margin: 0em;
-
 }
 
 .ir, .ird{
