@@ -396,6 +396,12 @@ label.margin-toggle:not(.sidenote-number) {
     height: 100%;
 }
 
+@media (min-width: 760px){
+  ol.example{
+    max-width: 55%;
+  }
+}
+
 @media (max-width: 760px) {
     body {
         width: 90%;
@@ -416,8 +422,7 @@ label.margin-toggle:not(.sidenote-number) {
 
     section > dl,
     section > ol,
-    section > ul,
-    ol.example {
+    section > ul {
         width: 95%;
     }
 
