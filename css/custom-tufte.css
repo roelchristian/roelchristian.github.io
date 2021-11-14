@@ -11,7 +11,7 @@ li p{
 }
 
 ol.example{
-    max-width: 55%; /* Keep same size as paragraph*/
+    max-width: 50%; /* Keep same size as paragraph*/
 }
 
 .example > li {
