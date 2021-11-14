@@ -63,9 +63,8 @@ h2 {
 }
 
 h3 {
-    font-style: italic;
-    font-weight: 400;
-    font-size: 1.2rem;
+    font-weight: 600;
+    font-size: var(--font-size);
     margin-top: calc(var(--line-height*1.2));
     margin-bottom: var(--line-height);
     line-height: 1;
