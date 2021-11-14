@@ -1,14 +1,21 @@
 @charset "UTF-8";
 
 @import url('https://rsms.me/inter/inter.css');
-html { font-family: 'Inter', sans-serif; }
+
+html {
+  font-family: var(--main-font), -system-ui, system-ui, sans-serif;
+}
 
 @supports (font-variation-settings: normal) {
-  html { font-family: 'Inter var', sans-serif; }
+  html { font-family: var(--main-font), -system-ui, system-ui, sans-serif;
+  }
 }
 
 :root{
-  --main-bg-color:  #fffff8;
+  --main-font: "Inter";
+  --title-font: "InterDisplay";
+  --mono-font: "IBM Plex Mono";
+  --main-bg-color:  #333;
   --main-color: #111;
   --darkmode-bg-color: #121212;
   --darkmode-color: #ddd;
@@ -36,6 +43,7 @@ body {
 }
 
 h1 {
+    font-family: var(--title-font);
     font-weight: 400;
     margin-top: 2rem;
     margin-bottom: 1rem;
@@ -301,7 +309,7 @@ div.table-wrapper {
 }
 
 code, pre > code {
-    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    font-family: var(--mono-font), Consolas, Menlo, Courier, monospace;
     font-size: var(--font-size);
     line-height: 1.42;
     -webkit-text-size-adjust: 100%; /* Prevent adjustments of font size after orientation changes in iOS. See https://github.com/edwardtufte/tufte-css/issues/81#issuecomment-261953409 */
