@@ -43,8 +43,8 @@ div.unit {
 }
 
 div.ex-cont{
-    max-width: 55%
-};
+    max-width: 500px;
+}
 
 p.en {
     margin: 0em;
