@@ -34,7 +34,7 @@ div.gloss-block{
     display: block;
     clear: left;
     margin: 0 -0.5em;
-    padding: 1em 0;
+    padding: 0.5em 0;
 }
 
 div.unit {
@@ -55,7 +55,7 @@ p.en {
 }
 p.ird {
     margin: 0em;
-    padding: 0 0.5em;
+    padding-right:0.5em;
 }
 
 .ir, .ird{
