@@ -40,6 +40,11 @@ div.unit {
     margin-left: -0.5em;
     padding-right: 0.2em;
 }
+
+div.ex-cont{
+    width: 55%
+};
+
 p.en {
     margin: 0em;
     padding: 0em 0.5em;
@@ -56,6 +61,7 @@ p.ird {
 
 .gloss{
     font-family: var(--small-caps-font);
+    font-size: var(--font-size);
 }
 
 th, td {
