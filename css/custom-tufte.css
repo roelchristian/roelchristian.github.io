@@ -8,7 +8,12 @@ li p{
 
 ol.example{
     padding-left: calc(var(--line-height) * 1.2 );
+    -ms-transform: translateZ(0); 
+    -webkit-transform: translateZ(0); 
+    -moz-transform:translateZ(0); 
+    -o-transform: translateZ(0); 
     transform: translateZ(0); 
+
 }
 
 .example > li {
