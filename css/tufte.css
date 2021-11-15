@@ -33,6 +33,8 @@ body {
     background-color: var(--main-bg-color);
     color: var(--main-color);
     max-width: 1400px;
+    counter-set: example-counter sidenote-counter;
+  
 }
 
 article{
