@@ -20,8 +20,8 @@ ol.example > li {
     counter-increment: example-counter;
 }
 
-.example > li::before {
-    content: counter(example-counter) ".";
+.example > li::marker {
+    content: counter(example-counter) "." !important;
 }
 
 .gloss-block::before{
