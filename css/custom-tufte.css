@@ -1,5 +1,5 @@
 article { 
-    counter-reset: example-counter !important; 
+    counter-set: example-counter !important; 
 }
 
 li{
