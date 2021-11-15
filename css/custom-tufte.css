@@ -16,7 +16,7 @@ ol.example{
 
 }
 
-.example {
+.example > li {
     counter-increment: example-counter;
 }
 
