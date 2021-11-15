@@ -33,13 +33,14 @@ body {
     background-color: var(--main-bg-color);
     color: var(--main-color);
     max-width: 1400px;
-    counter-set: example-counter sidenote-counter;
+    counter-reset: example-counter sidenote-counter;
   
 }
 
 article{
-  counter-reset: example-counter sidenote-counter;
+    counter-reset: example-counter;
 }
+
 
 /* Adds dark mode */
 @media (prefers-color-scheme: dark) {
