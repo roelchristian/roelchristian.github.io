@@ -33,7 +33,7 @@ body {
     background-color: var(--main-bg-color);
     color: var(--main-color);
     max-width: 1400px;
-    counter-reset: sidenote-counter example-counter !important;
+    counter-reset: sidenote-counter, example-counter !important;
 }
 
 /* Adds dark mode */
