@@ -6,6 +6,10 @@ li p{
     margin:0;
 }
 
+li ol{
+    padding-left: inherit;
+}
+
 ol.example{
     padding-left: calc(var(--line-height) * 1.2 );
     -ms-transform: scale(1); 
