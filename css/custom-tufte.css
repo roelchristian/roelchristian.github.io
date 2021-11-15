@@ -16,11 +16,11 @@ ol.example{
 
 }
 
-.example > li {
+ol.example > li {
     counter-increment: example-counter;
 }
 
-.example > li::marker {
+.example > li::before {
     content: counter(example-counter) ".";
 }
 
