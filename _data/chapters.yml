@@ -1,7 +1,17 @@
+- name: Phonology
+  id: phonology
 - name: Nominal morphology
-  chapter-id: nominal-morphology
+  id: nominal-morphology
   sections:
     - secname: Grammatical categories
       secid: grammatical-cat
     - secname: Number
       secid: number
+- name: Clause Structure
+  id: clause-structure
+  sections:
+    - secname: Grammatical categories
+      secid: grammatical-cat
+    - secname: Number
+      secid: number
+      
