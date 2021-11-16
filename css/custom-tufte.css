@@ -104,3 +104,7 @@ table thead tr {
     content: "·";
     padding: 8px;
 }
+
+.chapter-container a{
+    text-decoration: none;
+}
