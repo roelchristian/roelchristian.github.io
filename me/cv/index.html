@@ -25,11 +25,13 @@ title: Hello!
         
     </div>
     <div class="cv-job-description">
+        <p>
         <ul>
             {% for item in job.job-desc-list %}
               <li>{{ item.bullet }}</li>
             {% endfor %}
           </ul>
+      </p>
     </div>
     </div>
 
