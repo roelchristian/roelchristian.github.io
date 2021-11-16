@@ -100,6 +100,7 @@ table thead tr {
 
 .chapter-container a{
   color: inherit;
+  text-decoration: none;
 }
 
 .chapter-container h2{
@@ -108,12 +109,10 @@ table thead tr {
 
 .chapter-title{
   padding-bottom: 5px;
-  font-size: 18px;
-  font-weight: 600;
 }
 
 .index-subsection-links{
-  color: #777;
+  color: var(--var-color-gray);
   display: inline;
 }
 
