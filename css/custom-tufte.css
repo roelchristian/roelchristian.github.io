@@ -108,3 +108,8 @@ table thead tr {
 .chapter-container a{
     text-decoration: none;
 }
+
+
+.chapter-container a:visited{
+    color: inherit;
+}
