@@ -430,6 +430,16 @@ label.margin-toggle:not(.sidenote-number) {
     text-decoration: underline;
 }
 
+.cv-company-dets{
+  color: var(--var-color-gray);
+  font-size: var(--font-size);
+}
+
+
+.cv-company-dets a{
+  text-decoration: none;
+}
+
 @media (min-width: 760px){
   ol.example{
     max-width: 55%;
