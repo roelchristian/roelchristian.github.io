@@ -10,15 +10,14 @@ html { font-family: 'Inter', sans-serif; }
   --main-font: "Inter", sans-serif;
   --small-caps-font: "Alegreya Sans SC", sans-serif;
   --var-serif-font: serif;
-  --sans-font: "Raleway", Calibri, -system-ui, sans-serif;
   --title-font: "Raleway";
-  --mono-font: "IBM Plex Mono";
+  --mono-font: "IBM Plex Mono", Consolas;
   --main-bg-color:  #fffff8;
   --main-color: #111;
   --var-color-gray: #888;
   --darkmode-bg-color: #222;
   --darkmode-color: #ddd;
-  --font-size: 16px;
+  --font-size: 15px;
   --var-font-size: 13px;
   --footnote-size: 11px;
   --line-height: calc(var(--font-size) * 1.55);
@@ -53,7 +52,7 @@ article{
 h1 {
     font-family: var(--main-font);
     font-weight: 600;
-    letter-spacing: -0.02em;
+    letter-spacing: -0.015em;
     margin-top: calc(var(--line-height*2));
     margin-bottom: var(--line-height);
     font-size: 2.2rem;
@@ -61,7 +60,7 @@ h1 {
 }
 
 h2 {
-    font-weight: 400;
+    font-weight: 500;
     font-family: var(--main-font);
     margin-top: 3em;
     margin-bottom: margin-bottom: var(--line-height);
