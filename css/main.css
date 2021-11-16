@@ -447,10 +447,18 @@ label.margin-toggle:not(.sidenote-number) {
     margin-bottom: 0.5rem;
 }
 
-.foreword{
+.foreword p{
   font-size: var(--var-font-size);
   color: var(--var-color-gray);
   line-height: var(--var-line-height);
+}
+
+.homepage-nav a {
+    color: inherit;
+    text-shadow: none;
+    text-decoration: none;
+    font-weight: 600;
+    padding-right: 20px;
 }
 
 @media (min-width: 760px){
