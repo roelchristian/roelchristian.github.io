@@ -11,6 +11,12 @@
       secid: consonants
     - secname: Phonotactics
       secid: phonotactics
+    - secname: Suprasegmentals
+      secid: suprasegmentals
+    - secname: Phonological processes
+      secid: phon-proc
+    - secname: Orthographic representation
+      secid: orth
 - name: Nominal morphology
   id: nominal-morphology
   sections:
