@@ -440,6 +440,12 @@ label.margin-toggle:not(.sidenote-number) {
   text-decoration: none;
 }
 
+.cv-company-div h3 {
+    color: inherit;
+    padding-top: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
 @media (min-width: 760px){
   ol.example{
     max-width: 55%;
