@@ -401,6 +401,12 @@ label.margin-toggle:not(.sidenote-number) {
   padding: 8px 0;
 }
 
+.hangind p{
+  padding-left: 20px;
+    text-indent: -20px;
+    margin:0;
+}
+
 @media (min-width: 760px){
   ol.example{
     max-width: 55%;
