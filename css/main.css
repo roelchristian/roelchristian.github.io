@@ -19,6 +19,7 @@ html { font-family: 'Inter', sans-serif; }
   --var-color-gray: #888;
   --darkmode-bg-color: #222;
   --darkmode-color: #ddd;
+  --accent-color-orange: #e86100;
   --font-size: 16px;
   --var-font-size: 13px;
   --footnote-size: 11px;
@@ -40,6 +41,10 @@ body {
 
 article{
     counter-reset: example-counter;
+}
+
+.homepage{
+  background-color: var(--accent-color-orange);
 }
 
 
