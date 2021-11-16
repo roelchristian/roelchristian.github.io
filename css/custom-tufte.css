@@ -109,6 +109,9 @@ table thead tr {
     text-decoration: none;
 }
 
+.chapter-container a:hover{
+    text-decoration: underline;
+}
 
 .chapter-container a:visited{
     color: inherit;
