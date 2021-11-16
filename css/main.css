@@ -393,6 +393,14 @@ label.margin-toggle:not(.sidenote-number) {
     height: 100%;
 }
 
+.publish-date{
+  color: var(--var-color-gray);
+}
+
+.publish-div{
+  padding: 8px 0;
+}
+
 @media (min-width: 760px){
   ol.example{
     max-width: 55%;
