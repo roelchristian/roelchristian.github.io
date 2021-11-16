@@ -9,7 +9,10 @@
 <body>
 <article>
   
-  <h1>{{ post.title }}</h1>
+  <section class="post-details">
+    <h1>{{ page.title }}</h1>
+    <p class="subtitle">{{ page.date | date: "%B %-d, %Y" }}</p>
+  </section>
 
   {{ content }}
   
