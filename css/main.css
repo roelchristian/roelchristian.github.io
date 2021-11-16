@@ -179,12 +179,19 @@ div.epigraph > blockquote > footer > cite {
 /* end chapter epigraphs styles */
 
 blockquote {
-    font-size: 1rem;
+  
+    padding-left: 15px;
+    margin-left: -15px;
+    border-left: 4px solid;
+    
 }
+
+.large{
+    font-size: 20px;
+  line-height: 30px;}
 
 blockquote p {
     width: 55%;
-    margin-right: 40px;
 }
 
 blockquote footer {
