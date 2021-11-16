@@ -43,8 +43,10 @@ article{
     counter-reset: example-counter;
 }
 
-.homepage{
-  background-color: var(--accent-color-orange);
+.homepage {
+    background-color: var(--accent-color-orange);
+    color: var(--main-font);
+    text-shadow: 0 0 var(--darkmode-bg-color);
 }
 
 
@@ -404,7 +406,7 @@ label.margin-toggle:not(.sidenote-number) {
     margin:0;
 }
 
-#cv-intro p {
+.intro-text p {
     font-size: 18px;
     line-height: 26px;
     letter-spacing: -0.01em;
