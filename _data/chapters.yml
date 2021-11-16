@@ -1,5 +1,16 @@
+- name: Introduction and overview
+  id: introduction
 - name: Phonology
   id: phonology
+  sections:
+    - secname: Introduction
+      secid: intro
+    - secname: Vowels
+      secid: vowels
+    - secname: Consonants
+      secid: consonants
+    - secname: Phonotactics
+      secid: phonotactics
 - name: Nominal morphology
   id: nominal-morphology
   sections:
