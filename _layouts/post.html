@@ -1,7 +1,12 @@
----
-layout: container-blog
----
+<!DOCTYPE html>
+{% include header.html %}
 
+
+{% assign gitlink = "https://github.com/roelchristian/roelchristian.github.io/tree/master/" %}
+{% assign mysource = gitlink | append: page.path %}
+
+
+<body>
 <article>
 
   {{ content }}
@@ -30,5 +35,7 @@ layout: container-blog
 </div>
 </div>-->
 </article>
+</body>
+</html>
 
 
