@@ -199,6 +199,7 @@ section > ul,
 .cv-company-div ul {
     width: 50%;
     -webkit-padding-start: 5%;
+    padding:0;
 }
 
 dt:not(:first-child),
