@@ -135,7 +135,6 @@ ol,
 ul {
     font-size: var(--font-size);
     line-height: var(--line-height);
-    letter-spacing: 0.01em;
 }
 
 p {
