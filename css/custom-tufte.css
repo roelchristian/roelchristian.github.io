@@ -92,3 +92,32 @@ table {
 table thead tr {
     border-bottom: 1px solid var(--var-color-gray);
 }
+
+/* online index */
+.chapter-container{
+  padding: 10px 0;
+}
+
+.chapter-container a{
+  color: inherit;
+}
+
+.chapter-container h2{
+  font-size: inherit;
+}
+
+.chapter-title{
+  padding-bottom: 5px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.index-subsection-links{
+  color: #777;
+  display: inline;
+}
+
+.index-subsection-links:not(:last-child):after {
+    content: "·";
+    padding: 8px;
+}
