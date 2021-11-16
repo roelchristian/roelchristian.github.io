@@ -1,0 +1,6 @@
+- name: Nominal morphology
+  chapter-id: nominal-morphology
+  sections:
+    - section: Grammatical categories
+      id: grammatical-cat
+    - section: Number
