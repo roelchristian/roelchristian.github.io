@@ -9,9 +9,9 @@ title: Online Grammar Index
   {% for chapter in site.data.chapters %}
   <section class="chapter-container">
     <div class="chapter-title"><h2><a href="{{ chapter.id }}">{{ chapter.name }}</a></h2></div>
-    {% for sec in chapter.sections %}
-    <p><span class="index-subsection-links"><a href="{{ chapter.id }}#{{ sec.secid }}">{{ sec.secname }}</a></span></p>
-    {% endfor %}
+    <p>{% for sec in chapter.sections %}
+    <span class="index-subsection-links"><a href="{{ chapter.id }}#{{ sec.secid }}">{{ sec.secname }}</a></span>
+     {% endfor %}</p>
   </section>
   {% endfor %}
 </article>
