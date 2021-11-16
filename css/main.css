@@ -207,7 +207,7 @@ li:not(:first-child) {
 }
 
 figure {
-    padding: 0;
+    padding: 30px 0;
     border: 0;
     font-size: 100%;
     font: inherit;
@@ -219,19 +219,10 @@ figure {
 }
 
 figcaption {
-    float: right;
-    clear: right;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: var(--font-size);
-    line-height: var(--line-height);
-    vertical-align: baseline;
-    position: relative;
-    max-width: 40%;
-}
-
-figure.fullwidth figcaption {
-    margin-right: 24%;
+    font-size: var(--var-font-size);
+    line-height: var(--var-line-height);
+    padding-top: 15px;
+    color: var(--var-color-gray);
 }
 
 a{
