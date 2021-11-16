@@ -94,22 +94,6 @@ table thead tr {
 }
 
 /* online index */
-.chapter-container{
-  padding: 10px 0;
-}
-
-.chapter-container a{
-  color: inherit;
-  text-decoration: none;
-}
-
-.chapter-container h2{
-  font-size: inherit;
-}
-
-.chapter-title{
-  padding-bottom: 5px;
-}
 
 .index-subsection-links{
   color: var(--var-color-gray);
