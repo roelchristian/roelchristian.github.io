@@ -1,45 +1,17 @@
 ---
-layout: grammar
+layout: container
 title: Online Grammar Index
 ---
 
 <h1>Iridian Grammar&nbsp;&mdash; Online Version</h1>
 
-<div>
-  <div class="chapter-container">
-    <div class="chapter-title"><h2><a href="phonology">Phonology</a></h2></div>
-    <div class="index-subsection-links"><a href="phonology#vowels">Vowels</a></div>
-    <div class="index-subsection-links"><a href="phonology#cons">Consonants</a></div>
-    <div class="index-subsection-links"><a href="phonology#supraseg">Suprasegmentals</a></div>
-    <div class="index-subsection-links"><a href="phonology#proc">Phonological processes</a></div>
-    <div class="index-subsection-links"><a href="phonology#orth">Orthographic representation</a></div>
-  </div>
-  
-  <div class="chapter-container">
-    <div class="chapter-title">Verbal morphology</div>
-    <div class="index-subsection-links">Grammatical aspect</div></div>
-  
-  <div class="chapter-container">
-    <div class="chapter-title">Nominal morphology</div>
-    <div class="index-subsection-links">Grammatical aspect</div></div>
-  
-  <div class="chapter-container">
-    <div class="chapter-title">Minor word classes</div>
-    <div class="index-subsection-links">Grammatical aspect</div></div>
-  
-  <div class="chapter-container">
-    <div class="chapter-title">Derivational morphology</div>
-    <div class="index-subsection-links">Grammatical aspect</div></div>
-  
-  <div class="chapter-container">
-    <div class="chapter-title"><h2><a href="clause-structure">Clause structure</a></h2></div>
-    <div class="index-subsection-links">Grammatical aspect</div></div>
-  
-  <div class="chapter-container">
-    <div class="chapter-title">Semantics and Usage</div>
-    <div class="index-subsection-links">Grammatical aspect</div></div>
-  
-  <div class="chapter-container">
-    <div class="chapter-title">Bibliography</div></div>
-    
-</div>
+<article>
+  {% for chapter in site.data.chapters %}
+  <section class="chapter-container">
+    <div class="chapter-title"><h2><a href="{{ chapter.id }}">{{ chapter.name }}</a></h2></div>
+    {% for sec in chapter.sections %}
+    <div class="index-subsection-links"><a href="{{ chapter.id }}#{{ sec.secid }}">{{ sec.sec.name }}</a></div>
+    {% endfor %}
+  </section>
+  {% endfor %}
+</article>
