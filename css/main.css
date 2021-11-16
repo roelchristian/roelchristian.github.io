@@ -57,7 +57,7 @@ h1 {
     letter-spacing: -0.015em;
     margin-top: calc(var(--line-height*2));
     margin-bottom: var(--line-height);
-    font-size: 2rem;
+    font-size: 2.25rem;
     line-height: calc(var(--line-height) * 2);
     max-width: 90%;
 }
@@ -67,7 +67,7 @@ h2 {
     font-family: var(--main-font);
     margin-top: 3em;
     margin-bottom: margin-bottom: var(--line-height);
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     line-height: calc(var(--line-height) * 1.2);
 
 }
