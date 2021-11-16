@@ -408,8 +408,11 @@ label.margin-toggle:not(.sidenote-number) {
 }
 
 #cv-intro p {
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.01em;
+    margin: 0;
+    font-weight: 500;
 }
 
 #cv-links p {
