@@ -100,9 +100,9 @@ section h3:not(:first-of-type) {
     margin-bottom: 0;
 }
 
-h3.sec-subtitle{
+sec-subtitle{
   display: inline;
-
+  color: var(--var-color-gray); 
 }
   
   
