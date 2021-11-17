@@ -516,10 +516,11 @@ label.margin-toggle:not(.sidenote-number) {
 }
 
 @media (min-width: 760px){
-  ol.example{
+  h1, ol.example{
     max-width: 55%;
   }
 }
+
 
 @media (max-width: 760px) {
     body {
