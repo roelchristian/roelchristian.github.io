@@ -283,10 +283,6 @@ a:hover{
   text-decoration: underline;
 }
 
-a:visited{
-  color: var(--var-color-gray);
-}
-
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
     a:link, .tufte-underline, .hover-tufte-underline:hover {
@@ -450,6 +446,12 @@ label.margin-toggle:not(.sidenote-number) {
 
 .publish-title{
   padding-right: 15px;
+  font-weight: 500;
+}
+
+.publish-title a{
+  color: inherit;
+  text-decoration: none;
 }
 
 .publish-div{
