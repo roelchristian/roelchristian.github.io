@@ -103,6 +103,7 @@ section h3:not(:first-of-type) {
 .sec-subtitle{
   display: inline;
   color: var(--var-color-gray); 
+  padding-left: 5px;
 }
 
 .h2-with-sub, .sec-subtitle {
