@@ -46,7 +46,7 @@ article{
 }
 
 .homepage {
-    background-color: var(--accent-color-orange);
+    background-color: var(--accent-color-dark-orange);
     color: var(--main-font);
     text-shadow: 0 0 var(--darkmode-bg-color);
 }
@@ -275,13 +275,12 @@ figcaption {
 }
 
 a{
-  color: inherit;
+  color: var(--accent-color-dark-orange);
   text-decoration: none;
-  border-bottom: 1px solid;
 }
 
 a:hover{
-  border-bottom: none;
+  text-decoration: underline;
 }
 
 a:visited{
