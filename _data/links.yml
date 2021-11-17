@@ -1,6 +1,5 @@
 main:
   - sub: "Blogs, Podcasts and Websites Worth Checking"
-    fa-name: bell
     gohere:
       - sitealias: "Read a little poetry"
         siteurl: "https://readalittlepoetry.wordpress.com/"
@@ -27,7 +26,6 @@ main:
       - sitealias: "Radiolab Presents More Perfect"
         siteurl: "https://www.npr.org/podcasts/481105292/more-perfect"
   - sub: "Random Articles"
-    fa-name: bookmark
     gohere:
       - sitealias: "Borges&rsquo;s <i>Paris Review</i> interview"
         siteurl: "https://www.theparisreview.org/interviews/4331/the-art-of-fiction-no-39-jorge-luis-borges"
@@ -45,7 +43,6 @@ main:
         siteurl: "https://www.theatlantic.com/magazine/archive/2017/06/lolas-story/524490/"
         description: "From the <i>Atlantic.</i>"
   - sub: "Music, Films and Television"
-    fa-name: headphones
     gohere:
       - sitealias: "My last.fm Profile"
         siteurl: "https://www.last.fm/user/roelchristian/library"
@@ -54,7 +51,6 @@ main:
       - sitealias: "Greta Gerwig, <i>Ladybird</i>"
         siteurl: "https://www.netflix.com/title/80205227"
   - sub: "Books"
-    fa-name: book
     gohere:
       - sitealias: "Jia Tolentino, <em>Trick Mirror</em>"
         siteurl: "https://www.goodreads.com/book/show/43126457-trick-mirror"
