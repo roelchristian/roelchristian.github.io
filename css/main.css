@@ -49,6 +49,12 @@ article{
     text-shadow: 0 0 var(--darkmode-bg-color);
 }
 
+.homepage-nav a,
+.cv-links a,
+.cv-company-dets a{
+  border-bottom: none;
+}
+
 
 /* Adds dark mode */
 @media (prefers-color-scheme: dark) {
