@@ -84,8 +84,6 @@ h2 {
     margin-bottom: margin-bottom: var(--line-height);
     font-size: 1.2rem;
     line-height: calc(var(--line-height) * 1.2);
-    padding: 10px 0;
-
 }
 
 h3 {
@@ -463,6 +461,10 @@ label.margin-toggle:not(.sidenote-number) {
   line-height: var(--line-height);
 }
 
+.hangind{
+  padding: 1em 0;
+}
+  
 .hangind p{
   padding-left: 20px;
     text-indent: -20px;
