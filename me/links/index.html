@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-other
 title: Stuff I Like &mdash; Roel Christian Yambao
 displaytitle: Links to Stuff I Like
 permalink: "links"
@@ -9,7 +9,7 @@ permalink: "links"
 <div class="extlinks">
   {% for subname in site.data.links.main %}
   <section>
-    <h2><i class='fa fa-{{ subname.fa-name }}' aria-hidden='true'></i>&nbsp;{{ subname.sub }}</h2>
+    <h2>{{ subname.sub }}</h2>
       {% for item in subname.gohere %}
         <p><a href="{{ item.siteurl }}" target="_blank" rel="noreferrer">{{ item.sitealias }}.
  </a> {{ item.description }}</p>
