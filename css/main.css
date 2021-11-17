@@ -187,7 +187,7 @@ p {
 .epigraph{
   font-size: var(--var-font-size);
   line-height: var(--var-line-height);
-  padding: 45px 0 45px 15px;
+  padding: 45px 0 15px 15px;
 }
 
 .epigraph p {
