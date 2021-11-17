@@ -206,6 +206,11 @@ blockquote footer {
     text-align: right;
 }
 
+.sidenote-quote{
+  display: block;
+  margin: 10px 0 0 10px;
+}
+
 section > p,
 section > footer,
 section > table {
