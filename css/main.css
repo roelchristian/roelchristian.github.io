@@ -440,20 +440,23 @@ label.margin-toggle:not(.sidenote-number) {
     height: 100%;
 }
 
-.publish-date{
+.publish-date {
   color: var(--var-color-gray);
 }
 
-.publish-title{
+.publish-title {
   padding-right: 15px;
   font-weight: 500;
 }
 
-.publish-title a{
+.publish-title a {
   color: inherit;
   text-decoration: none;
 }
 
+.publish-title a:hover {
+  text-decoration: underline;
+}
 .publish-div{
   padding: 8px 0;
   line-height: var(--line-height);
