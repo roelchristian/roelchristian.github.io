@@ -100,6 +100,13 @@ section h3:not(:first-of-type) {
     margin-bottom: 0;
 }
 
+h3.sec-subtitle{
+  display: inline;
+
+}
+  
+  
+
 
 hr {
     display: block;
@@ -385,6 +392,11 @@ pre > code {
 
 pre.fullwidth > code {
     width: 90%;
+}
+
+pre.poetry-prefm {
+  font-size: inherit;
+  font-family: var(--main-font);
 }
 
 .fullwidth {
