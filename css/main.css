@@ -405,6 +405,10 @@ pre.poetry-prefm {
   font-family: var(--main-font);
 }
 
+.stanza{
+  padding-bottom: 1em;
+}
+
 .fullwidth {
     max-width: 90%;
     clear:both;
