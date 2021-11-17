@@ -100,10 +100,16 @@ section h3:not(:first-of-type) {
     margin-bottom: 0;
 }
 
-sec-subtitle{
+.sec-subtitle{
   display: inline;
   color: var(--var-color-gray); 
 }
+
+.h2-with-sub, .sec-subtitle {
+  font-size: inherit;
+  font-weight: 600;
+}
+  
   
   
 
