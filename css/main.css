@@ -84,6 +84,7 @@ h2 {
     margin-bottom: margin-bottom: var(--line-height);
     font-size: 1.2rem;
     line-height: calc(var(--line-height) * 1.2);
+    padding: 10px 0;
 
 }
 
