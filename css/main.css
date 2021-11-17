@@ -37,6 +37,7 @@ body {
     color: var(--main-color);
     max-width: 1400px;
     counter-reset: example-counter sidenote-counter;
+    line-height:var(--line-height);
   
 }
 
