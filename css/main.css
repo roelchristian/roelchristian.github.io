@@ -180,9 +180,9 @@ div.epigraph > blockquote > footer > cite {
 
 blockquote {
   
-    padding-left: 15px;
-    margin-left: -15px;
-    border-left: 4px solid;
+    padding-left: 10px;
+    margin-left: -10px;
+    border-left: 4 solid;
     
 }
 
@@ -403,6 +403,10 @@ label.margin-toggle:not(.sidenote-number) {
   color: var(--var-color-gray);
 }
 
+.publish-title{
+  padding-right: 15px;
+}
+
 .publish-div{
   padding: 8px 0;
   line-height: var(--line-height);
@@ -513,8 +517,7 @@ label.margin-toggle:not(.sidenote-number) {
     }
 
     blockquote {
-        margin-left: 1.5em;
-        margin-right: 0em;
+        margin-right: 0;
     }
 
     blockquote p,
