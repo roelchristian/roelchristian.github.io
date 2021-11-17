@@ -50,7 +50,7 @@ article{
 }
 
 .homepage-nav a,
-.cv-links a,
+#cv-links a,
 .cv-company-dets a{
   border-bottom: none;
 }
