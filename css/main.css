@@ -22,7 +22,7 @@ html { font-family: 'Inter', sans-serif; }
   --accent-color-orange: #d18700;
   --accent-color-dark-orange: #ab6700;
   --font-size: 16px;
-  --var-font-size: 13px;
+  --var-font-size: 14px;
   --footnote-size: 11px;
   --line-height: calc(var(--font-size) * 1.55);
   --var-line-height: calc(var(--var-font-size) * 1.55);
@@ -205,10 +205,10 @@ div.epigraph > blockquote > footer > cite {
 /* end chapter epigraphs styles */
 
 blockquote {
-  
-    padding-left: 10px;
-    margin-left: -10px;
-    border-left: 3px solid;
+
+    margin-left: 15px;
+    font-size: var(--var-font-size);
+    line-height: var(--var-line-height);
     
 }
 
