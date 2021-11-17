@@ -180,6 +180,10 @@ p {
     vertical-align: baseline;
 }
 
+.foreign-text{
+  font-style: italic;
+}
+
 /* Chapter Epigraphs */
 div.epigraph {
     margin: 5em 0;
