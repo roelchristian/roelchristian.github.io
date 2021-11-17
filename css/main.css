@@ -187,11 +187,15 @@ p {
 .epigraph{
   font-size: var(--var-font-size);
   line-height: var(--var-line-height);
-  padding-left: 10px;
+  padding: 45px 0 45px 15px;
 }
 
-.epigraph-cite{
-   padding-left: 10px;
+.epigraph p {
+  margin: 0
+}
+
+.epigraph-cite {
+   padding-left: 15px;
 }
 
 /* end chapter epigraphs styles */
