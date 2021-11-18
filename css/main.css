@@ -239,7 +239,11 @@ section > ol,
 section > ul,
 .cv-company-div ul {
     width: 50%;
-    -webkit-padding-start: 5%;
+    padding: 0 0 0 20px;
+}
+
+li {
+  padding: 8px 0 0 10px;
 }
 
 dt:not(:first-child),
