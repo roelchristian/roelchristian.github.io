@@ -55,6 +55,7 @@ article{
 #cv-links a,
 .cv-company-dets a{
   border-bottom: none;
+  color: inherit;
 }
 
 
