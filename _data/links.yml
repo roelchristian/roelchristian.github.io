@@ -1,11 +1,11 @@
 main:
-  - sub: "Blogs, Podcasts and Websites Worth Checking"
+  - sub: "Blogs, podcasts, and websites worth checking"
     gohere:
       - sitealias: "Read a little poetry"
         siteurl: "https://readalittlepoetry.wordpress.com/"
-        description: "The loveliest place in the internet"
+        description: "The loveliest place on the internet"
       - sitealias: Signals By Levi Masuli
-        siteurl: "https://levimasuli.com"
+        siteurl: "https://johnlevimasuli.wordpress.com"
         description: "A blog by John Levi Masuli, a Filipino writer and musician."
       - sitealias: caliath
         siteurl: "https://caliath.com/"
@@ -25,7 +25,7 @@ main:
         siteurl: "http://infinitesummer.org/"
       - sitealias: "Radiolab Presents More Perfect"
         siteurl: "https://www.npr.org/podcasts/481105292/more-perfect"
-  - sub: "Random Articles"
+  - sub: "Random articles"
     gohere:
       - sitealias: "Borges&rsquo;s <i>Paris Review</i> interview"
         siteurl: "https://www.theparisreview.org/interviews/4331/the-art-of-fiction-no-39-jorge-luis-borges"
@@ -42,7 +42,7 @@ main:
       - sitealias: "My Family&rsquo;s Slave by Alex Tizon"
         siteurl: "https://www.theatlantic.com/magazine/archive/2017/06/lolas-story/524490/"
         description: "From the <i>Atlantic.</i>"
-  - sub: "Music, Films and Television"
+  - sub: "Music, films and television"
     gohere:
       - sitealias: "My last.fm Profile"
         siteurl: "https://www.last.fm/user/roelchristian/library"
