@@ -21,6 +21,7 @@ html { font-family: 'Inter', sans-serif; }
   --darkmode-color: #ddd;
   --accent-color-orange: #d18700;
   --accent-color-dark-orange: #ab6700;
+  --accent-color-brown: #5f4119;
   --font-size: 16px;
   --var-font-size: 14px;
   --footnote-size: 11px;
@@ -53,9 +54,13 @@ article{
 
 .homepage-nav a,
 #cv-links a,
-.cv-company-dets a{
+.cv-company-dets a {
   border-bottom: none;
   color: inherit;
+}
+
+.homepage-nav a:hover {
+  color: #5F4119;
 }
 
 
