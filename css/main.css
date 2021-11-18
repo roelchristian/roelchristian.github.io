@@ -82,7 +82,7 @@ h2 {
     font-family: var(--main-font);
     margin-top: 3em;
     margin-bottom: margin-bottom: var(--line-height);
-    font-size: 1.2rem;
+    font-size: 1.25rem;
     line-height: calc(var(--line-height) * 1.2);
 }
 
@@ -454,7 +454,7 @@ label.margin-toggle:not(.sidenote-number) {
   text-decoration: underline;
 }
 .publish-div{
-  padding: 8px 0;
+  padding: 12px 0 0 0;
   line-height: var(--line-height);
 }
 
