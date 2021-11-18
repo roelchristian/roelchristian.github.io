@@ -10,10 +10,12 @@ permalink: "links"
   {% for subname in site.data.links.main %}
   <section>
     <h2>{{ subname.sub }}</h2>
+      <ul>
       {% for item in subname.gohere %}
-        <p><a href="{{ item.siteurl }}" target="_blank" rel="noreferrer">{{ item.sitealias }}.
- </a> {{ item.description }}</p>
+        <li><a href="{{ item.siteurl }}" target="_blank" rel="noreferrer">{{ item.sitealias }}.
+ </a> {{ item.description }}</li>
       {% endfor %}
+        </ol>
   </section>
   {% endfor %}
 </div>
