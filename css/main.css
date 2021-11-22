@@ -519,11 +519,20 @@ label.margin-toggle:not(.sidenote-number) {
     margin-bottom: 0.5rem;
 }
 
-.foreword p, .aside p{
+.foreword p, .aside p, .postscript p {
   font-size: var(--var-font-size);
   color: var(--var-color-gray);
   line-height: var(--var-line-height);
 }
+
+section.postscript::before{
+  content: "Postscript";
+  font-size: var(--var-font-size);
+  color: var(--var-color-gray);
+  line-height: var(--var-line-height);
+  font-weight: 600;
+}
+    
 
 .homepage-nav a {
     color: inherit;
