@@ -519,7 +519,7 @@ label.margin-toggle:not(.sidenote-number) {
     margin-bottom: 0.5rem;
 }
 
-.foreword p{
+.foreword p, .aside p{
   font-size: var(--var-font-size);
   color: var(--var-color-gray);
   line-height: var(--var-line-height);
