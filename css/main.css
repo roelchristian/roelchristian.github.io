@@ -560,7 +560,7 @@ section.postscript::before{
 }
 
 @media (min-width: 760px){
-  h1, ol.example{
+  h1, ol.example, .avatar img{
     max-width: 55%;
   }
 }
