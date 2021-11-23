@@ -83,10 +83,8 @@ article{
 h1 {
     font-family: var(--main-font);
     font-weight: 600;
-    letter-spacing: -0.015em;
-    margin-top: calc(var(--line-height*2));
-    margin-bottom: var(--line-height);
-    font-size: 2rem;
+    letter-spacing: -0.02em;
+    font-size: 22px;
     line-height: calc(var(--line-height) * 2);
     max-width: 90%;
 }
@@ -123,9 +121,7 @@ section h3:not(:first-of-type) {
 .h2-with-sub, .sec-subtitle {
   font-size: inherit;
   font-weight: 600;
-}
-  
-  
+} 
   
 
 
@@ -140,9 +136,6 @@ hr {
 }
 
 p.subtitle {
-    margin-top: var(--line-height);
-    margin-bottom: var(--line-height);
-    font-size: 20px;
     font-weight: 550;
     color: var(--var-color-gray);
     display: block;
