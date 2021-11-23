@@ -29,6 +29,14 @@ html { font-family: 'Inter', sans-serif; }
   --var-line-height: calc(var(--var-font-size) * 1.55);
 }
 
+:lang(zh){
+  font-family: "Noto Serif TC", serif;
+}
+
+:lang(jp){
+  font-family: "Noto Serif TC", serif;
+}
+
 body {
     width: 87.5%;
     margin-left: auto;
