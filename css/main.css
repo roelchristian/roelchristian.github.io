@@ -85,8 +85,8 @@ h1 {
     font-weight: 600;
     letter-spacing: -0.02em;
     font-size: 22px;
-    line-height: calc(var(--line-height) * 2);
-    margin: 0;
+    line-height: 1.5;
+    margin: 0 0 15px 0;
 }
 
 h2 {
