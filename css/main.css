@@ -86,7 +86,7 @@ h1 {
     letter-spacing: -0.02em;
     font-size: 22px;
     line-height: calc(var(--line-height) * 2);
-    max-width: 90%;
+    margin: 0;
 }
 
 h2 {
@@ -140,6 +140,11 @@ p.subtitle {
     color: var(--var-color-gray);
     display: block;
     line-height: var(--line-height);
+    margin: 0;
+}
+
+.post-details{
+  margin-bottom: 50px;
 }
 
 sub{
@@ -280,6 +285,7 @@ figcaption {
 a{
   color: var(--accent-color-dark-orange);
   text-decoration: none;
+  font-weight: 500;
 }
 
 a:hover{
