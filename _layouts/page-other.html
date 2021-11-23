@@ -8,17 +8,10 @@
 
 <body>
 <article>
-  {% if page.notitle = "yes" %}
-  
-    <!-- do not add h1 section -->
-  
-  {% else %}
   
   <section class="page-header">
     <h1>{{ page.displaytitle }}</h1>
   </section>
-  
-  {% endif %}
 
   {{ content }}
   
