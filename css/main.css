@@ -594,6 +594,10 @@ section.postscript::before{
   padding-right: 10px;
 }
 
+.ext-key-desc {
+  padding-left: 7.55px;
+}
+
 
 .homepage-nav a {
     color: inherit;
