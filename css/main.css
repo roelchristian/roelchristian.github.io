@@ -552,6 +552,11 @@ section.postscript::before{
   font-weight: 600;
 }
 
+.extlink-container {
+  display: grid;
+  grid-template-column: 20px 50fr;
+}
+
 .extlink-icon {
   height: 11px;
   width: 11px;
@@ -588,6 +593,7 @@ section.postscript::before{
 
 .extlink-description {
   padding-left: 10px;
+  margin-top: 10px;
 }
 
 .ext-link-key {
@@ -608,7 +614,7 @@ section.postscript::before{
 }
 
 @media (min-width: 760px){
-  h1, ol.example, .avatar img{
+  h1, ol.example, .avatar img, extlink-container{
     max-width: 55%;
   }
 }
