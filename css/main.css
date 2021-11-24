@@ -554,7 +554,7 @@ section.postscript::before{
 
 .extlink-container {
   display: grid;
-  grid-template-column: 20px 50fr;
+  grid-template-columns: 15px 50fr;
 }
 
 .extlink-icon {
@@ -589,6 +589,7 @@ section.postscript::before{
 
 .extlink-description a {
   color: inherit;
+  font-weight: 400;
 }
 
 .extlink-description {
