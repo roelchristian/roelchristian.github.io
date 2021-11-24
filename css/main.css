@@ -557,6 +557,10 @@ section.postscript::before{
   grid-template-columns: 15px 50fr;
 }
 
+.extlink-container p{
+  margin-bottom: 0;
+}
+
 .extlink-icon {
   height: 11px;
   width: 11px;
