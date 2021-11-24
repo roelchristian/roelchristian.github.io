@@ -1,21 +1,20 @@
 ---
 layout: page-other
-title: Stuff I like &mdash; Roel Christian Yambao
-displaytitle: Links to stuff I like
+title: Bookmarks &mdash; Roel Christian Yambao
+displaytitle: Bookmarks
 permalink: "links"
 ---
 
 
 <div class="extlinks">
-  {% for subname in site.data.links.main %}
+  
   <section>
-    <h2>{{ subname.sub }}</h2>
-      <ul>
-      {% for item in subname.gohere %}
-        <li><a href="{{ item.siteurl }}" target="_blank" rel="noreferrer">{{ item.sitealias }}.
- </a> {{ item.description }}</li>
-      {% endfor %}
-        </ol>
+    {% for link in site.data.links.links %}
+    
+      <p>
+        <a href="{{ link.url }}" rel="noopener noreferrer">{{ link.description }}</a>
+      </p>
+    
+    {% endfor %}
   </section>
-  {% endfor %}
 </div>
