@@ -21,16 +21,16 @@ permalink: "bookmarks"
   <section>
     {% for link in site.data.links.links %}
     
-      <p>
+      <div class="extlink-container">
         {% if link.category == 1 %}
-        <span class="extlink-icon ext-article"></span>
+        <p class="extlink-icon ext-article"></p>
         {% elsif link.category == 2 %}
-        <span class="extlink-icon ext-book"></span>
+        <p class="extlink-icon ext-book"></p>
         {% elsif link.category == 2 %}
-        <span class="extlink-icon ext-video"></span>
+        <p class="extlink-icon ext-video"></p>
         {% endif %}
-        <span class="extlink-description"><a href="{{ link.url }}" rel="noopener noreferrer">{{ link.description }}</a></span>
-      </p>
+        <p class="extlink-description"><a href="{{ link.url }}" rel="noopener noreferrer">{{ link.description }}</a></p>
+      </div>
     
     {% endfor %}
   </section>
