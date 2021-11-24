@@ -26,8 +26,10 @@ permalink: "bookmarks"
         <p class="extlink-icon ext-article"></p>
         {% elsif link.category == 2 %}
         <p class="extlink-icon ext-book"></p>
-        {% elsif link.category == 2 %}
+        {% elsif link.category == 3 %}
         <p class="extlink-icon ext-video"></p>
+        {% elsif link.category == 4 %}
+        <p class="extlink-icon ext-other"></p>
         {% endif %}
         <p class="extlink-description"><a href="{{ link.url }}" rel="noopener noreferrer">{{ link.description }}</a></p>
       </div>
