@@ -1,60 +1,9 @@
-main:
-  - sub: "Blogs, podcasts, and websites worth checking"
-    gohere:
-      - sitealias: "Read a little poetry"
-        siteurl: "https://readalittlepoetry.wordpress.com/"
-        description: "The loveliest place on the internet"
-      - sitealias: Signals By Levi Masuli
-        siteurl: "https://johnlevimasuli.wordpress.com"
-        description: "A blog by John Levi Masuli, a Filipino writer and musician."
-      - sitealias: caliath
-        siteurl: "https://caliath.com/"
-        description: "Poetry and prose by Jo&atilde;o-Maria."
-      - sitealias: "Ezra Koenig&rsquo;s Internet Vibes"
-        siteurl: "https://internetvibes.blogspot.com/"
-      - sitealias: "Lagimlim"
-        siteurl: "https://lagimlim.wordpress.com/"
-        description: "Blog ni Abner Dormiendo, may-akda ng &lsquo;Sa Antipolo pa rin ang Antipolo&lsquo;"
-      - sitealias: "Kasper Sevaj, Scrampton Vet"
-        siteurl: "http://www.sevaj.dk/indexeng.php"
-        description: "An odd place in an odd world. Don&rsquo;t forget to check his <a href='http://www.sevaj.dk/kharms/kharmseng.htm'>collection of stories</a> by Daniil Kharms."
-      - sitealias: "Laudator temporis acti"
-        siteurl: "https://laudatortemporisacti.blogspot.com/"
-        description: "A <i>blog</i> by Michael Gilleland."
-      - sitealias: Infinite Summer
-        siteurl: "http://infinitesummer.org/"
-      - sitealias: "Radiolab Presents More Perfect"
-        siteurl: "https://www.npr.org/podcasts/481105292/more-perfect"
-  - sub: "Random articles"
-    gohere:
-      - sitealias: "Borges&rsquo;s <i>Paris Review</i> interview"
-        siteurl: "https://www.theparisreview.org/interviews/4331/the-art-of-fiction-no-39-jorge-luis-borges"
-      - sitealias: "T.S. Eliot&rsquo;s <i>Paris Review</i> interview"
-        siteurl: "https://www.theparisreview.org/interviews/4738/the-art-of-poetry-no-1-t-s-eliot"
-      - sitealias: "&lsquo;The Made-Up Man&rsquo; from <i>The New Yorker</i>"
-        siteurl: "https://www.newyorker.com/magazine/2018/01/01/the-made-up-man"
-      - sitealias: "Andre Braugher, Undercover Comedian"
-        siteurl: "https://www.nytimes.com/2014/10/05/magazine/andre-braugher-the-undercover-comedian-of-brooklyn-nine-nine.html"
-      - sitealias: "A 1977 <i>Panorama</i> interview with Clarice Lispector (in Portuguese)"
-        siteurl: "https://youtu.be/ohHP1l2EVnU"
-      - sitealias: "The Radical Transparency of Tilda Swinton"
-        siteurl: "https://www.nytimes.com/2011/12/04/magazine/tilda-swinton.html"
-      - sitealias: "My Family&rsquo;s Slave by Alex Tizon"
-        siteurl: "https://www.theatlantic.com/magazine/archive/2017/06/lolas-story/524490/"
-        description: "From the <i>Atlantic.</i>"
-  - sub: "Music, films and television"
-    gohere:
-      - sitealias: "My last.fm Profile"
-        siteurl: "https://www.last.fm/user/roelchristian/library"
-      - sitealias: "Wong Kar-wai, <i>In the Mood for Love</i>"
-        siteurl: "https://www.theguardian.com/film/filmblog/2011/dec/19/in-the-mood-for-love"
-      - sitealias: "Greta Gerwig, <i>Ladybird</i>"
-        siteurl: "https://www.netflix.com/title/80205227"
-  - sub: "Books"
-    gohere:
-      - sitealias: "Jia Tolentino, <em>Trick Mirror</em>"
-        siteurl: "https://www.goodreads.com/book/show/43126457-trick-mirror"
-      - sitealias: "Isabel Wilkerson, <em>The Warmth of Other Suns</em>"
-        siteurl: "https://www.goodreads.com/book/show/8171378-the-warmth-of-other-suns"
-      - sitealias: "<em>Cathay,</em> Translations from the Chinese by Ezra Pound"
-        siteurl: "https://www.gutenberg.org/files/50155/50155-h/50155-h.htm"
+links:
+  - url: "https://www.nytimes.com/2014/10/05/magazine/andre-braugher-the-undercover-comedian-of-brooklyn-nine-nine.html"
+    description: "Andre Braugher, Undercover Comedian"
+    date: 2020-06-30
+    category: 1
+  - url: "https://www.theatlantic.com/magazine/archive/2017/06/lolas-story/524490/"
+    description: "My Family&rsquo;s Slave"
+    date: 2018-04-23
+    category: 1
