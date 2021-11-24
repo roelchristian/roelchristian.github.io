@@ -578,12 +578,20 @@ section.postscript::before{
   background-color: var(--accent-color-red);
 }
 
+.ext-other{
+  background-color: var(--var-color-gray);
+}
+
 .extlink-description a {
   color: inherit;
 }
 
 .extlink-description {
   padding-left: 10px;
+}
+
+.extlink-key {
+  padding-right: 10px;
 }
 
 
