@@ -13,14 +13,13 @@ permalink: "links"
     
       <p>
         {% if link.category == 1 %}
-        <span class="extlink-icon-article"></span>
+        <span class="extlink-icon ext-article"></span>
         {% elsif link.category == 2 %}
-        <span class="extlink-icon-book"></span>
+        <span class="extlink-icon ext-book"></span>
         {% elsif link.category == 2 %}
-        <span class="extlink-icon-video"></span>
+        <span class="extlink-icon ext-video"></span>
         {% endif %}
         <span class="extlink-description"><a href="{{ link.url }}" rel="noopener noreferrer">{{ link.description }}</a></span>
-        <span class="extlink-date">{{ link.date | date: "%Y-%m-%d"}}</span>
       </p>
     
     {% endfor %}
