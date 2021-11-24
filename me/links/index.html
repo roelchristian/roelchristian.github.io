@@ -12,7 +12,15 @@ permalink: "links"
     {% for link in site.data.links.links %}
     
       <p>
-        <a href="{{ link.url }}" rel="noopener noreferrer">{{ link.description }}</a>
+        {% if link.category == 1 %}
+        <span class="extlink-icon-article"></span>
+        {% elsif link.category == 2 %}
+        <span class="extlink-icon-book"></span>
+        {% elsif link.category == 2 %}
+        <span class="extlink-icon-video"></span>
+        {% endif %}
+        <span class="extlink-description"><a href="{{ link.url }}" rel="noopener noreferrer">{{ link.description }}</a></span>
+        <span class="extlink-date">{{ link.date | date: "%Y-%m-%d"}}</span>
       </p>
     
     {% endfor %}
