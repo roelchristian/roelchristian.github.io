@@ -22,6 +22,9 @@ html { font-family: 'Inter', sans-serif; }
   --accent-color-orange: #d18700;
   --accent-color-dark-orange: #ab6700;
   --accent-color-brown: #5f4119;
+  --accent-color-amber: #FFBF00;
+  --accent-color-red: #E32227;
+  --accent-color-blue: #0476D0;
   --font-size: 16px;
   --var-font-size: 14px;
   --footnote-size: 11px;
@@ -511,8 +514,7 @@ label.margin-toggle:not(.sidenote-number) {
 .cv-company-dets{
   color: var(--var-color-gray);
   font-size: var(--font-size);
-    line-height: var(--line-height);
-  
+  line-height: var(--line-height);
 }
 
 
@@ -549,7 +551,30 @@ section.postscript::before{
   line-height: var(--var-line-height);
   font-weight: 600;
 }
-    
+
+.extlink-icon {
+  height: 14px;
+  width: 14pxpx;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.ext-article{
+  background-color: var(--accent-color-amber);
+}
+
+.ext-book{
+  background-color: var(--accent-color-blue);
+}
+
+.ext-video{
+  background-color: var(--accent-color-red);
+}
+
+.extlink-description a {
+  color: inherit;
+}
+
 
 .homepage-nav a {
     color: inherit;
