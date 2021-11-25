@@ -698,6 +698,10 @@ footer img {
     padding-top: 5px;
 }
 
+footer a {
+  color: inherit;
+}
+
 .footer-section {
     display: flex;
     flex-direction: column;
