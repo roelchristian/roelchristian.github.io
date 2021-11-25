@@ -91,19 +91,19 @@ article{
 
 @keyframes bob-arrow {
   0%, 100% {
-    transform: translateY(5px);
+    transform: translateY(-3px);
   }
   50% {
-    transform: translateY(5px);
+    transform: translateY(3px);
   }
 }
 
 @-webkit-keyframes bob-arrow {
   0%, 100% {
-    transform: translateY(5px);
+    transform: translateY(-3px);
   }
   50% {
-    transform: translateY(5px);
+    transform: translateY(3px);
   }
 }
 
