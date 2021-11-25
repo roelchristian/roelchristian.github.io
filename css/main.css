@@ -716,6 +716,7 @@ footer p {
   h1, ol.example, .avatar img, extlink-container{
     max-width: 55%;
   }
+  
 }
 
 
@@ -798,5 +799,9 @@ footer p {
     img {
         width: 100%;
     }
+  
+  .footer-wrap {
+    gap: 0 40px;
+}
  
 }
