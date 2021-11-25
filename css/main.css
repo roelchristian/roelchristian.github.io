@@ -74,7 +74,7 @@ article{
   color: var(--accent-color-brown);
 }
 
-.homepage-intro a {
+.homepage-intro a, .extra-bio a {
   color: var(--accent-color-brown);  
 }
 
@@ -622,7 +622,7 @@ section.postscript::before{
     line-height: var(--var-line-height);
 }
 
-.extra-bio-read-more{
+p.extra-bio-read-more{
   font-size: 20px;
   padding-bottom: 10rem;
   padding-top: 5rem;
