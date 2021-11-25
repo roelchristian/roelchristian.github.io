@@ -15,11 +15,10 @@ html { font-family: 'Inter', sans-serif; }
   --title-font: "Raleway";
   --mono-font: "IBM Plex Mono", Consolas;
   --main-bg-color:  #fffff8;
-  --main-color: #2E2E2E;
+  --main-color: #171717;
   --var-color-gray: #888;
   --darkmode-bg-color: #222;
   --darkmode-color: #ddd;
-  --accent-color-black: #171717;
   --accent-color-orange: #d18700;
   --accent-color-dark-orange: #ab6700;
   --accent-color-brown: #5f4119;
@@ -77,7 +76,7 @@ article{
 
 .homepage-intro a {
   color: var(--accent-color-brown);  
-  ]
+}
 
 
 /* Adds dark mode */
@@ -609,7 +608,7 @@ section.postscript::before{
     color: inherit;
     text-shadow: none;
     text-decoration: none;
-    font-weight: 400;
+    font-weight: 500;
     padding-right: 20px;
     font-size: var(--var-font-size);
 }
