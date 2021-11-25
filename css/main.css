@@ -27,6 +27,7 @@ html { font-family: 'Inter', sans-serif; }
   --accent-color-blue: #0476D0;
   --font-size: 16px;
   --var-font-size: 14px;
+  --var-larger-font-size: 20px;
   --footnote-size: 11px;
   --line-height: calc(var(--font-size) * 1.55);
   --var-line-height: calc(var(--var-font-size) * 1.55);
@@ -89,7 +90,7 @@ article{
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-20px);
+    transform: translateY(5px);
   }
 }
 
@@ -98,7 +99,7 @@ article{
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-20px);
+    transform: translateY(5px);
   }
 }
 
@@ -260,8 +261,8 @@ blockquote {
 }
 
 .large{
-    font-size: 20px;
-  line-height: 30px;}
+    font-size: var(--var-larger-font-size);
+    line-height: 30px;}
 
 blockquote p {
     width: 55%;
@@ -507,7 +508,7 @@ label.margin-toggle:not(.sidenote-number) {
 }
 
 .intro-text p {
-    font-size: 20px;
+    font-size: var(--var-larger-font-size);
     line-height: 28px;
     letter-spacing: -0.01em;
     margin: 0;
@@ -647,12 +648,19 @@ section.postscript::before{
 }
 
 p.extra-bio-read-more{
-  font-size: 20px;
+  font-size: var(--var-larger-font-size);
   padding-bottom: 10rem;
   padding-top: 5rem;
 }
 
+.extra-bio-read-more a {
+  color: inherit;
+}
 
+.extra-bio-read-more a:hover {
+  color: var(--accent-color-brown);
+  text-decoration: none;
+}
   
 @media (min-width: 760px){
   h1, ol.example, .avatar img, extlink-container{
