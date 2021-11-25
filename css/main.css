@@ -694,6 +694,10 @@ footer {
   width: 20px;
 }
 
+footer img {
+    padding-top: 5px;
+}
+
 .footer-section {
     display: flex;
     flex-direction: column;
