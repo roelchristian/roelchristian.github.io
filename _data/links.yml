@@ -1,10 +1,18 @@
 links:
+  - url: "https://core.ac.uk/download/pdf/233185443.pdf"
+    description: In praise of footnotes
+    date: 2021-11-02
+    category: 1
+  - url: "https://pudding.cool/2021/10/judge-my-music/"
+    description: "How bad is your Spotify?"
+    date: 2021-01-21
+    category: 4
   - url: "https://www.nytimes.com/2014/10/05/magazine/andre-braugher-the-undercover-comedian-of-brooklyn-nine-nine.html"
-    description: "Andre Braugher, Undercover Comedian"
+    description: "Andre Braugher, undercover comedian"
     date: 2020-06-30
     category: 1
   - url: "https://www.theatlantic.com/magazine/archive/2017/06/lolas-story/524490/"
-    description: "My Family&rsquo;s Slave"
+    description: "My family&rsquo;s slave"
     date: 2018-04-23
     category: 1
   - url: "https://youtu.be/K2FsG1G1psw"
