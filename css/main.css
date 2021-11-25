@@ -78,6 +78,22 @@ article{
   color: var(--accent-color-brown);  
 }
 
+.arrow-bob-animation-vertical {
+  animation: bob-arrow 1s linear infinite;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+@keyframes bob-arrow {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
 
 /* Adds dark mode */
 @media (prefers-color-scheme: dark) {
