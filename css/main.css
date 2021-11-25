@@ -91,7 +91,7 @@ article{
 
 @keyframes bob-arrow {
   0%, 100% {
-    transform: translateY(-3px);
+    transform: translateY(-1px);
   }
   50% {
     transform: translateY(3px);
@@ -100,7 +100,7 @@ article{
 
 @-webkit-keyframes bob-arrow {
   0%, 100% {
-    transform: translateY(-3px);
+    transform: translateY(-1px);
   }
   50% {
     transform: translateY(3px);
