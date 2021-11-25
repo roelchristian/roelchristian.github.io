@@ -79,6 +79,7 @@ article{
 }
 
 .arrow-bob-animation-vertical {
+  display: inline-block;
   animation: bob-arrow 1s linear infinite;
   -webkit-animation: bob-arrow 1s linear infinite;
 }
