@@ -174,7 +174,8 @@ hr {
     height: 1px;
     width: 55%;
     border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid;
+    border-color: inherit;
     margin: 1em 0;
     padding: 0;
 }
