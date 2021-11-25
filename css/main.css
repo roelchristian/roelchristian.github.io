@@ -676,6 +676,10 @@ footer {
     color: var(--var-color-gray);
 }
 
+.homepage footer {
+  color: var(--main-color);
+}
+
 .footer-hr {
   margin: 4rem 0;
 }
