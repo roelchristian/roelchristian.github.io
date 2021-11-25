@@ -60,7 +60,7 @@ article{
 
 .homepage {
     background-color: var(--accent-color-orange);
-    color: var(--main-font);
+    color: var(--main-color);
     text-shadow: 0 0 var(--darkmode-bg-color);
 }
 
@@ -72,8 +72,12 @@ article{
 }
 
 .homepage-nav a:hover {
-  color: #5F4119;
+  color: var(--accent-color-brown);
 }
+
+.homepage-intro a {
+  color: var(--accent-color-brown);  
+  ]
 
 
 /* Adds dark mode */
@@ -82,10 +86,6 @@ article{
         background-color: var(--darkmode-bg-color);
         color: var(--darkmode-color);
     }
-  
-  a {
-    color: var(--var-color-gray);
-  }
 }
 
 h1 {
@@ -298,8 +298,8 @@ figcaption {
     color: var(--var-color-gray);
 }
 
-a{
-  color: var(--accent-color-black);
+a {
+  color: var(--var-color-gray);
   text-decoration: none;
 
 }
