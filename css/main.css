@@ -79,6 +79,10 @@ article{
   color: var(--accent-color-brown);  
 }
 
+#extra-bio-start {
+  color: var(--accent-color-orange);
+}
+
 .arrow-bob-animation-vertical {
   display: inline-block;
   animation: bob-arrow 1s linear infinite;
