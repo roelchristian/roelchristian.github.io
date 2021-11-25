@@ -15,10 +15,11 @@ html { font-family: 'Inter', sans-serif; }
   --title-font: "Raleway";
   --mono-font: "IBM Plex Mono", Consolas;
   --main-bg-color:  #fffff8;
-  --main-color: #111;
+  --main-color: #2E2E2E;
   --var-color-gray: #888;
   --darkmode-bg-color: #222;
   --darkmode-color: #ddd;
+  --accent-color-black: #171717;
   --accent-color-orange: #d18700;
   --accent-color-dark-orange: #ab6700;
   --accent-color-brown: #5f4119;
@@ -81,6 +82,10 @@ article{
         background-color: var(--darkmode-bg-color);
         color: var(--darkmode-color);
     }
+  
+  a {
+    color: var(--var-color-gray);
+  }
 }
 
 h1 {
@@ -294,20 +299,13 @@ figcaption {
 }
 
 a{
-  color: inherit;
+  color: var(--accent-color-black);
   text-decoration: none;
-  border-bottom: 1px dashed;
+
 }
 
 a:hover{
-  border-bottom: 1px solid;
-}
-
-
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-    a:link, .tufte-underline, .hover-tufte-underline:hover {
-        background-position-y: 87%, 87%, 87%;
-    }
+  text-decoration: underline;
 }
 
 
