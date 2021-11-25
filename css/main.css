@@ -115,6 +115,13 @@ section h3:not(:first-of-type) {
     margin-bottom: 0;
 }
 
+h3.small-h3 {
+    color: inherit;
+    font-size: inherit;
+    margin-top: 3rem;
+    margin-bottom: auto;
+}
+
 .sec-subtitle{
   display: inline;
   color: var(--var-color-gray); 
@@ -286,13 +293,13 @@ figcaption {
 }
 
 a{
-  color: var(--accent-color-dark-orange);
-  text-decoration: none;
-  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-style: dotted;
 }
 
 a:hover{
-  text-decoration: underline;
+    text-decoration: underline;
+  text-decoration-style: solid;
 }
 
 
@@ -623,7 +630,7 @@ section.postscript::before{
   display: none;
 }
 
-.extra-bio {
+.extra-bio p {
     font-size: var(--var-font-size);
     line-height: var(--var-line-height);
 }
