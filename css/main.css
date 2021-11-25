@@ -120,6 +120,7 @@ h3.small-h3 {
     font-size: inherit;
     margin-top: 3rem;
     margin-bottom: auto;
+    font-weight: 500;
 }
 
 .sec-subtitle{
@@ -294,13 +295,12 @@ figcaption {
 
 a{
   color: inherit;
-  text-decoration: underline;
-  text-decoration-style: dotted;
+  text-decoration: none;
+  border-bottom: 1px dashed;
 }
 
 a:hover{
-    text-decoration: underline;
-  text-decoration-style: solid;
+  border-bottom: 1px solid;
 }
 
 
@@ -626,8 +626,9 @@ section.postscript::before{
 }
 
 .extra-bio-read-more{
-  font-size: var(--font-size);
+  font-size: 20px;
   padding-bottom: 10rem;
+  padding-top: 5rem;
 }
 
 
