@@ -48,18 +48,19 @@ html { font-family: 'Inter', sans-serif; }
 }
 
 ::selection {
-  color: white;
+  color: black;
   background: #EEEDE7;
 }
 
 .homepage p::-moz-selection { /* Code for Firefox */
-  color: #333;
-  background: var(--accent-color-brown);
+  color: black;
+  background: var(--accent-color-dark-orange);
 }
 
 .homepage p::selection {
-  color: #333;
-  background: var(--accent-color-brown);
+  color: black;
+  background: var(--accent-color-dark-orange);
+
 }
 
 body {
