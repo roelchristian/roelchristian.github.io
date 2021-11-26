@@ -481,7 +481,10 @@ label.margin-toggle:not(.sidenote-number) {
 }
 
 .publish-date {
-  color: var(--var-color-gray);
+    color: var(--var-color-gray);
+    display: block;
+    font-size: var(--var-font-size);
+    font-weight: 500;
 }
 
 .publish-title {
