@@ -52,6 +52,16 @@ html { font-family: 'Inter', sans-serif; }
   background: #333;
 }
 
+.homepage::-moz-selection { /* Code for Firefox */
+  color: #333;
+  background: var(--accent-color-brown);
+}
+
+.homepage::selection {
+  color: #333;
+  background: var(--accent-color-brown);
+}
+
 body {
     width: 87.5%;
     margin-left: auto;
@@ -576,8 +586,8 @@ label.margin-toggle:not(.sidenote-number) {
 
 .cv-company-dets{
   color: var(--var-color-gray);
-  font-size: var(--font-size);
-  line-height: var(--line-height);
+  font-size: var(--var-font-size);
+  line-height: var(--var-line-height);
 }
 
 
