@@ -43,21 +43,21 @@ html { font-family: 'Inter', sans-serif; }
 }
 
 ::-moz-selection { /* Code for Firefox */
-  color: white;
-  background: #333;
+  color: black;
+  background: #EEEDE7;
 }
 
 ::selection {
   color: white;
-  background: #333;
+  background: #EEEDE7;
 }
 
-.homepage::-moz-selection { /* Code for Firefox */
+.homepage p::-moz-selection { /* Code for Firefox */
   color: #333;
   background: var(--accent-color-brown);
 }
 
-.homepage::selection {
+.homepage p::selection {
   color: #333;
   background: var(--accent-color-brown);
 }
@@ -144,6 +144,16 @@ article{
     body {
         background-color: var(--darkmode-bg-color);
         color: var(--darkmode-color);
+    }
+  
+    ::-moz-selection { /* Code for Firefox */
+      color: white;
+      background: #333;
+    }
+
+    ::selection {
+      color: white;
+      background: #333;
     }
 }
 
