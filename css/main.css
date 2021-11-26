@@ -342,6 +342,11 @@ a:hover{
 /* Sidenotes, margin notes, figures, captions */
 img {
     max-width: 100%;
+    filter: grayscale(90%);
+}
+
+img:hover {
+  filter: grayscale(0);
 }
 
 .sidenote,
