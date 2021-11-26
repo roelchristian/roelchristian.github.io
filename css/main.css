@@ -42,6 +42,16 @@ html { font-family: 'Inter', sans-serif; }
   font-family: "Noto Serif TC", serif;
 }
 
+::-moz-selection { /* Code for Firefox */
+  color: white;
+  background: #333;
+}
+
+::selection {
+  color: white;
+  background: #333;
+}
+
 body {
     width: 87.5%;
     margin-left: auto;
