@@ -3,12 +3,20 @@ layout: container
 title: Archive
 ---
 
+<section class="intro-text">
+	
+	<p>I’ve been writing for as long as I can remember. The impulse to write has always been as primal—as inevitable—to me as the impulse to breathe.<label for="sn-1" class="margin-toggle sidenote-number">
+</label>
+<input type="checkbox" id="sn-1" class="margin-toggle"><span class="sidenote">cf. <a href="https://accessinghigherground.org/handouts2013/HTCTU%20Alt%20Format%20Manuals/Processing%20PDF%20Sample%20Files/00%20On%20Keeping%20a%20Notebook.pdf" target="_blank" rel="noreferrer noopener">Didion</a></span> Below is an index of some of the things I’ve written through the years, and occasionally, updates about the goings-on in my life.</p>
+
+</section>
 <div class="publish-wrap">
+	
 {% assign postsByYear =
     site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
 	
 {% for year in postsByYear %}
-<div class="publish-wrap-year">
+<section class="publish-wrap-year">
   <h2>{{ year.name }}</h2>
       {% for post in year.items %}
         <div class="publish-div">
@@ -16,7 +24,7 @@ title: Archive
 	    <div class="publish-date">{{post.date | date: '%B %-d' }}</div>
 	</div>
       {% endfor %}
-</div>
+</section>
 	
 {% endfor %}
 
