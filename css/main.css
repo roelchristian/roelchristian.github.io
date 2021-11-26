@@ -501,8 +501,12 @@ label.margin-toggle:not(.sidenote-number) {
   text-decoration: underline;
 }
 .publish-div{
-  padding: 12px 0 0 0;
+  padding-top: 25px;
   line-height: var(--line-height);
+}
+
+.publish-wrap-year {
+  padding-bottom: 25px;
 }
 
 .hangind{
