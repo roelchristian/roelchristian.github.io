@@ -28,6 +28,7 @@ html { font-family: 'Inter', sans-serif; }
   --font-size: 16px;
   --var-font-size: 14px;
   --var-larger-font-size: 20px;
+  --var-header-size: 24px;
   --footnote-size: 11px;
   --line-height: calc(var(--font-size) * 1.55);
   --var-line-height: calc(var(--var-font-size) * 1.55);
@@ -119,8 +120,7 @@ article{
 h1 {
     font-family: var(--main-font);
     font-weight: 600;
-    letter-spacing: -0.02em;
-    font-size: 22px;
+    font-size: var(--var-header-size);
     line-height: 1.5;
     margin: 0 0 15px 0;
 }
@@ -130,7 +130,7 @@ h2 {
     font-family: var(--main-font);
     margin-top: 3em;
     margin-bottom: margin-bottom: var(--line-height);
-    font-size: 1.25rem;
+    font-size: var(--var-larger-font-size);
     line-height: calc(var(--line-height) * 1.2);
 }
 
@@ -485,6 +485,7 @@ label.margin-toggle:not(.sidenote-number) {
     display: block;
     font-size: var(--var-font-size);
     font-weight: 500;
+    padding-top: 5px;
 }
 
 .publish-title {
@@ -513,7 +514,7 @@ label.margin-toggle:not(.sidenote-number) {
 
 .publish-wrap-year h2 {
   font-weight: 800;
-  font-color: var(--var-color-gray);
+  color: var(--var-color-gray);
 }
 
 .hangind{
