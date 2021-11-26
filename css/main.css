@@ -501,8 +501,9 @@ label.margin-toggle:not(.sidenote-number) {
 .publish-title a:hover {
   text-decoration: underline;
 }
+
 .publish-div{
-  padding-top: 20px;
+  padding-top: 30px;
   line-height: var(--line-height);
 }
 
@@ -510,7 +511,7 @@ label.margin-toggle:not(.sidenote-number) {
   padding-bottom: 50px;
 }
 
-.publish-wrap-h2 {
+.publish-wrap-year h2 {
   font-weight: 800;
   font-color: var(--var-color-gray);
 }
