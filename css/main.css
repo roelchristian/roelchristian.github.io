@@ -42,22 +42,18 @@ html { font-family: 'Inter', sans-serif; }
   font-family: "Noto Serif TC", serif;
 }
 
-::-moz-selection { /* Code for Firefox */
+
+::selection,
+::-moz-selection {
   color: black;
   background: #EEEDE7;
 }
 
-::selection {
-  color: black;
-  background: #EEEDE7;
-}
 
-.homepage p::-moz-selection { /* Code for Firefox */
-  color: black;
-  background: var(--accent-color-dark-orange);
-}
-
-.homepage p::selection {
+.homepage p::-moz-selection,
+.homepage p::selection,
+.homepage a::selection,
+.homepage a::-moz-selection {
   color: black;
   background: var(--accent-color-dark-orange);
 
