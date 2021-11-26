@@ -501,12 +501,12 @@ label.margin-toggle:not(.sidenote-number) {
   text-decoration: underline;
 }
 .publish-div{
-  padding-top: 25px;
+  padding-top: 20px;
   line-height: var(--line-height);
 }
 
 .publish-wrap-year {
-  padding-bottom: 25px;
+  padding-bottom: 50px;
 }
 
 .hangind{
@@ -717,6 +717,7 @@ footer a {
 footer p {
     margin-block-start: 0;
     margin-block-end: 0;
+    font-size: var(--var-font-size);
 }
   
 @media (min-width: 760px){
