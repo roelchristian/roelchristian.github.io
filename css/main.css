@@ -674,6 +674,14 @@ p.extra-bio-read-more{
   text-decoration: none;
 }
 
+.post-sharing-options
+  font-size: var(--var-font-size);
+}
+
+.post-share-link a {
+  padding-left: 20px;
+}
+
 footer {
     padding-top: 18rem;
     font-size: var(--var-font-size);
