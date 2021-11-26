@@ -647,7 +647,6 @@ section.postscript::before{
     text-decoration: none;
     font-weight: 500;
     padding-right: 20px;
-    font-size: var(--var-font-size);
 }
 
 .page-header-home{
@@ -675,12 +674,12 @@ p.extra-bio-read-more{
 }
 
 .post-sharing-options {
-  padding-top: 50px;
+  padding-top: 10px;
   font-size: var(--var-font-size);
 }
 
 .post-share-link a {
-  padding-left: 20px;
+  padding-left: 10px;
 }
 
 footer {
