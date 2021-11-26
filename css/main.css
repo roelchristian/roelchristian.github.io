@@ -490,10 +490,12 @@ label.margin-toggle:not(.sidenote-number) {
     display: block;
     font-size: var(--var-font-size);
     font-weight: 500;
+    padding-top: 5px;
 }
 
 .publish-title {
   font-weight: 500;
+  font-size: var(--var-larger-font-size);
 }
 
 .publish-title a {
@@ -512,6 +514,7 @@ label.margin-toggle:not(.sidenote-number) {
 
 .publish-wrap-year {
   padding-bottom: 50px;
+  font-weight: 600;
 }
 
 .publish-wrap-year h2 {
