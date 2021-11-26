@@ -490,6 +490,7 @@ label.margin-toggle:not(.sidenote-number) {
 .publish-title {
   padding-right: 5px;
   font-weight: 500;
+  font-size: var(--var-larger-font-size);
 }
 
 .publish-title a {
@@ -507,6 +508,11 @@ label.margin-toggle:not(.sidenote-number) {
 
 .publish-wrap-year {
   padding-bottom: 50px;
+}
+
+.publish-wrap-h2 {
+  font-weight: 800;
+  font-color: var(--var-color-gray);
 }
 
 .hangind{
