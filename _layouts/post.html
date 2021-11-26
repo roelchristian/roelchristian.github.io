@@ -16,31 +16,16 @@
 
   {{ content }}
   
-<!--
-<div class="post-meta">
+  <section class="post-sharing-options">
+    <p>Share this post:
+      <span class="post-share-link"><a href="mailto:?subject={{ page.title }}&amp;body=Check out this article {{ site.url}}{{ page.url }}">Email</a></span>
+      <span class="post-share-link"><a href="https://twitter.com/intent/tweet?text=Check out this article {{ site.url}}{{ page.url }}">Twitter</a></span>
+      <span class="post-share-link"><a href="https://www.reddit.com/submit?url={{ site.url}}{{ page.url }}">Reddit</a></span>
 
-  <div class="post-nav">
-  <div class="post-nav-prev {% unless page.next.url %} no-padding {% endunless %}">
-    {% if page.previous.url %}
-    <div class="prev-arrow"><a href="{{page.previous.url}}">← </a></div>
+  </section>
 
-    <span class="prev-next"><span class="hide-on-mobile">←&nbsp;</span>Previous</span>
-    <a href="{{page.previous.url}}">{{page.previous.title}}</a>
-
-    {% endif %}
-  </div>
-  <div class="{% if page.next.url %} post-nav-next {% else %} none {% endif %}">
-    {% if page.next.url %}
-    <span class="prev-next">Next&nbsp;<span class="hide-on-mobile">→</span></span>
-    <a href="{{page.next.url}}">{{page.next.title}}</a>
-
-    <div class="next-arrow"><a href="{{page.next.url}}">→</a></div>
-    {% endif %}
-  </div>
-</div>
-</div>-->
   
-    {% include footer.html %}
+{% include footer.html %}
 
   
 </article>
