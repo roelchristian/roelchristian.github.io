@@ -674,7 +674,8 @@ p.extra-bio-read-more{
   text-decoration: none;
 }
 
-.post-sharing-options
+.post-sharing-options {
+  padding-top: 50px;
   font-size: var(--var-font-size);
 }
 
