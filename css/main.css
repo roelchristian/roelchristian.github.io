@@ -80,6 +80,16 @@ article{
   color: var(--accent-color-brown);  
 }
 
+.nav-home {
+    position: fixed;
+    top: 6.5rem;
+    left: 2rem;
+}
+
+.nav-home img {
+    width: 30px;
+}
+
 #extra-bio-start {
   color: var(--accent-color-orange);
 }
@@ -773,7 +783,9 @@ footer p {
         width: 95%;
     }
   
-    
+    .nav-home {
+      display: none;
+  }
 
     figure {
         max-width: 85%;
