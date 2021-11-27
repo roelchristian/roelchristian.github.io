@@ -10,14 +10,22 @@ title: Archive
 <input type="checkbox" id="sn-1" class="margin-toggle"><span class="sidenote">cf. <a href="https://accessinghigherground.org/handouts2013/HTCTU%20Alt%20Format%20Manuals/Processing%20PDF%20Sample%20Files/00%20On%20Keeping%20a%20Notebook.pdf" target="_blank" rel="noreferrer noopener">Didion</a></span> Below is an index of some of the things I’ve written through the years, and occasionally, updates about the goings-on in my life.</p>
 
 </section>
-<div class="publish-wrap">
 	
 {% assign postsByYear =
     site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
-	
+
+<nav class="aside" id="post-year-nav">
+	<div>Jump to year:</div>
+	{% for year in postsByYear %}
+	<div><a href="id-h2-{{ year.name }}">{{ year.name }}</a></div>
+	{% endfor %}
+</nav>	
+
+<div class="publish-wrap">
+
 {% for year in postsByYear %}
 <section class="publish-wrap-year">
-  <h2>{{ year.name }}</h2>
+  <h2 id="id-h2-{{ year.name }}">{{ year.name }}</h2>
       {% for post in year.items %}
         <div class="publish-div">
 	    <div class="publish-title"><a href="{{ post.url }}">{{ post.title }}</a></div>
