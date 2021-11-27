@@ -112,6 +112,10 @@ article{
   color: var(--accent-color-brown);  
 }
 
+.landing-intro p {
+  font-weight: 450;
+}
+
 .nav-home {
     position: fixed;
     top: 6.5rem;
@@ -740,6 +744,13 @@ p.extra-bio-read-more{
 .post-sharing-options {
   padding-top: 10px;
   font-size: var(--var-font-size);
+}
+
+.post-sharing-options::before {
+    content: "";
+    border-bottom: 2px solid;
+    width: 20px;
+    position: absolute;
 }
 
 .post-share-link a {
