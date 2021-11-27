@@ -119,7 +119,7 @@ article{
 .nav-home {
     position: fixed;
     top: 6.5rem;
-    left: 2rem;
+    left: 3rem;
 }
 
 .nav-home img {
@@ -592,7 +592,6 @@ label.margin-toggle:not(.sidenote-number) {
     line-height: 28px;
     letter-spacing: -0.01em;
     margin: 0;
-    font-weight: 400;
 }
 
 #cv-links p {
