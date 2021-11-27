@@ -14,7 +14,7 @@ title: Archive
 {% assign postsByYear =
     site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
 
-<nav class="aside" id="post-year-nav">
+<nav class="in-text-nav" id="post-year-nav">
 	<div>Jump to year:</div>
 	{% for year in postsByYear %}
 	<div><a href="#id-h2-{{ year.name }}">{{ year.name }}</a></div>
