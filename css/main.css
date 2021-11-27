@@ -342,8 +342,12 @@ blockquote footer {
 
 section > p,
 section > footer,
-section > table {
+section > table{
     width: 55%;
+}
+
+.in-text-nav {
+  width: 55%;
 }
 
 /* 50 + 5 == 55, to be the same width as paragraph */
@@ -539,6 +543,14 @@ label.margin-toggle:not(.sidenote-number) {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+.in-text-nav {
+    font-size: var(--var-font-size);
+    display: inline-flex;
+    flex-flow: row wrap;
+    gap: 10px;
+    margin-top: 20px;
 }
 
 .publish-date {
@@ -833,6 +845,10 @@ footer p {
     section > ul,
     .cv-company-div ul {
         width: 95%;
+    }
+  
+    .in-text-nav {
+      width: 100%;
     }
   
     .nav-home {
