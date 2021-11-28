@@ -551,6 +551,7 @@ label.margin-toggle:not(.sidenote-number) {
     flex-flow: row wrap;
     gap: 10px;
     margin-top: 20px;
+    font-weight: 500;
 }
 
 .publish-date {
@@ -558,12 +559,10 @@ label.margin-toggle:not(.sidenote-number) {
     display: block;
     font-size: var(--var-font-size);
     font-weight: 500;
-    padding-top: 5px;
 }
 
 .publish-title {
   font-weight: 500;
-  font-size: var(--var-larger-font-size);
 }
 
 .publish-title a {
@@ -576,17 +575,26 @@ label.margin-toggle:not(.sidenote-number) {
 }
 
 .publish-div{
-  padding-top: 30px;
+  padding-top: 20px;
   line-height: var(--line-height);
 }
 
+.publish-wrap-year::before {
+    content: "";
+    width: 20px;
+    border-bottom: 2px solid;
+    position: absolute;
+}
+
 .publish-wrap-year {
-  padding-bottom: 50px;
-  font-weight: 600;
+  padding: 20px 0;
 }
 
 .publish-wrap-year h2 {
-  color: var(--var-color-gray);
+  font-weight: 600;
+  font-size: var(--font-size);
+  margin: 0;
+  padding: 10px 0;
 }
 
 .hangind{
