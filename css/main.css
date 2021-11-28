@@ -552,6 +552,7 @@ label.margin-toggle:not(.sidenote-number) {
     gap: 10px;
     margin-top: 20px;
     font-weight: 500;
+    margin-bottom: 20px;
 }
 
 .publish-date {
@@ -574,7 +575,7 @@ label.margin-toggle:not(.sidenote-number) {
   text-decoration: underline;
 }
 
-.publish-div{
+.publish-div {
   padding-top: 20px;
   line-height: var(--line-height);
 }
@@ -587,7 +588,7 @@ label.margin-toggle:not(.sidenote-number) {
 }
 
 .publish-wrap-year {
-  padding: 20px 0;
+  margin: 80px 0;
 }
 
 .publish-wrap-year h2 {
@@ -597,7 +598,7 @@ label.margin-toggle:not(.sidenote-number) {
   padding: 10px 0;
 }
 
-.hangind{
+.hangind {
   padding: 1em 0;
 }
   
