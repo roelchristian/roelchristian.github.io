@@ -323,9 +323,14 @@ blockquote {
     
 }
 
-.large{
+.large {
     font-size: var(--var-larger-font-size);
     line-height: var(--var-larger-line-height);
+}
+
+.normal {
+    font-size: initial;
+    line-height: initial;
 }
 
 blockquote p {
