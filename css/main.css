@@ -30,9 +30,9 @@ html { font-family: 'Inter', sans-serif; }
   --var-larger-font-size: 21px;
   --var-header-size: 26px;
   --footnote-size: 11px;
-  --line-height: calc(var(--font-size) * 1.55);
-  --var-line-height: calc(var(--var-font-size) * 1.55);
-  --var-larger-line-height: calc(var(--var-larger-font-size) * 1.55);
+  --line-height: calc(var(--font-size) * 1.5);
+  --var-line-height: calc(var(--var-font-size) * 1.5);
+  --var-larger-line-height: calc(var(--var-larger-font-size) * 1.35);
   
 }
 
