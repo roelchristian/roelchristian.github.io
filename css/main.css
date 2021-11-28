@@ -19,6 +19,7 @@ html { font-family: 'Inter', sans-serif; }
   --var-color-gray: #888;
   --darkmode-bg-color: #222;
   --darkmode-color: #ddd;
+  --accent-color-light-gray: #a9a9a9;
   --accent-color-orange: #d18700;
   --accent-color-dark-orange: #ab6700;
   --accent-color-brown: #964B00;
@@ -108,7 +109,7 @@ p.landing-intro-small {
 }
 
 #extra-bio-start {
-  color: var(--accent-color-orange);
+  margin-top: 50px
 }
 
 .arrow-bob-animation-vertical {
@@ -382,7 +383,7 @@ a {
 
 a:hover{
   text-decoration: underline;
-  color: #a9a9a9;
+  color: var(--accent-color-light-gray);
 }
 
 
@@ -561,6 +562,7 @@ label.margin-toggle:not(.sidenote-number) {
 
 .publish-title a:hover {
   text-decoration: underline;
+  color: var(--accent-color-light-gray);
 }
 
 .publish-div {
@@ -616,6 +618,8 @@ label.margin-toggle:not(.sidenote-number) {
 
 #cv-links a:hover {
     text-decoration: underline;
+  color: var(--accent-color-light-gray);
+  
 }
 
 .cv-company-dets{
@@ -725,6 +729,10 @@ section.postscript::before{
     padding-right: 20px;
 }
 
+.homepage-nav a:hover {
+  color: var(--accent-color-light-gray);
+}
+
 .page-header-home{
   display: none;
 }
@@ -746,6 +754,8 @@ p.extra-bio-read-more{
 
 .extra-bio-read-more a:hover {
   text-decoration: none;
+  color: var(--accent-color-light-gray);
+  
 }
 
 .post-sharing-options {
