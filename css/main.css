@@ -27,11 +27,13 @@ html { font-family: 'Inter', sans-serif; }
   --accent-color-blue: #0476D0;
   --font-size: 16px;
   --var-font-size: 14px;
-  --var-larger-font-size: 20px;
-  --var-header-size: 24px;
+  --var-larger-font-size: 23px;
+  --var-header-size: 28px;
   --footnote-size: 11px;
   --line-height: calc(var(--font-size) * 1.55);
   --var-line-height: calc(var(--var-font-size) * 1.55);
+  --var-larger-line-height: calc(var(--var-larger-font-size) * 1.55);
+  
 }
 
 :lang(zh){
@@ -187,7 +189,7 @@ h2 {
     margin-top: 3em;
     margin-bottom: margin-bottom: var(--line-height);
     font-size: var(--var-larger-font-size);
-    line-height: calc(var(--line-height) * 1.2);
+    line-height: var(--var-larger-line-height);
 }
 
 h3 {
@@ -323,7 +325,8 @@ blockquote {
 
 .large{
     font-size: var(--var-larger-font-size);
-    line-height: 30px;}
+    line-height: var(--var-larger-line-height);
+}
 
 blockquote p {
     width: 55%;
@@ -610,7 +613,7 @@ label.margin-toggle:not(.sidenote-number) {
 
 .intro-text p {
     font-size: var(--var-larger-font-size);
-    line-height: 28px;
+    line-height: var(--var-larger-line-height);
     letter-spacing: -0.01em;
     margin: 0;
 }
