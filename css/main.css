@@ -56,25 +56,6 @@ html { font-family: 'Inter', sans-serif; }
 }
 
 
-.homepage p::-moz-selection {
-  color: black;
-  background: var(--accent-color-dark-orange);
-} 
-
-.homepage p::selection {
-  color: black;
-  background: var(--accent-color-dark-orange);
-}
-
-.homepage a::selection  {
-  color: black;
-  background: var(--accent-color-dark-orange);
-}
-
-.homepage a::-moz-selection {
-  color: black;
-  background: var(--accent-color-dark-orange);
-}
 
 body {
     width: 87.5%;
@@ -93,12 +74,6 @@ article{
     counter-reset: example-counter;
 }
 
-.homepage {
-    background-color: var(--accent-color-orange);
-    color: var(--main-color);
-    text-shadow: 0 0 var(--darkmode-bg-color);
-}
-
 .homepage-nav a,
 #cv-links a,
 .cv-company-dets a {
@@ -106,21 +81,22 @@ article{
   color: inherit;
 }
 
-.homepage-nav a:hover {
-  color: var(--accent-color-brown);
-}
-
-.homepage-intro a, .extra-bio a {
-  color: var(--accent-color-brown);  
-}
 
 .landing-intro {
-    font-weight: 500;
+    font-weight: 650;
     font-size: 36px;
     line-height: 1.1;
     letter-spacing: -0.06rem;
     margin: 10px 0;
 }
+
+p.landing-intro-small {
+    color: var(--var-color-gray);
+    font-size: var(--var-font-size);
+    line-height: var(--var-line-height);
+    font-weight: 500;
+}
+
 .nav-home {
     position: fixed;
     top: 6.5rem;
@@ -768,7 +744,6 @@ p.extra-bio-read-more{
 }
 
 .extra-bio-read-more a:hover {
-  color: var(--accent-color-brown);
   text-decoration: none;
 }
 
