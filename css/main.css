@@ -27,8 +27,8 @@ html { font-family: 'Inter', sans-serif; }
   --accent-color-blue: #0476D0;
   --font-size: 16px;
   --var-font-size: 14px;
-  --var-larger-font-size: 23px;
-  --var-header-size: 28px;
+  --var-larger-font-size: 21px;
+  --var-header-size: 26px;
   --footnote-size: 11px;
   --line-height: calc(var(--font-size) * 1.55);
   --var-line-height: calc(var(--var-font-size) * 1.55);
