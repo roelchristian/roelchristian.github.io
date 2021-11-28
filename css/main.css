@@ -93,8 +93,6 @@ article{
 
 p.landing-intro-small {
     color: var(--var-color-gray);
-    font-size: var(--var-font-size);
-    line-height: var(--var-line-height);
     font-weight: 500;
 }
 
@@ -115,8 +113,8 @@ p.landing-intro-small {
 
 .arrow-bob-animation-vertical {
   display: inline-block;
-  animation: bob-arrow 1.5s linear infinite;
-  -webkit-animation: bob-arrow 1.5s linear infinite;
+  animation: bob-arrow 1s linear infinite;
+  -webkit-animation: bob-arrow 1s linear infinite;
 }
 
 @keyframes bob-arrow {
