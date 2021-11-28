@@ -114,10 +114,13 @@ article{
   color: var(--accent-color-brown);  
 }
 
-.landing-intro p {
-  font-weight: 450;
+.landing-intro {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: -0.06rem;
+    margin: 10px 0;
 }
-
 .nav-home {
     position: fixed;
     top: 6.5rem;
