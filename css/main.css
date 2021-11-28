@@ -108,8 +108,8 @@ p.landing-intro-small {
     width: 30px;
 }
 
-#extra-bio-start {
-  margin-top: 50px
+#extra-bio-start p {
+  margin-top: 50px;
   color: var(--main-color);
 }
 
