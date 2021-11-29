@@ -96,6 +96,7 @@ p.landing-intro-small {
     font-weight: 600;
     font-size: 18px;
     letter-spacing: -0.02em;
+    margin: 0;
 }
 
 .nav-home {
@@ -783,7 +784,7 @@ p.extra-bio-read-more{
 footer {
     padding-top: 18rem;
     font-size: var(--var-font-size);
-    font-weight: 300;
+    font-weight: 400;
     margin-block-start: 0;
     margin-block-end: 0;
     color: var(--var-color-gray);
