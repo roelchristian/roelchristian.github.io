@@ -94,6 +94,8 @@ article{
 p.landing-intro-small {
     color: var(--var-color-gray);
     font-weight: 600;
+    font-size: 18px;
+    letter-spacing: -0.02em;
 }
 
 .nav-home {
@@ -604,7 +606,7 @@ label.margin-toggle:not(.sidenote-number) {
 .intro-text p {
     font-size: var(--var-larger-font-size);
     line-height: var(--var-larger-line-height);
-    letter-spacing: -0.01em;
+    letter-spacing: -0.03em;
     margin: 0;
 }
 
