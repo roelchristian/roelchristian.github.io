@@ -613,7 +613,8 @@ label.margin-toggle:not(.sidenote-number) {
 .intro-text p {
     font-size: var(--var-larger-font-size);
     line-height: var(--var-larger-line-height);
-    letter-spacing: -0.03em;
+    letter-spacing: -0.02em;
+    font-weight: 300;
     margin: 0;
 }
 
