@@ -109,6 +109,12 @@ p.landing-intro-small {
     width: 30px;
 }
 
+  .nav-home-mobile {
+    display: none;
+}
+
+
+
 #extra-bio-start {
   margin-top: 50px;
   color: var(--main-bg-color);
@@ -862,6 +868,17 @@ footer p {
   
     .nav-home {
       display: none;
+  }
+
+      nav.nav-home-mobile {
+      display: block;
+      left: 0;
+      top: 0;
+      background: inherit;
+      padding: 10px 0;
+      color: inherit;
+      font-weight: 600;
+      font-size: var(--var-larger-font-size);
   }
 
     figure {
