@@ -93,7 +93,7 @@ article{
 
 p.landing-intro-small {
     color: var(--var-color-gray);
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .nav-home {
@@ -108,7 +108,7 @@ p.landing-intro-small {
 
 #extra-bio-start p {
   margin-top: 50px;
-  color: var(--main-color);
+  color: var(--main-bg-color);
 }
 
 .arrow-bob-animation-vertical {
@@ -154,7 +154,7 @@ p.landing-intro-small {
     }
   
     #extra-bio-start {
-      color: var(--darkmode-color);
+      color: var(--darkmode-bg-color);
   }
 }
 
@@ -753,6 +753,7 @@ p.extra-bio-read-more{
 
 .extra-bio-read-more a {
   color: inherit;
+  font-weight: 500;
 }
 
 .extra-bio-read-more a:hover {
