@@ -31,7 +31,7 @@ permalink: "bookmarks"
         {% elsif link.category == 4 %}
         <p class="extlink-icon ext-other"></p>
         {% endif %}
-        <p class="extlink-description"><a href="{{ link.url }}" rel="noopener noreferrer">{{ link.description }}</a></p>
+        <p class="extlink-description"><a href="{{ link.url }}" rel="noopener noreferrer" target="_blank">{{ link.description }}</a></p>
       </div>
     
     {% endfor %}
