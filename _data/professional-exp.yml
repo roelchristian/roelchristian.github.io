@@ -6,6 +6,11 @@ main:
    location-url: "https://goo.gl/maps/xii1jaUD5U6PwDnGA"
    company-website: "https://www.vertiv.com/"
    position: Master data management analyst
+   job-desc-list:
+    - bullet: "Maintained supplier and customer master database for six countries in Latin America."
+    -	bullet: "Initiated and led a machine-learning project that used an NLP algorithm built on top of BERT that classifies textual information about customers according to internal industry and market vertical labels."
+    -	bullet: Wrote a script to gather customer data from target sites and from broad crawls
+    -	bullet: Helped in inter-department initiatives to streamline reporting by creating dashboards in Smartsheet and Power BI
  - company: Infosys BPM Ltd
    start: August 2019
    end: July 2020
