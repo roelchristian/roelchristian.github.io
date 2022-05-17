@@ -398,7 +398,7 @@ figcaption {
 a {
   color: var(--var-color-gray);
   text-decoration: none;
-
+  font-weight: 600;
 }
 
 a:hover{
@@ -647,6 +647,7 @@ label.margin-toggle:not(.sidenote-number) {
   color: var(--var-color-gray);
   font-size: var(--var-font-size);
   line-height: var(--var-line-height);
+  font-weight: 600;
 }
 
 
