@@ -651,6 +651,10 @@ label.margin-toggle:not(.sidenote-number) {
   font-weight: 600;
 }
 
+.cv-company-name {
+  color: var(--var-color-gray);
+}
+
 
 .cv-company-dets a{
   text-decoration: none;
