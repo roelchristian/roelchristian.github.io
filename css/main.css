@@ -168,6 +168,12 @@ p.landing-intro-small {
 }
 
 h1 {
+    font-weight: 600;
+    font-size: var(--var-header-size);
+    line-height: var(--var-line-height);
+}
+
+.non-post h1 {
     font-family: var(--main-font);
     font-weight: 700;
     font-size: var(--var-font-size);
