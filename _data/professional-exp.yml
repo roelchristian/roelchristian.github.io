@@ -5,7 +5,7 @@ main:
    location: Mandaluyong, Manila Philippines
    location-url: "https://goo.gl/maps/xii1jaUD5U6PwDnGA"
    company-website: "https://www.vertiv.com/"
-   position: Master data management analyst
+   position: "Master data analyst"
    job-desc-list:
     - bullet: "Initiated and led a machine-learning project that used an NLP algorithm built on top of BERT that classifies textual information about customers according to internal industry and market vertical labels."
     - bullet: "Wrote a script to gather customer data from target sites and from broad crawls"
@@ -17,7 +17,7 @@ main:
    location: BGC, Manila, Philippines
    location-url: "https://goo.gl/maps/nuTsEdP8azVqK5QK6"
    company-website: "https://www.infosysbpm.com/philippines.html"
-   position: Senior technical process executive
+   position: "Senior analyst"
    job-desc-list:
     - bullet: "Created a tool to automate ticket tracking and report generation for use in monitoring weekly and monthly account performance"
     - bullet: " Worked with the Quality team and Operations to assess engagement opportunities and ways to better deal with engagement data by standardizing collection and archiving."
@@ -28,7 +28,7 @@ main:
    location: Makati, Manila, Philippines
    location-url: "https://goo.gl/maps/y9cpSZCoXhH9Szx28"
    company-website: "https://www.issgovernance.com/"
-   position: "Junior data analyst, Latin America"
+   position: "Data analyst"
    job-desc-list:
     - bullet: "Created data manuals and standardized work process for LATAM team"
     - bullet: "Participated in and led cross-department trainings, mainly in relation to corporate governance practices for Latin American markets, particularly Brazil"
