@@ -171,6 +171,7 @@ h1 {
     font-weight: 600;
     font-size: var(--var-header-size);
     line-height: 35px;
+    margin-top: 0;
 }
 
 .non-post h1 {
