@@ -5,7 +5,7 @@ title: Work
 ---
 
 <section class="intro-text">
-<p>Hi, I&rsquo;m Roel! I&rsquo;m passionate about telling stories that matter with big data. My main skills include creating data pipelines that transfer raw data to business applications, building machine learning models to automate or support decision making, and designing reports and dashboards to inform stakeholders.</p>
+<p>Hi, I&rsquo;m Roel! I&rsquo;m passionate about telling stories that matter through data. My main skills include creating data pipelines that transfer raw data to business applications, building machine learning models to automate or support decision making, and designing reports and dashboards to inform stakeholders.</p>
 </section>
 <section id="cv-links">
   <p><a href="{{site.url}}/me/cv/cv_en.pdf"> Download my CV as a pdf&nbsp;↓</a></p>
@@ -17,12 +17,9 @@ title: Work
 {% for job in site.data.professional-exp.main %}
 
   <div class="cv-company-div">
-    <h3>{{ job.position }}</h3>
+    <h3>{{ job.position }}&nbsp;&mdash;&nbsp;<span class="cv-company-name">{{ job.company }}</span></h3>
     <div class="cv-company-dets">
-        <div class="cv-company-name"><a href="{{ job.company-website }}" target="_blank" rel="noreferrer">{{ job.company }}&nbsp;↗</a></div>
         <div class="cv-company-tenure">{{ job.start }} — {{ job.end }}</div>
-      <div class="cv-company-address"><a href="{{ job.location-url }}" target="_blank" rel="noreferrer">{{ job.location }}&nbsp;↗</a></div>
-        
     </div>
     <div class="cv-job-description">
         <p>
