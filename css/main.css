@@ -170,6 +170,7 @@ p.landing-intro-small {
 h1 {
     font-weight: 600;
     font-size: var(--var-header-size);
+    line-height: 35px;
 }
 
 .non-post h1 {
