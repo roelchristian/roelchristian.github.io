@@ -176,7 +176,7 @@ h1 {
 .non-post h1 {
     font-family: var(--main-font);
     font-weight: 700;
-    font-size: var(--var-font-size);
+    font-size: 14px;
     line-height: var(--var-line-height);
     margin: 0;
     text-transform: uppercase;
