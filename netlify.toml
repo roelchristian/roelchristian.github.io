@@ -16,6 +16,6 @@ package = "netlify-plugin-rss"
   
 [[redirects]]
   from = "/cv"
-  to = "/work"
+  to = "/me/cv/cv_en.pdf"
   status = 301
   force = true
