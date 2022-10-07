@@ -1,16 +1,25 @@
 main:
  - company: Vertiv Co.  
-   start: September 2020
+   start: August 2022
    end: present
+   location: Mandaluyong, Manila Philippines
+   location-url: "https://goo.gl/maps/xii1jaUD5U6PwDnGA"
+   company-website: "https://www.vertiv.com/"
+   position: "Senior business analyst, digital transformation"
+   job-desc-list:
+    - bullet: "Led a new data science team within the shared services department focused on streamlining data access across the organization and advocating process automation through machine learning (ML)"
+    - bullet: "Spearheaded the digital transformation of the Sales and Finance department (~200 people) through a variety of RPA and ML solutions and by centralizing collaboration and communication channels"
+ - company: Vertiv Co.  
+   start: September 2020
+   end: July 2022
    location: Mandaluyong, Manila Philippines
    location-url: "https://goo.gl/maps/xii1jaUD5U6PwDnGA"
    company-website: "https://www.vertiv.com/"
    position: "Master data analyst"
    job-desc-list:
     - bullet: "Initiated and led a machine-learning project that used an NLP algorithm built on top of BERT that classifies textual information about customers according to internal industry and market vertical labels."
-    - bullet: "Wrote a script to gather customer data from target sites and from broad crawls"
     - bullet: "Maintained supplier and customer master database for six countries in Latin America."
-    - bullet: "Helped in inter-department initiatives to streamline reporting by creating dashboards in Smartsheet and Power BI"
+    - bullet: "Helped in inter-department initiatives to streamline reporting by creating dashboards in Smartsheet and Power BI and writing scripts for common and shared workflows within the Sales and Finance department, including a productivity tool and dashboard for CCO cost rollup, a tracking and assignment tool for the Order Management team mailbox, and a dashboard and payment monitoring tool for the AR team (collections)"
  - company: Infosys BPM Ltd
    start: August 2019
    end: July 2020
