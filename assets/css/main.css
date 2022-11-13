@@ -37,9 +37,6 @@ html { font-family: 'Inter', sans-serif; }
   --var-block-bg-color: rgba(197, 202, 193, 0.1);
   --var-block-field-color: rgba(197, 202, 193, 0.3);
   --var-block-button-color: rgba(197, 202, 193, 1);
-
-
-  
 }
 
 :lang(zh){
@@ -107,7 +104,7 @@ p.cv-role-dates{
     font-weight: 550;
     font-size: var(--var-larger-font-size);
     line-height: 1.1;
-    letter-spacing: -0.01rem;ß
+    letter-spacing: -0.01rem;
     margin: 10px 0;
 }
 
@@ -637,8 +634,6 @@ label.margin-toggle:not(.sidenote-number) {
 }
 
 .intro-text p {
-    font-size: var(--var-larger-font-size);
-    line-height: var(--var-larger-line-height);
     letter-spacing: -0.01em;
     font-weight: 500;
     margin: 0;
