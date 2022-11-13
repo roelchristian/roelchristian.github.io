@@ -34,6 +34,9 @@ html { font-family: 'Inter', sans-serif; }
   --line-height: calc(var(--font-size) * 1.5);
   --var-line-height: calc(var(--var-font-size) * 1.5);
   --var-larger-line-height: calc(var(--var-larger-font-size) * 1.35);
+  --var-block-bg-color: rgba(197, 202, 193, 0.1);
+  --var-block-field-color: rgba(197, 202, 193, 0.4);
+
   
 }
 
@@ -713,6 +716,13 @@ section.postscript::before{
   display: inline-block;
 }
 
+form {
+  margin: 0;
+  padding: 5px 30px;
+  background-color: var(--var-block-bg-color);
+  width: 55%;
+}
+
 .form-group{
   margin: 1rem 0;
   display: block;
@@ -720,9 +730,25 @@ section.postscript::before{
 
 .form-group label, .form-group input, .form-group textarea {
   display: block;
-  width: 55%;
+  width: 98%;
   padding: 0.5rem 0;
 }
+
+.form-group textarea {
+  resize: none;
+  height: 100px;
+}
+.form-group input, .form-group textarea {
+  border: none;
+  background-color: var(--var-block-field-color);
+}
+
+.form-group input:focus, .form-group textarea:focus {
+  border: 1px solid var(--var-color-gray);
+  outline: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
 
 .form-group label {
   font-size: var(--var-font-size);
