@@ -2,3 +2,4 @@ _site/
 _drafts/
 *.log
 **/.DS_Store
+*.backup
