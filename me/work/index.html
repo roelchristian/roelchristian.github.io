@@ -4,33 +4,39 @@ layout: container
 title: Work
 ---
 
-<section class="intro-text">
-<p>I’m a data analytics professional with five years of industry experience focusing on data architecture and management, artificial intelligence and cloud-native solutions. I am passionate about telling stories that matter through data, through which I help businesses transform into data-driven organizations.</p>
-</section>
-<section id="cv-links">
-  <p><a href="{{site.url}}/me/cv/cv_en.pdf"> Download my CV as a pdf&nbsp;↓</a></p>
-</section>
 
 <section>
 <h2>Professional experience</h2>
+<p class="cv-links"><a href="{{site.url}}/me/cv/cv_en.pdf"> Download my CV as a pdf&nbsp;↓</a></p>
 
 {% for job in site.data.professional-exp.main %}
 
-  <div class="cv-company-div">
-    <h3>{{ job.position }}&nbsp;<span class="cv-company-name">&ndash;&nbsp;{{ job.company }}</span></h3>
-    <div class="cv-company-dets">
-        <div class="cv-company-tenure">{{ job.start }} &ndash; {{ job.end }}</div>
-    </div>
-    <div class="cv-job-description">
-        <p>
-        <ul>
-            {% for item in job.job-desc-list %}
-              <li>{{ item.bullet }}</li>
-            {% endfor %}
-          </ul>
-      </p>
-    </div>
-    </div>
+<div class="cv-company-div">
+
+  <h3>{{ job.company }}</h3>
+  {% for role in job.positions %}
+
+  <div class="cv-role-div">
+
+    <h4>{{ role.title }}</h4>
+
+    <p class="cv-role-dates">
+      {{ role.start-date }} &ndash; {% if role.end-date=="" %}present{% else %}{{ role.end-date }}{% endif %}
+    </p>
+
+    <ul class="cv-role-list">
+
+      {% for item in role.job-desc-list %}
+
+      <li>{{ item}}</li>
+
+      {% endfor %}
+
+    </ul>
+
+  {% endfor %}
+
+</div>
 
 {% endfor %}
 

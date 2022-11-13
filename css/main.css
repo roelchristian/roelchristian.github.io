@@ -87,6 +87,21 @@ article{
   color: inherit;
 }
 
+h4 {
+  font-size: var(--var-font-size);
+  line-height: var(--var-line-height);
+  font-weight: 500;
+  color: var(--var-color-gray);
+  margin: 0;
+  padding-top 20px;
+}
+
+p.cv-role-dates{
+  font-size: var(--var-font-size);
+  line-height: var(--var-line-height);
+  margin: 0;
+}
+
 
 .landing-intro {
     font-weight: 650;
@@ -632,18 +647,23 @@ label.margin-toggle:not(.sidenote-number) {
     margin: 0;
 }
 
-#cv-links p {
+.cv-role-list li {
+  font-size: calc(var(--var-font-size) * 1.12);
+  line-height: calc(var(--var-line-height) * 1.2);
+}
+
+p.cv-links {
     font-size: var(--var-font-size);
     letter-spacing: 0em;
     color: var(--var-color-gray);
-    margin: 0;
+    margin: 15px 0;
 }
 
-#cv-links a {
+.cv-links a {
     text-decoration: none;
 }
 
-#cv-links a:hover {
+.cv-links a:hover {
     text-decoration: underline;
   color: var(--accent-color-light-gray);
   
