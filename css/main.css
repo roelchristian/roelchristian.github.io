@@ -192,12 +192,13 @@ h1 {
 
 .non-post h1 {
     font-family: var(--main-font);
-    font-weight: 700;
-    font-size: 14px;
+    font-weight: 400;
+    font-size: 12px;
     line-height: var(--var-line-height);
     margin: 0;
     text-transform: uppercase;
     color: var(--var-color-gray);
+    letter-spacing: 0.02em;
 }
 
 h2 {
