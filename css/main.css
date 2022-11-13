@@ -35,7 +35,9 @@ html { font-family: 'Inter', sans-serif; }
   --var-line-height: calc(var(--var-font-size) * 1.5);
   --var-larger-line-height: calc(var(--var-larger-font-size) * 1.35);
   --var-block-bg-color: rgba(197, 202, 193, 0.1);
-  --var-block-field-color: rgba(197, 202, 193, 0.4);
+  --var-block-field-color: rgba(197, 202, 193, 0.3);
+  --var-block-button-color: rgba(197, 202, 193, 1);
+
 
   
 }
@@ -738,12 +740,14 @@ form {
   resize: none;
   height: 100px;
 }
-.form-group input, .form-group textarea {
+.form-group input[type=text], .form-group textarea, .form-group input[type=email] {
   border: none;
   background-color: var(--var-block-field-color);
 }
 
-.form-group input:focus, .form-group textarea:focus {
+
+
+.form-group input[type=text]:focus, .form-group textarea:focus, .form-group input[type=email]:focus {
   border: 1px solid var(--var-color-gray);
   outline: none;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -768,6 +772,7 @@ form {
   border: none;
   color: white;
   padding: 15px 32px;
+  background-color: var(--var-block-button-color);
   text-align: center;
   text-decoration: none;
   display: inline-block;
