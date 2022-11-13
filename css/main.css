@@ -713,6 +713,33 @@ section.postscript::before{
   display: inline-block;
 }
 
+.contact-form label{
+  display: block;
+  margin: 25px 0;
+}
+
+.contact-form label input{
+  display: block;
+  width: 70%;
+  padding: 10px 0;
+  margin: 20px 0;
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: var(--var-color-gray);
+  background-color: var(--accent-color-light-gray);
+}
+
+.contact-form label textarea{
+  display: block;
+  width: 70%;
+  height: 100px;
+  padding: 10px 0;
+  margin: 20px 0;
+  border-width: 0 0 2px;
+  border-color: var(--var-color-gray);
+  background-color: var(--accent-color-light-gray;ß
+}
+
 .ext-article{
   background-color: var(--accent-color-amber);
 }

@@ -19,3 +19,9 @@ package = "netlify-plugin-rss"
   to = "/me/cv/cv_en.pdf"
   status = 301
   force = true
+
+[[redirects]]
+  from = "/connect"
+  to = "/contact"
+  status = 301
+  force = true
