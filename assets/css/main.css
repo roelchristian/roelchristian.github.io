@@ -90,10 +90,9 @@ h4 {
   font-weight: 500;
   color: var(--var-color-gray);
   margin: 0;
-  padding-top 20px;
 }
 
-p.cv-role-dates{
+.cv-role-subdiv p {
   font-size: var(--var-font-size);
   line-height: var(--var-line-height);
   margin: 0;
@@ -682,6 +681,7 @@ p.cv-links {
     padding-top: 2.5rem;
     margin-bottom: 0.5rem;
 }
+
 
 .foreword p, .aside p {
   font-size: var(--var-font-size);

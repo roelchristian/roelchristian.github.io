@@ -19,12 +19,13 @@ title: Work
   {% for role in job.positions %}
 
   <div class="cv-role-div">
-
+    <div class="cv-role-subdiv">
     <h4>{{ role.title }}</h4>
 
-    <p class="cv-role-dates">
+    <p>
       {{ role.start-date }} &ndash; {% if role.end-date=="" %}present{% else %}{{ role.end-date }}{% endif %}
     </p>
+    </div>
 
     <ul class="cv-role-list">
 
