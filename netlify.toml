@@ -2,7 +2,7 @@
 package = "netlify-plugin-rss"
   [plugins.inputs]
   # required configs, customize as needed
-  dirToScan = "/blog" # a subfolder to scan. "/" to scan all
+  dirToScan = "/notes" # a subfolder to scan. "/" to scan all
   authorName = "Roel Christian Yambao"
   site_url = "https://roelchristian.com"
   title = "roelchristian.com"

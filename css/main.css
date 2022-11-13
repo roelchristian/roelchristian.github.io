@@ -880,6 +880,10 @@ p.extra-bio-read-more{
     position: absolute;
 }
 
+a.return-404-link {
+  text-decoration: none;
+}
+
 .post-share-link a {
   padding-left: 10px;
 }
