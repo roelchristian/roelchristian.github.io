@@ -940,7 +940,9 @@ footer p {
         padding-left: 5%;
         padding-right: 5%;
     }
-
+    form {
+        width: 85%%;
+    }
     .homepage-nav{
       display: block;
       margin-top: 10px;
