@@ -104,19 +104,15 @@ p.cv-role-dates{
 
 
 .landing-intro {
-    font-weight: 650;
-    font-size: 36px;
+    font-weight: 550;
+    font-size: var(--var-larger-font-size);
     line-height: 1.1;
-    letter-spacing: -0.06rem;
+    letter-spacing: -0.01rem;ß
     margin: 10px 0;
 }
 
-p.landing-intro-small {
-    color: var(--var-color-gray);
-    font-weight: 600;
-    font-size: 18px;
-    letter-spacing: -0.02em;
-    margin: 0;
+.homepage-nav-container{
+  margin-bottom: 50px;
 }
 
 .nav-home {
@@ -943,6 +939,11 @@ footer p {
         width: 90%;
         padding-left: 5%;
         padding-right: 5%;
+    }
+
+    .homepage-nav{
+      display: block;
+      margin-top: 10px;
     }
 
     hr,
