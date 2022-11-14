@@ -86,7 +86,7 @@ article{
 
 h4 {
   font-weight: 500;
-  color: var(--var-color-gray);
+  color: inherit;
   margin: 0;
 }
 
@@ -94,6 +94,8 @@ h4 {
   font-size: var(--var-font-size);
   line-height: var(--var-line-height);
   margin: 0;
+  margin-top: 3px;
+  color: var(--var-color-gray);
 }
 
 
@@ -186,8 +188,8 @@ h1 {
 
 .non-post h1 {
     font-family: var(--main-font);
-    font-weight: 400;
-    font-size: 12px;
+    font-weight: 500;
+    font-size: var(--var-font-size);
     line-height: var(--var-line-height);
     margin: 0;
     text-transform: uppercase;
@@ -631,8 +633,7 @@ label.margin-toggle:not(.sidenote-number) {
 }
 
 .intro-text p {
-    letter-spacing: -0.01em;
-    font-weight: 500;
+    letter-spacing: -0.02em;
     margin: 0;
 }
 
@@ -677,7 +678,7 @@ p.cv-links {
 .cv-company-div h3 {
     color: inherit;
     padding-top: 2.5rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0;
 }
 
 
@@ -1019,7 +1020,6 @@ footer p {
         clear: both;
         width: 95%;
         margin: 1rem 2.5%;
-        vertical-align: baseline;
         position: relative;
     }
 
