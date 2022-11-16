@@ -637,9 +637,14 @@ label.margin-toggle:not(.sidenote-number) {
     margin: 0;
 }
 
+.cv-header {
+  margin-bottom: 0;
+}
+
 .cv-role-list li {
-  font-size: calc(var(--var-font-size) * 1.12);
-  line-height: calc(var(--var-line-height) * 1.2);
+  font-size: var(--var-font-size);
+  line-height: var(--var-line-height);
+  color: var(--var-color-gray);
 }
 
 p.cv-links {
@@ -659,11 +664,11 @@ p.cv-links {
   
 }
 
-.cv-company-dets, .cv-other-dets {
+.cv-other-dets {
   color: var(--var-color-gray);
   font-size: var(--var-font-size);
   line-height: var(--var-line-height);
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .cv-company-name {
