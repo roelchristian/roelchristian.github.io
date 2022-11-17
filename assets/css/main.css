@@ -668,7 +668,7 @@ p.cv-links {
   color: var(--var-color-gray);
   font-size: var(--var-font-size);
   line-height: var(--var-line-height);
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .cv-company-name {
@@ -886,6 +886,15 @@ a.return-404-link {
 
 .post-share-link a {
   padding-left: 10px;
+  font-weight: 500;
+}
+
+.post-sharing-options p {
+  font-size: var(--var-font-size);
+}
+
+.homepage-footer {
+  padding-bottom: 10px;
 }
 
 footer {
@@ -917,6 +926,7 @@ footer img {
 
 footer a {
   color: inherit;
+  font-weight: 500;
 }
 
 .footer-section {
