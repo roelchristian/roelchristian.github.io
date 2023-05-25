@@ -505,6 +505,16 @@ div.table-wrapper {
     letter-spacing: .03em;
 }
 
+.reference-block {
+  font-size: var(--var-font-size);
+  line-height: var(--var-line-height);
+  color: var(--var-color-gray);
+}
+
+.theorem-head{
+  font-weight: 550;
+}
+
 code, pre > code {
     font-family: var(--mono-font), Consolas, Menlo, Courier, monospace;
     font-size: var(--var-font-size);
