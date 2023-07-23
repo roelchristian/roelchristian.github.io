@@ -1010,11 +1010,14 @@ footer p {
     hr,
     section > p,
     section > footer,
-    section > table,
-    section > div.theorem-block,
-    section > div.example-block
+    section > table
     {
         width: 100%;
+    }
+
+    section > div.theorem-block,
+    section > div.example-block {
+        width: 90%;
     }
 
     pre > code {
