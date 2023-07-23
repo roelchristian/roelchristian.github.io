@@ -163,7 +163,14 @@ h4 {
         background-color: var(--darkmode-bg-color);
         color: var(--darkmode-color);
     }
-  
+    
+    div.theorem-block {
+      border: #777 2px solid; 
+      padding: 0 20px ;
+      background-color: #333;
+      margin: 20px 0;
+    }
+
     ::-moz-selection { /* Code for Firefox */
       color: white;
       background: #333;
@@ -378,7 +385,9 @@ blockquote footer {
 
 section > p,
 section > footer,
-section > table{
+section > table,
+section > div.theorem-block,
+section > div.example-block {
     width: 55%;
 }
 
@@ -513,6 +522,18 @@ div.table-wrapper {
 
 .theorem-head{
   font-weight: 550;
+}
+
+.theorem-block {
+  border: #777 1px solid; 
+  padding: 0 20px ;
+  background-color: #EEEDE7;
+  margin: 20px 0;
+}
+
+.example-block {
+  font-size: var(--var-font-size);
+  line-height: var(--var-line-height);
 }
 
 code, pre > code {
