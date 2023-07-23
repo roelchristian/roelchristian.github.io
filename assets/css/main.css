@@ -1010,7 +1010,10 @@ footer p {
     hr,
     section > p,
     section > footer,
-    section > table {
+    section > table,
+    section > div.theorem-block,
+    section > div.example-block
+    {
         width: 100%;
     }
 
