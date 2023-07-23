@@ -1,0 +1,54 @@
+---
+layout: post
+title: "Group Theory"
+---
+
+<section>
+    <h2> 1. The definition of a group</h2>
+
+    <div class="theorem-block">
+        <p><b>Definition 1.1.</b> A binary operation on a set $X$ is a map $X \times X \to X$. Let $\varphi$ be a binary operation on a set $G$ and let $a, b, c$ be elements of $G$. We say that $G$ is a <i>semigroup</i> under $\varphi$ if
+            $$\varphi(a, \varphi(b, c)) = \varphi(\varphi(a, b), c)$$
+        </p>
+    
+        <p>We say that $G$ is a <i>monoid</i> under $\varphi$ if $G$ is a semigroup under $\varphi$ and there exists an element $e \in G$ (called the identity element) such that
+            $$\varphi(e, a) = \varphi(a, e) = a$$
+        for all $a \in G$.</p>
+    
+        <p>Finally, we say that $G$ is a <i>group</i> under $\varphi$ if $G$ is a monoid under $\varphi$ and for every $a \in G$ there exists an element $a^{-1} \in G$ (called the inverse of $a$) such that
+            $$\varphi(a, a^{-1}) = \varphi(a^{-1}, a) = e.$$
+        </p>
+    </div>
+
+    <p>Observe that commutativity is not required for a group. That is, we do not require that $\varphi(a, b) = \varphi(b, a)$ for all $a, b \in G$. If $\varphi$ does, however, satisfy this property, then we say that $G$ is an <i>abelian group</i>.</p> 
+
+    <p>For the sake of brevity we will often be writing $\varphi(a, b)$ as $a \cdot b$, or, more succinctly, $ab$ (in the case of abelian groups we shall instead write $a+b$, although this decision is only a matter of convention). This shorthand also extends to calling the binary operation &lsquo;multiplication&rsquo; (or &lsquo;addition&rsquo; in the case of abelian groups) without implying that the operation is commutative or is the usual multiplication (or addition) of numbers. We will also be saying that &lsquo;$G$ is a group&rsquo; instead of &lsquo;$G$ is a group under $\varphi$&rsquo;, unless ambiguity forces us to be more precise.</p>
+
+    <div class="example-block">
+        <b>Examples.</b> The set $\mathbb{Z}$ of integers is a group under the usual addition of integers. The identity element is $0$ and the inverse of an integer $n$ is $-n$. The set $\mathbb{Q}$ of rational numbers is a group under the usual addition of rational numbers, but fails to be a group under the usual multiplication of rational numbers since $0$ has no inverse.
+    </div>
+
+    <div class="theorem-block">
+
+        <p><b>Theorem 1.2</b> Let $G$ be a group, and $a, b, c \in G$. Then:</p>
+        <ol>
+            <li>$aa = a \implies a = e$</li>
+            <li>Left-cancellation: $ab = ac \implies b = c$</li>
+            <li>Right-cancellation: $ba = ca \implies b = c$</li>
+        </ol>
+    </div>
+</section>
+
+<section>
+    <h2>2. Homomorphisms and subgroups</h2>
+
+    <p>In general, our interest in groups is usually not on the groups themselves, but rather on the maps between them. We will be interested in maps that preserve the group structure, which we call homomorphisms.</p>
+
+    <div class="theorem-block">
+        <p><b>Definition 2.1.</b> Let $G$ and $H$ be groups under $\varphi$ and $\psi$ respectively. A map $\Phi: G \to H$ is called a <i>homomorphism</i> if
+            $$\Phi(\varphi(a, b)) = \psi(\Phi(a), \Phi(b))$$
+        for all $a, b \in G$.</p> A more ambiguous, though admittedly less cumbersome, way of saying this is that $\Phi$ is a homomorphism if
+        $$\Phi(ab) = \Phi(a)\Phi(b).$$
+        In this alternative notation, we do not distinguish between the multiplication in $G$ and the multiplication in $H$, and instead rely on context to determine which group operation we are referring to.</p>
+    </div>
+</section>
