@@ -29,7 +29,7 @@ title: "Group Theory"
     <h2> 1. The definition of a group</h2>
 
     <div class="theorem-block">
-        <p><b>Definition 1.1.</b> A binary operation on a set $X$ is a map $X \times X \to X$. Let $\varphi$ be a binary operation on a set $G$ and let $a, b, c$ be elements of $G$. We say that $G$ is a <i>semigroup</i> under $\varphi$ if $\varphi$ is associative, that is,
+        <p><b>Definition 1.1.</b></p><p>A binary operation on a set $X$ is a map $X \times X \to X$. Let $\varphi$ be a binary operation on a set $G$ and let $a, b, c$ be elements of $G$. We say that $G$ is a <i>semigroup</i> under $\varphi$ if $\varphi$ is associative, that is,
             $$\varphi(a, \varphi(b, c)) = \varphi(\varphi(a, b), c)$$
         </p>
     
@@ -42,7 +42,7 @@ title: "Group Theory"
         </p>
     </div>
 
-    <p>Observe that commutativity is not required for a group. That is, we do not require that $\varphi(a, b) = \varphi(b, a)$ for all $a, b \in G$. If $\varphi$ does, however, satisfy this property, then we say that the underlying set $G$ is an <i>abelian group</i> $\varphi$.</p> 
+    <p>Observe that commutativity is not required for a group. That is, we do not require that $\varphi(a, b) = \varphi(b, a)$ for all $a, b \in G$. If $\varphi$ does, however, satisfy this property, then we say that the underlying set $G$ is an <i>abelian group</i> under $\varphi$.</p> 
 
     <p>For the sake of brevity we will often be writing $\varphi(a, b)$ as $a \cdot b$, or, more succinctly, $ab$ (in the case of abelian groups we shall instead write $a+b$, although this decision is only a matter of convention). This shorthand also extends to calling the binary operation &lsquo;multiplication&rsquo; (or &lsquo;addition&rsquo; in the case of abelian groups) without implying that the operation is commutative or is the usual multiplication (or addition) of numbers. We will also be saying that &lsquo;$G$ is a group&rsquo; instead of &lsquo;$G$ is a group under $\varphi$&rsquo;, unless ambiguity forces us to be more precise.</p>
 
@@ -96,17 +96,32 @@ title: "Group Theory"
     </div>
 
     <div class="theorem-block">
-        <p><b>Definition 2.3.</b> Let $\Phi: G \to H$ be a homomorphism. The <i>kernel</i> of $\Phi$ is the set
+        <p><span class="theorem-head">Definition 2.3</span></p>
+
+        <p>Let $\Phi: G \to H$ be a homomorphism. The <i>kernel</i> of $\Phi$ is the set
             $$\operatorname{Ker} \Phi = \{a \in G : \Phi(a) = e\}.$$
         where $e$ is the identity element of $H$. If $A \subseteq G$, then the <i>image</i> of $A$ under $\Phi$ is the set $\Phi(A) = \{\Phi(a) : a \in A\}.$. The set $\Phi(G)$ is called the <i>image</i> of $\Phi$, and is denoted by $\operatorname{Im} \Phi$.</p>
     </p></div>
 
     <div class="theorem-block">
-        <p><b>Theorem 2.4.</b> A homomorphism $\Phi: G \to H$ is a monomorphism if and only if $\operatorname{Ker} \Phi = \{e\}$.</p>
+        <p><span class="theorem-head">Theorem 2.4</span></p>
+        <p>A homomorphism $\Phi: G \to H$ is a monomorphism if and only if $\operatorname{Ker} \Phi = \{e\}$.</p>
     </div>
 
     <div class="example-block">
-        <i>Proof.</i> Let $\Phi$ be a monomorphism. Then $\operatorname{Ker} \Phi = \{a \in G : \Phi(a) = e\} = \{e\}$, since $\Phi$ is injective. Conversely, suppose that $\operatorname{Ker} \Phi = \{e\}$. Let $a, b \in G$ such that $\Phi(a) = \Phi(b)$. Then $\Phi(a)\Phi(b)^{-1} = \Phi(a)\Phi(b^{-1}) = \Phi(ab^{-1})$. Thus $ab^{-1} \in \operatorname{Ker} \Phi$, so that $ab^{-1} = e$. Hence $a = b$, and therefore $\Phi$ is a monomorphism.</p>
+        <p><i>Proof.</i> Let $\Phi$ be a monomorphism. Then $\operatorname{Ker} \Phi = \{a \in G : \Phi(a) = e\} = \{e\}$, since $\Phi$ is injective. Conversely, suppose that $\operatorname{Ker} \Phi = \{e\}$. Let $a, b \in G$ such that $\Phi(a) = \Phi(b)$. Then $\Phi(a)\Phi(b)^{-1} = \Phi(a)\Phi(b^{-1}) = \Phi(ab^{-1})$. Thus $ab^{-1} \in \operatorname{Ker} \Phi$, so that $ab^{-1} = e$. Hence $a = b$, and therefore $\Phi$ is a monomorphism.</p>
+    </div>
+
+    <div class="theorem-block">
+        <p><span class="theorem-head">Theorem 2.5</span></p>
+        <p>Let $\Phi: G \to H$ be a homomorphism. Then $\Phi$ is an isomorphism if and only if there exists a homomorphism $\Phi^{-1}: H \to G$ such that $\Phi^{-1} \circ \Phi = e$ and $\Phi \circ \Phi^{-1} = e'$, where $e$ and $e'$ are the identity elements of $G$ and $H$ respectively.</p>
+    </div>
+
+    <div class="theorem-block">
+        <p><span class="theorem-head">Definition 2.6</span></p>
+        <p>
+            A subset $H$ of a group $G$ is called a <i>subgroup</i> of $G$ if $H$ is itself a group under the operation of $G$. If $H$ is a subgroup of $G$, then we write $H \leq G$.
+        </p>
     </div>
 </section>
 

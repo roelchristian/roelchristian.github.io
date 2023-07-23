@@ -165,10 +165,11 @@ h4 {
     }
     
     div.theorem-block {
-      border: #777 2px solid; 
+      border: #444 2px solid; 
       padding: 0 20px ;
-      background-color: #333;
+      background-color: #262626;
       margin: 20px 0;
+      color: #ccc;
     }
 
     ::-moz-selection { /* Code for Firefox */
@@ -522,6 +523,9 @@ div.table-wrapper {
 
 .theorem-head{
   font-weight: 550;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: var(--var-font-size);
 }
 
 .theorem-block {
@@ -529,12 +533,10 @@ div.table-wrapper {
   padding: 0 20px ;
   background-color: #EEEDE7;
   margin: 20px 0;
+  border-radius: 8px;
 }
 
-.example-block > p {
-  font-size: var(--var-font-size);
-  line-height: var(--var-line-height);
-}
+
 
 code, pre > code {
     font-family: var(--mono-font), Consolas, Menlo, Courier, monospace;
