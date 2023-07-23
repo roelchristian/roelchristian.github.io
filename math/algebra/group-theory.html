@@ -3,11 +3,33 @@ layout: post
 title: "Group Theory"
 ---
 
+<section><h2>Some preliminaries</h2>
+
+    <p>
+        A <i>set</i> is a collection of mathematical objects called its elements. </p>
+        
+    <p>A <i>relation</i> on a set $X$ is a subset $R$ of $X \times X$. If $(a, b) \in R$, we say that $a$ is related to $b$ by $R$ and write $R(a, b)$ or $aRb$. If $R$ is a relation on $X$, then we say that $R$ is <i>reflexive</i> if $aRa$ for all $a \in X$. We say that $R$ is <i>symmetric</i> if $aRb$ implies $bRa$ for all $a, b \in X$. We say that $R$ is <i>transitive</i> if $aRb$ and $bRc$ implies $aRc$ for all $a, b, c \in X$. If $R$ is reflexive, symmetric, and transitive, then we say that $R$ is an <i>equivalence relation</i> and we write $a \sim b$ instead of $aRb$. Given a set $X$ and an equivalence relation $\sim$ on $X$, the equivalence class of an element $a$ of $X$ (written $[x]$) is the set
+    $$[a] = \{x \in X : a \sim x\}.$$
+</p>
+
+<div class="example-block">
+    <p><b>Examples.</b> Consider the set $\mathbb{R}$ of real numbers and the equality relation ($=$). Observe that if $x$ is a real number then $x$ is equal to itself, i.e., $x = x$. Moreover, $x = y$ implies $y = x$, and vice versa, for any other real number real number $y$. Finally, if $z$ is a third real number, then $x = y$ and $y = z$ implies $x = z$. Thus, equality is an equivalence relation on $\mathbb{R}$.</p>
+
+    <p>On the other hand, consider the relation $&lt;$ on $\mathbb{R}$. By the trichotomy law in $\mathbb{R}$, $x &lt; y$ and $y &lt; x$ cannot both be true, and thus $&lt;$ is not symmetric and hence not an equivalence relation.</p>
+
+    <p>Let $\mathbb{Z}$ be the set of integers; then for all integers $a$, $b$, and $n$, with $n &gt; 1$, we define the equivalence relation $\sim$ as $a \sim b \iff n \mid (a - b).$ (The reader can verify that this is indeed an equivalence relation.) We call this relation <i>congruence modulo $n$</i> and write $a \equiv b \pmod{n}$ whenever $a \sim b$.</p>
+    </p>
+
+
+</div>
+
+</section>
+
 <section>
     <h2> 1. The definition of a group</h2>
 
     <div class="theorem-block">
-        <p><b>Definition 1.1.</b> A binary operation on a set $X$ is a map $X \times X \to X$. Let $\varphi$ be a binary operation on a set $G$ and let $a, b, c$ be elements of $G$. We say that $G$ is a <i>semigroup</i> under $\varphi$ if
+        <p><b>Definition 1.1.</b> A binary operation on a set $X$ is a map $X \times X \to X$. Let $\varphi$ be a binary operation on a set $G$ and let $a, b, c$ be elements of $G$. We say that $G$ is a <i>semigroup</i> under $\varphi$ if $\varphi$ is associative, that is,
             $$\varphi(a, \varphi(b, c)) = \varphi(\varphi(a, b), c)$$
         </p>
     
@@ -20,7 +42,7 @@ title: "Group Theory"
         </p>
     </div>
 
-    <p>Observe that commutativity is not required for a group. That is, we do not require that $\varphi(a, b) = \varphi(b, a)$ for all $a, b \in G$. If $\varphi$ does, however, satisfy this property, then we say that $G$ is an <i>abelian group</i>.</p> 
+    <p>Observe that commutativity is not required for a group. That is, we do not require that $\varphi(a, b) = \varphi(b, a)$ for all $a, b \in G$. If $\varphi$ does, however, satisfy this property, then we say that the underlying set $G$ is an <i>abelian group</i> $\varphi$.</p> 
 
     <p>For the sake of brevity we will often be writing $\varphi(a, b)$ as $a \cdot b$, or, more succinctly, $ab$ (in the case of abelian groups we shall instead write $a+b$, although this decision is only a matter of convention). This shorthand also extends to calling the binary operation &lsquo;multiplication&rsquo; (or &lsquo;addition&rsquo; in the case of abelian groups) without implying that the operation is commutative or is the usual multiplication (or addition) of numbers. We will also be saying that &lsquo;$G$ is a group&rsquo; instead of &lsquo;$G$ is a group under $\varphi$&rsquo;, unless ambiguity forces us to be more precise.</p>
 
@@ -47,8 +69,25 @@ title: "Group Theory"
     <div class="theorem-block">
         <p><b>Definition 2.1.</b> Let $G$ and $H$ be groups under $\varphi$ and $\psi$ respectively. A map $\Phi: G \to H$ is called a <i>homomorphism</i> if
             $$\Phi(\varphi(a, b)) = \psi(\Phi(a), \Phi(b))$$
-        for all $a, b \in G$.</p> A more ambiguous, though admittedly less cumbersome, way of saying this is that $\Phi$ is a homomorphism if
+        for all $a, b \in G$.</p>
+    </div>
+
+    <p>A more ambiguous, though admittedly less cumbersome, way of saying this is that $\Phi$ is a homomorphism if
         $$\Phi(ab) = \Phi(a)\Phi(b).$$
-        In this alternative notation, we do not distinguish between the multiplication in $G$ and the multiplication in $H$, and instead rely on context to determine which group operation we are referring to.</p>
+    In this alternative notation, we do not distinguish between the multiplication in $G$ and the multiplication in $H$, and instead rely on context to determine which group operation we are referring to.</p>
+
+    <p>A (group) homomorphism that is injective as a map between sets is called a <i>monomorphism</i>. A homomorphism that is surjective as a map between sets is called an <i>epimorphism</i>. A homomorphism that is both a monomorphism and an epimorphism is called an <i>isomorphism</i>. If there exists an isomorphism between $G$ and $H$, then we say that $G$ and $H$ are <i>isomorphic</i> and write $G \cong H$.</p>
+
+    <p>A homomorphism from a group $G$ to itself is called an <i>endomorphism</i>. An endomorphism that is also an isomorphism is called an <i>automorphism</i>.
+
+    <div class="theorem-block">
+        <p><b>Proposition.</b> Let $G$ and $H$ be groups with identities $e$ and $e'$ respectively, and let $a$ be an element of $G$. Let $\Phi: G \to H$ be a homomorphism. Then:</p>
+        <p>
+            <ol>
+                <li>$\Phi(e) = e'$</li>
+                <li>$\Phi(a^{-1}) = \Phi(a)^{-1}$</li>
+            </ol>
+        </p>
+        <p>That is, a homomorphism preserves identities and inverses.</p>
     </div>
 </section>

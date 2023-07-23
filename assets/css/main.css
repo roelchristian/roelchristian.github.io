@@ -531,7 +531,7 @@ div.table-wrapper {
   margin: 20px 0;
 }
 
-.example-block {
+.example-block > p {
   font-size: var(--var-font-size);
   line-height: var(--var-line-height);
 }
