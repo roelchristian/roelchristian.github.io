@@ -47,7 +47,7 @@ title: "Group Theory"
     <p>For the sake of brevity we will often be writing $\varphi(a, b)$ as $a \cdot b$, or, more succinctly, $ab$ (in the case of abelian groups we shall instead write $a+b$, although this decision is only a matter of convention). This shorthand also extends to calling the binary operation &lsquo;multiplication&rsquo; (or &lsquo;addition&rsquo; in the case of abelian groups) without implying that the operation is commutative or is the usual multiplication (or addition) of numbers. We will also be saying that &lsquo;$G$ is a group&rsquo; instead of &lsquo;$G$ is a group under $\varphi$&rsquo;, unless ambiguity forces us to be more precise.</p>
 
     <div class="example-block">
-        <b>Examples.</b> The set $\mathbb{Z}$ of integers is a group under the usual addition of integers. The identity element is $0$ and the inverse of an integer $n$ is $-n$. The set $\mathbb{Q}$ of rational numbers is a group under the usual addition of rational numbers, but fails to be a group under the usual multiplication of rational numbers since $0$ has no inverse.
+        <p><b>Examples.</b> The set $\mathbb{Z}$ of integers is a group under the usual addition of integers. The identity element is $0$ and the inverse of an integer $n$ is $-n$. The set $\mathbb{Q}$ of rational numbers is a group under the usual addition of rational numbers, but fails to be a group under the usual multiplication of rational numbers since $0$ has no inverse.</p>
     </div>
 
     <div class="theorem-block">
@@ -81,7 +81,7 @@ title: "Group Theory"
     <p>A homomorphism from a group $G$ to itself is called an <i>endomorphism</i>. An endomorphism that is also an isomorphism is called an <i>automorphism</i>.
 
     <div class="theorem-block">
-        <p><b>Proposition.</b> Let $G$ and $H$ be groups with identities $e$ and $e'$ respectively, and let $a$ be an element of $G$. Let $\Phi: G \to H$ be a homomorphism. Then:</p>
+        <p><b>Theorem 2.2.</b> Let $G$ and $H$ be groups with identities $e$ and $e'$ respectively, and let $a$ be an element of $G$. Let $\Phi: G \to H$ be a homomorphism. Then:</p>
         <p>
             <ol>
                 <li>$\Phi(e) = e'$</li>
@@ -90,4 +90,34 @@ title: "Group Theory"
         </p>
         <p>That is, a homomorphism preserves identities and inverses.</p>
     </div>
+
+    <div class="example-block">
+        <i>Proof.</i> (1) $\Phi(e) = \Phi(ee) = \Phi(e)\Phi(e)$, and so by Theorem 1.2, $\Phi(e) = e'$.</p> 
+    </div>
+
+    <div class="theorem-block">
+        <p><b>Definition 2.3.</b> Let $\Phi: G \to H$ be a homomorphism. The <i>kernel</i> of $\Phi$ is the set
+            $$\operatorname{Ker} \Phi = \{a \in G : \Phi(a) = e\}.$$
+        where $e$ is the identity element of $H$. If $A \subseteq G$, then the <i>image</i> of $A$ under $\Phi$ is the set $\Phi(A) = \{\Phi(a) : a \in A\}.$. The set $\Phi(G)$ is called the <i>image</i> of $\Phi$, and is denoted by $\operatorname{Im} \Phi$.</p>
+    </p></div>
+
+    <div class="theorem-block">
+        <p><b>Theorem 2.4.</b> A homomorphism $\Phi: G \to H$ is a monomorphism if and only if $\operatorname{Ker} \Phi = \{e\}$.</p>
+    </div>
+
+    <div class="example-block">
+        <i>Proof.</i> Let $\Phi$ be a monomorphism. Then $\operatorname{Ker} \Phi = \{a \in G : \Phi(a) = e\} = \{e\}$, since $\Phi$ is injective. Conversely, suppose that $\operatorname{Ker} \Phi = \{e\}$. Let $a, b \in G$ such that $\Phi(a) = \Phi(b)$. Then $\Phi(a)\Phi(b)^{-1} = \Phi(a)\Phi(b^{-1}) = \Phi(ab^{-1})$. Thus $ab^{-1} \in \operatorname{Ker} \Phi$, so that $ab^{-1} = e$. Hence $a = b$, and therefore $\Phi$ is a monomorphism.</p>
+    </div>
+</section>
+
+<section>
+    <h2>3. Cyclic groups</h2>
+</section>
+
+<section>
+    <h2>4. Cosets and Lagrange's theorem</h2>
+</section>
+
+<section>
+    <h2>5. Normal subgroups and quotient groups</h2>
 </section>
