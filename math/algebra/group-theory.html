@@ -146,7 +146,17 @@ title: "Group Theory"
         </p>
         <p>
             Since $H$ is a subgroup and is thus closed under the binary operation of $\mathbb{Z}$, it follows that $$\langle m \rangle = \{km : k \in \mathbb{Z}\} \subseteq H$$
-            (here the notation is additive). Now let $h \in H$. By the division algorithm, there exist unique integers $q$ and $r$ such that $h = qm + r$ and $0 \leq r \lt m$. Since $H$ is a subgroup, $h - qm = r \in H$ (because $h, qm \in H$). But $m$ is the least positive integer in $H$, so$0 \leq r lt m$ implies $r = 0$. Thus $h = qm \in \langle m \rangle$, and so $H \subseteq \langle m \rangle$.
+            (here the notation is additive). Now let $h \in H$. By the division algorithm, there exist unique integers $q$ and $r$ such that $h = qm + r$ and $0 \leq r \lt m$. Since $H$ is a subgroup, $h - qm = r \in H$ (because $h, qm \in H$). But $m$ is the least positive integer in $H$, so $0 \leq r \lt m$ implies $r = 0$. Thus $h = qm \in \langle m \rangle$, and so $H \subseteq \langle m \rangle$.
+        </p>
+        <p>
+            If $H \neq \langle 0 \rangle$, then for integers $k_1, k_2$ such that $k_1 \neq k_2$, we have $k_1m \neq k_2m$. Thus $\langle m \rangle$ is infinite.
+        </p>
+    </div>
+
+    <div class="theorem-block">
+        <p><span class="theorem-head">Theorem 3.2</span></p>
+        <p>
+            Every cyclic group of infinite order is isomorphic to the additive group $\mathbb{Z}$ of integers. Every cyclic group of finite order $n$ is isomorphic to the additive group $\mathbb{Z}_n$ of integers modulo $n$.
         </p>
     </div>
 </section>
