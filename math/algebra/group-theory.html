@@ -3,6 +3,10 @@ layout: post
 title: "Group Theory"
 ---
 
+<section class="foreword">
+    <p>This page contains my notes for MTH 611M, an introductory graduate class in abstract algebra, which I took in 2023. The notes roughly follow the outline of Hungerford&rsquo;s <i>Algebra</i>. A complete list of references can be found at the end of the page.</p>
+</section>
+
 <section><h2>Some preliminaries</h2>
 
     <p>
@@ -72,7 +76,7 @@ title: "Group Theory"
         for all $a, b \in G$.</p>
     </div>
 
-    <p>A more ambiguous, though admittedly less cumbersome, way of saying this is that $\Phi$ is a homomorphism if
+    <p>A more ambiguous, though admittedly less cumbersome, way of saying this is as follows: $\Phi$ is a homomorphism if
         $$\Phi(ab) = \Phi(a)\Phi(b).$$
     In this alternative notation, we do not distinguish between the multiplication in $G$ and the multiplication in $H$, and instead rely on context to determine which group operation we are referring to.</p>
 
@@ -81,7 +85,8 @@ title: "Group Theory"
     <p>A homomorphism from a group $G$ to itself is called an <i>endomorphism</i>. An endomorphism that is also an isomorphism is called an <i>automorphism</i>.
 
     <div class="theorem-block">
-        <p><b>Theorem 2.2.</b> Let $G$ and $H$ be groups with identities $e$ and $e'$ respectively, and let $a$ be an element of $G$. Let $\Phi: G \to H$ be a homomorphism. Then:</p>
+        <p><span class="theorem-head">Theorem 2.2.</span> </p>
+        <p>Let $G$ and $H$ be groups with identities $e$ and $e'$ respectively, and let $a$ be an element of $G$. Let $\Phi: G \to H$ be a homomorphism. Then:</p>
         <p>
             <ol>
                 <li>$\Phi(e) = e'$</li>
@@ -127,6 +132,13 @@ title: "Group Theory"
 
 <section>
     <h2>3. Cyclic groups</h2>
+
+    <div class="theorem-block">
+        <p><span class="theorem-head">Theorem 3.1</span></p>
+        <p>
+            Every subgroup of the additive group $\mathbb{Z}$ of integers is a cyclic group. In particular, if $H \leq \mathbb{Z}$, then $H = \langle 0 \rangle$ or $H = \langle m \rangle$ where $m$ is the smallest positive integer in $H$. If $H \neq \langle 0 \rangle$, then $H$ is infinite.
+        </p>
+    </div>
 </section>
 
 <section>
