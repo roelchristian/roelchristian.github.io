@@ -10,7 +10,15 @@ title: "Group Theory"
 <section><h2>Some preliminaries</h2>
 
     <p>
-        A <i>set</i> is a collection of mathematical objects called its elements. </p>
+        A <i>set</i> is a collection of mathematical objects called its elements. We write $a \in X$ if $a$ is an element of the set $X$ and $a \notin X$ otherwise. A set is completely determined by its elements (axiom of extensionality), that is, if $X$ and $Y$ are sets then
+        $$\forall a\ (a \in X \iff a \in Y) \implies X = Y.$$
+        The converse of this axiom is also true and defines the notion of equality.
+    </p>
+
+    <p>
+        We say that a set $B$ is a <i>subset</i> of another set $A$ and write $B \subseteq A$ if and only if
+        $$a \in B \implies a \in A.$$
+    </p>
         
     <p>A <i>relation</i> on a set $X$ is a subset $R$ of $X \times X$. If $(a, b) \in R$, we say that $a$ is related to $b$ by $R$ and write $R(a, b)$ or $aRb$. If $R$ is a relation on $X$, then we say that $R$ is <i>reflexive</i> if $aRa$ for all $a \in X$. We say that $R$ is <i>symmetric</i> if $aRb$ implies $bRa$ for all $a, b \in X$. We say that $R$ is <i>transitive</i> if $aRb$ and $bRc$ implies $aRc$ for all $a, b, c \in X$. If $R$ is reflexive, symmetric, and transitive, then we say that $R$ is an <i>equivalence relation</i> and we write $a \sim b$ instead of $aRb$. Given a set $X$ and an equivalence relation $\sim$ on $X$, the equivalence class of an element $a$ of $X$ (written $[x]$) is the set
     $$[a] = \{x \in X : a \sim x\}.$$
@@ -23,8 +31,6 @@ title: "Group Theory"
 
     <p>Let $\mathbb{Z}$ be the set of integers; then for all integers $a$, $b$, and $n$, with $n &gt; 1$, we define the equivalence relation $\sim$ as $a \sim b \iff n \mid (a - b).$ (The reader can verify that this is indeed an equivalence relation.) We call this relation <i>congruence modulo $n$</i> and write $a \equiv b \pmod{n}$ whenever $a \sim b$.</p>
     </p>
-
-
 </div>
 
 </section>
@@ -48,11 +54,34 @@ title: "Group Theory"
 
     <p>Observe that commutativity is not required for a group. That is, we do not require that $\varphi(a, b) = \varphi(b, a)$ for all $a, b \in G$. If $\varphi$ does, however, satisfy this property, then we say that the underlying set $G$ is an <i>abelian group</i> under $\varphi$.</p> 
 
-    <p>For the sake of brevity we will often be writing $\varphi(a, b)$ as $a \cdot b$, or, more succinctly, $ab$ (in the case of abelian groups we shall instead write $a+b$, although this decision is only a matter of convention). This shorthand also extends to calling the binary operation &lsquo;multiplication&rsquo; (or &lsquo;addition&rsquo; in the case of abelian groups) without implying that the operation is commutative or is the usual multiplication (or addition) of numbers. We will also be saying that &lsquo;$G$ is a group&rsquo; instead of &lsquo;$G$ is a group under $\varphi$&rsquo;, unless ambiguity forces us to be more precise.</p>
+    <p>For the sake of brevity we will often be writing $\varphi(a, b)$ as $a \cdot b$, or, more succinctly, as $ab$. (In the case of abelian groups we shall instead write $a+b$, although this decision is only a matter of convention.) This shorthand also extends to calling the binary operation &lsquo;multiplication&rsquo; (or &lsquo;addition&rsquo; in the case of abelian groups) without implying that the operation is commutative or is the usual multiplication (or addition) of numbers. We will also be saying that &lsquo;$G$ is a group&rsquo; instead of &lsquo;$G$ is a group under $\varphi$&rsquo;, unless ambiguity forces us to be more precise.</p>
 
     <div class="example-block">
-        <p><b>Examples.</b> The set $\mathbb{Z}$ of integers is a group under the usual addition of integers. The identity element is $0$ and the inverse of an integer $n$ is $-n$. The set $\mathbb{Q}$ of rational numbers is a group under the usual addition of rational numbers, but fails to be a group under the usual multiplication of rational numbers since $0$ has no inverse.</p>
+
+        <p>
+            <b>Examples.</b> The development of group theory has been motivated in large part by the study of symmetry. Consider a square centered at the origin.
+            <script type="text/tikz">\begin{tikzpicture}
+            % square centered at origin
+            \draw[thick] (-1, -1) -- (-1, 1) -- (1, 1) -- (1, -1) -- cycle;
+            % vertices
+            \node[below left] at (-1, -1) {\(4\)};
+            \node[above left] at (-1, 1) {\(1\)};
+            \node[above right] at (1, 1) {\(2\)};
+            \node[below right] at (1, -1) {\(3\)};
+            % axes
+            \draw[->] (-2, 0) -- (2, 0) node[right] {\(x\)};
+            \draw[->] (0, -2) -- (0, 2) node[above] {\(y\)};
+
+        \end{tikzpicture}</script>
+        </p>
+
+        <p>The set $\mathbb{Z}$ of integers is a group under the usual addition of integers. The identity element is $0$ and the inverse of an integer $n$ is $-n$. The set $\mathbb{Q}$ of rational numbers is a group under the usual addition of rational numbers, but fails to be a group under the usual multiplication of rational numbers since $0$ has no inverse.</p>
+
+        <p>
+            <b>Examples &mdash; Linear groups.</b> Consider the set of $n \times n$ invertible matrices with entries from a field $\mathbb{K}$. Then matrix multiplication is a binary operation on this set since the product of two $n \times n$ matrices is again an $n \times n$ matrix. The identity matrix $I_n$ is the identity element of this group, and the inverse of a matrix $A$ is the matrix $A^{-1}$ such that $AA^{-1} = A^{-1}A = I_n$. (Note that we require the matrices to be invertible.) We call this group the <i>general linear group</i> of degree $n$ over $\mathbb{K}$, $\operatorname{GL}_n(\mathbb{K})$. If we consider only the set of $n \times n$ matrices with entries from $\mathbb{K}$ with determinant $1$, then we obtain the <i>special linear group</i> of degree $n$ over $\mathbb{K}$, $\operatorname{SL}_n(\mathbb{K})$.
+        </p>
     </div>
+
 
     <div class="theorem-block">
 
@@ -97,11 +126,14 @@ title: "Group Theory"
     </div>
 
     <div class="example-block">
-        <i>Proof.</i> (1) $\Phi(e) = \Phi(ee) = \Phi(e)\Phi(e)$, and so by Theorem 1.2, $\Phi(e) = e'$.</p> 
+        <p><i>Proof.</i> (1) $\Phi(e) = \Phi(ee) = \Phi(e)\Phi(e)$, and so by Theorem 1.2, $\Phi(e) = e'$.</p> 
+        <p>
+            Let $a \in G$. Then $\Phi(a)\Phi(a^{-1}) = \Phi(aa^{-1}) = \Phi(e) = e'$, so that $\Phi(a^{-1}) = \Phi(a)^{-1}$.
+        </p>
     </div>
 
     <div class="theorem-block">
-        <p><span class="theorem-head">Definition 2.3</span></p>
+        <p><span class="theorem-head" id="definition23">Definition 2.3</span></p>
 
         <p>Let $\Phi: G \to H$ be a homomorphism. The <i>kernel</i> of $\Phi$ is the set
             $$\operatorname{Ker} \Phi = \{a \in G : \Phi(a) = e\}.$$
@@ -109,7 +141,7 @@ title: "Group Theory"
     </p></div>
 
     <div class="theorem-block">
-        <p><span class="theorem-head">Theorem 2.4</span></p>
+        <p><span class="theorem-head" id="theorem24">Theorem 2.4</span></p>
         <p>A homomorphism $\Phi: G \to H$ is a monomorphism if and only if $\operatorname{Ker} \Phi = \{e\}$.</p>
     </div>
 
@@ -134,7 +166,7 @@ title: "Group Theory"
     <h2>3. Cyclic groups</h2>
 
     <div class="theorem-block">
-        <p><span class="theorem-head">Theorem 3.1</span></p>
+        <p><span class="theorem-head" id="theorem31">Theorem 3.1</span></p>
         <p>
             Every subgroup of the additive group $\mathbb{Z}$ of integers is a cyclic group. In particular, if $H \leq \mathbb{Z}$, then $H = \langle 0 \rangle$ or $H = \langle m \rangle$ where $m$ is the smallest positive integer in $H$. If $H \neq \langle 0 \rangle$, then $H$ is infinite.
         </p>
@@ -154,9 +186,21 @@ title: "Group Theory"
     </div>
 
     <div class="theorem-block">
-        <p><span class="theorem-head">Theorem 3.2</span></p>
+        <p><span class="theorem-head" id="theorem32">Theorem 3.2</span></p>
         <p>
             Every cyclic group of infinite order is isomorphic to the additive group $\mathbb{Z}$ of integers. Every cyclic group of finite order $n$ is isomorphic to the additive group $\mathbb{Z}_n$ of integers modulo $n$.
+        </p>
+    </div>
+
+    <div class="example-block">
+        <p>
+            <i>Proof.</i> Let $G$ be a cyclic group generated by $a$. If $G$ is infinite, then the map $\Phi: \mathbb{Z} \to G$ defined by $\Phi(k) = a^k$ is a homomorphism since for all integers $\kappa, \lambda$, we have
+            $$\Phi(\kappa + \lambda) = a^{\kappa + \lambda} = a^{\kappa}a^{\lambda} = \Phi(\kappa)\Phi(\lambda).$$
+            Since $G$ is cyclic, every element of $G$ is a power of $a$ and therefore $\Phi$ is surjective. <!--Finally, for all integers $\kappa, \lambda$, with $\kappa \neq \lambda$, we have $a^{\kappa} \neq a^{\lambda}$, and so $\Phi$ is injective. Thus $\Phi$ is an isomorphism and $G \cong \mathbb{Z}$.-->By <a href="#theorem24">Theorem 2.4</a>, $\Phi$ is a monomorphism if and only if $\operatorname{Ker} \Phi = \{0\}$
+        </p>
+
+        <p>
+            Now consider the case where $G$ is finite of order $n$. For $r, s \in \mathbb{Z}$, we have $a^r = a^s$ if and only if $a^{r-s} = e$, i.e., if and only if $r - s \in \operatorname{Ker} \Phi$.
         </p>
     </div>
 </section>
