@@ -784,7 +784,8 @@ section.postscript::before{
 form {
   margin: 0;
   padding: 5px 30px;
-  background-color: var(--var-block-bg-color);
+  background-color: #262626;
+  border: #444 1px solid;
   width: 55%;
 }
 
@@ -1017,8 +1018,7 @@ footer p {
         width: 100%;
     }
 
-    section > div.theorem-block,
-    section > div.example-block {
+    section > div.theorem-block{
         width: 90%;
     }
 
