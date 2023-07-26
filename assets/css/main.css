@@ -521,6 +521,10 @@ div.table-wrapper {
   color: var(--var-color-gray);
 }
 
+.paragraph-head {
+  font-weight: 550;
+}
+
 .theorem-head{
   font-weight: 550;
   letter-spacing: 1.5px;
