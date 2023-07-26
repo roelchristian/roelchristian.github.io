@@ -536,6 +536,11 @@ div.table-wrapper {
   border-radius: 8px;
 }
 
+.cayley-table-container{
+  width: inherit;
+  overflow: scroll;
+}
+
 .cayley-table {
   margin-left: auto;
   margin-right: auto;
