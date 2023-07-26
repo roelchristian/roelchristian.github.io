@@ -4,8 +4,9 @@ title: "Metric Spaces"
 ---
 
 <section>
-    <h2>Definition and examples</h2>
+    <h2>1. Definition and examples</h2>
     <div class="theorem-block">
+        <p><span class="theorem-head">Definition 1.1</span></p>
         <p>Let $X$ be a set (whose elements we shall call &lsquo;points&rsquo;). A <em>metric</em> on $X$ is a function $\rho: X \times X \to \mathbb{R}$ such that for all $x, y, z \in X$,
         <ol>
             <li>$\rho(x, y) \geq 0$ (non-negativity) </li>
@@ -27,41 +28,113 @@ title: "Metric Spaces"
             <span class="paragraph-head">Metrics in $\mathbb{R}$.</span> Consider the set $\mathbb{R}$ of real numbers. The absolute difference function $|\cdot - \cdot|: \mathbb{R} \times \mathbb{R} \to \mathbb{R}$ is a metric on $\mathbb{R}$. Indeed for any real numbers $x, y, z$, we have $|x - y| \geq 0$, $|x - y| = 0$ if and only if $x = y$, $|x - y| = |y - x|$, and $|x - z| \leq |x - y| + |y - z|$.
         </p>
         <p>
-            Let $n \geq 1$. The set $\mathbb{R}^n$ is the set of all $n$-tuples of real numbers. For the sake of brevity, we shall denote an element of $\mathbb{R}^n$ by $\mathbf{x} = (\xi_1, \xi_2, \ldots, \xi_n)$, where $\xi_i \in \mathbb{R}$ for $1 \leq i \leq n$. We define the <em>Euclidean metric</em> on $\mathbb{R}^n$ to be the map ${\ell^2}: \mathbb{R}^n \times \mathbb{R}^n \to \mathbb{R}$ given by
+            Let $n \geq 1$. The set $\mathbb{R}^n$ is the set of all $n$-tuples of real numbers. For the sake of brevity, we shall denote an element of $\mathbb{R}^n$ by $x = (\xi_1, \xi_2, \ldots, \xi_n)$, where $\xi_i \in \mathbb{R}$ for $1 \leq i \leq n$. We define the <em>Euclidean metric</em> on $\mathbb{R}^n$ to be the map ${\ell^2}: \mathbb{R}^n \times \mathbb{R}^n \to \mathbb{R}$ given by
             $$
-                {\ell^2}(\mathbf{x}, \mathbf{y}) = \sqrt{\sum_{i = 1}^n (\xi_i - \eta_i)^2}.
+                {\ell^2}(x, y) = \sqrt{\sum_{i = 1}^n (\xi_i - \eta_i)^2}.
             $$
         <p>
-            In $\mathbb{R}^3$ and $\mathbb{R}^2$ one can visualize ${\ell^2}(\mathbf{x}, \mathbf{y})$ as the distance between the points $\mathbf{x}$ and $\mathbf{y}$ in the Euclidean plane and space, respectively. The Euclidean metric is the most commonly used metric on $\mathbb{R}^n$ as it is the natural generalization of the absolute difference function on $\mathbb{R}$ and provides a natural notion of distance between points in $\mathbb{R}^n$.
+            In $\mathbb{R}^3$ and $\mathbb{R}^2$ one can visualize ${\ell^2}(x, y)$ as the distance between the points $x$ and $y$ in the Euclidean plane and space, respectively. The Euclidean metric is the most commonly used metric on $\mathbb{R}^n$ as it is the natural generalization of the absolute difference function on $\mathbb{R}$ and provides a natural notion of distance between points in $\mathbb{R}^n$.
         </p>
         <p>
             The <em>Manhattan metric</em> (also known as the <em>taxicab metric</em>) on $\mathbb{R}^n$ is the map ${\ell^1}: \mathbb{R}^n \times \mathbb{R}^n \to \mathbb{R}$ given by
             $$
-                {\ell^1}(\mathbf{x}, \mathbf{y}) = \sum_{i = 1}^n |\xi_i - \eta_i|
+                {\ell^1}(x, y) = \sum_{i = 1}^n |\xi_i - \eta_i|
             $$
-            for $\mathbf{x} = (\xi_1, \xi_2, \ldots, \xi_n)$ and $\mathbf{y} = (\eta_1, \eta_2, \ldots, \eta_n)$. The Manhattan metric is so-called because it is the distance a taxicab would have to travel in a rectangular grid of streets (similar to those found in Manhattan) to get from the point $\mathbf{x}$ to the point $\mathbf{y}$.
+            for $x = (\xi_1, \xi_2, \ldots, \xi_n)$ and $y = (\eta_1, \eta_2, \ldots, \eta_n)$. The Manhattan metric is so-called because it is the distance a taxicab would have to travel in a rectangular grid of streets (similar to those found in Manhattan) to get from the point $x$ to the point $y$.
         </p>
         <p>
             Finally, we define the <em>Chebyshev distance</em> on $\mathbb{R}^n$ as
             $$
-                {\ell^\infty}(\mathbf{x}, \mathbf{y}) = \max_{1 \leq i \leq n} |\xi_i - \eta_i|.
+                {\ell^\infty}(x, y) = \max_{1 \leq i \leq n} |\xi_i - \eta_i|.
             $$
         </p>
         <p>
             These three metrics are related by the inequalities
             $$
-                {\ell^\infty}(\mathbf{x}, \mathbf{y}) \leq {\ell^2}(\mathbf{x}, \mathbf{y}) \leq {\ell^1}(\mathbf{x}, \mathbf{y}) \leq n {\ell^\infty}(\mathbf{x}, \mathbf{y}).
+                {\ell^\infty}(x, y) \leq {\ell^2}(x, y) \leq {\ell^1}(x, y) \leq n {\ell^\infty}(x, y).
             $$
         </p>
 
         <p>
-            <span class="paragraph-head">Discrete metric.</span> Let $X$ be an arbitrary set. The <em>discrete metric</em> on $X$ is the map $\rho: X \times X \to \mathbb{R}$ given by
+            <span class="paragraph-head">Discrete metric.</span> Let $X$ be an arbitrary set. The <em>discrete metric</em> on $X$ is the map $\delta: X \times X \to \mathbb{R}$ given by
             $$
-                \rho(x, y) = \begin{cases}
+                \delta(x, y) = \begin{cases}
                     0 & \text{if } x = y \\
                     1 & \text{if } x \neq y.
                 \end{cases}
             $$
+        </p>
+    </div>
+</section>
+
+<section>
+    <h2>
+        2. The topology of a metric space
+    </h2>
+    <div class="theorem-block">
+        <p><span class="theorem-head">Definition 2.1</span></p>
+        <p>
+            Let $(X, \rho)$ be a metric space. A ball centered at a point $x \in X$ of radius $\varepsilon > 0$ is the set
+            $$
+                B_{\varepsilon}(x) = \{y \in X: \rho(x, y) \lt \varepsilon\}.
+            $$
+        </p>
+        <p>
+            Let $A$ be a subset of $X$. Then $x$ is an <em>interior point</em> of $A$ if there exists $\varepsilon > 0$ such that $B_{\varepsilon}(x) \subseteq A$. It is an <em>exterior point</em> of $A$ if there exists $\varepsilon > 0$ such that $B_{\varepsilon}(x) \cap A = \emptyset$. It is a <em>boundary point</em> of $A$ if it is neither an interior point nor an exterior point of $A$.
+        </p>
+    </div>
+
+    <p>
+        Collectively, the set of interior, exterior, and boundary points of the set $A \subset X$ (with $X$ a metric space) is called the <em>interior</em>, <em>exterior</em>, and <em>boundary</em> of $A$, respectively and is denoted by $\operatorname{int}(A)$, $\operatorname{ext}(A)$, and $\partial A$, in that order.
+    </p>
+
+    <p>
+        If $x$ is an interior point of $A$ then it must be an element of $A$ since $B_{\varepsilon}(x)$ contains at least one point of $A$ (namely, $x$ itself). On the other hand, if $x$ is an exterior point of $A$ then it cannot be an element of $A$ since $B_{\varepsilon}(x)$ contains no points of $A$ for any $\varepsilon > 0$. Boundary points can be either elements or non-elements of $A$.
+    </p>
+
+    <div class="example-block">
+        <p>
+            <span class="paragraph-head">Example.</span> In $\mathbb{R}^2$ with the $\ell^2$ metric, the open ball or radius $1$ centered at the origin is the open disc
+            $$
+                B_1((0, 0)) = \{(x, y) \in \mathbb{R}^2: x^2 + y^2 \lt 1\}.
+            $$
+            On the other hand, using the $\ell^1$ metric, the earlier-defined open ball is the set
+            $$
+                B_1((0, 0)) = \{(x, y) \in \mathbb{R}^2: |x| + |y| \lt 1\},
+            $$
+            which geometrically is a square (diamond) with vertices $(\pm 1, 0)$ and $(0, \pm 1)$. Finally, using the standard discrete metric, the ball is reduced to the singleton $\{(0, 0)\}$.
+        </p>
+    </div>
+
+    <div class="example-block">
+        <p>
+            <span class="paragraph-head">Example.</span> Let $X$ be an arbitrary set and consider the standard discrete metric $\delta$ in $X$. If $A$ is a subset pf $X$, then $\operatorname{int}(A) = A$ and $\operatorname{ext}(A) = X \setminus A$. $A$ has no boundary points.
+        </p>
+    </div>
+    <div class="theorem-block">
+        <p>
+            A subset $U$ of $X$ is open if and only if for every $x \in U$ there exists $\varepsilon > 0$ such that $B_{\varepsilon}(x) \subset U$. A subset $F$ of $X$ is closed if and only if $X \setminus F$ is open.
+        </p>
+    </div>
+    <div class="theorem-block">
+        <p><span class="theorem-head">Theorem 2.2</span></p>
+        <p>
+            Let $(X, \rho)$ be a metric space.
+        </p>
+        <ol>
+            <li>The empty set $\emptyset$ and the whole space $X$ are open.</li>
+            <li>Let $\mathfrak{U}$ be a collection of open sets. Then $\bigcup_{U \in \mathfrak{U}} U$ is open.</li>
+            <li>Let $\mathfrak{U}$ be a <em>finite</em> collection of open sets. Then $\bigcap_{U \in \mathfrak{U}} U$ is open.</li>
+        </ol>
+    </div>
+
+
+    <div class="example-block">
+        <p>
+            <em>Proof.</em>
+        </p>
+        <p>
+            (2) Let $x \in \bigcup_{U \in \mathfrak{U}} U$. Then $x \in U$ for some $U' \in \mathfrak{U}$. Since $U'$ is open, there exists $\varepsilon > 0$ such that $B_{\varepsilon}(x) \subset U'$. But $U' \subset \bigcup_{U \in \mathfrak{U}} U$, so $B_{\varepsilon}(x) \subset \bigcup_{U \in \mathfrak{U}} U$.
         </p>
     </div>
 </section>
