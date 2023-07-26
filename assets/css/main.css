@@ -536,6 +536,19 @@ div.table-wrapper {
   border-radius: 8px;
 }
 
+.cayley-table {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.cayley-table td, .cayley-table th {
+  border: 1px solid #777;
+  padding: 8px 15px;
+}
+
 
 
 code, pre > code {

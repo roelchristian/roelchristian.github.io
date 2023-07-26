@@ -38,7 +38,7 @@ title: "Group Theory"
 <section>
     <h2> 1. The definition of a group</h2>
 
-    <div class="theorem-block">
+    <div class="theorem-block" id="definition11">
         <p><b>Definition 1.1.</b></p><p>A binary operation on a set $X$ is a map $X \times X \to X$. Let $\varphi$ be a binary operation on a set $G$ and let $a, b, c$ be elements of $G$. We say that $G$ is a <i>semigroup</i> under $\varphi$ if $\varphi$ is associative, that is,
             $$\varphi(a, \varphi(b, c)) = \varphi(\varphi(a, b), c)$$
         </p>
@@ -71,14 +71,172 @@ title: "Group Theory"
 
 
     <div class="theorem-block">
-
-        <p><b>Theorem 1.2</b> Let $G$ be a group, and $a, b, c \in G$. Then:</p>
+        <p><span class="theorem-head">Theorem 1.2</span></b>
+        <p>Let $G$ be a group, and $a, b, c \in G$. Then:</p>
         <ol>
             <li>$aa = a \implies a = e$</li>
             <li>Left-cancellation: $ab = ac \implies b = c$</li>
             <li>Right-cancellation: $ba = ca \implies b = c$</li>
         </ol>
     </div>
+
+    <div class="theorem-block" id="theorem13">
+        <p>
+            <span class="theorem-head">Definition 1.3</span>
+        </p>
+        <p>
+            The <i>order</i> of a group $G$ (written $|G|$) is the cardinality of its underlying set, i.e., the number of elements of the group. If $|G| \lt \infty$, then we say that $G$ is a <i>finite group</i>; otherwise, we say that $G$ is an <i>infinite group</i>.
+        </p>
+    </div>
+
+    <p>
+        We can describe the structure of a finite group by arranging all possible products in the group in a grid, with the factors of each product on either end of the grid&rsquo;s rows and columns. This grid is called the <i>Cayley table</i> after British mathematician Arthur Cayley, who introduced it in his paper <i>On the Theory of Groups as depending on the Symbolic Equation $\theta^n = 1$</i> (1854). Cayley tables are particularly useful for non-abelian groups, where the product $ab$ is not necessarily equal to $ba$. Some examples of Cayley tables are shown below
+    </p>
+    <ul>
+        <li>Cayley table for $V_4$.
+            <table class="cayley-table">
+                <tr>
+                    <th>$\times$</th>
+                    <th>$e$</th>
+                    <th>$a$</th>
+                    <th>$b$</th>
+                    <th>$c$</th>
+                </tr>
+                <tr>
+                    <td>$e$</td>
+                    <td>$e$</td>
+                    <td>$a$</td>
+                    <td>$b$</td>
+                    <td>$c$</td>
+                </tr>
+                <tr>
+                    <td>$a$</td>
+                    <td>$a$</td>
+                    <td>$e$</td>
+                    <td>$c$</td>
+                    <td>$b$</td>
+                </tr>
+                <tr>
+                    <td>$b$</td>
+                    <td>$b$</td>
+                    <td>$c$</td>
+                    <td>$e$</td>
+                    <td>$a$</td>
+                </tr>
+                <tr>
+                    <td>$c$</td>
+                    <td>$c$</td>
+                    <td>$b$</td>
+                    <td>$a$</td>
+                    <td>$e$</td>
+                </tr>
+            </table>
+        </li>
+        <li>
+            Cayley table for $Q_8$.
+            <table class="cayley-table">
+                <tr>
+                    <th>$\times$</th>
+                    <th>$e$</th>
+                    <th>$a$</th>
+                    <th>$a^2$</th>
+                    <th>$a^3$</th>
+                    <th>$b$</th>
+                    <th>$ab$</th>
+                    <th>$a^2b$</th>
+                    <th>$a^3b$</th>
+                </tr>
+                <tr>
+                    <td>$e$</td>
+                    <td>$e$</td>
+                    <td>$a$</td>
+                    <td>$a^2$</td>
+                    <td>$a^3$</td>
+                    <td>$b$</td>
+                    <td>$ab$</td>
+                    <td>$a^2b$</td>
+                    <td>$a^3b$</td>
+                </tr>
+                <tr>
+                    <td>$a$</td>
+                    <td>$a$</td>
+                    <td>$a^2$</td>
+                    <td>$a^3$</td>
+                    <td>$e$</td>
+                    <td>$ab$</td>
+                    <td>$a^2b$</td>
+                    <td>$a^3b$</td>
+                    <td>$b$</td>
+                </tr>
+                <tr>
+                    <td>$a^2$</td>
+                    <td>$a^2$</td>
+                    <td>$a^3$</td>
+                    <td>$e$</td>
+                    <td>$a$</td>
+                    <td>$a^2b$</td>
+                    <td>$a^3b$</td>
+                    <td>$b$</td>
+                    <td>$ab$</td>
+                </tr>
+                <tr>
+                    <td>$a^3$</td>
+                    <td>$a^3$</td>
+                    <td>$e$</td>
+                    <td>$a$</td>
+                    <td>$a^2$</td>
+                    <td>$a^3b$</td>
+                    <td>$b$</td>
+                    <td>$ab$</td>
+                    <td>$a^2b$</td>
+                </tr>
+                <tr>
+                    <td>$b$</td>
+                    <td>$b$</td>
+                    <td>$a^3b$</td>
+                    <td>$a^2b$</td>
+                    <td>$ab$</td>
+                    <td>$a^2$</td>
+                    <td>$a$</td>
+                    <td>$e$</td>
+                    <td>$a^3$</td>
+                </tr>
+                <tr>
+                    <td>$ab$</td>
+                    <td>$ab$</td>
+                    <td>$b$</td>
+                    <td>$a^3b$</td>
+                    <td>$a^2b$</td>
+                    <td>$a^3$</td>
+                    <td>$a^2$</td>
+                    <td>$a$</td>
+                    <td>$e$</td>
+                </tr>
+                <tr>
+                    <td>$a^2b$</td>
+                    <td>$a^2b$</td>
+                    <td>$ab$</td>
+                    <td>$b$</td>
+                    <td>$a^3b$</td>
+                    <td>$e$</td>
+                    <td>$a^3$</td>
+                    <td>$a^2$</td>
+                    <td>$a$</td>
+                </tr>
+                <tr>
+                    <td>$a^3b$</td>
+                    <td>$a^3b$</td>
+                    <td>$a^2b$</td>
+                    <td>$ab$</td>
+                    <td>$b$</td>
+                    <td>$a$</td>
+                    <td>$e$</td>
+                    <td>$a^3$</td>
+                    <td>$a^2$</td>
+                </tr>
+            </table>
+        </li>
+    </ul>
 </section>
 
 <section>
