@@ -538,7 +538,7 @@ div.table-wrapper {
 
 .cayley-table-container{
   width: inherit;
-  overflow: scroll;
+  overflow-x: auto;
 }
 
 .cayley-table {
@@ -552,6 +552,11 @@ div.table-wrapper {
 .cayley-table td, .cayley-table th {
   border: 1px solid #777;
   padding: 8px 15px;
+}
+
+.MathJax_Display, .MJXc-display, .MathJax_SVG_Display {
+  overflow-x: auto;
+  overflow-y: hidden;
 }
 
 
@@ -1036,9 +1041,14 @@ footer p {
         width: 100%;
     }
 
+    section > div.example-block {
+        width: 100%;
+    }
+
     section > div.theorem-block{
         width: 90%;
     }
+
 
     pre > code {
         width: 97%;
