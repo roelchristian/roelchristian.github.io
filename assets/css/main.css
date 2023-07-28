@@ -388,9 +388,39 @@ section > p,
 section > footer,
 section > table,
 section > div.theorem-block,
-section > div.example-block {
+section > div.example-block,
+div.question-container
+{
     width: 55%;
 }
+
+.question-container {
+  margin-top: 20px;
+  margin-bottom: 120px;
+}
+
+.ex-question p {
+  font-weight: 500;
+}
+
+.ex-question {
+  border: #777 1px solid; 
+  border-radius: 8px;
+  padding: 10px 20px ;
+  margin-bottom: 20px;
+}
+
+
+.solution-block::before {
+  content: "Solution";
+  font-size: var(--var-font-size);
+  color: var(--var-color-gray);
+  line-height: var(--var-line-height);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
 
 .in-text-nav {
   width: 55%;
@@ -472,7 +502,7 @@ img:hover {
 
 .citation-note, .citation-note a {
   font-size: var(--var-font-size);
-  vertical-align: super;
+  padding: 2px;
 }
 
 .sidenote-number {
@@ -1050,9 +1080,12 @@ footer p {
         width: 100%;
     }
 
-    section > div.example-block {
+    section > div.example-block,
+    div.question-container {
         width: 100%;
     }
+
+
 
     section > div.theorem-block{
         width: 90%;
