@@ -1,0 +1,22 @@
+---
+layout: post
+title: "Group Theory"
+---
+
+<section class="foreword">
+    This page contains selected problems in Group Theory. Where possible, lemmas/theorems justifying the argument in the solution are linked (most of them, for the sake of convenience, coming from ProofWiki).
+</section>
+
+<section>
+    <div class="ex-question">
+        <p>Show that all groups of order $4$ are abelian.</p>
+    </div>
+    <div>
+        <p>Let $G$ be a group of order $4$. By Lagrange&rsquo;s theorem, all elements in $G$ have order $1$, $2$ or $4$. If an element $a$ has order $4$ then $G$ is cyclic,<span class="citation-note"><a href="https://proofwiki.org/wiki/Group_whose_Order_equals_Order_of_Element_is_Cyclic">[1]</a></span> and thus abelian.<span class="citation-note"><a href="https://proofwiki.org/wiki/Cyclic_Group_is_Abelian">[2]</a></span></p>
+        <p>
+            Otherwise suppose all non-identity elements have order $2$. Then $G = \{e, a, b, c\}$ and $a^2 = b^2 = c^2 = e$. By the cancellation law in groups, $ab \neq a$, $ab \neq b$ and $ab \neq e$ and therefore $ab = c$. Thus $(ab)^2 = e$, implying $ab = ba$ and the conclusion follows.
+        </p>
+
+    
+    </div>
+</section>

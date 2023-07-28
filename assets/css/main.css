@@ -457,7 +457,8 @@ img:hover {
 }
 
 .sidenote,
-.marginnote {
+.marginnote,
+.citation-note {
     float: right;
     clear: right;
     margin-right: -60%;
