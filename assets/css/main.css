@@ -457,8 +457,7 @@ img:hover {
 }
 
 .sidenote,
-.marginnote,
-.citation-note {
+.marginnote {
     float: right;
     clear: right;
     margin-right: -60%;
@@ -469,6 +468,11 @@ img:hover {
     line-height: var(--var-line-height);
     vertical-align: baseline;
     position: relative;
+}
+
+.citation-note, .citation-note a {
+  font-size: var(--var-font-size);
+  vertical-align: super;
 }
 
 .sidenote-number {
