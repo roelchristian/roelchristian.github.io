@@ -7,7 +7,18 @@ title: "Group Theory Exercises"
     <p>This page contains selected problems in Group Theory. Where possible, lemmas/theorems justifying the argument in the solution are linked (most of them, for the sake of convenience, coming from ProofWiki).</p>
 </section>
 
+<section class="contents">
+    <h2>Contents</h2>
+    <ul>
+        <li><a href="#general-group-theory">General group theory</a></li>
+        <li><a href="#homomorphisms-and-isomorphisms">Homomorphisms and isomorphisms</a></li>
+    </ul>
+</section>
+
 <section>
+    <h2 id="general-group-theory">
+        General group theory
+    </h2>
     <div class="question-container">
         <div class="ex-question">
             <p>Show that all groups of order $4$ are abelian.</p>
@@ -20,6 +31,9 @@ title: "Group Theory Exercises"
         </div>
     </div>
 
+ </section>   
+
+ <section>
     <div class="question-container">
         <div class="ex-question">
             <p>Let $\alpha \in S_n$ be an odd permutation. Show that for any $\beta \in S_n$, $\beta \alpha \beta^{-1}$ is also an odd permutation.</p>
@@ -43,7 +57,51 @@ title: "Group Theory Exercises"
                 $$
                 \beta\alpha\beta^{-1} = (\tau'_1 \tau'_2 \cdots \tau'_{k})(\tau_1 \tau_2 \cdots \tau_{m})(\tau''_1 \tau''_2 \cdots \tau''_{k}),
                 $$
-                and therefore $\alpha\beta\alpha^{-1}$ has length $k + m + k = 2k + m$. Since $m$ is odd, there exists a natural number $n$ such that $m = 2n + 1$. Thus $2k + m = 2k + 2n + 1 = 2(k + n) + 1$, which is odd. Therefore $\alpha\beta\alpha^{-1}$ is an odd permutation.
+                and therefore $\beta\alpha\beta^{-1}$ has length $k + m + k = 2k + m$. Since $m$ is odd, there exists a natural number $n$ such that $m = 2n + 1$. Thus $2k + m = 2k + 2n + 1 = 2(k + n) + 1$, which is odd. Therefore $\beta\alpha\beta^{-1}$ is an odd permutation.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2 id="homomorphisms-and-isomorphisms">
+        Homomorhisms and isomorphisms
+    </h2>
+    <div class="question-container">
+        <div class="ex-question">
+            <p>
+                Show that $\mathbb{Z}_8$ is not isomorphic to $Q_8$.
+            </p>
+        </div>
+    </div>
+    
+    <div class="question-container">
+        <div class="ex-question">
+            <p>
+                Let $\varphi: G \to H$ be a homomorphism of groups.
+                <ol>
+                    <li>Show that if $G$ is abelian, $xyx^{-1}y^{-1} \in \operatorname{Ker} \varphi$ for all $x, y \in G$.</li>
+                    <li>If $K \leq G$, then $f(K) \leq H$.</li>
+                </ol>
+            </p>
+        </div>
+        <div class="solution-block">
+            <p>
+                <strong>(1)</strong> Let $e$ be the identity element of $H$. Then since $\varphi$ is a homomorphism, we have
+                $$
+                    \begin{aligned}
+                    \varphi(xyx^{-1}y^{-1}) &= \varphi(x)\varphi(y)\varphi(x^{-1})\varphi(y^{-1})\\
+                    &= \varphi(x)\varphi(y)\varphi(x)^{-1}\varphi(y)^{-1}.
+                    \end{aligned}
+                $$
+                Since $G$ is abelian, this simplifies to
+                $$
+                    \varphi(x)\varphi(x)^{-1}\varphi(y)\varphi(y)^{-1} = e,
+                $$
+                and therefore $xyx^{-1}y^{-1} \in \operatorname{Ker} \varphi$ for all $x, y \in G$.
+            </p>
+            <p>
+                <strong>(2)</strong> 
             </p>
         </div>
     </div>
