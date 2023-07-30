@@ -453,8 +453,49 @@ title: "Group Theory"
             A <em>permutation</em> of a set $\Omega$ is a bijection from $\Omega$ to $\Omega$. The set of all permutations of $\Omega$ is denoted by $S_{\Omega}$; if $\Omega = \{1, 2, \ldots, n\}$, then we write $S_n$ instead of $S_{\Omega}$. The group $S_n$ is called the <em>symmetric group</em> of $n$ letters.
         </p>
         <p>
-            Let $\{\omega_1, \ldots, \omega_r\}$ (with $r \leq n$) be a subset of $\Omega_n = \{1, 2, \ldots, n\}$. Then we we will write $(\omega_1\ \omega_2\ \ldots\ \omega_r)$ for the permutation $\sigma \in S_n$ such that $\sigma(\omega_i) = \omega_{i+1}$ for $i = 1, \ldots, r-1$ and $\sigma(\omega_r) = \omega_1$, and $\sigma(i) = i$ for all $i \in \Omega_n \setminus \{\omega_1, \ldots, \omega_r\}$. We call $(\omega_1\ \omega_2\ \ldots\ \omega_r)$ a <em>cycle</em> of length $r$. A $2$-cycle is called a <em>transposition</em>.
+            Let $\{\omega_1, \ldots, \omega_r\}$ (with $r \leq n$) be a subset of $\Omega = \{1, 2, \ldots, n\}$. Then we we will write $(\omega_1\ \omega_2\ \ldots\ \omega_r)$ for the permutation $\sigma \in S_n$ such that $\sigma(\omega_i) = \omega_{i+1}$ for $i = 1, \ldots, r-1$ and $\sigma(\omega_r) = \omega_1$, and $\sigma(i) = i$ for all $i \in \Omega \setminus \{\omega_1, \ldots, \omega_r\}$. We call $(\omega_1\ \omega_2\ \ldots\ \omega_r)$ a <em>cycle</em> of length $r$. A $2$-cycle is called a <em>transposition</em>.
         </p>
     </div>
+
+    <div class="example-block">
+        <p>
+            <b>Example.</b> Consider the permutation
+            $$
+            \sigma = 
+            \begin{pmatrix}
+                1 & 2 & 3 & 4 & 5 \\
+                3 & 5 & 4 & 2 & 1
+            \end{pmatrix}
+            $$
+            which is equivalent to the sequence
+            $$
+            1 \mapsto 3 \mapsto 4 \mapsto 2 \mapsto 5 \mapsto 1.
+            $$
+            Thus in cycle notation, $\sigma = (1\ 3\ 4\ 2\ 5)$.
+        </p>
+    </div>
+
+    <div class="theorem-block">
+        <p>
+            <span class="theorem-head" id="definition62">
+                Definition 6.2
+            </span>
+        </p>
+        <p>
+            The permutations $\sigma_1, \ldots, \sigma_k \in S_n$ are said to be <em>disjoint</em> if they have no common elements other than the identity. That is, for each $1 \leq i \leq k$ and for each $\xi \in \{1, \ldots, n\}$, $\sigma_i(\xi) = \xi$ implies $\sigma_j(\xi) = \xi$ for all $j \neq i$.
+        </p>
+    </div>
+
+    <p>
+        The identity permutation $\iota$ is the permutation such that $\iota(\xi) = \xi$ for all $\xi \in \Omega$. The product $\sigma\tau$ of two permutations $\sigma, \tau \in S_n$ is the composition $\sigma \circ \tau$. Observe that $\sigma\tau$ is also a permutation of $\Omega$ since the composition of two bijections is a bijection. The product of any permutation with the identity permutation is the permutation itself. Moreover because each $\sigma \in S_n$ is a bijection, there exists a unique permutation $\sigma^{-1}$ such that $\sigma\sigma^{-1} = \sigma^{-1}\sigma = \iota$. We call $\sigma^{-1}$ the <em>inverse</em> of $\sigma$ and is the cycle
+        $$
+        (\omega_r\ \omega_{r-1}\ \ldots\ \omega_1) = (\omega_1\ \omega_r\ \omega_{r-1}\ \ldots\ \omega_2).  
+        $$
+        Therefore we see that $S_n$ is a group under the product (i.e., composition) of permutations.
+    </p>
+
+    <p>
+        Observe that $\sigma\tau = \tau\sigma$ is not necessarily true.
+    </p>
 
 </section>
