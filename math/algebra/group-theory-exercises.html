@@ -11,7 +11,9 @@ title: "Group Theory Exercises"
     <h2>Contents</h2>
     <ul>
         <li><a href="#general-group-theory">General group theory</a></li>
+        <li><a href="#symmetric-groups">Symmetric, alternating and dihedral groups</a></li>
         <li><a href="#homomorphisms-and-isomorphisms">Homomorphisms and isomorphisms</a></li>
+        <li><a href="#abelian-groups">Abelian groups</a></li>
     </ul>
 </section>
 
@@ -30,10 +32,12 @@ title: "Group Theory Exercises"
             </p>    
         </div>
     </div>
-
  </section>   
 
  <section>
+    <h2 id="symmetric-groups">
+        Symmetric, alternating and dihedral groups
+    </h2>
     <div class="question-container">
         <div class="ex-question">
             <p>Let $\alpha \in S_n$ be an odd permutation. Show that for any $\beta \in S_n$, $\beta \alpha \beta^{-1}$ is also an odd permutation.</p>
@@ -58,6 +62,18 @@ title: "Group Theory Exercises"
                 \beta\alpha\beta^{-1} = (\tau'_1 \tau'_2 \cdots \tau'_{k})(\tau_1 \tau_2 \cdots \tau_{m})(\tau''_1 \tau''_2 \cdots \tau''_{k}),
                 $$
                 and therefore $\beta\alpha\beta^{-1}$ has length $k + m + k = 2k + m$. Since $m$ is odd, there exists a natural number $n$ such that $m = 2n + 1$. Thus $2k + m = 2k + 2n + 1 = 2(k + n) + 1$, which is odd. Therefore $\beta\alpha\beta^{-1}$ is an odd permutation.
+            </p>
+        </div>
+    </div>
+    <div class="question-container">
+        <div class="ex-question">
+            <p>
+                How many elements of order $12$ are there in $S_7$? Give an example of one such element.
+            </p>
+        </div>
+        <div class="solution-block">
+            <p>
+                An element of $S_7$ of order $12$ must be the product of a disjoint 
             </p>
         </div>
     </div>
@@ -101,8 +117,14 @@ title: "Group Theory Exercises"
                 and therefore $xyx^{-1}y^{-1} \in \operatorname{Ker} \varphi$ for all $x, y \in G$.
             </p>
             <p>
-                <strong>(2)</strong> 
-            </p>
+                <strong>(2)</strong> Let 
+            </p> 
         </div>
     </div>
+</section>
+
+<section>
+    <h2 id="abelian-groups">
+        Abelian groups
+    </h2>
 </section>

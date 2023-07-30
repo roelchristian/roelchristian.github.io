@@ -7,7 +7,27 @@ title: "Group Theory"
     <p>This page contains my notes for MTH 611M, an introductory graduate class in abstract algebra, which I took in 2023. The notes roughly follow the outline of Hungerford&rsquo;s <i>Algebra</i>. A complete list of references can be found at the end of the page.</p>
 </section>
 
-<section><h2>Some preliminaries</h2>
+<section class="contents">
+    <h2>Contents</h2>
+    <ul>
+        <li><a href="#preliminaries">Some preliminaries</a></li>
+        <li><a href="#definition-of-a-group">The definition of a group</a></li>
+        <li><a href="#homomorphisms-and-subgroups">Homomorphisms and subgroups</a></li>
+        <li><a href="#cyclic-groups">Cyclic groups</a></li>
+        <li><a href="#cosets-and-lagranges-theorem">Cosets and Lagrange&rsquo;s theorem</a></li>
+        <li><a href="#normal-subgroups-and-quotient-groups">Normal subgroups and quotient groups</a></li>
+        <li><a href="#symmetric-alternating-and-dihedral-groups">Symmetric, alternating and dihedral groups</a></li>
+    </ul>
+</section>
+
+<section>
+    <h2 id="preliminaries">
+        Some preliminaries
+    </h2>
+
+    <h3>
+        Set theory
+    </h3>
 
     <p>
         A <i>set</i> is a collection of mathematical objects called its elements. We write $a \in X$ if $a$ is an element of the set $X$ and $a \notin X$ otherwise. A set is completely determined by its elements (axiom of extensionality), that is, if $X$ and $Y$ are sets then
@@ -18,6 +38,25 @@ title: "Group Theory"
     <p>
         We say that a set $B$ is a <i>subset</i> of another set $A$ and write $B \subseteq A$ if and only if
         $$a \in B \implies a \in A.$$
+        Set equality can thus be restated as
+        $$A = B \iff A \subseteq B \text{ and } B \subseteq A.$$
+        This fact is a useful tool in proving set equalities.
+    </p>
+
+    <p>
+        The union of two sets $A$ and $B$ is the set $A \cup B = \{x : x \in A \text{ or } x \in B\}$, while the intersection of $A$ and $B$ is the set $A \cap B = \{x : x \in A \text{ and } x \in B\}$. We can extend this definition for an arbitrary collection $\mathfrak{S}$ of sets as follows:
+        $$x \in \bigcup_{S \in \mathfrak{S}} S \iff \exists S \in \mathfrak{S}\ (x \in S)$$
+        and
+        $$x \in \bigcap_{S \in \mathfrak{S}} S \iff \forall S \in \mathfrak{S}\ (x \in S).$$
+        Finally, the set difference of $A$ and $B$ is the set $A \setminus B = \{x : x \in A \text{ and } x \notin B\}$.
+    </p>
+
+    <p>
+        An <i>ordered pair</i> $(a, b)$ is a set $\{\{a\}, \{a, b\}\}$. We can extend this definition to ordered $n$-tuples $(a_1, a_2, \ldots, a_n)$, which we define to be the set $\{\{a_1\}, \{a_1, a_2\}, \ldots, \{a_1, a_2, \ldots, a_n\}\}$. We say that two ordered $n$-tuples $(a_1, a_2, \ldots, a_n)$ and $(b_1, b_2, \ldots, b_n)$ are equal if and only if $a_i = b_i$ for all $1 \leq i \leq n$.
+    </p>
+
+    <p>
+        The <i>Cartesian product</i> of two sets $A$ and $B$ is the set of all ordered pairs $(a, b)$ such that $a \in A$ and $b \in B$. We denote this set by $A \times B$.
     </p>
         
     <p>A <i>relation</i> on a set $X$ is a subset $R$ of $X \times X$. If $(a, b) \in R$, we say that $a$ is related to $b$ by $R$ and write $R(a, b)$ or $aRb$. If $R$ is a relation on $X$, then we say that $R$ is <i>reflexive</i> if $aRa$ for all $a \in X$. We say that $R$ is <i>symmetric</i> if $aRb$ implies $bRa$ for all $a, b \in X$. We say that $R$ is <i>transitive</i> if $aRb$ and $bRc$ implies $aRc$ for all $a, b, c \in X$. If $R$ is reflexive, symmetric, and transitive, then we say that $R$ is an <i>equivalence relation</i> and we write $a \sim b$ instead of $aRb$. Given a set $X$ and an equivalence relation $\sim$ on $X$, the equivalence class of an element $a$ of $X$ (written $[x]$) is the set
@@ -33,10 +72,30 @@ title: "Group Theory"
     </p>
 </div>
 
+<h3>
+    Mappings
+</h3>
+
+<p>
+    A <i>mapping</i> (or a function) $f$ from a set $A$ to a set $B$ written $f : A \to B$ is a rule that assigns to each element $a \in A$ a unique element $b \in B$. We would often write $f(a)$ instead of $b$ and say that $f$ maps $a$ to $b$ (or in symbols $a \mapsto b$ or $a \mapsto f(a)$). The set $A$ is called the <i>domain</i> of $f$ and the set $B$ is called the <i>codomain</i> of $f$. The <i>image</i> of $f$ is the set
+    $$f(A) = \{f(a) : a \in A\}.$$
+    If $X \subseteq A$, then the <i>image of $X$ under $f$</i> is the set
+    $$f(X) = \{f(x) : x \in X\}.$$
+    If $Y \subseteq B$, then the <i>inverse image of $Y$ under $f$</i> is the set
+    $$f^{-1}(Y) = \{x \in A : f(x) \in Y\}.$$
+    The restriction of $f$ to $X$ is the mapping $f|_X : X \to B$ defined by $f|_X(x) = f(x)$ for all $x \in X$.
+</p>
+
+<p>
+    A mapping $f : A \to B$ is <i>injective</i> if $f(a) = f(b)$ implies $a = b$ for all $a, b \in A$. A mapping $f : A \to B$ is <i>surjective</i> if $f(A) = B$. A mapping $f : A \to B$ is <i>bijective</i> if it is both injective and surjective. If $f : A \to B$ is bijective, then there exists a mapping $g : B \to A$ such that $g \circ f = \operatorname{id}_A$ and $f \circ g = \operatorname{id}_B$, where $\operatorname{id}_A$ and $\operatorname{id}_B$ are the identity mappings on $A$ and $B$, respectively. The mapping $g$ is called the <i>inverse</i> of $f$ and is denoted by $f^{-1}$.
+</p>
+
 </section>
 
 <section>
-    <h2> 1. The definition of a group</h2>
+    <h2 id="definition-of-a-group">
+        1. The definition of a group
+    </h2>
 
     <div class="theorem-block" id="definition11">
         <p><b>Definition 1.1.</b></p><p>A binary operation on a set $X$ is a map $X \times X \to X$. Let $\varphi$ be a binary operation on a set $G$ and let $a, b, c$ be elements of $G$. We say that $G$ is a <i>semigroup</i> under $\varphi$ if $\varphi$ is associative, that is,
@@ -256,7 +315,9 @@ title: "Group Theory"
 </section>
 
 <section>
-    <h2>2. Homomorphisms and subgroups</h2>
+    <h2 id="homomorphisms-and-subgroups">
+        2. Homomorphisms and subgroups
+    </h2>
 
     <p>In general, our interest in groups is usually not on the groups themselves, but rather on the maps between them. We will be interested in maps that preserve the group structure, which we call homomorphisms.</p>
 
@@ -324,7 +385,9 @@ title: "Group Theory"
 </section>
 
 <section>
-    <h2>3. Cyclic groups</h2>
+    <h2 id="cyclic-groups">
+        3. Cyclic groups
+    </h2>
 
     <div class="theorem-block">
         <p><span class="theorem-head" id="theorem31">Theorem 3.1</span></p>
@@ -367,9 +430,31 @@ title: "Group Theory"
 </section>
 
 <section>
-    <h2>4. Cosets and Lagrange's theorem</h2>
+    <h2 id="cosets-and-lagranges-theorem">
+        4. Cosets and Lagrange's theorem
+    </h2>
 </section>
 
 <section>
-    <h2>5. Normal subgroups and quotient groups</h2>
+    <h2 id="normal-subgroups-and-quotient-groups">
+        5. Normal subgroups and quotient groups
+    </h2>
+</section>
+
+<section>
+    <h2 id="symmetric-alternating-and-dihedral-groups">
+        6. Symmetric, alternating, and dihedral groups
+    </h2>
+    <div class="theorem-block">
+        <p><span class="theorem-head" id="definition61">
+            Definition 6.1
+        </span></p>
+        <p>
+            A <em>permutation</em> of a set $\Omega$ is a bijection from $\Omega$ to $\Omega$. The set of all permutations of $\Omega$ is denoted by $S_{\Omega}$; if $\Omega = \{1, 2, \ldots, n\}$, then we write $S_n$ instead of $S_{\Omega}$. The group $S_n$ is called the <em>symmetric group</em> of $n$ letters.
+        </p>
+        <p>
+            Let $\{\omega_1, \ldots, \omega_r\}$ (with $r \leq n$) be a subset of $\Omega_n = \{1, 2, \ldots, n\}$. Then we we will write $(\omega_1\ \omega_2\ \ldots\ \omega_r)$ for the permutation $\sigma \in S_n$ such that $\sigma(\omega_i) = \omega_{i+1}$ for $i = 1, \ldots, r-1$ and $\sigma(\omega_r) = \omega_1$, and $\sigma(i) = i$ for all $i \in \Omega_n \setminus \{\omega_1, \ldots, \omega_r\}$. We call $(\omega_1\ \omega_2\ \ldots\ \omega_r)$ a <em>cycle</em> of length $r$. A $2$-cycle is called a <em>transposition</em>.
+        </p>
+    </div>
+
 </section>
