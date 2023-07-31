@@ -461,7 +461,7 @@ title: "Group Theory"
             Let $G$ be a group and let $H$ be a subgroup of $G$.
             <ol class="thm-enum">
                 <li>Right (resp. left) congruence modulo $H$ is an equivalence relation on $G$.</li>
-                <li>The equivalence class of $a \in G$ under right (resp. left) congruence modulo $H$ is the set $aH = \{ah : h \in H\}$ (resp. $Ha = \{ha : h \in H\}$).</li>
+                <li>The equivalence class of $a \in G$ under right (resp. left) congruence modulo $H$ is the set $Ha = \{ha : h \in H\}$ (resp. $aH = \{ah : h \in H\}$).</li>
             </ol>
         </p>
     </div>
@@ -470,7 +470,19 @@ title: "Group Theory"
         <p>
             <em>Proof.</em>
         </p>
+        <p>
+            (1) Let $a, b, c \in G$ and let $\sim$ be right congruence modulo $H$ for brevity. Then $aa^{-1} = e \in H$ because $H$ is a subgroup and thus contains the identity, and so $a \sim a$. Since $a \sim b$ if and only if $ab^{-1}$, we have $(ab^{-1})^{-1} = ba^{-1} \in H$ because $H$ is closed under inverses, so that $b \sim a$. Finally, if $a \sim b$ and $b \sim c$, then $ab^{-1}, bc^{-1} \in H$, and so $ac^{-1} = (ab^{-1})(bc^{-1}) \in H$, and thus $a \sim c$. Therefore $\sim$ is an equivalence relation. A similar argument shows that left congruence modulo $H$ is also an equivalence relation.
+        </p>
+        <p>
+            (2) The equivalence class of $a$ under right congruence modulo $H$ is the set
+            $$[a]_{\equiv_R} = \{b \in G : b \equiv_R a\} = \{b \in G : ba^{-1} \in H\}.$$
+            Suppose $\xi \in [a]_{\equiv_R}$. Then $\xi a^{-1} \in H$, and so $\xi = (\xi a^{-1})a \in Ha$. Conversely, if $\xi \in Ha$, then $\xi = ha$ for some $h \in H$, and so $\xi a^{-1} = h \in H$. Thus $[a]_{\equiv_R} = Ha$. A similar argument shows that $[a]_{\equiv_L}$ is the set $aH$.
+        </p>
     </div>
+
+    <p>
+        The equivalence classes of $G$ under right (resp. left) congruence modulo $H$ are called the <em>right</em> (resp. <em>left</em>) <em>cosets</em> of $H$ in $G$. We call the element $a \in G$ the <em>coset representative</em> of $Ha$ (and $aH$).
+    </p>
     
 </section>
 

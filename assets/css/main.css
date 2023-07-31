@@ -1091,6 +1091,22 @@ footer p {
         width: 90%;
     }
 
+  ol.thm-enum {
+      counter-reset: list;
+      margin: 0;
+  }
+  
+  ol.thm-enum > li {
+      list-style: none;
+      position: relative;
+  }
+  
+  ol.thm-enum > li:before {
+      counter-increment: list;
+      content: counter(list, lower-alpha) ") ";
+      position: absolute;
+      left: -1.4em;
+  }
 
     pre > code {
         width: 97%;
