@@ -458,7 +458,7 @@ title: "Group Theory"
         </p>
 
         <p>
-            Let $G$ be a group and let $H$ be a subgroup of $G$.
+            Let $G$ be a group and let $H \leq G$.
             <ol class="thm-enum">
                 <li>Right (resp. left) congruence modulo $H$ is an equivalence relation on $G$.</li>
                 <li>The equivalence class of $a \in G$ under right (resp. left) congruence modulo $H$ is the set $Ha = \{ha : h \in H\}$ (resp. $aH = \{ah : h \in H\}$).</li>
@@ -483,6 +483,52 @@ title: "Group Theory"
     <p>
         The equivalence classes of $G$ under right (resp. left) congruence modulo $H$ are called the <em>right</em> (resp. <em>left</em>) <em>cosets</em> of $H$ in $G$. We call the element $a \in G$ the <em>coset representative</em> of $Ha$ (and $aH$).
     </p>
+    
+    <div class="example-block">
+        <p>
+            <strong>Example.</strong> Consider the group $S_3$ and the subgroup $H = \{e, (1\ 2)\}$. Then the right and left cosets of $H$ in $S_3$ are:
+        </p>
+        <div class="table-container">
+            <table class="table">
+                <tr>
+                    <th>$a$</th>
+                    <th>$Ha$</th>
+                    <th>$aH$</th>
+                </tr>
+                <tr>
+                    <td>$e$</td>
+                    <td>$\{e, (1\ 2)\}$</td>
+                    <td>$\{e, (1\ 2)\}$</td>
+                </tr>
+                <tr>
+                    <td>$(1\ 2)$</td>
+                    <td>$\{(1\ 2), e\}$</td>
+                    <td>$\{(1\ 2), e\}$</td>
+                </tr>
+                <tr>
+                    <td>$(1\ 3)$</td>
+                    <td>$\{(1\ 3), (1\ 3\ 2)\}$</td>
+                    <td>$\{(1\ 3), (1\ 2\ 3)\}$</td>
+                </tr>
+                <tr>
+                    <td>$(2\ 3)$</td>
+                    <td>$\{(2\ 3), (1\ 2\ 3)\}$</td>
+                    <td>$\{(2\ 3), (1\ 3\ 2)\}$</td>
+                </tr>
+                <tr>
+                    <td>$(1\ 2\ 3)$</td>
+                    <td>$\{(1\ 2\ 3), (2\ 3)\}$</td>
+                    <td>$\{(1\ 2\ 3), (1\ 3)\}$</td>
+                </tr>
+                <tr>
+                    <td>$(1\ 3\ 2)$</td>
+                    <td>$\{(1\ 3\ 2), (1\ 3)\}$</td>
+                    <td>$\{(1\ 3\ 2), (2\ 3)\}$</td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
     
 </section>
 

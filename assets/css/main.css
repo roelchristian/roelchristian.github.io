@@ -575,12 +575,12 @@ div.table-wrapper {
   border-radius: 8px;
 }
 
-.cayley-table-container{
+.cayley-table-container, .table-container{
   width: inherit;
   overflow-x: auto;
 }
 
-.cayley-table {
+.cayley-table, .table {
   margin-left: auto;
   margin-right: auto;
   border-collapse: collapse;
@@ -588,7 +588,7 @@ div.table-wrapper {
   margin-bottom: 20px;
 }
 
-.cayley-table td, .cayley-table th {
+.cayley-table td, .cayley-table th, .table td, .table th {
   border: 1px solid #777;
   padding: 8px 15px;
 }
@@ -596,6 +596,14 @@ div.table-wrapper {
 .MathJax_Display, .MJXc-display, .MathJax_SVG_Display {
   overflow-x: auto;
   overflow-y: hidden;
+}
+
+.table-container {
+  margin: 20px auto;
+}
+
+.table-container th {
+  text-align: left;
 }
 
 
