@@ -4,7 +4,7 @@ title: "Group Theory"
 ---
 
 <section class="foreword">
-    <p>This page contains my notes for MTH 611M, an introductory graduate class in abstract algebra, which I took in 2023. The notes roughly follow the outline of Hungerford&rsquo;s <i>Algebra</i>. A complete list of references can be found at the end of the page.</p>
+    <p>This page contains my notes for MTH 611M, an introductory graduate class in abstract algebra, which I took in 2023. The notes roughly follow the outline of Hungerford&rsquo;s <em>Algebra</em>. A complete list of references can be found at the end of the page.</p>
 </section>
 
 <section class="contents">
@@ -30,13 +30,13 @@ title: "Group Theory"
     </h3>
 
     <p>
-        A <i>set</i> is a collection of mathematical objects called its elements. We write $a \in X$ if $a$ is an element of the set $X$ and $a \notin X$ otherwise. A set is completely determined by its elements (axiom of extensionality), that is, if $X$ and $Y$ are sets then
+        A <em>set</em> is a collection of mathematical objects called its elements. We write $a \in X$ if $a$ is an element of the set $X$ and $a \notin X$ otherwise. A set is completely determined by its elements (axiom of extensionality), that is, if $X$ and $Y$ are sets then
         $$\forall a\ (a \in X \iff a \in Y) \implies X = Y.$$
         The converse of this axiom is also true and defines the notion of equality.
     </p>
 
     <p>
-        We say that a set $B$ is a <i>subset</i> of another set $A$ and write $B \subseteq A$ if and only if
+        We say that a set $B$ is a <em>subset</em> of another set $A$ and write $B \subseteq A$ if and only if
         $$a \in B \implies a \in A.$$
         Set equality can thus be restated as
         $$A = B \iff A \subseteq B \text{ and } B \subseteq A.$$
@@ -52,14 +52,14 @@ title: "Group Theory"
     </p>
 
     <p>
-        An <i>ordered pair</i> $(a, b)$ is a set $\{\{a\}, \{a, b\}\}$. We can extend this definition to ordered $n$-tuples $(a_1, a_2, \ldots, a_n)$, which we define to be the set $\{\{a_1\}, \{a_1, a_2\}, \ldots, \{a_1, a_2, \ldots, a_n\}\}$. We say that two ordered $n$-tuples $(a_1, a_2, \ldots, a_n)$ and $(b_1, b_2, \ldots, b_n)$ are equal if and only if $a_i = b_i$ for all $1 \leq i \leq n$.
+        An <em>ordered pair</em> $(a, b)$ is a set $\{\{a\}, \{a, b\}\}$. We can extend this definition to ordered $n$-tuples $(a_1, a_2, \ldots, a_n)$, which we define to be the set $\{\{a_1\}, \{a_1, a_2\}, \ldots, \{a_1, a_2, \ldots, a_n\}\}$. We say that two ordered $n$-tuples $(a_1, a_2, \ldots, a_n)$ and $(b_1, b_2, \ldots, b_n)$ are equal if and only if $a_i = b_i$ for all $1 \leq i \leq n$.
     </p>
 
     <p>
-        The <i>Cartesian product</i> of two sets $A$ and $B$ is the set of all ordered pairs $(a, b)$ such that $a \in A$ and $b \in B$. We denote this set by $A \times B$.
+        The <em>Cartesian product</em> of two sets $A$ and $B$ is the set of all ordered pairs $(a, b)$ such that $a \in A$ and $b \in B$. We denote this set by $A \times B$.
     </p>
         
-    <p>A <i>relation</i> on a set $X$ is a subset $R$ of $X \times X$. If $(a, b) \in R$, we say that $a$ is related to $b$ by $R$ and write $R(a, b)$ or $aRb$. If $R$ is a relation on $X$, then we say that $R$ is <i>reflexive</i> if $aRa$ for all $a \in X$. We say that $R$ is <i>symmetric</i> if $aRb$ implies $bRa$ for all $a, b \in X$. We say that $R$ is <i>transitive</i> if $aRb$ and $bRc$ implies $aRc$ for all $a, b, c \in X$. If $R$ is reflexive, symmetric, and transitive, then we say that $R$ is an <i>equivalence relation</i> and we write $a \sim b$ instead of $aRb$. Given a set $X$ and an equivalence relation $\sim$ on $X$, the equivalence class of an element $a$ of $X$ (written $[x]$) is the set
+    <p>A <em>relation</em> on a set $X$ is a subset $R$ of $X \times X$. If $(a, b) \in R$, we say that $a$ is related to $b$ by $R$ and write $R(a, b)$ or $aRb$. If $R$ is a relation on $X$, then we say that $R$ is <em>reflexive</em> if $aRa$ for all $a \in X$. We say that $R$ is <em>symmetric</em> if $aRb$ implies $bRa$ for all $a, b \in X$. We say that $R$ is <em>transitive</em> if $aRb$ and $bRc$ implies $aRc$ for all $a, b, c \in X$. If $R$ is reflexive, symmetric, and transitive, then we say that $R$ is an <em>equivalence relation</em> and we write $a \sim b$ instead of $aRb$. Given a set $X$ and an equivalence relation $\sim$ on $X$, the equivalence class of an element $a$ of $X$ (written $[x]$) is the set
     $$[a] = \{x \in X : a \sim x\}.$$
 </p>
 
@@ -68,7 +68,7 @@ title: "Group Theory"
 
     <p>On the other hand, consider the relation $&lt;$ on $\mathbb{R}$. By the trichotomy law in $\mathbb{R}$, $x &lt; y$ and $y &lt; x$ cannot both be true, and thus $&lt;$ is not symmetric and hence not an equivalence relation.</p>
 
-    <p>Let $\mathbb{Z}$ be the set of integers; then for all integers $a$, $b$, and $n$, with $n &gt; 1$, we define the equivalence relation $\sim$ as $a \sim b \iff n \mid (a - b).$ (The reader can verify that this is indeed an equivalence relation.) We call this relation <i>congruence modulo $n$</i> and write $a \equiv b \pmod{n}$ whenever $a \sim b$.</p>
+    <p>Let $\mathbb{Z}$ be the set of integers; then for all integers $a$, $b$, and $n$, with $n &gt; 1$, we define the equivalence relation $\sim$ as $a \sim b \iff n \mid (a - b).$ (The reader can verify that this is indeed an equivalence relation.) We call this relation <em>congruence modulo $n$</em> and write $a \equiv b \pmod{n}$ whenever $a \sim b$.</p>
     </p>
 </div>
 
@@ -77,17 +77,17 @@ title: "Group Theory"
 </h3>
 
 <p>
-    A <i>mapping</i> (or a function) $f$ from a set $A$ to a set $B$ written $f : A \to B$ is a rule that assigns to each element $a \in A$ a unique element $b \in B$. We would often write $f(a)$ instead of $b$ and say that $f$ maps $a$ to $b$ (or in symbols $a \mapsto b$ or $a \mapsto f(a)$). The set $A$ is called the <i>domain</i> of $f$ and the set $B$ is called the <i>codomain</i> of $f$. The <i>image</i> of $f$ is the set
+    A <em>mapping</em> (or a function) $f$ from a set $A$ to a set $B$ written $f : A \to B$ is a rule that assigns to each element $a \in A$ a unique element $b \in B$. We would often write $f(a)$ instead of $b$ and say that $f$ maps $a$ to $b$ (or in symbols $a \mapsto b$ or $a \mapsto f(a)$). The set $A$ is called the <em>domain</em> of $f$ and the set $B$ is called the <em>codomain</em> of $f$. The <em>image</em> of $f$ is the set
     $$f(A) = \{f(a) : a \in A\}.$$
-    If $X \subseteq A$, then the <i>image of $X$ under $f$</i> is the set
+    If $X \subseteq A$, then the <em>image of $X$ under $f$</em> is the set
     $$f(X) = \{f(x) : x \in X\}.$$
-    If $Y \subseteq B$, then the <i>inverse image of $Y$ under $f$</i> is the set
+    If $Y \subseteq B$, then the <em>inverse image of $Y$ under $f$</em> is the set
     $$f^{-1}(Y) = \{x \in A : f(x) \in Y\}.$$
     The restriction of $f$ to $X$ is the mapping $f|_X : X \to B$ defined by $f|_X(x) = f(x)$ for all $x \in X$.
 </p>
 
 <p>
-    A mapping $f : A \to B$ is <i>injective</i> if $f(a) = f(b)$ implies $a = b$ for all $a, b \in A$. A mapping $f : A \to B$ is <i>surjective</i> if $f(A) = B$. A mapping $f : A \to B$ is <i>bijective</i> if it is both injective and surjective. If $f : A \to B$ is bijective, then there exists a mapping $g : B \to A$ such that $g \circ f = \operatorname{id}_A$ and $f \circ g = \operatorname{id}_B$, where $\operatorname{id}_A$ and $\operatorname{id}_B$ are the identity mappings on $A$ and $B$, respectively. The mapping $g$ is called the <i>inverse</i> of $f$ and is denoted by $f^{-1}$.
+    A mapping $f : A \to B$ is <em>injective</em> if $f(a) = f(b)$ implies $a = b$ for all $a, b \in A$. A mapping $f : A \to B$ is <em>surjective</em> if $f(A) = B$. A mapping $f : A \to B$ is <em>bijective</em> if it is both injective and surjective. If $f : A \to B$ is bijective, then there exists a mapping $g : B \to A$ such that $g \circ f = \operatorname{id}_A$ and $f \circ g = \operatorname{id}_B$, where $\operatorname{id}_A$ and $\operatorname{id}_B$ are the identity mappings on $A$ and $B$, respectively. The mapping $g$ is called the <em>inverse</em> of $f$ and is denoted by $f^{-1}$.
 </p>
 
 </section>
@@ -98,20 +98,20 @@ title: "Group Theory"
     </h2>
 
     <div class="theorem-block" id="definition11">
-        <p><b>Definition 1.1.</b></p><p>A binary operation on a set $X$ is a map $X \times X \to X$. Let $\varphi$ be a binary operation on a set $G$ and let $a, b, c$ be elements of $G$. We say that $G$ is a <i>semigroup</i> under $\varphi$ if $\varphi$ is associative, that is,
+        <p><b>Definition 1.1.</b></p><p>A binary operation on a set $X$ is a map $X \times X \to X$. Let $\varphi$ be a binary operation on a set $G$ and let $a, b, c$ be elements of $G$. We say that $G$ is a <em>semigroup</em> under $\varphi$ if $\varphi$ is associative, that is,
             $$\varphi(a, \varphi(b, c)) = \varphi(\varphi(a, b), c)$$
         </p>
     
-        <p>We say that $G$ is a <i>monoid</i> under $\varphi$ if $G$ is a semigroup under $\varphi$ and there exists an element $e \in G$ (called the identity element) such that
+        <p>We say that $G$ is a <em>monoid</em> under $\varphi$ if $G$ is a semigroup under $\varphi$ and there exists an element $e \in G$ (called the identity element) such that
             $$\varphi(e, a) = \varphi(a, e) = a$$
         for all $a \in G$.</p>
     
-        <p>Finally, we say that $G$ is a <i>group</i> under $\varphi$ if $G$ is a monoid under $\varphi$ and for every $a \in G$ there exists an element $a^{-1} \in G$ (called the inverse of $a$) such that
+        <p>Finally, we say that $G$ is a <em>group</em> under $\varphi$ if $G$ is a monoid under $\varphi$ and for every $a \in G$ there exists an element $a^{-1} \in G$ (called the inverse of $a$) such that
             $$\varphi(a, a^{-1}) = \varphi(a^{-1}, a) = e.$$
         </p>
     </div>
 
-    <p>Observe that commutativity is not required for a group. That is, we do not require that $\varphi(a, b) = \varphi(b, a)$ for all $a, b \in G$. If $\varphi$ does, however, satisfy this property, then we say that the underlying set $G$ is an <i>abelian group</i> under $\varphi$.</p> 
+    <p>Observe that commutativity is not required for a group. That is, we do not require that $\varphi(a, b) = \varphi(b, a)$ for all $a, b \in G$. If $\varphi$ does, however, satisfy this property, then we say that the underlying set $G$ is an <em>abelian group</em> under $\varphi$.</p> 
 
     <p>For the sake of brevity we will often be writing $\varphi(a, b)$ as $a \cdot b$, or, more succinctly, as $ab$. (In the case of abelian groups we shall instead write $a+b$, although this decision is only a matter of convention.) This shorthand also extends to calling the binary operation &lsquo;multiplication&rsquo; (or &lsquo;addition&rsquo; in the case of abelian groups) without implying that the operation is commutative or is the usual multiplication (or addition) of numbers. We will also be saying that &lsquo;$G$ is a group&rsquo; instead of &lsquo;$G$ is a group under $\varphi$&rsquo;, unless ambiguity forces us to be more precise.</p>
 
@@ -124,7 +124,7 @@ title: "Group Theory"
         <p>The set $\mathbb{Z}$ of integers is a group under the usual addition of integers. The identity element is $0$ and the inverse of an integer $n$ is $-n$. The set $\mathbb{Q}$ of rational numbers is a group under the usual addition of rational numbers, but fails to be a group under the usual multiplication of rational numbers since $0$ has no inverse.</p>
 
         <p>
-            <b>Linear groups.</b> Consider the set of $n \times n$ invertible matrices with entries from a field $\mathbb{K}$. Then matrix multiplication is a binary operation on this set since the product of two $n \times n$ matrices is again an $n \times n$ matrix. The identity matrix $I_n$ is the identity element of this group, and the inverse of a matrix $A$ is the matrix $A^{-1}$ such that $AA^{-1} = A^{-1}A = I_n$. (Note that we require the matrices to be invertible.) We call this group the <i>general linear group</i> of degree $n$ over $\mathbb{K}$, $\operatorname{GL}_n(\mathbb{K})$. If we consider only the set of $n \times n$ matrices with entries from $\mathbb{K}$ with determinant $1$, then we obtain the <i>special linear group</i> of degree $n$ over $\mathbb{K}$, $\operatorname{SL}_n(\mathbb{K})$.
+            <b>Linear groups.</b> Consider the set of $n \times n$ invertible matrices with entries from a field $\mathbb{K}$. Then matrix multiplication is a binary operation on this set since the product of two $n \times n$ matrices is again an $n \times n$ matrix. The identity matrix $I_n$ is the identity element of this group, and the inverse of a matrix $A$ is the matrix $A^{-1}$ such that $AA^{-1} = A^{-1}A = I_n$. (Note that we require the matrices to be invertible.) We call this group the <em>general linear group</em> of degree $n$ over $\mathbb{K}$, $\operatorname{GL}_n(\mathbb{K})$. If we consider only the set of $n \times n$ matrices with entries from $\mathbb{K}$ with determinant $1$, then we obtain the <em>special linear group</em> of degree $n$ over $\mathbb{K}$, $\operatorname{SL}_n(\mathbb{K})$.
         </p>
 
         <p>
@@ -132,7 +132,7 @@ title: "Group Theory"
             $$  a = \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix},\ 
                 b = \begin{pmatrix} -1 & 0 \\ 0 & 1 \end{pmatrix},\ 
                 c = \begin{pmatrix} -1 & 0 \\ 0 & -1 \end{pmatrix}.$$
-            When taken together with the $2 \times 2$ identity matrix $e$, these matrices form a group under matrix multiplication. This group is called the <i>Klein four-group</i> and is denoted by $V_4$ (after the German <i>Viergruppe</i>). Every element of $V_4$ is its own inverse, and multiplying any two non-identity elements of $V_4$ yields the third element. The group operation is commutative and thus the group is abelian.
+            When taken together with the $2 \times 2$ identity matrix $e$, these matrices form a group under matrix multiplication. This group is called the <em>Klein four-group</em> and is denoted by $V_4$ (after the German <em>Viergruppe</em>). Every element of $V_4$ is its own inverse, and multiplying any two non-identity elements of $V_4$ yields the third element. The group operation is commutative and thus the group is abelian.
         </p>
 
         <p>
@@ -156,12 +156,12 @@ title: "Group Theory"
             <span class="theorem-head">Definition 1.3</span>
         </p>
         <p>
-            The <i>order</i> of a group $G$ (written $|G|$) is the cardinality of its underlying set, i.e., the number of elements of the group. If $|G| \lt \infty$, then we say that $G$ is a <i>finite group</i>; otherwise, we say that $G$ is an <i>infinite group</i>.
+            The <em>order</em> of a group $G$ (written $|G|$) is the cardinality of its underlying set, i.e., the number of elements of the group. If $|G| \lt \infty$, then we say that $G$ is a <em>finite group</em>; otherwise, we say that $G$ is an <em>infinite group</em>.
         </p>
     </div>
 
     <p>
-        We can describe the structure of a finite group by arranging all possible products in the group in a grid, with the factors of each product on either end of the grid&rsquo;s rows and columns. This grid is called the <i>Cayley table</i> after British mathematician Arthur Cayley, who introduced it in his paper <i>On the Theory of Groups as depending on the Symbolic Equation $\theta^n = 1$</i> (1854). Cayley tables are particularly useful for non-abelian groups, where the product $ab$ is not necessarily equal to $ba$. Some examples of Cayley tables are shown below
+        We can describe the structure of a finite group by arranging all possible products in the group in a grid, with the factors of each product on either end of the grid&rsquo;s rows and columns. This grid is called the <em>Cayley table</em> after British mathematician Arthur Cayley, who introduced it in his paper <em>On the Theory of Groups as depending on the Symbolic Equation $\theta^n = 1$</em> (1854). Cayley tables are particularly useful for non-abelian groups, where the product $ab$ is not necessarily equal to $ba$. Some examples of Cayley tables are shown below
     </p>
     <ul>
         <li>Cayley table for $V_4$.
@@ -322,7 +322,7 @@ title: "Group Theory"
     <p>In general, our interest in groups is usually not on the groups themselves, but rather on the maps between them. We will be interested in maps that preserve the group structure, which we call homomorphisms.</p>
 
     <div class="theorem-block">
-        <p><b>Definition 2.1.</b> Let $G$ and $H$ be groups under $\varphi$ and $\psi$ respectively. A map $\Phi: G \to H$ is called a <i>homomorphism</i> if
+        <p><b>Definition 2.1.</b> Let $G$ and $H$ be groups under $\varphi$ and $\psi$ respectively. A map $\Phi: G \to H$ is called a <em>homomorphism</em> if
             $$\Phi(\varphi(a, b)) = \psi(\Phi(a), \Phi(b))$$
         for all $a, b \in G$.</p>
     </div>
@@ -331,9 +331,9 @@ title: "Group Theory"
         $$\Phi(ab) = \Phi(a)\Phi(b).$$
     In this alternative notation, we do not distinguish between the multiplication in $G$ and the multiplication in $H$, and instead rely on context to determine which group operation we are referring to.</p>
 
-    <p>A (group) homomorphism that is injective as a map between sets is called a <i>monomorphism</i>. A homomorphism that is surjective as a map between sets is called an <i>epimorphism</i>. A homomorphism that is both a monomorphism and an epimorphism is called an <i>isomorphism</i>. If there exists an isomorphism between $G$ and $H$, then we say that $G$ and $H$ are <i>isomorphic</i> and write $G \cong H$.</p>
+    <p>A (group) homomorphism that is injective as a map between sets is called a <em>monomorphism</em>. A homomorphism that is surjective as a map between sets is called an <em>epimorphism</em>. A homomorphism that is both a monomorphism and an epimorphism is called an <em>isomorphism</em>. If there exists an isomorphism between $G$ and $H$, then we say that $G$ and $H$ are <em>isomorphic</em> and write $G \cong H$.</p>
 
-    <p>A homomorphism from a group $G$ to itself is called an <i>endomorphism</i>. An endomorphism that is also an isomorphism is called an <i>automorphism</i>.
+    <p>A homomorphism from a group $G$ to itself is called an <em>endomorphism</em>. An endomorphism that is also an isomorphism is called an <em>automorphism</em>.
 
     <div class="theorem-block">
         <p><span class="theorem-head">Theorem 2.2.</span> </p>
@@ -348,7 +348,7 @@ title: "Group Theory"
     </div>
 
     <div class="example-block">
-        <p><i>Proof.</i> (1) $\Phi(e) = \Phi(ee) = \Phi(e)\Phi(e)$, and so by Theorem 1.2, $\Phi(e) = e'$.</p> 
+        <p><em>Proof.</em> (1) $\Phi(e) = \Phi(ee) = \Phi(e)\Phi(e)$, and so by Theorem 1.2, $\Phi(e) = e'$.</p> 
         <p>
             Let $a \in G$. Then $\Phi(a)\Phi(a^{-1}) = \Phi(aa^{-1}) = \Phi(e) = e'$, so that $\Phi(a^{-1}) = \Phi(a)^{-1}$.
         </p>
@@ -357,9 +357,9 @@ title: "Group Theory"
     <div class="theorem-block">
         <p><span class="theorem-head" id="definition23">Definition 2.3</span></p>
 
-        <p>Let $\Phi: G \to H$ be a homomorphism. The <i>kernel</i> of $\Phi$ is the set
+        <p>Let $\Phi: G \to H$ be a homomorphism. The <em>kernel</em> of $\Phi$ is the set
             $$\operatorname{Ker} \Phi = \{a \in G : \Phi(a) = e\}.$$
-        where $e$ is the identity element of $H$. If $A \subseteq G$, then the <i>image</i> of $A$ under $\Phi$ is the set $\Phi(A) = \{\Phi(a) : a \in A\}.$. The set $\Phi(G)$ is called the <i>image</i> of $\Phi$, and is denoted by $\operatorname{Im} \Phi$.</p>
+        where $e$ is the identity element of $H$. If $A \subseteq G$, then the <em>image</em> of $A$ under $\Phi$ is the set $\Phi(A) = \{\Phi(a) : a \in A\}.$. The set $\Phi(G)$ is called the <em>image</em> of $\Phi$, and is denoted by $\operatorname{Im} \Phi$.</p>
     </p></div>
 
     <div class="theorem-block">
@@ -368,7 +368,7 @@ title: "Group Theory"
     </div>
 
     <div class="example-block">
-        <p><i>Proof.</i> Let $\Phi$ be a monomorphism. Then $\operatorname{Ker} \Phi = \{a \in G : \Phi(a) = e\} = \{e\}$, since $\Phi$ is injective. Conversely, suppose that $\operatorname{Ker} \Phi = \{e\}$. Let $a, b \in G$ such that $\Phi(a) = \Phi(b)$. Then $\Phi(a)\Phi(b)^{-1} = \Phi(a)\Phi(b^{-1}) = \Phi(ab^{-1})$. Thus $ab^{-1} \in \operatorname{Ker} \Phi$, so that $ab^{-1} = e$. Hence $a = b$, and therefore $\Phi$ is a monomorphism.</p>
+        <p><em>Proof.</em> Let $\Phi$ be a monomorphism. Then $\operatorname{Ker} \Phi = \{a \in G : \Phi(a) = e\} = \{e\}$, since $\Phi$ is injective. Conversely, suppose that $\operatorname{Ker} \Phi = \{e\}$. Let $a, b \in G$ such that $\Phi(a) = \Phi(b)$. Then $\Phi(a)\Phi(b)^{-1} = \Phi(a)\Phi(b^{-1}) = \Phi(ab^{-1})$. Thus $ab^{-1} \in \operatorname{Ker} \Phi$, so that $ab^{-1} = e$. Hence $a = b$, and therefore $\Phi$ is a monomorphism.</p>
     </div>
 
     <div class="theorem-block">
@@ -379,7 +379,7 @@ title: "Group Theory"
     <div class="theorem-block">
         <p><span class="theorem-head">Definition 2.6</span></p>
         <p>
-            A subset $H$ of a group $G$ is called a <i>subgroup</i> of $G$ if $H$ is itself a group under the operation of $G$. If $H$ is a subgroup of $G$, then we write $H \leq G$.
+            A subset $H$ of a group $G$ is called a <em>subgroup</em> of $G$ if $H$ is itself a group under the operation of $G$. If $H$ is a subgroup of $G$, then we write $H \leq G$.
         </p>
     </div>
 </section>
@@ -398,7 +398,7 @@ title: "Group Theory"
 
     <div class="example-block">
         <p>
-            <i>Proof.</i> Either $H = \langle 0 \rangle \leq \mathbb{Z}$ or $H$ contains a least positive integer $m$ (by the well-ordering principle). We claim that $H = \langle m \rangle$ and prove it by showing that $H \subseteq \langle m \rangle$ and $\langle m \rangle \subseteq H$.
+            <em>Proof.</em> Either $H = \langle 0 \rangle \leq \mathbb{Z}$ or $H$ contains a least positive integer $m$ (by the well-ordering principle). We claim that $H = \langle m \rangle$ and prove it by showing that $H \subseteq \langle m \rangle$ and $\langle m \rangle \subseteq H$.
         </p>
         <p>
             Since $H$ is a subgroup and is thus closed under the binary operation of $\mathbb{Z}$, it follows that $$\langle m \rangle = \{km : k \in \mathbb{Z}\} \subseteq H$$
@@ -418,7 +418,7 @@ title: "Group Theory"
 
     <div class="example-block">
         <p>
-            <i>Proof.</i> Let $G$ be a cyclic group generated by $a$. If $G$ is infinite, then the map $\Phi: \mathbb{Z} \to G$ defined by $\Phi(k) = a^k$ is a homomorphism since for all integers $\kappa, \lambda$, we have
+            <em>Proof.</em> Let $G$ be a cyclic group generated by $a$. If $G$ is infinite, then the map $\Phi: \mathbb{Z} \to G$ defined by $\Phi(k) = a^k$ is a homomorphism since for all integers $\kappa, \lambda$, we have
             $$\Phi(\kappa + \lambda) = a^{\kappa + \lambda} = a^{\kappa}a^{\lambda} = \Phi(\kappa)\Phi(\lambda).$$
             Since $G$ is cyclic, every element of $G$ is a power of $a$ and therefore $\Phi$ is surjective. <!--Finally, for all integers $\kappa, \lambda$, with $\kappa \neq \lambda$, we have $a^{\kappa} \neq a^{\lambda}$, and so $\Phi$ is injective. Thus $\Phi$ is an isomorphism and $G \cong \mathbb{Z}$.-->By <a href="#theorem24">Theorem 2.4</a>, $\Phi$ is a monomorphism if and only if $\operatorname{Ker} \Phi = \{0\}$
         </p>
@@ -433,7 +433,47 @@ title: "Group Theory"
     <h2 id="cosets-and-lagranges-theorem">
         4. Cosets and Lagrange's theorem
     </h2>
+
+    <p>
+        We introduce the notion of cosets, both as the congruence classes modulo a subgroup and geometrically as the translation of a subgroup by an element of the group. Through this we will be able to prove Lagrange's theorem, a fundamental result in group theory, which will help us describe the structure of finite groups.
+    </p>
+    
+    <div class="theorem-block">
+        <p>
+            <span class="theorem-head" id="definition41">
+                Definition 4.1
+        </p>
+        <p>
+            Let $G$ be a group and let $H$ be a subgroup of $G$. For any $a, b \in G$, we say that $a$ is <em>right</em> (resp. <em>left</em>) <em>congruent to $b$ modulo $H$</em> if $ab^{-1} \in H$ (resp. $a^{-1}b \in H$). We denote this by $a \equiv_R b \pmod{H}$ (resp. $a \equiv_L b \pmod{H}$). We say that $a$ is <em>congruent to $b$ modulo $H$</em> if it is both right and left congruent to $b$ modulo $H$, and denote this by dropping the subscript, i.e., $a \equiv b \pmod{H}$.
+    </div>
+
+    <p>
+        The next result is essential in linking the algebraic and geometric interpretations of cosets.
+    </p>
+
+    <div class="theorem-block">
+        <p>
+          <span class="theorem-head" id="theorem42">
+              Theorem 4.2
+        </p>
+
+        <p>
+            Let $G$ be a group and let $H$ be a subgroup of $G$.
+            <ol class="thm-enum">
+                <li>Right (resp. left) congruence modulo $H$ is an equivalence relation on $G$.</li>
+                <li>The equivalence class of $a \in G$ under right (resp. left) congruence modulo $H$ is the set $aH = \{ah : h \in H\}$ (resp. $Ha = \{ha : h \in H\}$).</li>
+            </ol>
+        </p>
+    </div>
+
+    <div class="example-block">
+        <p>
+            <em>Proof.</em>
+        </p>
+    </div>
+    
 </section>
+
 
 <section>
     <h2 id="normal-subgroups-and-quotient-groups">
