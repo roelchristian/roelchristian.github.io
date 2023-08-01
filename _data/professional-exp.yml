@@ -1,9 +1,16 @@
 main:
  - company: Vertiv Co.
    positions:
-    - title: "Senior business analyst, digital transformation"
-      start-date: "August 2022"
+    - title: "Assistant supervisor, data analytics"
+      start-date: "August 2023"
       end-date: ""
+      job-desc-list:
+        - "Lead a team of analytics and automation experts implement process and reporting automation solutions throughout Vertiv’s shared services department."
+        - "Drive digital transformation initiatives by engaging with global business leaders to identify opportunities for growth and automation across different sites and LOBs"
+        - "Manage and develop cloud-first machine learning and artificial intelligence (ML/AI) solutions for Marketing, Finance and other functions in GBS.- Led a team of analytics and automation experts implement process and reporting automation solutions throughout Vertiv’s shared services department. - Drive digital transformation initiatives by engaging with global business leaders to identify opportunities for growth and automation across different sites and LOBs. - Managed and developed cloud-first machine learning and artificial intelligence (ML/AI) solutions for Marketing, Finance and other functions in GBS."
+    - title: "Senior lead, digital transformation"
+      start-date: "August 2022"
+      end-date: "July 2023"
       job-desc-list:
         - "Led a new data science team within the shared services department focused on streamlining data access across the organization and advocating process automation through machine learning (ML)"
         - "Spearheaded the digital transformation of the Sales and Finance department (~200 people) through a variety of RPA and ML solutions and by centralizing collaboration and communication channels"

@@ -789,7 +789,9 @@ p.cv-links {
 }
 
 .cv-company-name {
-  color: var(--var-color-gray);
+  color: var(--var-color-gray) !important;
+  font-weight: 600;
+
 }
 
 
