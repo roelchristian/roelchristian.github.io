@@ -396,7 +396,7 @@ displaytitle: "Metric spaces"
             <ol>
                 <li>If $(a_n)$ converges, then $(a_n)$ is Cauchy.</li>
                 <li>If $(a_n)$ is Cauchy, then $(a_n)$ is bounded.</li>
-                <li>If $(a_n)$ is Cauchy and has a convergent subsequence, then $(a_n)$ converges.</li>
+                <li>If $(a_n)$ is Cauchy, then $(a_n)$ converges if and only if it has a convergent subsequence.</li>
             </ol>
         </p>
     </div>
@@ -421,13 +421,60 @@ displaytitle: "Metric spaces"
             $$
             Then for all $n \geq N$, we have $\rho(a_n, a_N) \lt 1 \leq M$ (by our choice of $N$ above) and for all $n \lt N$, $\rho(a_n, a_N) \leq M$ (by our definition of $M$). Therefore $\rho(a_n, a_N) \leq M$ for all $n \in \mathbb{N}$ and so $(a_n)$ is bounded.
         </p>
+        <p>
+            (3) The necessary condition is trivial. If we suppose that $(a_n) \to a$, then by Theorem 3.5, every subsequence of $(a_n)$ converges to $a$. We prove sufficiency.
+        </p>
+        <p>
+            Suppose $(a_{n_k})$ is a subsequence of $(a_n)$ that converges to $a$. Let $\varepsilon > 0$. Then since $(a_n)$ is Cauchy, there exists $N \in \mathbb{N}$ such that for all $n, m \geq N$, we have
+            $$\rho(a_n, a_m) \lt \frac{\varepsilon}{2}.$$
+            Moreover, since $(a_{n_k}) \to a$, there exists $M \in \mathbb{N}$ such that for all $k \geq M$,
+            $$\rho(a_{n_k}, a) \lt \frac{\varepsilon}{2}.$$
+        </p>
+        <p>
+            If $K > \max\{N, M\}$, then for all $n \geq K$, and since $n_K \geq K$, we have
+            $$
+                \begin{align}
+                    \rho(a_n, a) &\leq \rho(a_n, a_{n_K}) + \rho(a_{n_K}, a) \\
+                    &\lt \frac{\varepsilon}{2} + \frac{\varepsilon}{2} = \varepsilon.
+                \end{align}
+            $$
+        </p>
+        <p>
+            Therefore $(a_n) \to a$.
+        </p>
     </div>
+    <p>
+        The converse of Theorem 3.9(1) (i.e., if $(a_n)$ is Cauchy, then $(a_n)$ converges) is not true in general. For example, consider the sequence
+        $$
+            a_n = \left(1 + \frac{1}{n}\right)^n
+        $$
+        in the metric space $\mathbb{Q}$ with the usual metric. Then $(a_n)$ is Cauchy but does not converge in $\mathbb{Q}$ ($(a_n) \to e$ but $e \not\in \mathbb{Q}$). A metric space in which every Cauchy sequence converges is called a <em>complete metric space</em>.
+    </p>
 </section>
 
 <section>
     <h2>
         4. Compactness
     </h2>
+    <div class="theorem-block">
+        <p>
+            <span class="theorem-head">Theorem 4.1</span>
+            <span class="theorem-subtitle">Equivalent definitions of compactness</span>
+        </p>
+        <p>
+            Let $X$ be a metric space. Then the following statements are equivalent:
+            <ol>
+                <li>Every open cover of $X$ has a finite subcover.</li>
+                <li>Every collection of closed sets in $X$ with the finite intersection property has a nonempty intersection.</li>
+                <li>If $F_1 \supseteq F_2 \supseteq \cdots$ is a nested sequence of nonempty closed sets in $X$, then $\bigcap_{n=1}^{\infty} F_n$ is nonempty.</li>
+                <li>Every sequence in $X$ has a convergent subsequence.</li>
+                <li>$X$ is totally bounded and complete.</li>
+            </ol>
+        </p>
+        <p>
+            A metric space that satisfies the equivalent conditions above is called <em>compact</em>.
+        </p>
+    </div>
 </section>
 
 <section>
