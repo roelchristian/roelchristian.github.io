@@ -4,6 +4,12 @@ title: "Metric spaces"
 displaytitle: "Metric spaces"
 ---
 
+<section class="foreword">
+    <p>
+        This page is under construction.
+    </p>
+</section>
+
 <section>
     <h2>1. Definition and examples</h2>
     <div class="theorem-block">
@@ -14,7 +20,7 @@ displaytitle: "Metric spaces"
         <p>Let $X$ be a set (whose elements we shall call &lsquo;points&rsquo;). A <em>metric</em> on $X$ is a function $\rho: X \times X \to \mathbb{R}$ such that for all $x, y, z \in X$,
         <ol>
             <li>$\rho(x, y) \geq 0$ (non-negativity) </li>
-            <li>$\rho(x, y) = 0$ if and only if $x = y$ (identity of indiscernibles) </li>
+            <li>$\rho(x, y) = 0$ if and only if $x = y$</li>
             <li>$\rho(x, y) = \rho(y, x)$ (symmetry) </li>
             <li>$\rho(x, z) \leq \rho(x, y) + \rho(y, z)$ (triangle inequality) </li>
         </ol></p>
@@ -84,7 +90,7 @@ displaytitle: "Metric spaces"
             $$
         </p>
         <p>
-            Let $A$ be a subset of $X$. Then $x$ is an <em>interior point</em> of $A$ if there exists $\varepsilon > 0$ such that $B_{\varepsilon}(x) \subseteq A$. It is an <em>exterior point</em> of $A$ if there exists $\varepsilon > 0$ such that $B_{\varepsilon}(x) \cap A = \emptyset$. It is a <em>boundary point</em> of $A$ if it is neither an interior point nor an exterior point of $A$.
+            Let $A$ be a subset of $X$. Then $x$ is an <em>interior point</em> of $A$ if there exists $\varepsilon > 0$ such that $B_{\varepsilon}(x) \subseteq A$. It is an <em>exterior point</em> of $A$ if there exists $\varepsilon > 0$ such that $B_{\varepsilon}(x) \cap A = \varnothing$. It is a <em>boundary point</em> of $A$ if it is neither an interior point nor an exterior point of $A$.
         </p>
     </div>
 
@@ -126,7 +132,7 @@ displaytitle: "Metric spaces"
             Let $(X, \rho)$ be a metric space.
         </p>
         <ol>
-            <li>The empty set $\emptyset$ and the whole space $X$ are open.</li>
+            <li>The empty set $\varnothing$ and the whole space $X$ are open.</li>
             <li>Let $\mathfrak{U}$ be a collection of open sets. Then $\bigcup_{U \in \mathfrak{U}} U$ is open.</li>
             <li>Let $\mathfrak{U}$ be a <em>finite</em> collection of open sets. Then $\bigcap_{U \in \mathfrak{U}} U$ is open.</li>
         </ol>
@@ -328,7 +334,7 @@ displaytitle: "Metric spaces"
                 (2) To prove this, we want to show that for any $\varepsilon \gt 0$, there exists $N \in \mathbb{N}$ such that $\rho(ca_n, ca) \lt \varepsilon$ for all $n \geq N$. From $\rho(ca_n, ca) \lt \varepsilon$, we have $\|c\| \cdot \rho(a_n, a) \lt \varepsilon$ (where $\|c\|$ is the norm of $c$).
             </p>
             <p>
-                We now proceed with the actual proof. Let $\epsilon \gt 0$. Then $\displaystyle\frac{\varepsilon}{\|c\|} \gt 0$. Since $(a_n) \to a$, there exists $N \in \mathbb{N}$ such that $\rho(a_n, a) \lt \displaystyle\frac{\varepsilon}{\|c\|}$ for all $n \geq N$. Therefore for all $n \geq N$, we have
+                We now proceed with the actual proof. Let $\varepsilon \gt 0$. Then $\displaystyle\frac{\varepsilon}{\|c\|} \gt 0$. Since $(a_n) \to a$, there exists $N \in \mathbb{N}$ such that $\rho(a_n, a) \lt \displaystyle\frac{\varepsilon}{\|c\|}$ for all $n \geq N$. Therefore for all $n \geq N$, we have
                 $$
                     \begin{align}
                         \rho(ca_n, ca) & = \|c\| \cdot \rho(a_n, a) \\
@@ -462,14 +468,14 @@ displaytitle: "Metric spaces"
     <p>
         <ul>
             <li>A collection $\mathfrak{U}$ of subsets of $X$ is a <em>cover</em> of $X$ if $X = \bigcup_{U \in \mathfrak{U}} U$. If each $U \in \mathfrak{U}$ is open, then $\mathfrak{U}$ is an <em>open cover</em> of $X$. A subset $A$ of $\mathfrak{U}$ is a <em>subcover</em> if $A$ is itself a cover of $X$.</li> 
-            <li>A collection $\mathfrak{F}$ of subsets of $X$ has the <em>finite intersection property</em> if for every finite subset $A$ of $\mathfrak{F}$, $\bigcap_{F \in A} F \neq \emptyset$.</li>
+            <li>A collection $\mathfrak{F}$ of subsets of $X$ has the <em>finite intersection property</em> if for every finite subset $A$ of $\mathfrak{F}$, $\bigcap_{F \in A} F \neq \varnothing$.</li>
             <li>A metric space $(X, \rho)$ is <em>totally bounded</em> if for every $\varepsilon \gt 0$, there exists a finite collection $\{x_1, x_2, \dots, x_n\}$ of points in $X$ such that $X = \bigcup_{i=1}^n B_{\varepsilon}(x_i)$.</li>
         </ul>
     </p>
     <p>
         We can rephrase the first definition above in terms of closed sets. If $\mathfrak{U}$ is an open cover of $X$ and if $\mathfrak{F}$ is the collection of closed sets in $X$ such that each $F \in \mathfrak{F}$ is the complement of some $U \in \mathfrak{U}$, then by De Morgan&rsquo;s laws,
         $$
-            X = \bigcup_{U \in \mathfrak{U}} U \implies \bigcap_{F \in \mathfrak{F}} F = \emptyset.
+            X = \bigcup_{U \in \mathfrak{U}} U = \bigcup_{F \in \mathfrak{F}} F \implies \bigcap_{F \in \mathfrak{F}} F = \varnothing.
         $$
     </p>
     <p>
@@ -491,7 +497,7 @@ displaytitle: "Metric spaces"
             </ol>
         </p>
         <p>
-            A metric space that satisfies the equivalent conditions above is called <em>compact</em>.
+            A metric space that satisfies the equivalent conditions above is called <em>compact</em>. (Most textbooks, nevertheless, use only the first one as the definition of compactness.)
         </p>
     </div>
     <div class="example-block">
@@ -499,7 +505,27 @@ displaytitle: "Metric spaces"
             <em>Proof.</em>
         </p>
         <p>
-            $(1) \implies (2).$ Suppose $\mathfrak{U}$ is an open cover of $X$. If $\mathfrak{F}$ is the collection of closed sets in $X$ such that each $F \in \mathfrak{F}$ is the complement of some $U \in \mathfrak{U}$, then $\bigcap_{F \in \mathfrak{F}} F = \emptyset$.
+            $(1) \implies (2).$ Suppose $\mathfrak{F}$ is a collection of closed sets in $X$ with the finite intersection property. Suppose further that $\displaystyle\bigcap_{F \in \mathfrak{F}} F$ is nonempty. Then if we define $\mathfrak{U}$ as the collection of the complements $U := X \setminus F$ for each $F \in \mathfrak{F}$, we have
+            $$
+                \bigcup_{U \in \mathfrak{U}} U = \bigcup_{F \in \mathfrak{F}} (X \setminus F) = X \setminus \bigcap_{F \in \mathfrak{F}} F = X \setminus \varnothing = X,
+            $$
+            so that $\mathfrak{U}$ is an open cover of $X$. By hypothesis, there exists a finite subcover $\{U_1, U_2, \dots, U_n\}$ of $\mathfrak{U}$ and thus
+            $$
+                X = \bigcup_{i=1}^n U_i = \bigcup_{i=1}^n (X \setminus F_i) = X \setminus \bigcap_{i=1}^n F_i,
+            $$
+            so that $\displaystyle\bigcap_{i=1}^n F_i = \varnothing$. This contradicts the fact that $\mathfrak{F}$ has the finite intersection property. Therefore $\mathfrak{F}$ has a nonempty intersection.
+        </p>
+        <p>
+            $(2) \implies (3).$ 
+        </p>
+        <p>
+            $(3) \implies (4).$
+        </p>
+        <p>
+            $(4) \implies (5).$
+        </p>
+        <p>
+            $(5) \implies (1).$
         </p>
     </div>
 </section>
