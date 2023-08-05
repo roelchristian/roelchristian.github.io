@@ -7,7 +7,10 @@ displaytitle: "Metric spaces"
 <section>
     <h2>1. Definition and examples</h2>
     <div class="theorem-block">
-        <p><span class="theorem-head">Definition 1.1</span></p>
+        <p>
+            <span class="theorem-head">Definition 1.1</span>
+            <span class="theorem-subtitle">Metric space</span>
+        </p>
         <p>Let $X$ be a set (whose elements we shall call &lsquo;points&rsquo;). A <em>metric</em> on $X$ is a function $\rho: X \times X \to \mathbb{R}$ such that for all $x, y, z \in X$,
         <ol>
             <li>$\rho(x, y) \geq 0$ (non-negativity) </li>
@@ -148,6 +151,7 @@ displaytitle: "Metric spaces"
         <div class="theorem-block">
             <p>
                 <span class="theorem-head">Definition 3.1</span>
+                <span class="theorem-subtitle">Sequence</span>
             </p>
             <p>
                 A sequence in a <a href="/math/analysis/metric-spaces.html">metric space</a> $(X, \rho)$ is a function $a : \mathbb{N} \to X$.
@@ -175,6 +179,7 @@ displaytitle: "Metric spaces"
         <div class="theorem-block">
             <p>
                 <span class="theorem-head">Definition 3.2</span>
+                <span class="theorem-subtitle">Convergence of a sequence</span>
             </p>
             <p>
                 A sequence $(a_n)$ in a metric space $(X, \rho)$ is said to converge to a point $a \in X$ if for every $\varepsilon \gt 0$, there exists $N \in \mathbb{N}$ such that $\rho(a_n, a) \lt \varepsilon$ for all $n \geq N$.
@@ -257,6 +262,7 @@ displaytitle: "Metric spaces"
        <div class="theorem-block">
             <p>
                 <span class="theorem-head">Theorem 3.4</span>
+                <span class="theorem-subtitle">Boundedness of convergent sequences</span>
             </p>
             <p>
                 A sequence $(a_n)$ is bounded if and only if there exists a point $r \in X$ and a real number $M \gt 0$ such that $\rho(a_n, r) \leq M$ for all $n \in \mathbb{N}$. Every convergent sequence in a metric space is bounded.
@@ -277,7 +283,8 @@ displaytitle: "Metric spaces"
 
        <div class="theorem-block">
             <p>
-                <span class="theorem-head">Theorem 3.5</span>  
+                <span class="theorem-head">Theorem 3.5</span>
+                <span class="theorem-subtitle">Subsequences</span>
             </p>
             <p>
                 A <em>subsequence</em> of a sequence $(a_n)$ is a sequence $(a_{n_k})$ where $n_1 \lt n_2 \lt \cdots$ is a strictly increasing sequence of natural numbers. If $(a_n)$ converges to $a$, then every subsequence of $(a_n)$ converges to $a$.
@@ -291,6 +298,7 @@ displaytitle: "Metric spaces"
        <div class="theorem-block" id="theorem-3-6">
             <p>
                 <span class="theorem-head">Theorem 3.6</span>
+                <span class="theorem-subtitle">Algebraic properties of convergent sequences</span>
             </p>
             <p>
                 Let $(a_n)$ and $(b_n)$ be sequences in a metric space $(X, \rho)$ and let $a, b \in X$. If $(a_n) \to a$ and $(b_n) \to b$, then:
@@ -341,6 +349,7 @@ displaytitle: "Metric spaces"
        <div class="theorem-block" id="theorem-3-7">
             <p>
                 <span class="theorem-head">Theorem 3.7</span>
+                <span class="theorem-subtitle">Order properties of convergent sequences</span>
             </p>
             <p>
                 Let $(a_n)$ and $(b_n)$ be sequences in a metric space $(X, \rho)$ and let $a, b \in X$. If $(a_n) \to a$ and $(b_n) \to b$, then:
@@ -363,9 +372,56 @@ displaytitle: "Metric spaces"
             </p>
             <!--To do: Define N-tail of a sequence-->
             <p>
-                (3) We have $0 \leq a_n - \xi \leq \eta - \xi$ for all $n \in \mathbb{N}$ from the hypothesis, whence, defining the constant sequence $(x_n) := \eta - \xi$ and the sequence $(y_n) := a_n - \xi$ results to $(x_n) \to \eta - \xi$ and $(y_n) \to a - \xi$. By (1) and (2), we have $0 \leq a - \xi \leq \eta - \xi$ and thus $\xi \leq a \leq \eta$.
+                (3) We have $0 \leq a_n - \xi \leq \eta - \xi$ for all $n \in \mathbb{N}$ from the hypothesis, whence, defining the constant sequence $(x_n) := \eta - \xi$ and the sequence $(y_n) := a_n - \xi$, we have $(x_n) \to \eta - \xi$ and $(y_n) \to a - \xi$. By (1) and (2), we have $0 \leq a - \xi \leq \eta - \xi$ and thus $\xi \leq a \leq \eta$.
             </p>
        </div>
+       <div class="theorem-block">
+            <p>
+                <span class="theorem-head">Definition 3.8</span>
+                <span class="theorem-subtitle">Cauchy sequence</span>
+            </p>
+            <p>
+                A sequence $(a_n)$ in a metric space $(X, \rho)$ is Cauchy if for every $\varepsilon \gt 0$, there exists $N \in \mathbb{N}$ such that $\rho(a_n, a_m) \lt \varepsilon$ for all $n, m \geq N$.
+            </p>
+       </div>
+       <p>
+            Cauchy sequences provide us with an alternative way to work with convergence, even if the limit of the sequence is not necessarily known.
+       </p>
+    <div class="theorem-block">
+        <p>
+            <span class="theorem-head">Theorem 3.9</span>
+        </p>
+        <p>
+            Let $(a_n)$ be a sequence in a metric space $(X, \rho)$. Then the following statements are true.
+            <ol>
+                <li>If $(a_n)$ converges, then $(a_n)$ is Cauchy.</li>
+                <li>If $(a_n)$ is Cauchy, then $(a_n)$ is bounded.</li>
+                <li>If $(a_n)$ is Cauchy and has a convergent subsequence, then $(a_n)$ converges.</li>
+            </ol>
+        </p>
+    </div>
+    <div class="example-block">
+        <p>
+            <em>Proof.</em>
+        </p>
+        <p>
+            (1) Let $(a_n) \to a$. Then for every $\varepsilon \gt 0$, there exists $N \in \mathbb{N}$ such that $\rho(a_n, a) \lt \varepsilon / 2$ for all $n \geq N$. Therefore for all $n, m \geq N$, we have
+            $$
+                \rho(a_n, a_m) \leq \rho(a_n, a) + \rho(a, a_m) \lt \frac{\varepsilon}{2} + \frac{\varepsilon}{2} = \varepsilon.
+            $$
+            Therefore $(a_n)$ is Cauchy.
+        </p>
+        <p>
+            (2) Let $(a_n)$ be Cauchy. Then for every $\varepsilon \gt 0$, there exists $N \in \mathbb{N}$ such that $\rho(a_n, a_m) \lt \varepsilon$ for all $n, m \geq N$. In particular, for $\varepsilon = 1$, there exists $N \in \mathbb{N}$ such that $\rho(a_n, a_m) \lt 1$ for all $n, m \geq N$. Moreover, since $N \geq N$, we have $\rho(a_n, a_N) \lt 1$ for all $n \geq N$.
+        </p>
+        <p>
+            Define
+            $$
+                M := \max\{\rho(a_1, a_N), \rho(a_2, a_N), \dots, \rho(a_{N-1}, a_N), 1\}.
+            $$
+            Then for all $n \geq N$, we have $\rho(a_n, a_N) \lt 1 \leq M$ (by our choice of $N$ above) and for all $n \lt N$, $\rho(a_n, a_N) \leq M$ (by our definition of $M$). Therefore $\rho(a_n, a_N) \leq M$ for all $n \in \mathbb{N}$ and so $(a_n)$ is bounded.
+        </p>
+    </div>
 </section>
 
 <section>
