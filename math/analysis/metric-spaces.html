@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Metric Spaces"
+title: "Metric spaces"
+displaytitle: "Metric spaces"
 ---
 
 <section>
@@ -271,6 +272,20 @@ title: "Metric Spaces"
                     M := \max\{\rho(a_1, a), \rho(a_2, a), \dots, \rho(a_{N-1}, a), 1\}.
                 $$
                 Thus for all $n \geq N$, $\rho(a_n, a) \lt 1 \leq B$ (because $(a_n)$ is convergent) and for all $n \lt N$, $1 \leq M$ (by our definition of $M$). Therefore $\rho(a_n, a) \leq M$ for all $n \in \mathbb{N}$ and so $(a_n)$ is bounded.
+            </p>
+       </div>
+
+       <div class="theorem-block">
+            <p>
+                <span class="theorem-head">Theorem 3.5</span>  
+            </p>
+            <p>
+                A <em>subsequence</em> of a sequence $(a_n)$ is a sequence $(a_{n_k})$ where $n_1 \lt n_2 \lt \cdots$ is a strictly increasing sequence of natural numbers. If $(a_n)$ converges to $a$, then every subsequence of $(a_n)$ converges to $a$.
+            </p>
+       </div>
+       <div class="example-block">
+            <p>
+                <em>Proof.</em> Because $(a_n)$ converges to $a$, for every $\varepsilon \gt 0$ there exists $N \in \mathbb{N}$ such that $\rho(a_n, a) \lt \varepsilon$ for all $n \geq N$. Now let $(a_{n_k})$ be a subsequence of $(a_n)$. Since the $n_k$&rsquo;s are strictly increasing $n_k \geq k$<span class="citation-note"><a href="https://proofwiki.org/wiki/Strictly_Increasing_Sequence_of_Natural_Numbers" rel="noopener noreferrer">[1]</a></span> and thus for all $k \geq N$, we have $n_k \geq N$, so that $\rho(a_{n_k}, a) \lt \varepsilon$. Therefore $(a_{n_k})$ converges to $a$.
             </p>
        </div>
 </section>
