@@ -88,7 +88,7 @@ title: "Sequences and series"
 
    <div class="example-block">
         <p>
-            <b>Example.</b> We will show that the sequence $\displaystyle\left(\frac{n+1}{n}\right)$ in $\mathbb{R}$ with the usual metric converges to $1$.
+            <strong>Example.</strong> We will show that the sequence $\displaystyle\left(\frac{n+1}{n}\right)$ in $\mathbb{R}$ with the usual metric converges to $1$.
         </p>
         <p>
             Let $(a_n)$ be the sequence described above. Then if $(a_n) \to 1$, we need to show that for any $\varepsilon \gt 0$ and for sufficiently large $N$ we have
@@ -107,13 +107,32 @@ title: "Sequences and series"
             $$
             and so $(a_n) \to 1$.
         </p>
+
+        <p>
+            <strong>Example.</strong> We will show that the sequence $(a_n) = n$ does not converge in $\mathbb{R}$.
+        </p>
+        <p>
+            Tending towards contradiction, suppose that $(a_n)$ converges to some value $\nu$ and consider $\varepsilon = 1 > 0$. Then because $(a_n)$ converges, there must exist some natural number $N$ such that for any $n \in \mathbb{N}$ with $n \geq N$, we have $\rho(a_n, \nu) \lt \varepsilon$. In particular, we have $\rho(n, \nu) \lt 1$ which implies that $n \lt \nu + 1$, so that $\mathbb{N}$ is bounded above by $\nu + 1$. This is a contradiction and so $(a_n)$ does not converge.
+        </p>
    </div>
    <div class="theorem-block">
         <p>
             <span class="theorem-head">Theorem 1.4</span>
         </p>
         <p>
-            A sequence $(a_n)$ is bounded if and only if there exists a point $p \in X$ and a real number $M \gt 0$ such that $\rho(a_n, p) \leq M$ for all $n \in \mathbb{N}$.
+            A sequence $(a_n)$ is bounded if and only if there exists a point $r \in X$ and a real number $M \gt 0$ such that $\rho(a_n, r) \leq M$ for all $n \in \mathbb{N}$. Every convergent sequence in a metric space is bounded.
+        </p>
+   </div>
+   <div class="example-block">
+        <p>
+            <em>Proof.</em> To prove that $(a_n)$ is bounded, we need to find a point $r \in X$ and a real number $M \gt 0$ such that $\rho(a_n, r) \leq M$ for all $n \in \mathbb{N}$. Now because $(a_n)$ is convergent (to some point $a$, say), there exists $N \in \mathbb{N}$ such that $\rho(a_n, a) \lt \varepsilon$ for all $n \geq N$. Fix $\varepsilon = 1$. Then in particular, we have $\rho(a_n, a) \lt 1$.
+        </p>
+        <p>
+            Define
+            $$
+                M := \max\{\rho(a_1, a), \rho(a_2, a), \dots, \rho(a_{N-1}, a), 1\}.
+            $$
+            Thus for all $n \geq N$, $\rho(a_n, a) \lt 1 \leq B$ (because $(a_n)$ is convergent) and for all $n \lt N$, $1 \leq M$ (by our definition of $M$). Therefore $\rho(a_n, a) \leq M$ for all $n \in \mathbb{N}$ and so $(a_n)$ is bounded.
         </p>
    </div>
 </section>
