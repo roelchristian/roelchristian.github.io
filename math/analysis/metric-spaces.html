@@ -288,7 +288,7 @@ displaytitle: "Metric spaces"
                 <em>Proof.</em> Because $(a_n)$ converges to $a$, for every $\varepsilon \gt 0$ there exists $N \in \mathbb{N}$ such that $\rho(a_n, a) \lt \varepsilon$ for all $n \geq N$. Now let $(a_{n_k})$ be a subsequence of $(a_n)$. Since the $n_k$&rsquo;s are strictly increasing $n_k \geq k$<span class="citation-note"><a href="https://proofwiki.org/wiki/Strictly_Increasing_Sequence_of_Natural_Numbers" rel="noopener noreferrer">[1]</a></span> and thus for all $k \geq N$, we have $n_k \geq N$, so that $\rho(a_{n_k}, a) \lt \varepsilon$. Therefore $(a_{n_k})$ converges to $a$.
             </p>
        </div>
-       <div class="theorem-block">
+       <div class="theorem-block" id="theorem-3-6">
             <p>
                 <span class="theorem-head">Theorem 3.6</span>
             </p>
@@ -328,6 +328,42 @@ displaytitle: "Metric spaces"
                     \end{align}
                 $$
                 Therefore $(ca_n) \to ca$.
+            </p>
+            <p>
+                (3) First observe that
+                $$
+                    \begin{align}
+                        \rho(a_n b_n, ab) & = \rho(a_n b_n, a b_n + a b - a b_n) \\
+                        & \leq \rho(a_n b_n, a b_n) + \rho(a b_n, a b) + \rho(a b, a b_n) \\
+                        & = 
+            </p>
+       </div>
+       <div class="theorem-block" id="theorem-3-7">
+            <p>
+                <span class="theorem-head">Theorem 3.7</span>
+            </p>
+            <p>
+                Let $(a_n)$ and $(b_n)$ be sequences in a metric space $(X, \rho)$ and let $a, b \in X$. If $(a_n) \to a$ and $(b_n) \to b$, then:
+                <ol>
+                    <li>If $a_n \geq 0$ for all $n \in \mathbb{N}$, then $a \geq 0$;</li>
+                    <li>If there exists $N \in \mathbb{N}$ such that $a_n \leq b_n$ for all $n \geq N$, then $a \leq b$;</li>
+                    <li>If $\xi \leq a_n \leq \eta$ for all $n \in \mathbb{N}$, then $\xi \leq a \leq \eta$.</li>
+                </ol>
+            </p>
+       </div>
+       <div class="example-block">
+            <p>
+                <em>Proof.</em>
+            </p>
+            <p>
+                (1) We prove the contrapositive. Suppose $a \lt 0$. Let $\varepsilon \gt 0$ be such that $a + \varepsilon \lt 0$. Then since $(a_n) \to a$, there exists $N \in \mathbb{N}$ such that $\rho(a_n, a) \lt \varepsilon$ for all $n \geq N$. Taking $n = N$, we have $\rho(a_N, a) \lt \varepsilon$ and thus $a_N \lt a + \varepsilon \lt 0$. Therefore $a_N \lt 0$ and so $a_n \not\geq 0$ for all $n \geq N$. Therefore $(a_n)$ does not converge to $a$.
+            </p>
+            <p>
+                (2) Consider $N = 1$, i.e., $a_n \leq b_n$ for all $n \in \mathbb{N}$. Let $(c_n)$ be the sequence defined by $c_n = b_n - a_n$. Then $c_n \geq 0$ for all $n \in \mathbb{N}$ and $c_n \to b - a$. By (1), $b - a \geq 0$ and thus $a \leq b$. If $N \gt 1$, then we apply the same argument to the $N$-tail of $(a_n)$ and $(b_n)$.
+            </p>
+            <!--To do: Define N-tail of a sequence-->
+            <p>
+                (3) We have $0 \leq a_n - \xi \leq \eta - \xi$ for all $n \in \mathbb{N}$ from the hypothesis, whence, defining the constant sequence $(x_n) := \eta - \xi$ and the sequence $(y_n) := a_n - \xi$ results to $(x_n) \to \eta - \xi$ and $(y_n) \to a - \xi$. By (1) and (2), we have $0 \leq a - \xi \leq \eta - \xi$ and thus $\xi \leq a \leq \eta$.
             </p>
        </div>
 </section>
