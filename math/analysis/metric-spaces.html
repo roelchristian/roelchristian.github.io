@@ -137,4 +137,48 @@ title: "Metric Spaces"
             (2) Let $x \in \bigcup_{U \in \mathfrak{U}} U$. Then $x \in U$ for some $U' \in \mathfrak{U}$. Since $U'$ is open, there exists $\varepsilon > 0$ such that $B_{\varepsilon}(x) \subset U'$. But $U' \subset \bigcup_{U \in \mathfrak{U}} U$, so $B_{\varepsilon}(x) \subset \bigcup_{U \in \mathfrak{U}} U$.
         </p>
     </div>
+    
+</section>
+
+<section>
+    <h2>
+        3. Sequences in metric spaces
+    </h2>
+
+    <div class="theorem-block">
+        <p>
+            <span class="theorem-head">Definition 3.1</span>
+        </p>
+        <p>
+            A <em>sequence</em> in a metric space $(X, \rho)$ is a function $x: \mathbb{N} \to X$. We will write $(x_n)$ for the sequence $x$ whose $n$th term (for $n \in \mathbb{N}$) is $x_n$. We say that $(x_n)$ <em>converges</em> to a point $x \in X$ if for every $\varepsilon > 0$ there exists $N \in \mathbb{N}$ such that $\rho(x_n, x) \lt \varepsilon$ for all $n \geq N$. We say that $(x_n)$ <em>diverges</em> if it does not converge.
+        </p>
+        <p>
+            If $m$ is an integer and $n_1, n_2, \ldots$ is an increasing sequence of integers such that
+            $$
+                m \leq n_1 \lt n_2 \lt \cdots,
+            $$
+            then we call the sequence $(x_{n_k})$ a <em>subsequence</em> of $(x_n)$.
+        </p>
+    </div>
+</section>
+
+<section>
+    <h2>
+        4. Compactness
+    </h2>
+</section>
+
+<section>
+    <h2>
+        5. Continuous functions on metric spaces
+    </h2>
+
+    <div class="theorem-block">
+        <p>
+            <span class="theorem-head">Definition 5.1</span>
+        </p>
+        <p>
+            Let $(X, \rho)$ and $(Y, \sigma)$ be metric spaces. A function $f: X \to Y$ is <em>continuous</em> at a point $x \in X$ if for every $\varepsilon > 0$ there exists $\delta > 0$ such that $\sigma(f(x), f(y)) \lt \varepsilon$ whenever $\rho(x, y) \lt \delta$. We say that $f$ is continuous if it is continuous at every point of $X$.
+        </p>
+    </div>
 </section>
