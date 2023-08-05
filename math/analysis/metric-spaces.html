@@ -288,6 +288,48 @@ displaytitle: "Metric spaces"
                 <em>Proof.</em> Because $(a_n)$ converges to $a$, for every $\varepsilon \gt 0$ there exists $N \in \mathbb{N}$ such that $\rho(a_n, a) \lt \varepsilon$ for all $n \geq N$. Now let $(a_{n_k})$ be a subsequence of $(a_n)$. Since the $n_k$&rsquo;s are strictly increasing $n_k \geq k$<span class="citation-note"><a href="https://proofwiki.org/wiki/Strictly_Increasing_Sequence_of_Natural_Numbers" rel="noopener noreferrer">[1]</a></span> and thus for all $k \geq N$, we have $n_k \geq N$, so that $\rho(a_{n_k}, a) \lt \varepsilon$. Therefore $(a_{n_k})$ converges to $a$.
             </p>
        </div>
+       <div class="theorem-block">
+            <p>
+                <span class="theorem-head">Theorem 3.6</span>
+            </p>
+            <p>
+                Let $(a_n)$ and $(b_n)$ be sequences in a metric space $(X, \rho)$ and let $a, b \in X$. If $(a_n) \to a$ and $(b_n) \to b$, then:
+                <ol>
+                    <li>$(a_n + b_n) \to a + b$</li>
+                    <li>$(ca_n) \to ca$ for any $c \in V$, where $V$ is a normed vector space</li>
+                    <li>$(a_n b_n) \to ab$</li>
+                    <li>$(a_n / b_n) \to a/b$ if $b \neq 0$</li>
+                </ol>
+            </p>
+       </div>
+       <div class="example-block">
+            <p>
+                <em>Proof.</em>
+            </p>
+            <p>
+                (1) Let $\varepsilon > 0$. Then $\varepsilon / 2 > 0$, and since $(a_n) \to a$ and $(b_n) \to b$, there exists $N_1, N_2 \in \mathbb{N}$ such that $\rho(a_n, a) \lt \varepsilon / 2$ for all $n \geq N_1$ and $\rho(b_n, b) \lt \varepsilon / 2$ for all $n \geq N_2$. Let $N := \max\{N_1, N_2\}$. Then for all $n \geq N$, we have
+                $$
+                    \begin{align}
+                        \rho((a_n + b_n), (a + b)) & \leq \rho(a_n, a) + \rho(b_n, b) \\
+                        & \lt \frac{\varepsilon}{2} + \frac{\varepsilon}{2} = \varepsilon.
+                    \end{align}
+                $$
+                Therefore $(a_n + b_n) \to a + b$.
+            </p>
+            <p>
+                (2) To prove this, we want to show that for any $\varepsilon \gt 0$, there exists $N \in \mathbb{N}$ such that $\rho(ca_n, ca) \lt \varepsilon$ for all $n \geq N$. From $\rho(ca_n, ca) \lt \varepsilon$, we have $\|c\| \cdot \rho(a_n, a) \lt \varepsilon$ (where $\|c\|$ is the norm of $c$).
+            </p>
+            <p>
+                We now proceed with the actual proof. Let $\epsilon \gt 0$. Then $\displaystyle\frac{\varepsilon}{\|c\|} \gt 0$. Since $(a_n) \to a$, there exists $N \in \mathbb{N}$ such that $\rho(a_n, a) \lt \displaystyle\frac{\varepsilon}{\|c\|}$ for all $n \geq N$. Therefore for all $n \geq N$, we have
+                $$
+                    \begin{align}
+                        \rho(ca_n, ca) & = \|c\| \cdot \rho(a_n, a) \\
+                        & \lt \|c\| \cdot \frac{\varepsilon}{\|c\|} = \varepsilon.
+                    \end{align}
+                $$
+                Therefore $(ca_n) \to ca$.
+            </p>
+       </div>
 </section>
 
 <section>
