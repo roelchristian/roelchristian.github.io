@@ -456,6 +456,25 @@ displaytitle: "Metric spaces"
     <h2>
         4. Compactness
     </h2>
+    <p>
+        We introduce the notion of compactness, which generalizes the notion of closed and bounded sets in $\mathbb{R}^n$. We proceed with some definitions.
+    </p>
+    <p>
+        <ul>
+            <li>A collection $\mathfrak{U}$ of subsets of $X$ is a <em>cover</em> of $X$ if $X = \bigcup_{U \in \mathfrak{U}} U$. If each $U \in \mathfrak{U}$ is open, then $\mathfrak{U}$ is an <em>open cover</em> of $X$. A subset $A$ of $\mathfrak{U}$ is a <em>subcover</em> if $A$ is itself a cover of $X$.</li> 
+            <li>A collection $\mathfrak{F}$ of subsets of $X$ has the <em>finite intersection property</em> if for every finite subset $A$ of $\mathfrak{F}$, $\bigcap_{F \in A} F \neq \emptyset$.</li>
+            <li>A metric space $(X, \rho)$ is <em>totally bounded</em> if for every $\varepsilon \gt 0$, there exists a finite collection $\{x_1, x_2, \dots, x_n\}$ of points in $X$ such that $X = \bigcup_{i=1}^n B_{\varepsilon}(x_i)$.</li>
+        </ul>
+    </p>
+    <p>
+        We can rephrase the first definition above in terms of closed sets. If $\mathfrak{U}$ is an open cover of $X$ and if $\mathfrak{F}$ is the collection of closed sets in $X$ such that each $F \in \mathfrak{F}$ is the complement of some $U \in \mathfrak{U}$, then by De Morgan&rsquo;s laws,
+        $$
+            X = \bigcup_{U \in \mathfrak{U}} U \implies \bigcap_{F \in \mathfrak{F}} F = \emptyset.
+        $$
+    </p>
+    <p>
+        We now proceed with the main definition.
+    </p>
     <div class="theorem-block">
         <p>
             <span class="theorem-head">Theorem 4.1</span>
@@ -473,6 +492,14 @@ displaytitle: "Metric spaces"
         </p>
         <p>
             A metric space that satisfies the equivalent conditions above is called <em>compact</em>.
+        </p>
+    </div>
+    <div class="example-block">
+        <p>
+            <em>Proof.</em>
+        </p>
+        <p>
+            $(1) \implies (2).$ Suppose $\mathfrak{U}$ is an open cover of $X$. If $\mathfrak{F}$ is the collection of closed sets in $X$ such that each $F \in \mathfrak{F}$ is the complement of some $U \in \mathfrak{U}$, then $\bigcap_{F \in \mathfrak{F}} F = \emptyset$.
         </p>
     </div>
 </section>
