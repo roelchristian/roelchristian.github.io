@@ -442,6 +442,7 @@ title: "Group Theory"
         <p>
             <span class="theorem-head" id="definition41">
                 Definition 4.1
+            </span>  
         </p>
         <p>
             Let $G$ be a group and let $H$ be a subgroup of $G$. For any $a, b \in G$, we say that $a$ is <em>right</em> (resp. <em>left</em>) <em>congruent to $b$ modulo $H$</em> if $ab^{-1} \in H$ (resp. $a^{-1}b \in H$). We denote this by $a \equiv_R b \pmod{H}$ (resp. $a \equiv_L b \pmod{H}$). We say that $a$ is <em>congruent to $b$ modulo $H$</em> if it is both right and left congruent to $b$ modulo $H$, and denote this by dropping the subscript, i.e., $a \equiv b \pmod{H}$.
@@ -539,6 +540,42 @@ title: "Group Theory"
     <h2 id="normal-subgroups-and-quotient-groups">
         5. Normal subgroups and quotient groups
     </h2>
+    <div class="theorem-block">
+        <p>
+            <span class="theorem-head" id="definition-5-1">Definition 5.1</span>
+            <span class="theorem-subtitle">Normal subgroups</span>
+        </p>
+        <p>
+            A subgroup $N$ of a group $G$ is called a <em>normal subgroup</em> of $G$ if it is invariant under conjugation, i.e., for all $a \in G$ and for all $n \in N$, $ana^{-1} \in N$. If $N$ is normal in $G$, then we write $N \triangleleft G$.
+        </p>
+    </div>
+    <p>
+        The next result provides alternative characterizations of normal subgroups.
+    </p>
+    <div class="theorem-block">
+        <p>
+            <span class="theorem-head" id="theorem-5-2">Theorem 5.2</span>
+            <span class="theorem-subtitle">Equivalent conditions for normality</span>
+        </p>
+        <p>
+            Let $N$ be a subgroup of a group $G$. Then the following statements are equivalent:
+            <ol>
+                <li>$N$ is normal in $G$.</li>
+                <li>The image of $N$ under conjugation is contained in $N$, i.e., for all $a \in G$, $aNa^{-1} \subseteq N$.</li>
+                <li>The image of $N$ under conjugation is equal to $N$, i.e., for all $a \in G$, $aNa^{-1} = N$.</li>
+                <li>For all $a \in G$, the left and right cosets $aN$ and $Na$ are equal.</li>
+                <li>The left and right cosets of $N$ in $G$ are coincide.</li>
+            </ol>
+        </p>
+    </div>
+    <div class="example-block">
+        <p>
+            <strong>Examples.</strong> The trivial subgroups $\{e\}$ and $G$ of any group $G$ are normal subgroups of $G$. Every subgroup of an abelian group is trivially normal.
+        </p>
+        <p>
+            If $\varphi : G \to H$ is a homomorphism, then $\operatorname{Ker} \varphi$ is a normal subgroup of $G$. Indeed if $a \in G$ and $n \in \operatorname{Ker} \varphi$, then $\varphi(ana^{-1}) = \varphi(a)\varphi(n)\varphi(a^{-1}) = \varphi(a)\varphi(a^{-1}) = \varphi(aa^{-1}) = \varphi(e) = e'$, and so $ana^{-1} \in \operatorname{Ker} \varphi$.
+        </p>
+    </div>
 </section>
 
 <section>
