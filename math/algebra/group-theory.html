@@ -576,6 +576,38 @@ title: "Group Theory"
             If $\varphi : G \to H$ is a homomorphism, then $\operatorname{Ker} \varphi$ is a normal subgroup of $G$. Indeed if $a \in G$ and $n \in \operatorname{Ker} \varphi$, then $\varphi(ana^{-1}) = \varphi(a)\varphi(n)\varphi(a^{-1}) = \varphi(a)\varphi(a^{-1}) = \varphi(aa^{-1}) = \varphi(e) = e'$, and so $ana^{-1} \in \operatorname{Ker} \varphi$.
         </p>
     </div>
+    <div class="theorem-block">
+        <p>
+            <span class="theorem-head" id="theorem-5-3">Theorem 5.4</span>
+            <span class="theorem-subtitle">Quotient groups</span>
+        </p>
+        <p>
+            Let $N$ be a normal subgroup of a group $G$. Then the set of distinct (left) cosets of $N$ in $G$ is a group under the operation defined by
+            $$(aN)(bN) = (ab)N,$$
+            for all $a, b \in G$. This group is called the <em>quotient group</em> (or <em>factor group</em>) of $G$ by $N$, and is denoted by $G/N$ (read "$G$ mod $N$").
+        </p>
+    </div>
+    <div class="example-block">
+        <p>
+            <em>Proof.</em>
+        </p>
+        <p>
+            First we show that the operation (which we shall call coset multiplication) is well-defined. Let $a, b, c, d \in G$ such that $aN = cN$ and $bN = dN$. Then since cosets are simply the equivalence classes of elements of $G$ under congruence modulo $N$, we have $a \equiv c \pmod{N}$ and $b \equiv d \pmod{N}$. Thus $c^{-1}a \in H$ and $d^{-1}b \in H$. To show that the operation is well-defined, we must show that $(ab)N = (cd)N$ and thus
+            $$
+                (cd)^{-1}(ab) \in N.
+            $$
+            We have
+            $$
+                (cd)^{-1}(ab) = d^{-1}c^{-1}(ab) = (d^{-1}c^{-1}ad)(d^{-1}b).
+            $$
+            Because $c^{-1}a \in N$ by assumption, and because $N$ is normal, $d^{-1}c^{-1}ad \in N$. Similarly, $d^{-1}b \in N$. Because $N$ is a subgroup, it is closed under the binary operation of $G$, and so $(cd)^{-1}(ab) \in N$. Thus coset multiplication is well-defined.
+        </p>
+        <p>
+            We now compare the operation against the group axioms. Given $a, b, c \in G$, we have $(aNbN)cN = aN(bcN) = a(bc)N$, and because the group operation is associative we have $a(bc)N = (ab)cN = (abN)cN = (aNbN)cN$ so that coset multiplication is associative. The (left) coset $eN = N$ is the identity, and for each $a \in G$ (and thus $aN \in G / N$), the coset whose representative is the inverse is $a^{-1}$ of $a$ is the inverse of $aN$. Thus $G / N$ is a group.
+        </p>
+        <p>
+            The arguments above work with right cosets as well. Without loss of generality, we will use left cosets when working with quotient groups.
+        </p>
 </section>
 
 <section>
