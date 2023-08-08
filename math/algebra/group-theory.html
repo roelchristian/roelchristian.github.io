@@ -573,9 +573,42 @@ title: "Group Theory"
             <strong>Examples.</strong> The trivial subgroups $\{e\}$ and $G$ of any group $G$ are normal subgroups of $G$. Every subgroup of an abelian group is trivially normal.
         </p>
         <p>
-            If $\varphi : G \to H$ is a homomorphism, then $\operatorname{Ker} \varphi$ is a normal subgroup of $G$. Indeed if $a \in G$ and $n \in \operatorname{Ker} \varphi$, then $\varphi(ana^{-1}) = \varphi(a)\varphi(n)\varphi(a^{-1}) = \varphi(a)\varphi(a^{-1}) = \varphi(aa^{-1}) = \varphi(e) = e'$, and so $ana^{-1} \in \operatorname{Ker} \varphi$.
+            If $\varphi : G \to H$ is a homomorphism, then $\operatorname{Ker} \varphi$ is a normal subgroup of $G$. Indeed if $a \in G$ and $n \in \operatorname{Ker} \varphi$, then
+            $$
+                \varphi(ana^{-1}) = \varphi(a)\varphi(n)\varphi(a^{-1}) = \varphi(a)\varphi(a^{-1}) = \varphi(aa^{-1}) = \varphi(e) = e',
+            $$
+            and so $ana^{-1} \in \operatorname{Ker} \varphi$.
         </p>
     </div>
+    
+    <div class="theorem-block">
+        <p>
+            <span class="theorem-head" id="theorem-5-3">Theorem 5.3</span>
+            <span class="theorem-subtitle">Some properties of normal subgroups</span>
+        </p>
+        <p>
+            Let $H$ and $N$ be subgroups of a group $G$, with $N \triangleleft G$. Then:
+            <ol>
+                <li>$H \cap N \triangleleft H$.</li>
+                <li>$HN = NH = H \vee N$.</li>
+                <li>$N \triangleleft H \vee N$.</li>
+                <li>if $H$ is also normal in $G$ and $H \cap N = \{e\}$, then $hn = nh$ for all $h \in H$ and $n \in N$.</li>
+            </ol>
+        </p>
+    </div>
+
+    <div class="example-block">
+        <p>
+            <em>Proof.</em>
+        </p>
+        <p>
+            (1) If $n \in N \cap H$ and $a \in H$ then $ana^{-1} \in N$ because $N$ is normal. Moreover, because $H$ is a subgroup, $ana^{-1} \in H$. Thus $ana^{-1} \in N \cap H$, and therefore $N \cap H \triangleleft H$.
+        </p>
+        <p>
+            (2) Recall that $N \vee H := \langle N \cup H \rangle$.
+        </p>
+    </div>
+
     <div class="theorem-block">
         <p>
             <span class="theorem-head" id="theorem-5-3">Theorem 5.4</span>
