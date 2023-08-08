@@ -17,6 +17,10 @@ title: "Group Theory"
         <li><a href="#cosets-and-lagranges-theorem">Cosets and Lagrange&rsquo;s theorem</a></li>
         <li><a href="#normal-subgroups-and-quotient-groups">Normal subgroups and quotient groups</a></li>
         <li><a href="#symmetric-alternating-and-dihedral-groups">Symmetric, alternating and dihedral groups</a></li>
+        <li><a href="#group-actions">Group actions</a></li>
+        <li><a href="#sylow-theorems">Sylow theorems</a></li>
+        <li><a href="#abelian-groups">Abelian groups<sup><small>*</small></sup></a></li>
+        <li><a href="#nilpotent-and-solvable-groups">Nilpotent and solvable groups<sup><small>*</small></sup></a></li>
     </ul>
 </section>
 
@@ -700,4 +704,85 @@ title: "Group Theory"
         Observe that $\sigma\tau = \tau\sigma$ is not necessarily true.
     </p>
 
+</section>
+
+<section>
+    <h2 id="group-actions">
+        7. Group actions
+    </h2>
+    <div class="theorem-block">
+        <p>
+            <span class="theorem-head" id="definition71">Definition 7.1</span>
+            <span class="theorem-subtitle">Group actions</span>
+        </p>
+        <p>
+            Given a set $X$ and a group $G$, a <em>left group action</em> of $G$ on $X$ is a map $\Phi: G \times X \to X$ such that for all $g, h \in G$ and for all $x \in X$,
+            <ol>
+                <li>$\Phi(e, x) = x$</li>
+                <li>$\Phi(g, \Phi(h, x)) = \Phi(gh, x)$.</li>
+            </ol>
+        </p>
+        <p>
+            For the sake of brevity, we will write $\Phi(g, x)$ as $gx$. We call $X$ a <em>$G$-set</em> under the action $\Phi$.
+        </p>
+    </div>
+    <div class="example-block">
+        <p>
+            <strong>Examples.</strong> The trivial group action by $G$ on $X$ maps each $x \in X$ to itself. We check this against the axioms in our definition. For all $g \in G$ and $x \in X$, we have $ex = x$ and $g(ex) = gx = (ge)x = g(x)$. 
+        </p>
+    </div>
+    <div class="theorem-block">
+        <p>
+            <span class="theorem-head" id="theorem72">Theorem 7.2</span>
+            <span class="theorem-subtitle">Orbit and stabilizer</span>
+        </p>
+        <p>
+            Let $G$ be a group acting on a set $X$.
+            <ol>
+                <li>
+                    The relation on $X$ defined by
+                    $$
+                        x \sim y \iff \exists g \in G \text{ such that } gx = y
+                    $$
+                    is an equivalence relation on $X$. The equivalence class of $x \in X$ is called the <em>orbit</em> of $x$ under the action of $G$ on $X$ and is written $\mathcal{O}_x$.
+                </li>
+                <li>
+                    For each $x \in X$, the set
+                    $$
+                        G_x = \{g \in G : gx = x\}
+                    $$
+                    is a subgroup of $G$ called the <em>stabilizer</em> (or <em>isotropy group</em>) of $x$ under the action of $G$ on $X$.
+                </li>
+            </ol>
+        </p>
+    </div>
+    <div class="example-block">
+        <p>
+            <em>Proof.</em>
+        </p>
+        <p>
+            (1) Let $x \in X$. Then $ex = x$, so that $x \sim x$. If $x \sim y$, then there exists $g \in G$ such that $gx = y$. But $g^{-1}y = g^{-1}(gx) = (g^{-1}g)x = ex = x$, and so $y \sim x$. Finally, if $x \sim y$ and $y \sim z$, then there exist $g, h \in G$ such that $gx = y$ and $hy = z$. Thus $h(gx) = (hg)x = z$, and so $x \sim z$. Therefore $\sim$ is an equivalence relation.
+        </p>
+        <p>
+            (2) The set $G_x$ is nonempty because $ex = x$ and $e \in G_x$. Let $g, h \in G_x$. Then $gx = x$ and $hx = x$, and so $g(hx) = (gh)x = x$ so that $gh \in G_x$. Finally, if $g \in G_x$, then $gx = x$, and so $g^{-1}x = g^{-1}(gx) = (g^{-1}g)x = ex = x$, and thus $g^{-1} \in G_x$. Therefore $G_x$ is a subgroup of $G$.
+        </p>
+    </div>
+</section>
+
+<section>
+    <h2 id="sylow-theorems">
+        8. Sylow theorems
+    </h2>
+</section>
+
+<section>
+    <h2 id="abelian-groups">
+        9. Abelian groups<sup><small>*</small></sup>
+    </h2>
+</section>
+
+<section>
+    <h2 id="nilpotent-and-solvable-groups">
+        10. Nilpotent and solvable groups<sup><small>*</small></sup>
+    </h2>
 </section>
