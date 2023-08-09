@@ -742,7 +742,7 @@ title: "Group Theory"
                 <li>
                     The relation on $X$ defined by
                     $$
-                        x \sim y \iff \exists g \in G \text{ such that } gx = y
+                        x \sim y \iff gx = y \text{ for some } g \in G
                     $$
                     is an equivalence relation on $X$. The equivalence class of $x \in X$ is called the <em>orbit</em> of $x$ under the action of $G$ on $X$ and is written $\mathcal{O}_x$.
                 </li>
@@ -765,6 +765,71 @@ title: "Group Theory"
         </p>
         <p>
             (2) The set $G_x$ is nonempty because $ex = x$ and $e \in G_x$. Let $g, h \in G_x$. Then $gx = x$ and $hx = x$, and so $g(hx) = (gh)x = x$ so that $gh \in G_x$. Finally, if $g \in G_x$, then $gx = x$, and so $g^{-1}x = g^{-1}(gx) = (g^{-1}g)x = ex = x$, and thus $g^{-1} \in G_x$. Therefore $G_x$ is a subgroup of $G$.
+        </p>
+    </div>
+    <div class="example-block">
+        <p>
+            <b>Example.</b> If a group $G$ acts on itself by conjugation, then the orbit of $x \in G$ is called the conjugacy class of $x$. If a subgroup $H \leq G$ acts on $G$ by conjugation, then its stabilizer
+            $$
+                H_x = \{h \in H : hxh^{-1} = x\} = \{h \in H : hx = xh\}
+            $$
+            is called the <em>centralizer</em> of $x$ in $H$. If $H = G$, then the centralizer of $x$ in $G$ is simply called the <em>centralizer</em> of $x$. (Observed that $C_G(x)$ is exactly the center $Z(G)$ of $G$.)
+        </p>
+        <p>
+            Let $\mathfrak{G}$ be the set of all subgroups of $G$. Then if $H \leq G $ acts on $\mathfrak{G}$ by conjugation, the stabilizer of some subgroup $K \in \mathfrak{G}$ is the set
+            $$
+                G_K = \{g \in G : gKg^{-1} = K\}
+            $$
+            of all elements of $G$ leave $K$ invariant under conjugation. This is called the <em>normalizer</em> of $K$ in $G$, and is denoted by $N_G(K)$.
+        </p>
+        <p>
+            These subgroups are related by the following chain of inclusions:
+            $$
+                Z(G) \subseteq C_G(H) \subseteq N_G(H) \subseteq G,
+            $$
+            where $H \leq G$.
+        </p>
+    </div>
+    <div class="theorem-block">
+        <p>
+            <span class="theorem-head" id="theorem73">Theorem 7.3</span>
+            <span class="theorem-subtitle">Orbit-stabilizer theorem</span>
+        </p>
+        <p>
+            Let $G$ be a group acting on a set $X$. Then for all $x \in X$,
+            $$
+                |\mathcal{O}_x| = [G : G_x] = \frac{|G|}{|G_x|}.
+            $$
+        </p>
+    </div>
+    <div class="example-block">
+        <p>
+            <em>Proof.</em>
+        </p>
+        <p>
+            We want to show that $[G : G_x]$ has the same cardinality as $|\mathcal{O}_x|$, i.e., there is a bijection between $[G : G_x]$ and $\mathcal{O}_x$. Since $G_x$ is a subgroup, we have for any $g, h \in G$
+            $$
+                gx = hx \iff g^{-1}hx = x \iff g^{-1}h \in G_x \iff g \equiv h \pmod{G_x} \iff gG_x = hG_x.
+            $$
+            Thus the map defined by $\varphi: gG_x \mapsto gx$ is a well-defined bijection between $[G : G_x]$ and $\mathcal{O}_x$.
+        </p>
+    </div>
+    <div class="theorem-block">
+        <p>
+            <span class="theorem-head" id="theorem74">Theorem 7.4</span>
+            <span class="theorem-subtitle">Conjugacy classes and the class equation</span>
+        </p>
+        <p>
+            Let $G$ be a finite group acting on itself and $H$ a subgroup of $G$. Then:
+            <ol>
+                <li>The number of elements in the conjugacy class of $x \in G$ is $[G : C_G(x)]$.</li>
+                <li>If $\mathcal{O}(x_1), \ldots, \mathcal{O}(x_k)$ are the distinct conjugacy classes of $G$, then
+                $$
+                    |G| = \sum_{i=1}^k |\mathcal{O}(x_i)| = \sum_{i=1}^k [G : C_G(x_i)].
+                $$
+                </li>
+                <li>The number of subgroups of $G$ conjugate to $H$ is $[G : N_G(H)]$.</li>
+            </ol>
         </p>
     </div>
 </section>
