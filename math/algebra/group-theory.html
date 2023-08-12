@@ -611,6 +611,9 @@ title: "Group Theory"
         <p>
             (2) Recall that $N \vee H := \langle N \cup H \rangle$.
         </p>
+        <p>
+            (4) Since $N \triangleleft G$, we have $hnh^{-1} \in N$ and since $H \triangleleft G$, $nh^{-1}n^{-1} \in H$. Thus $hnh^{-1}n^{-1} \in H \cap N = \{e\}$, and so $hn = nh$.
+        </p>
     </div>
 
     <div class="theorem-block">
@@ -645,6 +648,95 @@ title: "Group Theory"
         <p>
             The arguments above work with right cosets as well. Without loss of generality, we will use left cosets when working with quotient groups.
         </p>
+    </div>
+    <div class="theorem-block">
+        <p>
+            <span class="theorem-head" id="theorem-5-5">Theorem 5.5</span>
+            <span class="theorem-subtitle">Kernel of a homomorphism and the canonical projection</span>
+        </p>
+        <p>
+            If $\varphi: G \to H$ is a group homomorphism, then $\operatorname{Ker} \varphi$ is a normal subgroup of $G$. Conversely, if $N$ is a normal subgroup of $G$, then the map $\pi: G \to G / N$ defined by $\pi(a) = aN$ is an epimorphism with kernel $N$.
+        </p>
+    </div>
+    <div class="example-block proof-block">
+        <p>
+            <em>Proof.</em>
+        </p>
+        <p>
+            Suppose $x \in \operatorname{Ker} \varphi$ and $a \in G$. Then
+            $$
+                \varphi(axa^{-1}) = \varphi(a)\varphi(x)\varphi(a^{-1}) = \varphi(a)\varphi(a^{-1}) = \varphi(aa^{-1}) = \varphi(e) = e',
+            $$
+            where $e$ and $e'$ are the identities of $G$ and $H$ respectively. Thus $axa^{-1} \in \operatorname{Ker} \varphi$, and so $\operatorname{Ker} \varphi \triangleleft G$.
+        </p>
+        <p>
+            The map $\pi$ is surjective by definition of $G / N$; and since for all $a, b \in G$,
+            $$
+                \pi(ab) = (ab)N = (aN)(bN) = \pi(a)\pi(b),
+            $$
+            $\pi$ is an epimorphism. We have further that
+            $$
+                \operatorname{Ker} \pi = \{a \in G : \pi(a) = N\} = \{a \in G : aN = N\} = \{a \in G : a \in N\} = N.
+            $$
+        </p>
+    </div>
+    <p>
+        We call $\pi$ the <em>canonical projection</em> of $G$ onto $G / N$.
+    </p>
+    <div class="theorem-block">
+        <p>
+            <span class="theorem-head" id="theorem-5-6">Theorem 5.6</span>
+            <span class="theorem-subtitle">First isomorphism theorem</span>
+        </p>
+        <p>
+            Let $\varphi: G \to H$ be a group homomorphism. If $N$ is a normal subgroup of $G$ contained in $\operatorname{Ker} \varphi$, then $\varphi$ induces an isomorphism $\psi : G / N \to H$ such that $\psi \circ \pi = \varphi$, where $\pi$ is the canonical projection of $G$ onto $G / N$. Moreover, $\psi$ is an isomorphism if and only if $\varphi$ is an epimorphism and $\operatorname{Ker} \varphi = N$.
+        </p>
+        <p>
+            In particular, $G / \operatorname{Ker} \varphi \cong \operatorname{Im} \varphi$.
+        </p>
+    </div>
+    <div class="example-block proof-block">
+        <p>
+            <em>Proof.</em>
+        </p>
+        <p>
+            Let $b$ be an element of some coset $aN$ of $G / N$. Then $b = an$ for some $n \in N$. Thus
+            $$
+                \varphi(b) = \varphi(an) = \varphi(a)\varphi(n) = \varphi(a)e' = \varphi(a),
+            $$
+            and thus $\varphi$ is constant on each coset of $G / N$. Thus if we define $\psi: G / N \to \operatorname{Im} \varphi$ by $\psi(aN) = \varphi(a)$, then $\psi$ is well-defined. Moreover, $\psi$ is a homomorphism because
+            $$
+                \psi(aN)\psi(bN) = \varphi(a)\varphi(b) = \varphi(ab) = \psi(abN).
+            $$
+        </p>
+        <p>
+            Moreover, we have
+            $$
+                \operatorname{Im} \psi = \{\psi(aN) : a \in G\} = \{\varphi(a) : a \in G\} = \operatorname{Im} \varphi.
+            $$
+            Thus $\psi$ is surjective if and only if $\varphi$ is surjective. Finally, $\psi$ is injective if and only if
+            $$
+                \begin{align}
+                    \operatorname{Ker} \psi &= \{aN \in G / N : \psi(aN) = e'\} = \{aN \in G / N : \varphi(a) = e'\}\\
+                    &= \{aN \in G / N : a \in \operatorname{Ker} \varphi\} = \operatorname{Ker} \varphi / N.
+                \end{align}
+            $$
+            is trivial, which is true if and only if $\operatorname{Ker} \varphi = N$. Therefore $\psi$ is an isomorphism if and only if $\varphi$ is an epimorphism and $\operatorname{Ker} \varphi = N$.
+        </p>
+        <p>
+            Since $\psi$ is uniquely determined by $\varphi$, it follows that it is unique. The last statement follows immediately from the proof.
+        </p>
+    </div>
+    <div class="theorem-block">
+        <p>
+            <span class="theorem-head" id="theorem-5-7">Theorem 5.7</span>
+            <span class="theorem-subtitle">Second isomorphism theorem</span>
+        </p>
+        <p>
+            Let $G$ be a group and let $H$ and $N$ be subgroups of $G$ such that $N \triangleleft G$. Then $HN / N \cong H / (H \cap N)$.
+        </p>
+    </div>
+
 </section>
 
 <section>
