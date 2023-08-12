@@ -32,6 +32,43 @@ title: "Group Theory Exercises"
             </p>    
         </div>
     </div>
+    <div class="question-container">
+        <div class="ex-question">
+            <p>Prove that for any group $G$, the order of $a \in G$ is equal to the order of $xax^{-1}$ for any $x \in G$.</p>
+        </div>
+        <div class="solution-block">
+            <p>
+                Let $|a| = n$ and $|xax^{-1}| = k$. Then
+                $$
+                    \begin{align}
+                    (xax^{-1})^n &= \overbrace{(xax^{-1})(xax^{-1})\cdots(xax^{-1})}^{n \text{ times}}\\
+                    &= xa^nx^{-1}\\
+                    &= xex^{-1}\\
+                    &= xx^{-1} = e.
+                    \end{align}
+                $$
+                Thus $k \leq n$. Similarly,
+                $$
+                    \begin{align}
+                    e = (xax^{-1})^k &= \overbrace{(xax^{-1})(xax^{-1})\cdots(xax^{-1})}^{k \text{ times}}\\
+                    &= xa^kx^{-1},
+                    \end{align}
+                $$
+                which implies $a^k = e$. Thus $n \leq k$ and therefore $n = k$.
+            </p>
+        </div>
+    </div>
+    
+    <div class="question-container">
+        <div class="ex-question">
+            <p>Let $N$ be a subgroup of index $2$ in a group $G$. Show that $N$ is normal in $G$.</p>
+        </div>
+        <div class="solution-block">
+            <p>
+                Let $g \in G$. Then $gN$ is a left coset of $N$ in $G$. Since $[G:N] = 2$, there are only two left cosets of $N$ in $G$, namely $N$ and $gN$. Thus $gN = N$ or $gN = G \setminus N$. In the former case, $g \in N$ and therefore $gN = Ng$. In the latter case, $g \notin N$ and therefore $gN = G \setminus N = Ng$. Thus $gN = Ng$ for all $g \in G$ and therefore $N$ is normal in $G$.
+            </p>
+        </div>
+    </div>
  </section>   
 
  <section>
