@@ -924,6 +924,36 @@ title: "Group Theory"
             </ol>
         </p>
     </div>
+    <div class="theorem-block">
+        <p>
+            <span class="theorem-head" id="theorem75">Theorem 7.5</span>
+            <span class="theorem-subtitle">Group actions as permutations</span>
+        </p>
+        <p>
+            Let $G$ be a group acting on a set $X$. Then the action of $G$ on $X$ induces a homomorphism $G \to \mathfrak{S}_X$, where $\mathfrak{S}_X$ is the set of all permutations of $X$.
+        </p>
+    </div>
+    <div class="example-block proof-block">
+        <p>
+            <em>Proof.</em>
+        </p>
+        <p>
+            Fix $a \in G$ and let $\tau_a : X \to X$ be a map defined by $a \mapsto ax$. Then $\tau_a$ is surjective because for all $x \in X$, $a^{-1}x \in X$ and $\tau_a(a^{-1}x) = a(a^{-1}x) = x$. Moreover, $\tau_a$ is injective because if $\tau_a(x) = \tau_a(y)$, then $ax = ay$ and so $x = y$. Therefore $\tau_a$ is a permutation. Finally, for any $a, b \in G$ and $x \in X$, we have
+            $$
+                \tau_{ab}(x) = (ab)x = a(bx) = \tau_a(bx) = \tau_a(\tau_b(x)) = (\tau_a \tau_b)(x),
+            $$
+            and so $\tau_{ab} = \tau_a \tau_b$ and thus $\tau_a: G \to \mathfrak{S}_X$ is a homomorphism.
+        </p>
+    </div>
+    <div class="theorem-block">
+        <p>
+            <span class="theorem-head" id="theorem76">Theorem 7.6</span>
+            <span class="theorem-subtitle">Cayley&rsquo;s theorem</span>
+        </p>
+        <p>
+    
+        </p>
+    </div>
 </section>
 
 <section>
