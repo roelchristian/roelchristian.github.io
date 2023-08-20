@@ -951,7 +951,15 @@ title: "Group Theory"
             <span class="theorem-subtitle">Cayley&rsquo;s theorem</span>
         </p>
         <p>
-    
+            Every group $G$ can be embedded in $\mathfrak{S}_G$. In particular, $G$ is isomorphic to a subgroup of $\mathfrak{S}_G$.
+        </p>
+    </div>
+    <div class="example-block proof-block">
+        <p>
+            <em>Proof.</em>
+        </p>
+        <p>
+            Let $G$ act on itself by left translation. Then by <a href="#theorem75">Theorem 7.5</a>, there exists a homomorphism $\tau: G \to \mathfrak{S}_G$ such that $\tau_g \in \mathfrak{S}_G$. We claim that $\tau$ is injective. Suppose $\tau_g = \tau_h$ for some $g, h \in G$. Then for all $x \in G$, $\tau_g(x) = gx = hx = \tau_h(x)$, and so $g = h$. Thus $\tau$ is injective, and so $G$ is isomorphic to the image of $\tau$ which is a subgroup of $\mathfrak{S}_G$.
         </p>
     </div>
 </section>
