@@ -1082,7 +1082,6 @@ footer p {
         width: 90%;
         padding-left: 5%;
         padding-right: 5%;
-        
     }
     form {
         width: 85%;
@@ -1098,7 +1097,6 @@ footer p {
     section > table
     {
         width: 100%;
-        font-size: 14px;
     }
 
     section > div.example-block,
@@ -1138,7 +1136,6 @@ footer p {
     section > ul,
     .cv-company-div ul {
         width: 95%;
-        font-size: 14px;
     }
   
     .in-text-nav {
