@@ -3,9 +3,14 @@
 @charset "UTF-8";
 
 @import url('https://rsms.me/inter/inter.css');
-html { font-family: 'IBM', sans-serif; }
+
+html {
+  font-family: 'Inter', sans-serif;
+}
 @supports (font-variation-settings: normal) {
-  html { font-family: 'Inter var', sans-serif; }
+  html {
+    font-family: 'Inter var', sans-serif;
+  }
 }
 
 :root{
@@ -26,7 +31,7 @@ html { font-family: 'IBM', sans-serif; }
   --accent-color-amber: #FFBF00;
   --accent-color-red: #E32227;
   --accent-color-blue: #0476D0;
-  --font-size: 15px;
+  --font-size: 16px;
   --var-font-size: 13px;
   --var-larger-font-size: 20px;
   --var-header-size: 26px;
@@ -70,7 +75,8 @@ body {
     max-width: 1400px;
     counter-reset: example-counter sidenote-counter;
     line-height:var(--line-height);
-  
+    letter-spacing: -0.1em;
+    font-weight: 400;
 }
 
 article{
@@ -212,6 +218,7 @@ h2 {
     margin-bottom: var(--line-height);
     font-size: var(--var-larger-font-size);
     line-height: var(--var-larger-line-height);
+    letter-spacing: 0em;
 }
 
 h3 {
