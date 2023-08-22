@@ -431,6 +431,41 @@ title: "Group Theory"
             Now consider the case where $G$ is finite of order $n$. For $r, s \in \mathbb{Z}$, we have $a^r = a^s$ if and only if $a^{r-s} = e$, i.e., if and only if $r - s \in \operatorname{Ker} \Phi$.
         </p>
     </div>
+
+    <div class="theorem-block">
+        <p>
+            <span class="theorem-head" id="theorem33">Theorem 3.3</span>
+            <span class="theorem-subtitle">Order of elements in a cyclic group</span>
+        </p>
+        <p>
+            Let $G$ be a cyclic group and $a$ an element of $G$. If $G$ has infinite order then
+            <ol>
+                <li>
+                    $a^k = e$ if and only if $k = 0$.
+                </li>
+                <li>
+                    $a^k = a^m$ if and only if $k = m$.
+                </li>
+            </ol>
+        </p>
+        <p>
+            If $G$ has finite order $n$, then
+            <ol>
+                <li>
+                    $n$ is the least positive integer such that $a^n = e$.
+                </li>
+                <li>
+                    $a^k = e$ if and only if $n$ divides $k$.
+                </li>
+                <li>
+                    $a^k = a^m$ if and only if $k \equiv m \pmod{n}$.
+                </li>
+                <li>
+                    for each $k$ such that $k \mid n$, then $|a^k| = \frac{n}{k}$.
+                </li>
+            </ol>
+        </p>
+    </div>
 </section>
 
 <section>
@@ -974,6 +1009,83 @@ title: "Group Theory"
     <h2 id="abelian-groups">
         9. Abelian groups<sup><small>*</small></sup>
     </h2>
+    <p>
+        We first introduce the notion of a free group, and use it to describe groups in terms of generators and relations.
+    </p>
+    <p>
+        A <em>word</em> on a set $X$ is a sequence of the form
+        $$
+            a_1, a_2, \ldots,
+        $$
+        where each $a_i \in X \cup X^{-1} \cup \{1\}$ (here the set $X^{-1}$ is a set disjoint from $X$ such that $|X| = |X^{-1}|$ and whose elements we denote by the bijection $x \mapsto x^{-1}$ and $\{1\}$ is a singleton disjoint from both $X$ and $X^{-1}$, i.e., the choice of $1$ though suggestive is arbitrary) and such that for some $n \in \mathbb{N}$, $a_i = 1$ for all $i > n$. We call $n$ the <em>length</em> of the word and the elements $a_1, a_2, \ldots$ letters. The sequence
+        $$
+            1, 1, \ldots
+        $$
+        is called the <em>empty word</em> and is denoted by $1$.
+    </p>
+    <p>
+        We say that a word is <em>reduced</em> provided that
+        <ol>
+            <li>
+                $a_i = x$ implies $a_{i+1} \neq x^{-1}$ for all $i \in \mathbb{N}$ (i.e., no letter is followed by its inverse)
+            </li>
+            <li>
+                $a_k = 1$ implies $a_i = 1$ for all $i > k$
+            </li>
+        </ol>
+    </p>
+    <p>
+        Every reduced word is thus of the form
+        $$
+            a_1^{\lambda_1} a_2^{\lambda_2} \cdots a_n^{\lambda_n}, 1, 1, \ldots,
+        $$
+        where $a_i \in X$ and $\lambda_i = \pm 1$ for all $i = 1, \ldots, n$. For the sake of brevity we shall hereafter denote this word as
+        $$
+            a_1^{\lambda_1} a_2^{\lambda_2} \cdots a_n^{\lambda_n}.
+        $$
+        We denote the set of all reduced words on $X$ by $F_X$.
+    </p>
+    <div class="theorem-block">
+        <p>
+            <span class="theorem-head" id="theorem91">Theorem 9.1</span>
+            <span class="theorem-subtitle">Set of reduced words is a group</span>
+        </p>
+        <p>
+            Let $X$ be a set. Then $F_X$ is a group under the operation defined as follows.
+        </p>
+        <p>
+            Let $w = a_1^{\lambda_1} a_2^{\lambda_2} \cdots a_n^{\lambda_n}$ and $w' = b_1^{\mu_1} b_2^{\mu_2} \cdots b_m^{\mu_m}$ be reduced words on $X$. Then we define the product $ww'$ as the concatenation of $w$ and $w'$ followed by reduction (i.e., cancellation of adjacent letters of the form $xx^{-1}$ or $x^{-1}x$). That is,
+            $$
+                ww' = a_1^{\lambda_1} a_2^{\lambda_2} \cdots a_n^{\lambda_n} b_1^{\mu_1} b_2^{\mu_2} \cdots b_m^{\mu_m}.
+            $$
+            Moreover, $F_X = \langle X \rangle$.
+        </p>
+        <p>
+            We call $F_X$ the <em>free group</em> on $X$.
+        </p>
+    </div>
+    <div class="example-block proof-block">
+        <p>
+            <em>Proof.</em>
+        </p>
+        <p>
+            By our definition of the product in $F_X$, it follows that $ww'$ is also a reduced word. The empty word $1$ is the identity because $1w = w1 = w$ for all $w \in F_X$. Finally, for any $w = a_1^{\lambda_1} a_2^{\lambda_2} \cdots a_n^{\lambda_n}$, we have
+            $$
+                w^{-1} = a_n^{-\lambda_n} \cdots a_2^{-\lambda_2} a_1^{-\lambda_1},
+            $$
+            and so $w^{-1}w = ww^{-1} = 1$. Thus $F_X$ is a group.
+        </p>
+        <p>
+            It remains to show that the product is associative. 
+        </p>
+        <p>
+            To prove the second statement, recall that $\langle X \rangle$ consists of all finite products of the form
+            $$
+                x_1^{\n_1} x_2^{\n_2} \cdots x_k^{\n_k},
+            $$
+            where $x_i \in X$ and $\n_i = \in \mathbb{Z}$ and thus every element of $\langle X \rangle$ is a reduced word. Moreover, every reduced word is a finite product of elements of $X$ and their inverse. Therefore $F_X = \langle X \rangle$.
+        </p>
+    </div>
 </section>
 
 <section>
