@@ -397,7 +397,8 @@ section > footer,
 section > table,
 section > div.theorem-block,
 section > div.example-block,
-div.question-container
+div.question-container,
+section div.translation-block
 {
     width: 55%;
 }
@@ -1076,6 +1077,41 @@ footer p {
     font-size: var(--var-font-size);
 }
   
+.ocs-font {
+  font-family: "Ponomar Unicode", serif;
+  font-size: 110%;
+}
+
+/* make first letter harvard crimson */
+
+.ocs-font p::first-letter {
+  font-size: 125%;
+  color: #A51C30;
+}
+
+
+section div.translation-notes p {
+  font-size: var(--var-font-size);
+  line-height: var(--var-line-height);
+}
+
+.translation-block p {
+  font-size: var(--font-size);
+  line-height: var(--line-height);
+}
+
+.translation-block{
+  padding-bottom: 20px;
+}
+
+p.english-translation {
+  color: var(--var-color-gray);
+}
+
+.crimson {
+  color: #A51C30;
+}
+
 @media (min-width: 760px){
   h1, ol.example, .avatar img, extlink-container{
     max-width: 55%;
@@ -1108,7 +1144,11 @@ footer p {
     }
 
     section > div.example-block,
-    div.question-container {
+    div.question-container,
+    section div.translation-block
+
+    
+    {
         width: 100%;
     }
 
