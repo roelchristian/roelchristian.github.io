@@ -1,0 +1,143 @@
+vocabulary:
+  - letter: A
+    words:
+      - word: "аминь"
+        pronunciation: "amʲinʲ"
+        part_of_speech: "interj."
+        translation: "amen"
+        etymology: "Lat. amen, from A. Gk. ἀμήν (amḗn)"
+      - word: "андьел"
+        translation: "angel"
+        pronunciation: "anʲdʲɛɫ"
+        part_of_speech: "n."
+        etymology: "Lat. angelus, ultimately from A. Gk. ἄγγελος (ángelos, “messenger”)"
+        usage_note: "The archaic spelling аггел is sometimes used in poetry and in some Bible translations"
+        examples:
+          - example: "Тѣжим андьел за Мариѣ зничек."
+            translation: "The angel of the Lord declared unto Mary."
+  - letter: Б
+    words:
+      - word: "бахтіи"
+        pronunciation: "baxˈtʲiː"
+        part_of_speech: "att."
+        translation: "only-begotten"
+      - word: "без"
+        pronunciation: "bɛs"
+        part_of_speech: "n."
+        translation: "husband"
+      - word: "бнима"
+        pronunciation: "bnʲima"
+        part_of_speech: "n."
+        translation: "homeland, country" 
+  - letter: В
+    words:
+      - word: "вдѣль"
+        pronunciation: "vdʲelʲ"
+        part_of_speech: "n."
+        translation: "judge, magistrate"
+      - word: "вуц"
+        pronunciation: "vut͡s"
+        part_of_speech: "num."
+        translation: "two"
+  - letter: Г
+    words:
+      - word: "глаў"
+        pronunciation: "xlaw"
+        part_of_speech: "n."
+        translation: "chapter"
+        etymology: "prob. P.S. *glava"
+  - letter: Д
+    words:
+      - word: "дум"
+        translation: "house, building"
+        pronunciation: "dum"
+        part_of_speech: "n."
+        etymology: "Borrowed from P.S. *domъ"
+      - word: "духа"
+        translation: "lord, master"
+        pronunciation: "duxa"
+        part_of_speech: "n."
+        usage_note: "In Christian usage, the word is used to refer to God, the Holy Spirit, or Jesus Christ and is wriiten with a capital letter. (V. 1))" 
+        examples:
+          - example: "ДУХA дѣ отмѣлжія."
+            translation: "The Lord is my shepherd, lit., The lord nourishes/feeds me."
+            source: "Жал. 23.1"
+          - example: "Роўсци духа зам Фродо: це то Мордору Чезніи Зиби a сніи закод раз земна трѣбуінме духа."
+            translation: "The Lord of the Ring is not Frodo, but the master of the Dark Tower of Mordor, whose power is again stretching out over the world."
+            source: "Толкин"
+  - letter: Е
+  - letter: Ѣ
+  - letter: Ж
+  - letter: З
+    words:
+      - word: "зем"
+        pronunciation: "zɛm"
+        part_of_speech: "n."
+        translation: "side, direction"
+        usage_note: "The -e- is fleeting: cf. acc. зма, gen. зми, instr. змy"
+      - word: "зиба"
+        pronunciation: "ziba"
+        part_of_speech: "n."
+        translation: "tower, fortress"
+
+  - letter: И
+  - letter: Й
+  - letter: І
+  - letter: К
+  - letter: Л
+    words:
+      - word: "ласка"
+        pronunciation: "laska"
+        part_of_speech: "v."
+        translation: "to stay, to remain"
+      
+  - letter: М
+    words:
+      - word: "мално"
+        var: 1
+        pronunciation: "malno"
+        part_of_speech: "n."
+        translation: "language"
+      - word: "мамка"
+        pronunciation: "mamkа"
+        part_of_speech: "n., dim."
+        translation: "mother, mom"
+      - word: "марь"
+        pronunciation: "marʲ"
+        part_of_speech: "n."
+        translation: "king, ruler, lord"
+      - word: "мать"
+        pronunciation: "matʲ"
+        part_of_speech: "n."
+        translation: "mother"
+      - word: "маша"
+        pronunciation: "mаʃa"
+        part_of_speech: "n."
+        translation: "man"
+      - word: "милень"
+        part_of_speech: "n."
+        translation: "word"
+      - word: "милнарь"
+        part_of_speech: "n."
+        translation: "dictionary"
+        etymology: "милень + -арь"
+      - word: "може"
+        pronunciation: "moʒe"
+        translation: "also, too"
+        part_of_speech: "adv."
+  - letter: Н
+    words:
+      - word: "нaў"
+        pronunciation: "naw"
+        part_of_speech: "n."
+        translation: "woman, wife"
+      - word: "ноў"
+        pronunciation: "now"
+        part_of_speech: "num."
+        translation: "ten"
+        examples:
+          - example: "Ноў хлету днѣ мозлaшія. (Рут 1.4)"
+            translation: "And they dwelled there about ten years."
+
+
+

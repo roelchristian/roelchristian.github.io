@@ -347,6 +347,48 @@ h2.header-num{
     color: var(--var-color-gray);
 }
 
+.vocab-word{
+  font-weight: 500;
+}
+
+.vocab-example-block, .vocab-usage-note{
+  padding-left: 20px;
+  margin:0;
+  font-size: var(--var-font-size);
+  line-height: var(--var-line-height);
+  color: var(--var-color-gray);
+  margin-top: -10px;
+}
+
+.vocab-part-of-speech{
+  font-style: italic;
+}
+
+.vocab-example-number{
+  font-weight: 600;
+  color: var(--var-color-gray);
+}
+
+/* center index wrapper */
+.vocab-index{
+  text-align: center;
+}
+
+.return-to-index{
+  font-size: var(--var-font-size);
+  line-height: var(--var-line-height);
+  color: var(--var-color-gray);
+  font-weight: 500;
+}
+
+.vocab-index a{
+  font-weight: 500;
+  font-size: var(--var-font-size);
+  line-height: var(--var-line-height);
+  color: var(--var-color-gray);
+}
+
+
 .sec-subtitle{
   display: inline;
   color: var(--var-color-gray); 
@@ -492,7 +534,8 @@ section > table,
 section > div.theorem-block,
 section > div.example-block,
 div.question-container,
-section div.translation-block
+section div.translation-block,
+section div.vocab-word-wrap
 {
     width: 55%;
 }
@@ -850,11 +893,11 @@ label.margin-toggle:not(.sidenote-number) {
   padding: 10px 0;
 }
 
-.hangind {
+.hangind{
   padding: 1em 0;
 }
   
-.hangind p{
+.hangind p, p.hangind{
   padding-left: 20px;
     text-indent: -20px;
     margin:0;
@@ -1234,9 +1277,8 @@ p.english-translation {
 
     section > div.example-block,
     div.question-container,
-    section div.translation-block
-
-    
+    section div.translation-block,
+    section div.vocab-word-wrap
     {
         width: 100%;
     }

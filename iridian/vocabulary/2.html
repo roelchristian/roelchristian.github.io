@@ -1,0 +1,94 @@
+---
+layout: container
+title: Милнарь, тлой 1 (A &ndash; Н)
+---
+
+<!-- reads yaml file data/vocab01.yaml -->
+
+<p class="vocab-index" id="vocab-index">
+    <!-- print letters separated by a dot -->
+    {% for letter in site.data.vocab02.vocabulary %}
+        <a href="#vocab-{{ letter.letter }}">{{ letter.letter }}</a>
+        {% if forloop.last == false %}
+            &middot;
+        {% endif %}
+    {% endfor %}
+</p>
+
+{% for letter in site.data.vocab02.vocabulary %}
+<section>
+    <h2 id="vocab-{{ letter.letter }}">{{ letter.letter }} <span class="small-ver">{{ letter.letter | downcase }}</span>
+    </h2>
+
+    <p class="return-to-index">
+        <a href="#vocab-index">Return to index</a>
+    </p>
+
+
+    {% for word in letter.words %}
+    <div class="vocab-word-wrap">
+        <p class="vocab-word-par hangind">
+
+            <!--if pronunciation exists, print it -->
+            {% if word.pronunciation %}
+                <span class="vocab-word">{{ word.word }}</span>
+                <span class="vocab-pronunciation">({{ word.pronunciation }})</span>
+                &middot;
+            {% else %}
+                <span class="vocab-word">{{ word.word }}</span>
+                &middot;
+            {% endif %}
+            <!-- if part of speech exists, print it -->
+            {% if word.part_of_speech %}
+                <span class="vocab-part-of-speech">{{ word.part_of_speech }}</span>
+            {% endif %}
+            <span class="vocab-translation">{{ word.translation }}</span>
+
+            {% if word.etymology %}
+               > <span class="vocab-etymology">{{ word.etymology }}</span>
+            {% else %}
+                
+            {% endif %}
+    
+            {% if word.usage_note %}
+                <p class="vocab-usage-note">
+                    <span class="vocab-notes">{{ word.usage_note }}</span>
+                </p>
+            {% endif %}
+        </p>
+        <!-- if more than one example, number them -->
+        <p class="vocab-example-block">
+        {% if word.examples.size > 1 %}
+            {% assign example_number = 1 %}
+            {% for example in word.examples %}
+                    <span class="vocab-example-number">{{ example_number }}.</span>
+                    <span class="vocab-example">{{ example.example }}</span>
+                        <!-- if source is given, print it -->
+                    {% if example.source %}
+                        <span class="vocab-example-source">({{ example.source }})</span>
+                    {% endif %}
+                <span class="vocab-translation">&lsquo;{{ example.translation }}&rsquo;</span>
+
+                {% assign example_number = example_number | plus: 1 %}
+            {% endfor %}
+        <!-- if only one example, don't number it -->
+        {% else %}
+                {% for example in word.examples %}
+                <span class="vocab-example">{{ example.example }}</span>
+                <!-- if source is given, print it -->
+                {% if example.source %}
+                    <span class="vocab-example-source">({{ example.source }})</span>
+                {% endif %}
+                <span class="vocab-translation">&lsquo;{{ example.translation }}&rsquo;</span>
+
+            {% endfor %}
+        {% endif %}
+        </p>
+
+    </div>
+    {% endfor %}
+
+</section>   
+{% endfor %}
+
+{% include abbreviations.html %}
