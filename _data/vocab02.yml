@@ -6,7 +6,6 @@ vocabulary:
         pronunciation: "papa"
         part_of_speech: "n."
         translation: "pope"
-
       - word: "пoўда"
         pronunciation: "powda"
         part_of_speech: "v."
@@ -19,6 +18,24 @@ vocabulary:
           - example: "Ишмаилу поўднеж."
             source: "Мелвил, Маби Дик"
             translation: "Call me Ishmael."
+      - word: "пяшта"
+        pronunciation: "pʲaʃta"
+        part_of_speech: "v."
+        translation: "to eat"
+        usage_note: "With the benefactive this has the meaning of to feed. (V. 2)"
+        examples:
+          - example: "Кам а мозлоўнія бниме щенжицесты Израили былам
+           вутыдна хлету мана пяштнія;  Канаани нигоста щенжицесты мана што пяштнія."
+            source: "2 Моз. 16.35"
+            translation: "And the children of Israel did eat manna forty years, until they came to a land inhabited; they did eat manna, until they came unto the borders of the land of Canaan."
+          - example: "Цверь прѣште ѣдны морец, ша пяштебим."
+            source: "Рум. 12.20"
+            translation: "Therefore if thine enemy hunger, feed him."
+          - example: "A з уціи на хредина яким пящалнія."
+            source: "1 Моз. 2.16"
+            translation: "Of every tree of the garden thou mayest freely eat."
+          
+
   - letter: С
   - letter: Т
     words:

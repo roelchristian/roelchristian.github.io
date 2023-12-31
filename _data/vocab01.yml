@@ -18,7 +18,7 @@ vocabulary:
   - letter: Б
     words:
       - word: "бахтіи"
-        pronunciation: "baxˈtʲiː"
+        pronunciation: "baxˈtʲej"
         part_of_speech: "att."
         translation: "only-begotten"
       - word: "без"
@@ -70,13 +70,25 @@ vocabulary:
   - letter: Ж
   - letter: З
     words:
+      - word: "закод"
+        pronunciation: "zaxod"
+        part_of_speech: "n."
+        translation: "power, might"
+      - word: "закодѣсть"
+        pronunciation: "zaxodʲestʲ"
+        part_of_speech: "n."
+        translation: "strength, might"
+      - word: "закодніи"
+        pronunciation: "zaxodnʲej"
+        part_of_speech: "att."
+        translation: "mighty, powerful"
       - word: "зем"
         pronunciation: "zɛm"
         part_of_speech: "n."
         translation: "side, direction"
         usage_note: "The -e- is fleeting: cf. acc. зма, gen. зми, instr. змy"
       - word: "зиба"
-        pronunciation: "ziba"
+        pronunciation: "zʲiba"
         part_of_speech: "n."
         translation: "tower, fortress"
 
