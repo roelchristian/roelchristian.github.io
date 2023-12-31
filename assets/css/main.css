@@ -1077,18 +1077,14 @@ footer p {
     font-size: var(--var-font-size);
 }
   
-.ocs-font {
-  font-family: "Ponomar Unicode", serif;
-  font-size: 110%;
+.cyr-font {
+  font-family: "IBM Plex Sans", sans-serif;
+
 }
 
-/* make first letter harvard crimson */
-
-.ocs-font p::first-letter {
-  font-size: 125%;
-  color: #A51C30;
+.grammar-href{
+  font-weight: 400;
 }
-
 
 section div.translation-notes p {
   font-size: var(--var-font-size);
