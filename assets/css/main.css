@@ -29,6 +29,7 @@ html {
   --accent-color-amber: #FFBF00;
   --accent-color-red: #E32227;
   --accent-color-blue: #0476D0;
+  --accent-color-crimson: #A51C30;
   --font-size: 16px;
   --var-font-size: 13px;
   --var-larger-font-size: 20px;
@@ -1212,9 +1213,10 @@ footer p {
     font-size: var(--var-font-size);
 }
   
-/* .cyr {
-  font-family: "IBM Plex Sans", sans-serif;
-} */
+.cyr {
+  /* font-family: "IBM Plex Sans", sans-serif; */
+  color: var(--accent-color-crimson);
+}
 
 .grammar-href{
   font-weight: 400;
