@@ -11,9 +11,12 @@ html {
 
 :root{
   font-family: Inter, sans-serif;
-  font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+  /* ligatures and contextual alternates */
+  font-feature-settings: "liga" 1, "calt" 1, "dlig" 1, "tnum" 1;
+  -webkit-font-feature-settings: "liga" 1, "calt" 1, "dlig" 1, "tnum" 1;
+  -moz-font-feature-settings: "liga" 1, "calt" 1, "dlig" 1, "tnum" 1;
   --main-font: "Inter", sans-serif;
-  --small-caps-font: "Alegreya Sans SC", sans-serif;
+  /* --small-caps-font: "Alegreya Sans SC", sans-serif; */
   --var-serif-font: serif;
   --title-font: "Raleway";
   --mono-font: "IBM Plex Mono", Consolas;
@@ -30,7 +33,7 @@ html {
   --accent-color-red: #E32227;
   --accent-color-blue: #0476D0;
   --accent-color-crimson: #A51C30;
-  --accent-color-crimson-dark-mode: #FABDCA;
+  --accent-color-crimson-dark-mode: #a9a9a9;
   --font-size: 16px;
   --var-font-size: 13px;
   --var-larger-font-size: 20px;
@@ -197,7 +200,16 @@ p {
   span.cyr, p.cyr {
     color: var(--accent-color-crimson-dark-mode);
     kerning: auto;
+    /* dotted underline */
+    border-bottom: 1px dotted var(--accent-color-crimson-dark-mode); 
+    text-decoration: none;
+    width: max-content;
+  }
 
+  p.cyr:hover, span.cyr:hover {
+    color: var(--darkmode-color);
+    border-bottom: 1px dotted var(--darkmode-color);
+    width: max-content;
   }
 }
 
@@ -314,17 +326,22 @@ p.en {
   margin: 0em;
   font-size: var(--var-font-size);
 }
-p.ird {
-  margin: 0em;
-}
-
-.ir, .ird{
-  font-style: italic;
-}
 
 .gloss{
-  font-family: var(--small-caps-font);
-  font-size: var(--font-size);
+  /* small caps from capital letters */
+  font-variant-caps: small-caps;
+}
+
+.en-translation, .gloss-text{
+  font-size: var(--var-font-size);
+  line-height: var(--var-line-height);
+  margin: 0;
+  color: var(--var-color-gray);
+}
+
+.gloss-sub {
+  padding: 0;
+  margin-top: -0.5em;
 }
 
 th, td {
@@ -443,6 +460,7 @@ sub{
 
 table{
   font-size: var(--var-font-size);
+  line-height: var(--var-line-height);
 }
 
 table.mid-wd {
@@ -542,7 +560,8 @@ section > div.theorem-block,
 section > div.example-block,
 div.question-container,
 section div.translation-block,
-section div.vocab-word-wrap
+section div.vocab-word-wrap,
+section div.gloss-wrapper
 {
     width: 55%;
 }
@@ -1286,7 +1305,8 @@ p.english-translation {
     section > div.example-block,
     div.question-container,
     section div.translation-block,
-    section div.vocab-word-wrap
+    section div.vocab-word-wrap,
+    section div.gloss-wrapper
     {
         width: 100%;
     }
