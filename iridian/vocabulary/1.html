@@ -62,7 +62,7 @@ title: Милнарь, тлой 1 (A &ndash; Н)
             {% assign example_number = 1 %}
             {% for example in word.examples %}
                     <span class="vocab-example-number">{{ example_number }}.</span>
-                    <span class="vocab-example">{{ example.example }}</span>
+                    <span class="vocab-example cyr">{{ example.example }}</span>
                         <!-- if source is given, print it -->
                     {% if example.source %}
                         <span class="vocab-example-source">({{ example.source }})</span>
@@ -74,7 +74,7 @@ title: Милнарь, тлой 1 (A &ndash; Н)
         <!-- if only one example, don't number it -->
         {% else %}
                 {% for example in word.examples %}
-                <span class="vocab-example">{{ example.example }}</span>
+                <span class="vocab-example cyr">{{ example.example }}</span>
                 <!-- if source is given, print it -->
                 {% if example.source %}
                     <span class="vocab-example-source">({{ example.source }})</span>
