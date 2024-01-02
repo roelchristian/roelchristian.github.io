@@ -30,6 +30,7 @@ html {
   --accent-color-red: #E32227;
   --accent-color-blue: #0476D0;
   --accent-color-crimson: #A51C30;
+  --accent-color-crimson-dark-mode: #FABDCA;
   --font-size: 16px;
   --var-font-size: 13px;
   --var-larger-font-size: 20px;
@@ -190,6 +191,13 @@ p {
   
     #extra-bio-start {
       color: var(--darkmode-bg-color);
+  }
+
+
+  span.cyr, p.cyr {
+    color: var(--accent-color-crimson-dark-mode);
+    kerning: auto;
+
   }
 }
 
