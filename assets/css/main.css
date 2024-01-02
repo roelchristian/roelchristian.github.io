@@ -2,18 +2,16 @@
 
 @charset "UTF-8";
 
-@import url('https://rsms.me/inter/inter.css');
-
 html {
   font-family: 'Inter', sans-serif;
 }
 @supports (font-variation-settings: normal) {
-  html {
-    font-family: 'Inter var', sans-serif;
-  }
+  :root { font-family: InterVariable, sans-serif; }
 }
 
 :root{
+  font-family: Inter, sans-serif;
+  font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
   --main-font: "Inter", sans-serif;
   --small-caps-font: "Alegreya Sans SC", sans-serif;
   --var-serif-font: serif;
