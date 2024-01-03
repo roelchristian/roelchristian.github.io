@@ -806,6 +806,21 @@ div.table-wrapper {
   text-align: left;
 }
 
+.under-construction {
+  color: var(--var-color-gray);
+  padding: 10px 15px;
+  border: 0.5px solid #777;
+  width: 55%;
+  border-radius: 8px;
+  margin: 0;
+}
+
+.under-construction p {
+  margin: 0;
+  padding: 0;
+  font-size: var(--var-font-size);
+  line-height: var(--var-line-height);
+}
 
 
 code, pre > code {
@@ -1338,7 +1353,8 @@ p.english-translation {
 
 
 
-    section > div.theorem-block{
+    section > div.theorem-block,
+    .under-construction{
         width: 90%;
     }
 
