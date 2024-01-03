@@ -60,3 +60,9 @@ vocabulary:
   - letter: Ь
   - letter: Ю
   - letter: Я
+    words:
+      - word: "яко"
+        pronunciation: "jako"
+        part_of_speech: "n."
+        translation: "tree"
+        
