@@ -23,6 +23,7 @@ html {
   --main-bg-color:  #fffff8;
   --main-color: #171717;
   --var-color-gray: #888;
+  --var-color-dark-gray: #2d2d2d;
   --darkmode-bg-color: #222;
   --darkmode-color: #ddd;
   --accent-color-light-gray: #a9a9a9;
@@ -197,6 +198,9 @@ p {
       color: var(--darkmode-bg-color);
   }
 
+  .table-container th {
+    background-color: var(--var-color-dark-gray) !important;
+  }
 
   span.cyr, p.cyr {
     color: var(--accent-color-crimson-dark-mode);
