@@ -760,6 +760,7 @@ div.table-wrapper {
 .cayley-table-container, .table-container{
   width: inherit;
   overflow-x: auto;
+  padding-left: 10px
 }
 
 .cayley-table, .table {
@@ -776,7 +777,7 @@ div.table-wrapper {
 }
 
 .table-container td, .table-container th {
-  border: 0.25px solid #777;
+  border: 0.5px solid #777;
   padding: 8px 15px;
   width: fit-content;
 }
@@ -788,6 +789,7 @@ div.table-wrapper {
   text-transform: uppercase;
   font-size: var(--footnote-size);
 }
+
 
 
 
