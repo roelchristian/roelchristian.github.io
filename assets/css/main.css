@@ -784,7 +784,10 @@ div.table-wrapper {
   border: 0.5px solid #777;
   padding: 8px 15px;
   width: fit-content;
+  white-space: nowrap;
 }
+
+
 
 .table-container th {
   background-color: #f4f4f0;
