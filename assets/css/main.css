@@ -12,9 +12,9 @@ html {
 :root{
   font-family: Inter, sans-serif;
   /* ligatures and contextual alternates */
-  font-feature-settings: "liga" 1, "calt" 1, "dlig" 1, "tnum" 1, "ss03" 1;
-  -webkit-font-feature-settings: "liga" 1, "calt" 1, "dlig" 1, "tnum" 1, "ss03" 1;
-  -moz-font-feature-settings: "liga" 1, "calt" 1, "dlig" 1, "tnum" 1, "ss03" 1;
+  font-feature-settings: "liga" 1, "calt" 1, "dlig" 1, "tnum" 1;
+  -webkit-font-feature-settings: "liga" 1, "calt" 1, "dlig" 1, "tnum" 1;
+  -moz-font-feature-settings: "liga" 1, "calt" 1, "dlig" 1, "tnum" 1;
   --main-font: "Inter", sans-serif;
   --small-caps-font: "Alegreya Sans SC", sans-serif;
   --var-serif-font: serif;
@@ -34,11 +34,11 @@ html {
   --accent-color-blue: #0476D0;
   --accent-color-crimson: #A51C30;
   --accent-color-crimson-dark-mode: #a9a9a9;
-  --font-size: 16px;
-  --var-font-size: 13px;
-  --var-larger-font-size: 20px;
-  --var-header-size: 26px;
-  --footnote-size: 11px;
+  --font-size: 15px;
+  --var-font-size: 12px;
+  --var-larger-font-size: 18px;
+  --var-header-size: 24px;
+  --footnote-size: 10px;
   --line-height: calc(var(--font-size) * 1.5);
   --var-line-height: calc(var(--var-font-size) * 1.5);
   --var-larger-line-height: calc(var(--var-larger-font-size) * 1.35);
