@@ -12,9 +12,9 @@ html {
 :root{
   font-family: Inter, sans-serif;
   /* ligatures and contextual alternates */
-  font-feature-settings: "liga" 1, "calt" 1, "dlig" 1, "tnum" 1;
-  -webkit-font-feature-settings: "liga" 1, "calt" 1, "dlig" 1, "tnum" 1;
-  -moz-font-feature-settings: "liga" 1, "calt" 1, "dlig" 1, "tnum" 1;
+  font-feature-settings: "liga" 1, "calt" 1, "dlig" 1, "tnum" 1, "ss03" 1;
+  -webkit-font-feature-settings: "liga" 1, "calt" 1, "dlig" 1, "tnum" 1, "ss03" 1;
+  -moz-font-feature-settings: "liga" 1, "calt" 1, "dlig" 1, "tnum" 1, "ss03" 1;
   --main-font: "Inter", sans-serif;
   --small-caps-font: "Alegreya Sans SC", sans-serif;
   --var-serif-font: serif;
@@ -557,6 +557,9 @@ section div.gloss-wrapper
     width: 55%;
 }
 
+.gloss-wrapper p{
+  width: 100%;
+}
 .question-container {
   margin-top: 20px;
   margin-bottom: 120px;
@@ -1301,7 +1304,8 @@ p.english-translation {
     div.question-container,
     section div.translation-block,
     section div.vocab-word-wrap,
-    section div.gloss-wrapper
+    section div.gloss-wrapper,
+    div.gloss-wrapper p
     {
         width: 100%;
     }
