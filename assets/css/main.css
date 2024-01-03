@@ -16,7 +16,7 @@ html {
   -webkit-font-feature-settings: "liga" 1, "calt" 1, "dlig" 1, "tnum" 1;
   -moz-font-feature-settings: "liga" 1, "calt" 1, "dlig" 1, "tnum" 1;
   --main-font: "Inter", sans-serif;
-  /* --small-caps-font: "Alegreya Sans SC", sans-serif; */
+  --small-caps-font: "Alegreya Sans SC", sans-serif;
   --var-serif-font: serif;
   --title-font: "Raleway";
   --mono-font: "IBM Plex Mono", Consolas;
@@ -200,17 +200,8 @@ p {
   span.cyr, p.cyr {
     color: var(--accent-color-crimson-dark-mode);
     kerning: auto;
-    /* dotted underline */
-    border-bottom: 1px dotted var(--accent-color-crimson-dark-mode); 
-    text-decoration: none;
-    width: max-content;
   }
 
-  p.cyr:hover, span.cyr:hover {
-    color: var(--darkmode-color);
-    border-bottom: 1px dotted var(--darkmode-color);
-    width: max-content;
-  }
 }
 
 h1 {
@@ -329,7 +320,7 @@ p.en {
 
 .gloss{
   /* small caps from capital letters */
-  font-variant-caps: small-caps;
+  font-family: var(--small-caps-font);
 }
 
 .en-translation, .gloss-text{
@@ -1243,6 +1234,10 @@ footer p {
 .cyr {
   /* font-family: "IBM Plex Sans", sans-serif; */
   color: var(--accent-color-crimson);
+}
+
+.cyr-bold {
+  font-weight: 600;
 }
 
 .grammar-href{
