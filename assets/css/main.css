@@ -190,8 +190,8 @@ p {
         color: var(--darkmode-color);
     }
 
-    a {
-        color: var(--accent-color-blue-dark-mode) !important;
+    article a {
+        color: var(--accent-color-blue-dark-mode);
     }
     
     div.theorem-block {
@@ -218,6 +218,10 @@ p {
 
   .table-container th {
     background-color: var(--var-color-dark-gray) !important;
+  }
+
+  .table-container td, .table-container th {
+    border: 1px solid var(--var-color-dark-gray) !important;
   }
 
 }
@@ -345,6 +349,7 @@ p.en {
   font-size: var(--var-font-size);
   line-height: var(--var-line-height);
   margin: 0;
+  padding:0;
 }
 
 .gloss-sub {
@@ -791,7 +796,7 @@ div.table-wrapper {
 }
 
 .table-container td, .table-container th {
-  border: 0.5px solid #777;
+  border: 1px solid var(--var-color-gray);
   padding: 8px 15px;
   width: fit-content;
   white-space: nowrap;
@@ -1399,6 +1404,7 @@ p.english-translation {
   
   .table-container td, .table-container th {
     border: 1px solid #777;
+
   }
 
     pre > code {
