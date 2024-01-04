@@ -32,9 +32,8 @@ html {
   --accent-color-brown: #795b3d;
   --accent-color-amber: #FFBF00;
   --accent-color-red: #E32227;
-  --accent-color-blue: #0476D0;
-  --accent-color-crimson: #A51C30;
-  --accent-color-crimson-dark-mode: #a9a9a9;
+  --accent-color-blue: #0366d6;
+  --accent-color-blue-dark-mode: #9ac9fe;
   --font-size: 15px;
   --var-font-size: 12px;
   --var-larger-font-size: 18px;
@@ -46,6 +45,7 @@ html {
   --var-block-bg-color: rgba(197, 202, 193, 0.1);
   --var-block-field-color: rgba(197, 202, 193, 0.3);
   --var-block-button-color: rgba(197, 202, 193, 1);
+  letter-spacing: -0.01em;
 }
 
 :lang(zh){
@@ -175,6 +175,10 @@ p {
         background-color: var(--darkmode-bg-color);
         color: var(--darkmode-color);
     }
+
+    a {
+        color: var(--accent-color-blue-dark-mode) !important;
+    }
     
     div.theorem-block {
       border: #444 2px solid; 
@@ -200,11 +204,6 @@ p {
 
   .table-container th {
     background-color: var(--var-color-dark-gray) !important;
-  }
-
-  span.cyr, p.cyr {
-    color: var(--accent-color-crimson-dark-mode);
-    kerning: auto;
   }
 
 }
@@ -641,14 +640,13 @@ figcaption {
 }
 
 a {
-  color: var(--var-color-gray);
+  color: var(--accent-color-blue);
   text-decoration: none;
-  font-weight: 600;
+
 }
 
 a:hover{
   text-decoration: underline;
-  color: var(--accent-color-light-gray);
 }
 
 
@@ -1282,7 +1280,7 @@ footer p {
   
 .cyr {
   /* font-family: "IBM Plex Sans", sans-serif; */
-  color: var(--accent-color-crimson);
+  color: var(--var-color-gray);
 }
 
 .cyr-bold {
@@ -1311,9 +1309,6 @@ p.english-translation {
   color: var(--var-color-gray);
 }
 
-.crimson {
-  color: #A51C30;
-}
 
 @media (min-width: 760px){
   h1, ol.example, .avatar img, extlink-container{
@@ -1322,8 +1317,16 @@ p.english-translation {
   
 }
 
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+  body {
+    width: 80%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
 
-@media (max-width: 760px) {
+
+@media (max-width: 768px) {
 
     body {
         width: 90%;
