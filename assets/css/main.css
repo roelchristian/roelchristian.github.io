@@ -17,8 +17,6 @@ html {
   -moz-font-feature-settings: "liga" 1, "calt" 1, "dlig" 1;
   --main-font: "Inter", sans-serif;
   --small-caps-font: "Alegreya Sans SC", sans-serif;
-  --var-serif-font: serif;
-  --title-font: "Raleway";
   --mono-font: "IBM Plex Mono", Consolas;
   --main-bg-color:  #fffff8;
   --main-color: #171717;
@@ -34,11 +32,11 @@ html {
   --accent-color-red: #E32227;
   --accent-color-blue: #0366d6;
   --accent-color-blue-dark-mode: #9ac9fe;
-  --font-size: 15px;
-  --var-font-size: 12px;
-  --var-larger-font-size: 18px;
+  --font-size: 16px;
+  --var-font-size: 13px;
+  --var-larger-font-size: 20px;
   --var-header-size: 24px;
-  --footnote-size: 10px;
+  --footnote-size: 11px;
   --line-height: calc(var(--font-size) * 1.5);
   --var-line-height: calc(var(--var-font-size) * 1.5);
   --var-larger-line-height: calc(var(--var-larger-font-size) * 1.35);
