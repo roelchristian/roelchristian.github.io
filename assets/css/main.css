@@ -100,6 +100,20 @@ h4 {
   margin: 0;
 }
 
+body {counter-reset:section;}
+
+h2.grammar-header {counter-reset:subsection;}
+
+h2.grammar-header:before{
+  counter-increment:section;
+  content:counter(section) ". ";
+}
+
+h3.grammar-header:before{
+  counter-increment:subsection;
+  content:counter(section) "." counter(subsection) " ";
+}
+
 .cv-role-subdiv p {
   font-size: var(--var-font-size);
   line-height: var(--var-line-height);
