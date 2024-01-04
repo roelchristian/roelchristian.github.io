@@ -31,11 +31,11 @@ title: Милнарь, тлой 1 (A &ndash; Н)
 
             <!--if pronunciation exists, print it -->
             {% if word.pronunciation %}
-                <span class="vocab-word">{{ word.word }}</span>
+                <span class="vocab-word" id="{{ word.word | downcase }}">{{ word.word }}</span>
                 <span class="vocab-pronunciation">({{ word.pronunciation }})</span>
                 &middot;
             {% else %}
-                <span class="vocab-word">{{ word.word }}</span>
+                <span class="vocab-word" id="{{ word.word | downcase }}">{{ word.word }}</span>
                 &middot;
             {% endif %}
             <!-- if part of speech exists, print it -->
