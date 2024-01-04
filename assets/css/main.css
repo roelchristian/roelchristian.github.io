@@ -332,7 +332,6 @@ p.en {
   font-size: var(--var-font-size);
   line-height: var(--var-line-height);
   margin: 0;
-  color: var(--var-color-gray);
 }
 
 .gloss-sub {
@@ -764,7 +763,6 @@ div.table-wrapper {
 .cayley-table-container, .table-container{
   width: inherit;
   overflow-x: auto;
-  padding-left: 10px
 }
 
 .cayley-table, .table {
@@ -1380,6 +1378,10 @@ p.english-translation {
       content: counter(list, lower-alpha) ") ";
       position: absolute;
       left: -1.4em;
+  }
+  
+  .table-container td, .table-container th {
+    border: 1px solid #777;
   }
 
     pre > code {
