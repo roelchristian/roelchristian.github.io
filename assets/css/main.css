@@ -1300,6 +1300,11 @@ footer p {
   color: var(--var-color-gray);
 }
 
+.ird-text {
+  margin-bottom: 10px;
+  margin-top: var(--line-height);
+}
+
 .cyr-bold {
   font-weight: 600;
 }
