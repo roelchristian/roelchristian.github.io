@@ -18,13 +18,14 @@ html {
   --main-font: "Inter", sans-serif;
   --small-caps-font: "Alegreya Sans SC", sans-serif;
   --mono-font: "IBM Plex Mono", Consolas;
+  --cyrillic-font: "Merriweather", sans-serif;
   --main-bg-color:  #fffff8;
   --main-color: #171717;
   --var-color-gray: #888;
   --var-color-dark-gray: #2d2d2d;
   --darkmode-bg-color: #222;
   --darkmode-color: #ddd;
-  --accent-color-light-gray: #a9a9a9;
+  --accent-color-light-gray: #d5d5d5;
   --accent-color-orange: #d18700;
   --accent-color-dark-orange: #ab6700;
   --accent-color-brown: #795b3d;
@@ -1296,8 +1297,10 @@ footer p {
 }
   
 .cyr {
-  /* font-family: "IBM Plex Sans", sans-serif; */
-  color: var(--var-color-gray);
+  font-family: var(--cyrillic-font);
+  font-style: italic;
+  font-size:95%;
+  /* color: var(--var-color-gray); */
 }
 
 .ird-text {
@@ -1406,7 +1409,7 @@ p.english-translation {
   }
   
   .table-container td, .table-container th {
-    border: 1px solid #777;
+    border: 1px solid var(--accent-color-light-gray);
 
   }
 
