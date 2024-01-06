@@ -1311,10 +1311,14 @@ ol.grammar-list{
   list-style-type: lower-alpha;
 }
 
+ol.grammar-list > li {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
 li  ol.grammar-list{
   list-style-type: lower-roman;
   margin-left: 20px;
-
 }
 
 section div.translation-notes p {
@@ -1355,9 +1359,9 @@ p.english-translation {
 @media (max-width: 768px) {
 
     body {
-        width: 90%;
-        padding-left: 5%;
-        padding-right: 5%;
+        width: 85%;
+        padding-left: 7.5%;
+        padding-right: 7.5%;
     }
     form {
         width: 85%;
