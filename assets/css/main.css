@@ -346,9 +346,7 @@ p.en {
 
 .en-translation, .gloss-text{
   font-size: var(--var-font-size);
-  line-height: var(--var-line-height);
-  margin: 0;
-  padding:0;
+
 }
 
 .gloss-sub {
@@ -578,11 +576,8 @@ section > div.example-block,
 div.question-container,
 section div.translation-block,
 section div.vocab-word-wrap,
-section div.gloss-wrapper
-{
-    width: 55%;
-}
-
+section div.gloss-wrapper,
+.ird-text p,
 .gloss-wrapper p{
   width: 100%;
 }
@@ -1300,9 +1295,8 @@ footer p {
   color: var(--var-color-gray);
 }
 
-.ird-text {
-  margin-bottom: 10px;
-  margin-top: var(--line-height);
+.ird-text, .ird-text p {
+  margin: 0;
 }
 
 .cyr-bold {
@@ -1386,7 +1380,8 @@ p.english-translation {
     section div.translation-block,
     section div.vocab-word-wrap,
     section div.gloss-wrapper,
-    div.gloss-wrapper p
+    div.gloss-wrapper p,
+    .ird-text p
     {
         width: 100%;
     }
