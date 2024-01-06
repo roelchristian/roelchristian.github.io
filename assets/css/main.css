@@ -577,7 +577,9 @@ div.question-container,
 section div.translation-block,
 section div.vocab-word-wrap,
 section div.gloss-wrapper,
-.ird-text p,
+.ird-text p{
+    width: 55%;
+}
 .gloss-wrapper p{
   width: 100%;
 }
