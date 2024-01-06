@@ -1297,10 +1297,7 @@ footer p {
 }
   
 .cyr {
-  font-family: var(--cyrillic-font);
-  font-style: italic;
-  font-size:95%;
-  /* color: var(--var-color-gray); */
+  color: var(--var-color-gray);
 }
 
 .ird-text {
@@ -1314,6 +1311,16 @@ footer p {
 
 .grammar-href{
   font-weight: 400;
+}
+
+ol.grammar-list{
+  list-style-type: lower-alpha;
+}
+
+li  ol.grammar-list{
+  list-style-type: lower-roman;
+  margin-left: 20px;
+
 }
 
 section div.translation-notes p {
