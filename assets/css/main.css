@@ -339,6 +339,10 @@ p.en {
   font-size: var(--var-font-size);
 }
 
+p.example-multiline{
+  margin: 20px 0;
+}
+
 .gloss{
   /* small caps from capital letters */
   font-family: var(--small-caps-font);
