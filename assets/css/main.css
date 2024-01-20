@@ -30,7 +30,8 @@ html {
   --accent-color-dark-orange: #ab6700;
   --accent-color-brown: #795b3d;
   --accent-color-amber: #FFBF00;
-  --accent-color-red: #E32227;
+  /* crimson */
+  --accent-color-red: #A51C30;
   --accent-color-blue: #0366d6;
   --accent-color-blue-dark-mode: #9ac9fe;
   --font-size: 16px;
@@ -55,6 +56,13 @@ html {
   font-family: "Noto Serif TC", serif;
 }
 
+sup{
+  font-feature-settings: "sups" 1;
+  -webkit-font-feature-settings: "sups" 1;
+  -moz-font-feature-settings: "sups" 1;
+  vertical-align: top;
+  color: var(--var-color-gray);
+}
 
 ::selection {
   color: black;
@@ -1299,6 +1307,10 @@ footer p {
   
 .cyr {
   color: var(--var-color-gray);
+}
+
+.cyr-red{
+  color: var(--accent-color-red);
 }
 
 .ird-text, .ird-text p {
