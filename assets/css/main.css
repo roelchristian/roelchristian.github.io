@@ -1377,9 +1377,9 @@ p.english-translation {
 @media (max-width: 768px) {
 
     body {
-        width: 85%;
-        padding-left: 7.5%;
-        padding-right: 7.5%;
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
     }
     form {
         width: 85%;
@@ -1468,7 +1468,7 @@ p.english-translation {
   }
 
     figure {
-        max-width: 85%;
+        max-width: 90%;
     }
 
     figcaption,
@@ -1512,7 +1512,7 @@ p.english-translation {
 
     div.table-wrapper,
     table {
-        width: 85%;
+        width: 90%;
     }
 
     img {
