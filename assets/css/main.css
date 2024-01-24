@@ -61,7 +61,7 @@ sup{
   -webkit-font-feature-settings: "sups" 1;
   -moz-font-feature-settings: "sups" 1;
   vertical-align: top;
-  color: var(--var-color-gray);
+
 }
 
 ::selection {
