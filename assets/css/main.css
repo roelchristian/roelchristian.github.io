@@ -108,9 +108,13 @@ h4 {
   margin: 0;
 }
 
-body {counter-reset:section;}
+body {
+  counter-reset: section;
+}
 
-h2.grammar-header {counter-reset:subsection;}
+h2.grammar-header {
+  counter-reset: subsection;
+}
 
 h2.grammar-header:before{
   counter-increment:section;
@@ -1061,10 +1065,16 @@ p.cv-links {
 }
 
 
-.foreword p, .aside p {
+.foreword p, .aside p, table caption {
   font-size: var(--var-font-size);
   color: var(--var-color-gray);
   line-height: var(--var-line-height);
+}
+
+caption {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
 }
 
 .postscript p {
