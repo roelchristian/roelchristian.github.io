@@ -10,11 +10,11 @@ html {
 }
 
 :root{
-  font-family: Inter, sans-serif;
+  font-family: 'Inter', sans-serif;
   /* ligatures and contextual alternates */
-  font-feature-settings: "liga" 1, "calt" 1, "dlig" 1;
-  -webkit-font-feature-settings: "liga" 1, "calt" 1, "dlig" 1;
-  -moz-font-feature-settings: "liga" 1, "calt" 1, "dlig" 1;
+  font-feature-settings: "calt" 1;
+  -webkit-font-feature-settings: "calt" 1;
+  -moz-font-feature-settings: "calt" 1;
   --main-font: "Inter", sans-serif;
   --small-caps-font: "Alegreya Sans SC", sans-serif;
   --mono-font: "IBM Plex Mono", Consolas;
@@ -32,6 +32,7 @@ html {
   --accent-color-amber: #FFBF00;
   /* crimson */
   --accent-color-red: #A51C30;
+  --accent-color-red-dark-mode: #F05C79;
   --accent-color-blue: #0366d6;
   --accent-color-blue-dark-mode: #9ac9fe;
   --font-size: 16px;
@@ -201,6 +202,10 @@ p {
         color: var(--accent-color-blue-dark-mode);
     }
     
+    span.highlight {
+        color: var(--accent-color-red-dark-mode);
+    }
+
     div.theorem-block {
       border: #444 2px solid; 
       padding: 0 20px ;
@@ -349,6 +354,11 @@ p.en {
 
 p.example-multiline{
   margin: 20px 0;
+}
+
+.highlight{
+  font-weight: 500;
+  color: var(--accent-color-red);
 }
 
 .gloss{
