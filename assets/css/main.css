@@ -1065,7 +1065,7 @@ p.cv-links {
 }
 
 
-.foreword p, .aside p, table caption {
+.foreword p, .aside p, table caption, .postscript li {
   font-size: var(--var-font-size);
   color: var(--var-color-gray);
   line-height: var(--var-line-height);
