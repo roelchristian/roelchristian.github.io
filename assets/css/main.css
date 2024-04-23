@@ -1008,6 +1008,22 @@ label.margin-toggle:not(.sidenote-number) {
     margin:0;
 }
 
+.hangind p { counter-increment: line 1;}
+
+.hangind p:nth-of-type(5n)::after {
+  content: counter(line);
+  font-weight: 300;
+  font-size: var(--var-font-size);
+  color: var(--var-color-gray);
+  position: absolute;
+  right: 35%;
+
+}
+
+.postscript p:nth-of-type(5n)::after {
+  content: "";
+}
+
 .intro-text p {
     letter-spacing: -0.02em;
     margin: 0;
@@ -1379,6 +1395,7 @@ p.english-translation {
 
 
 @media (min-width: 760px){
+  /* 760px is the width of the main content, ipad and up */
   h1, ol.example, .avatar img, extlink-container{
     max-width: 55%;
   }
@@ -1401,6 +1418,8 @@ p.english-translation {
         padding-left: 5%;
         padding-right: 5%;
     }
+
+
     form {
         width: 85%;
     }
@@ -1541,6 +1560,11 @@ p.english-translation {
   
   .footer-wrap {
     gap: 0 40px;
+}
+
+/* hide line numbers on mobile */
+.hangind p:nth-of-type(5n)::after {
+  content: "";
 }
  
 }
