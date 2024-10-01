@@ -20,18 +20,17 @@ date: 2024-09-30
     <p>
         The group $F(X)$ is a <em>free group</em> on the set $X$ (or alternatively, we say that $F(X)$ is <em>free</em> on $X$) if there is a set function $\iota: X \to F(X)$ such that for any group $G$ and any set function $\phi: X \to G$, there exists a unique group homomorphism $\Phi: F(X) \to G$ such that $\Phi \circ \iota = \phi$, i.e., the following diagram commutes:
         </p>
-        <img src="https://drive.google.com/thumbnail?id=18JXgIi9VWrkmhJeDCSpWLRyAFT39Nb6T&sz=w1000">
+        <img
+        src="https://drive.google.com/thumbnail?id=18JXgIi9VWrkmhJeDCSpWLRyAFT39Nb6T&sz=w1000"
+        width="25%">
         <p>
         This means that every function from a set $X$ to a group $G$ can be decomposed into a function from $X$ to $F(X)$ followed by a homomorphism from $F(X)$ to $G$. Writing $F(X)$ is purely a notational convenience, to remind us that the group is free on $X$.
         </p>
         <p>
         If such a group exists, it is unique up to isomorphism. Consider for example a set $X$ and a set $G$ and suppose that $F_1$ and $F_2$ are groups satisfying the universal property in our definition. Then because $F_1$ is free on $X$ and $F_2$ is a group (and vice versa), we have:
-        $$
-        \begin{tikzcd}
-            & X \arrow[dl, "\iota_1"'] \arrow[dr, "\iota_2"] & \\
-            F_1 \arrow[rr, "\exists!\Phi", shift left] & & F_2 \arrow[ll, "\exists!\Psi", shift left]
-        \end{tikzcd}
-        $$
+        <img
+            src="https://drive.google.com/thumbnailid=1-1vwoT2f3nvmsLhQnqMj8BwFG1zt7QRX&sz=w1000"
+            width="25%">
         where $\Phi$ and $\Psi$ are group homomorphisms whose existence is guaranteed by the universal property for $F_1$ and $F_2$, respectively. We then have
         $$\Phi \circ \iota_1 = \iota_2 \quad \text{and} \quad \Psi \circ \iota_2 = \iota_1.$$
         Substituting $\iota_1$ in the first equation with $\Psi \circ \iota_2$ (and vice versa) gives us
