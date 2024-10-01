@@ -20,20 +20,7 @@ date: 2024-09-30
     <p>
         The group $F(X)$ is a <em>free group</em> on the set $X$ (or alternatively, we say that $F(X)$ is <em>free</em> on $X$) if there is a set function $\iota: X \to F(X)$ such that for any group $G$ and any set function $\phi: X \to G$, there exists a unique group homomorphism $\Phi: F(X) \to G$ such that $\Phi \circ \iota = \phi$, i.e., the following diagram commutes:
         </p>
-        $$
-        \begin{tikzcd}
-            X \arrow[d, "\iota"'] \arrow[r, "\phi"] & G \\
-            F(X) \arrow[ru, "\exists!\Phi"', dashed]        &  
-        \end{tikzcd}
-        $$
-        $$
-        \require{AMScd}
-        \begin{CD}
-            X @>\phi>> G \\
-            @V\iota VV @. \\
-            F(X) @>>\exists! \Phi> G
-        \end{CD}
-        $$
+        <img src="https://drive.google.com/thumbnail?id=18JXgIi9VWrkmhJeDCSpWLRyAFT39Nb6T&sz=w1000">
         <p>
         This means that every function from a set $X$ to a group $G$ can be decomposed into a function from $X$ to $F(X)$ followed by a homomorphism from $F(X)$ to $G$. Writing $F(X)$ is purely a notational convenience, to remind us that the group is free on $X$.
         </p>
