@@ -57,3 +57,43 @@ date: 2024-09-30
             Because $(k_0, F(X))$ is initial in $\mathcal{F}^X$, there is a unique morphism from $(k_0, F(X))$ to any other object $(k, G)$ in $\mathcal{F}^X$. This morphism is a group homomorphism $\Phi: F(X) \to G$ such that $\Phi \circ k_0 = k$. This is the same as saying that $F(X)$ is free on $X$ (based on our earlier definition). Moreover, because $(k_0, F(X))$ is initial, it is unique up to isomorphism.
             </p>
 </section>
+
+<section>
+    <p>
+        An initial object in a category need not necessarily exist. We shall now show, however, that there exists an initial object in the category $\mathcal{F}^X$.
+        </p>
+        
+        <p>
+        Consider a set $X$ and let $X^*$ be an isomorphic copy of $X$ with $X \cap X^* = \emptyset$. Since $X \cong X^*$, we can choose a bijection $\phi : X \to X^*$ and write $x^*$ for $\phi(x)$ for all $x \in X$. (If $x^* \in X^*$ then the preimage of $x^*$ is $x$, and thus $x^{**} = x$ by definition.) We define a <em>word</em> in $X$ to be a finite $n$-tuple of elements of $x_i \in X \cup X^*$ of the form
+        $$
+        (x_1, x_2, \ldots, x_n)
+        $$
+        which we will denote by juxtaposition
+        $$
+        w = x_1 x_2 \cdots x_n.
+        $$
+        We shall call $X \cup X^*$ the <em>alphabet</em> on $X$ and each $a_i$ a <em>letter</em> on this alphabet. The number $n$ is the <em>length</em> of the word $w$. For example, if $X = \{a, b\}$, then
+        $$
+        abba^*b^*a^*
+        $$
+        is a word of length $6$ on the alphabet $\{a, b, a^*, b^*\}$. For each $a$ we call $a^*$ the <em>inverse</em> of $a$, noting however that our usage here does not necessarily coincide with the group-theoretic notion of an inverse. (For this reason we have used the symbol $a^*$ instead of $a^{-1}$ to emphasize this point.) Write $W(X)$ for the set of all words in $X$, with the empty word (written $\epsilon$) defined as the set containing no letters.
+        </p>
+        
+        <p>
+        The concatenation of two words $w_1 = x_1 x_2 \cdots x_m$ and $w_2 = y_1 y_2 \cdots y_n$ is the word
+        $$
+        w_1 w_2 = x_1 x_2 \cdots x_m y_1 y_2 \cdots y_n.
+        $$
+        A <em>substring</em> of a word $w = x_1 x_2 \cdots x_n$ is a word of the form $x_i x_{i + 1} \cdots x_j$ for some $i, j$ with $1 \leq i \leq j \leq n$. We can immediately observe that the empty word is a substring of any word. We shall call a word $w = x_1 x_2 \cdots x_n$ <em>reduced</em> if it contains no substrings of the form $aa^*$ or $a^*a$. For example, the word $abb^*a$ is not reduced, but the word $ab$ is.
+        </p>
+
+        <p>
+            Now we want to introduce a process through which, say, two words $bab^*bb$ and $babb^*baa^*$ in $X = \{a, b\}$ both simplify to the same word $bab$, i.e., we want the <em>inverse</em> $a^*$ of $a$ to behave in a similar manner as a group inverse (in the limited sense that inverses <em>cancel out</em> each other). To do this, we first define a map $W(X) \to W(X)$ that deletes from a given word $w$ any pair of the form $aa^*$ or $a^*a$. We call the image of $w$ under this map an <em>elementary reduction</em> of $w$. Our goal then is to find for each word $w$ in $X$ a sequence of elementary reductions
+            $$
+            w = w_0 \mapsto w_1 \mapsto w_2 \mapsto \cdots \mapsto w_n
+            $$
+            where $w_n$ is a word in $X$ that cannot be further reduced, i.e., any elementary reduction of $w_n$ is equal to $w_n$. (That is, $w_n$ is a reduced word by our earlier definition.) For each word $w$, at least one such sequence of elementary reductions exists, which we obtain by considering only reductions that delete the first occurrence of a pair of the form $aa^*$ or $a^*a$ from left to right. This must terminate after $\lfloor \frac{n}{2} \rfloor$ steps, where $n$ is the length of $w$, as each elementary reduction of this type decreases the length of the word by $2$. For the more general case, we refer to the following result, often called the <em>diamond lemma</em>.
+            </p>
+            
+        
+</section>
