@@ -17,45 +17,49 @@ date: 2024-09-30
 
 <section>
     <h2 class="header-num">2</h2>
-    <p>
-        The group $F(X)$ is a <em>free group</em> on the set $X$ (or alternatively, we say that $F(X)$ is <em>free</em> on $X$) if there is a set function $\iota: X \to F(X)$ such that for any group $G$ and any set function $\phi: X \to G$, there exists a unique group homomorphism $\Phi: F(X) \to G$ such that $\Phi \circ \iota = \phi$, i.e., the following diagram commutes:
-        </p>
-        $$
+    The group $F(X)$ is a <em>free group</em> on the set $X$ (or
+    alternatively, we say that $F(X)$ is <em>free</em> on $X$) if there is a
+    set function $\iota: X \to F(X)$ such that for any group $G$ and any set
+    function $\phi: X \to G$, there exists a unique group homomorphism $\Phi:
+    F(X) \to G$ such that $\Phi \circ \iota = \phi$, i.e., the following
+    diagram commutes:
+<p>$$
         \begin{tikzcd}
             X \arrow[d, "\iota"'] \arrow[r, "\phi"] & G \\
             F(X) \arrow[ru, "\exists!\Phi"', dashed]        &  
         \end{tikzcd}
-        $$
-        <p>
-        This means that every function from a set $X$ to a group $G$ can be decomposed into a function from $X$ to $F(X)$ followed by a homomorphism from $F(X)$ to $G$. Writing $F(X)$ is purely a notational convenience, to remind us that the group is free on $X$.
-        </p>
-        <p>
-        If such a group exists, it is unique up to isomorphism. Consider for example a set $X$ and a set $G$ and suppose that $F_1$ and $F_2$ are groups satisfying the universal property in our definition. Then because $F_1$ is free on $X$ and $F_2$ is a group (and vice versa), we have:
-        </p>
-        $$
+$$</p>
+    This means that every function from a set $X$ to a group $G$ can be
+    decomposed into a function from $X$ to $F(X)$ followed by a homomorphism
+    from $F(X)$ to $G$. Writing $F(X)$ is purely a notational convenience,
+    to remind us that the group is free on $X$.
+
+    If such a group exists, it is unique up to isomorphism. Consider for example
+    a set $X$ and a set $G$ and suppose that $F_1$ and $F_2$ are groups
+    satisfying the universal property in our definition. Then because $F_1$ is
+    free on $X$ and $F_2$ is a group (and vice versa), we have:
+<p>$$
         \begin{tikzcd}
             & X \arrow[dl, "\iota_1"'] \arrow[dr, "\iota_2"] & \\
             F_1 \arrow[rr, "\exists!\Phi", shift left] & & F_2 \arrow[ll, "\exists!\Psi", shift left]
         \end{tikzcd}
-        $$
-        <p>
-        where $\Phi$ and $\Psi$ are group homomorphisms whose existence is guaranteed by the universal property for $F_1$ and $F_2$, respectively. We then have
-        </p>
-        $$
+$$</p>
+    where $\Phi$ and $\Psi$ are group homomorphisms whose existence is
+    guaranteed by the universal property for $F_1$ and $F_2$, respectively.
+    We then have
+<p>$$
         \Phi \circ \iota_1 = \iota_2 \quad \text{and} \quad \Psi \circ \iota_2 = \iota_1.
-        $$
-        <p>
-        Substituting $\iota_1$ in the first equation with $\Psi \circ \iota_2$ (and vice versa) gives us
-        </p>
-        $$
+$$</p>
+    Substituting $\iota_1$ in the first equation with $\Psi \circ \iota_2$
+    (and vice versa) gives us
+<p>$$
         \Phi \circ \Psi \circ \iota_2 = \iota_2 \quad \text{i.e.,} \quad \Phi \circ \Psi = \id_{F_2}
-        $$
-        <p>and</p>
-        $$
+$$</p>
+    and
+<p>$$
         \Psi \circ \Phi \circ \iota_1 = \iota_1 \quad \text{i.e.,} \quad \Psi \circ \Phi = \id_{F_1}.
-        $$
-        <p>
-        That is $\Phi$ and $\Psi$ are inverses of each other, so $F_1$ and $F_2$ are isomorphic.
-        </p>
-        
+$$</p>
+    That is $\Phi$ and $\Psi$ are inverses of each other, so $F_1$ and
+    $F_2$ are isomorphic.
+
 </section>
