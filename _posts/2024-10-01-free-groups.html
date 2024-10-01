@@ -1,0 +1,59 @@
+---
+title: Graduate school dispatch no. 2: Free groups
+date: 2024-10-01
+---
+
+<section>
+    <h2 class="header-num">1</h2>
+    <p>
+        I'm in the second year of my masters (whew!) and I'm currently taking a seminar course where my professor asked me to present at the end of the term a paper on universal quadratic forms (after a paper I had written a year ago for my number theory class). At the same time, I am trying to brush up on my algebra and thus decided to start learning some Galois theory (the algebra curriculum for the master's degree at La Salle did not include this) as I am planning to build on my paper and maybe write my thesis on some algebraic number theory topic. (Although to be honest I am still quite clueless at this point.) Besides, my qualifying exams are coming up (I am planning to take them in the next term if all goes well) and was about to start reviewing for it anyway.
+    </p>
+    <p>
+        In any case, I've been studying from Aluffi's <i>Algebra: Chapter 0</i> and have been enjoying it so far. In particular, even though I've already taken a course in algebraic rewriting earlier in the year, the notion of free groups only seemed to click now. (Although again we only ever talked about rewriting systems in that course without particular emphasis on the universal property of free groups and their construction.) This post is basically a rehash of what I've learned so far which I write here because of a newfound appreciation for the subject. (I wanted to write about the canonical decomposition of a group homomorphism &mdash; another topic I've recently gained an appreciation for &mdash; but I think I'll save that for another post.)
+    </p>
+</section>
+
+<section>
+    <h2 class="header-num">2</h2>
+    <p>
+        The group $F(X)$ is a <em>free group</em> on the set $X$ (or alternatively, we say that $F(X)$ is <em>free</em> on $X$) if there is a set function $\iota: X \to F(X)$ such that for any group $G$ and any set function $\phi: X \to G$, there exists a unique group homomorphism $\Phi: F(X) \to G$ such that $\Phi \circ \iota = \phi$, i.e., the following diagram commutes:
+        </p>
+        $$
+        \begin{tikzcd}
+            X \arrow[d, "\iota"'] \arrow[r, "\phi"] & G \\
+            F(X) \arrow[ru, "\exists!\Phi"', dashed]        &  
+        \end{tikzcd}
+        $$
+        <p>
+        This means that every function from a set $X$ to a group $G$ can be decomposed into a function from $X$ to $F(X)$ followed by a homomorphism from $F(X)$ to $G$. Writing $F(X)$ is purely a notational convenience, to remind us that the group is free on $X$.
+        </p>
+        <p>
+        If such a group exists, it is unique up to isomorphism. Consider for example a set $X$ and a set $G$ and suppose that $F_1$ and $F_2$ are groups satisfying the universal property in our definition. Then because $F_1$ is free on $X$ and $F_2$ is a group (and vice versa), we have:
+        </p>
+        $$
+        \begin{tikzcd}
+            & X \arrow[dl, "\iota_1"'] \arrow[dr, "\iota_2"] & \\
+            F_1 \arrow[rr, "\exists!\Phi", shift left] & & F_2 \arrow[ll, "\exists!\Psi", shift left]
+        \end{tikzcd}
+        $$
+        <p>
+        where $\Phi$ and $\Psi$ are group homomorphisms whose existence is guaranteed by the universal property for $F_1$ and $F_2$, respectively. We then have
+        </p>
+        $$
+        \Phi \circ \iota_1 = \iota_2 \quad \text{and} \quad \Psi \circ \iota_2 = \iota_1.
+        $$
+        <p>
+        Substituting $\iota_1$ in the first equation with $\Psi \circ \iota_2$ (and vice versa) gives us
+        </p>
+        $$
+        \Phi \circ \Psi \circ \iota_2 = \iota_2 \quad \text{i.e.,} \quad \Phi \circ \Psi = \id_{F_2}
+        $$
+        <p>and</p>
+        $$
+        \Psi \circ \Phi \circ \iota_1 = \iota_1 \quad \text{i.e.,} \quad \Psi \circ \Phi = \id_{F_1}.
+        $$
+        <p>
+        That is $\Phi$ and $\Psi$ are inverses of each other, so $F_1$ and $F_2$ are isomorphic.
+        </p>
+        
+</section>
