@@ -26,6 +26,14 @@ date: 2024-09-30
             F(X) \arrow[ru, "\exists!\Phi"', dashed]        &  
         \end{tikzcd}
         $$
+        $$
+        \require{AMScd}
+        \begin{CD}
+            X @>\phi>> G \\
+            @V\iota VV @. \\
+            F(X) @>>\exists! \Phi> G
+        \end{CD}
+        $$
         <p>
         This means that every function from a set $X$ to a group $G$ can be decomposed into a function from $X$ to $F(X)$ followed by a homomorphism from $F(X)$ to $G$. Writing $F(X)$ is purely a notational convenience, to remind us that the group is free on $X$.
         </p>
