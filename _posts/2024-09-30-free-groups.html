@@ -95,5 +95,64 @@ date: 2024-09-30
             where $w_n$ is a word in $X$ that cannot be further reduced, i.e., any elementary reduction of $w_n$ is equal to $w_n$. (That is, $w_n$ is a reduced word by our earlier definition.) For each word $w$, at least one such sequence of elementary reductions exists, which we obtain by considering only reductions that delete the first occurrence of a pair of the form $aa^*$ or $a^*a$ from left to right. This must terminate after $\lfloor \frac{n}{2} \rfloor$ steps, where $n$ is the length of $w$, as each elementary reduction of this type decreases the length of the word by $2$. For the more general case, we refer to the following result, often called the <em>diamond lemma</em>.
             </p>
             
-        
+</section>
+<section>
+    <h2 class="header-num">Diamond lemma</h2>
+    <p>
+        If $w \mapsto w_1$ and $w \mapsto w_2$ are two elementary reductions of a word $w$ in $X$, then there exists elementary reductions $w_1 \mapsto w_0$ and $w_2 \mapsto w_0$ of $w_1$ and $w_2$ such that the following diagram commutes:
+    </p>
+        <!-- ID: 1y0xDaK0lR6ynaenvODYGBaadwTiTrOaM -->
+        <img src="https://drive.google.com/thumbnail?id=1y0xDaK0lR6ynaenvODYGBaadwTiTrOaM&sz=w1000" width="25%">
+    <p>
+        <em>Proof.</em>
+    </p>
+    <p>
+        Let $\rho_1 : w \mapsto w_1$ and $\rho_2 : w \mapsto w_2$ be elementary reductions of $w$. Let $w = u\omega v$ be a word in $X$ where $u, v$ are (possibly empty) substrings of $w$ and $\omega \in X \cup X^*$ is the substring undergoing an elementary reduction, i.e., $\omega$ must be of the form $aa^*$ or $a^*a$ or the empty string, and thus the reduction is given by $u\omega v \mapsto uv$.
+        </p>
+        <p>
+        We consider two possible cases. If $\rho_1$ and $\rho_2$ are disjoint, i.e., if they affect disjoint substrings $\omega_i$ of $w$ (affected by the $\rho_i$), then $w$ must be of the form $u\omega_1v\omega_2y$ where $u, v, y$ are (possibly empty) substrings of $w$, and composing the elementary reductions gives us
+        $$
+        \rho_1 \circ \rho_2 : w \mapsto u\omega_1vy \mapsto uvy
+        $$
+        and 
+        $$
+        \rho_2 \circ \rho_1 : w \mapsto uv\omega_2y \mapsto uvy,
+        $$
+        and the lemma holds.
+        </p>
+        <p>
+        On the other hand, if $\rho_1$ and $\rho_2$ are not disjoint, then $w$ must be of the form $u\omega v$ where $u, v$ are (possibly empty) substrings of $w$ and $\omega$ is the substring affected by both $\rho_1$ and $\rho_2$, which must then be of the form $a^*aa^*$ or $aa^*a$. Without loss of generality, suppose that $\omega = a^*aa^*$ and $\rho_1$ reduces $a^*a$ and $\rho_2$ reduces $aa^*$. Then we have
+        $$
+        \rho_1 : w = u(a^*a)a^*v \mapsto ua^*v
+        $$
+        and
+        $$
+        \rho_2 : w = ua^*(aa^*)v \mapsto ua^*v
+        $$
+        and thus the lemma also holds.
+        </p>
+</section>
+<section>
+    <h2 class="header-num">Theorem</h2>
+    <p>
+        Let $w$ be a word in a set $X$. Then any sequence of elementary reductions
+        $$
+        w \mapsto w_1' \mapsto w_2' \mapsto \cdots \mapsto w_n'
+        $$
+        and
+        $$
+        w  \mapsto w_1'' \mapsto w_2'' \mapsto \cdots \mapsto w_m''
+        $$
+        must terminate with the same reduced word $w_n = w_m'$.
+        </p>
+        <p>
+        <em>Proof.</em>
+        </p>
+        <p>
+        We prove this by induction on the length $k$ of the word $w$. If $k = 0$, then the word is already reduced and there is nothing to prove. Similarly, if $k = 1$ then $w$ is a letter and is already reduced. Now, by the diamond lemma, there exists elementary reductions $w'_1 \mapsto w_1$ and $w''_1 \mapsto w_1$. Consider the sequence of elementary reductions
+        $$
+        w_1 \mapsto w_2 \mapsto \cdots \mapsto w_j
+        $$
+        where each $w_i$ is obtained by applying the lemma. That is, since $w_1$ is a reduction of both $w_1'$ and $w_1''$, it must follow that $w_2'$ and $w_2''$ (being reductions of $w_1'$ and $w_1''$) must reduce to the same word $w_2$. By induction, we therefore have $w'_n = w_j = w_m''$.
+        </p>
 </section>
