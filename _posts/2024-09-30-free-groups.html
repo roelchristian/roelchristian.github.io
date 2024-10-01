@@ -18,7 +18,7 @@ date: 2024-09-30
 <section>
     <h2 class="header-num">2</h2>
     <p>
-        The group $F(X)$ is a <em>free group</em> on the set $X$ (or alternatively, we say that $F(X)$ is <em>free</em> on $X$) if there is a set function $\iota: X \to F(X)$ such that for any group $G$ and any set function $\phi: X \to G$, there exists a unique group homomorphism $\Phi: F(X) \to G$ such that $\Phi \circ \iota = \phi$, i.e., the following diagram commutes:
+        The group $F(X)$ is a <em>free group</em> on the set $X$ (or alternatively, we say that $F(X)$ is <em>free</em> on $X$) if there is a set function $\iota: X \to F(X)$ such that for any group $G$ and any set function $\varphi: X \to G$, there exists a unique group homomorphism $\Phi: F(X) \to G$ such that $\Phi \circ \iota = \varphi$, i.e., the following diagram commutes:
         </p>
         <img
         src="https://drive.google.com/thumbnail?id=18JXgIi9VWrkmhJeDCSpWLRyAFT39Nb6T&sz=w1000"
@@ -50,7 +50,7 @@ date: 2024-09-30
             <!-- ID: 18JXgIi9VWrkmhJeDCSpWLRyAFT39Nb6T -->
             <img src="https://drive.google.com/thumbnail?id=18JXgIi9VWrkmhJeDCSpWLRyAFT39Nb6T&sz=w1000" width="25%">
             <p>
-            where again each $k_i$ is a set function $X \to G_i$ and each $G_i$ is a group, and where $\phi$ is a group homomorphism. Since we are considering all set functions $X \to G$, we are not encoding any group structure in the objects of $\mathcal{F}^X$. The free group $F(X)$ is then the group component of an initial object (which we write $(k_0, F(X))$) in $\mathcal{F}^X$.
+            where again each $k_i$ is a set function $X \to G_i$ and each $G_i$ is a group, and where $\varphi$ is a group homomorphism. Since we are considering all set functions $X \to G$, we are not encoding any group structure in the objects of $\mathcal{F}^X$. The free group $F(X)$ is then the group component of an initial object (which we write $(k_0, F(X))$) in $\mathcal{F}^X$.
             </p>
             
             <p>
@@ -59,12 +59,13 @@ date: 2024-09-30
 </section>
 
 <section>
+    <h2 class="header-num">3</h2>
     <p>
         An initial object in a category need not necessarily exist. We shall now show, however, that there exists an initial object in the category $\mathcal{F}^X$.
         </p>
         
         <p>
-        Consider a set $X$ and let $X^*$ be an isomorphic copy of $X$ with $X \cap X^* = \emptyset$. Since $X \cong X^*$, we can choose a bijection $\phi : X \to X^*$ and write $x^*$ for $\phi(x)$ for all $x \in X$. (If $x^* \in X^*$ then the preimage of $x^*$ is $x$, and thus $x^{**} = x$ by definition.) We define a <em>word</em> in $X$ to be a finite $n$-tuple of elements of $x_i \in X \cup X^*$ of the form
+        Consider a set $X$ and let $X^*$ be an isomorphic copy of $X$ with $X \cap X^* = \emptyset$. Since $X \cong X^*$, we can choose a bijection $\varphi : X \to X^*$ and write $x^*$ for $\varphi(x)$ for all $x \in X$. (If $x^* \in X^*$ then the preimage of $x^*$ is $x$, and thus $x^{**} = x$ by definition.) We define a <em>word</em> in $X$ to be a finite $n$-tuple of elements of $x_i \in X \cup X^*$ of the form
         $$
         (x_1, x_2, \ldots, x_n)
         $$
@@ -76,7 +77,7 @@ date: 2024-09-30
         $$
         abba^*b^*a^*
         $$
-        is a word of length $6$ on the alphabet $\{a, b, a^*, b^*\}$. For each $a$ we call $a^*$ the <em>inverse</em> of $a$, noting however that our usage here does not necessarily coincide with the group-theoretic notion of an inverse. (For this reason we have used the symbol $a^*$ instead of $a^{-1}$ to emphasize this point.) Write $W(X)$ for the set of all words in $X$, with the empty word (written $\epsilon$) defined as the set containing no letters.
+        is a word of length $6$ on the alphabet $\{a, b, a^*, b^*\}$. For each $a$ we call $a^*$ the <em>inverse</em> of $a$, noting however that our usage here does not necessarily coincide with the group-theoretic notion of an inverse. (For this reason we have used the symbol $a^*$ instead of $a^{-1}$ to emphasize this point.) Write $W(X)$ for the set of all words in $X$, with the empty word (written $\varepsilon$) defined as the set containing no letters.
         </p>
         
         <p>
@@ -97,7 +98,7 @@ date: 2024-09-30
             
 </section>
 <section>
-    <h2 class="header-num">Diamond lemma</h2>
+    <h2 class="header-num">4 Diamond lemma</h2>
     <p>
         If $w \mapsto w_1$ and $w \mapsto w_2$ are two elementary reductions of a word $w$ in $X$, then there exists elementary reductions $w_1 \mapsto w_0$ and $w_2 \mapsto w_0$ of $w_1$ and $w_2$ such that the following diagram commutes:
     </p>
@@ -133,7 +134,7 @@ date: 2024-09-30
         </p>
 </section>
 <section>
-    <h2 class="header-num">Theorem</h2>
+    <h2 class="header-num">5 Theorem</h2>
     <p>
         Let $w$ be a word in a set $X$. Then any sequence of elementary reductions
         $$
@@ -155,4 +156,39 @@ date: 2024-09-30
         $$
         where each $w_i$ is obtained by applying the lemma. That is, since $w_1$ is a reduction of both $w_1'$ and $w_1''$, it must follow that $w_2'$ and $w_2''$ (being reductions of $w_1'$ and $w_1''$) must reduce to the same word $w_2$. By induction, we therefore have $w'_n = w_j = w_m''$.
         </p>
+</section>
+
+<section>
+    <h2 class="header-num">6</h2>
+    <p>
+        Write $\overline{w}$ for the reduced word obtained from a word $w$ by a sequence of elementary reductions (this must exist and be unique by the results we have established thus far). Let $F(X)$ be the set of all reduced words in $X$. Then the empty word $\varepsilon$ is a reduced word and must be in $F(X)$. Define a binary operation $\cdot$ on $F(X)$ by
+        $$
+        w_1 \cdot w_2 = \overline{w_1 w_2}
+        $$
+        where $w_1, w_2 \in F(X)$ and $w_1 w_2$ is the concatenation of $w_1$ and $w_2$. We claim that $(F(X), \cdot)$ is a group under this operation.
+        </p>
+        <p>
+        The empty word $\varepsilon$ is the identity element of $F(X)$ under this operation. Indeed, for any word $w$, we have
+        $$
+        w \cdot \varepsilon = \overline{w \varepsilon} = \overline{w} = w = \overline{\varepsilon w} = \varepsilon \cdot w.
+        $$
+        </p>
+        <p>
+        We define the inverse of a word $w$ to be the word $w^{-1}$ obtained by reversing the order of the letters in $w$ and replacing each letter by its inverse. That is, if $w = x_1 x_2 \cdots x_n$ is a word, then its inverse is given by
+        $$
+        w^{-1} = x_n^* x_{n - 1}^* \cdots x_1^*,
+        $$
+        and thus
+        $$
+        w \cdot w^{-1} = x_1 \cdots x_n x_n^* \cdots x_1 = \varepsilon.
+        $$
+        </p>
+        <p>
+        (We can show the same for $w^{-1}w$.) Finally, we want to show that the operation $\cdot$ is associative. Let $w_1, w_2, w_3$ be words in $F(X)$. Then since $\overline{(\overline{w_1 w_2})w_3}$ and $\overline{w_1(\overline{w_2 w_3})}$ can be obtained from $w_1 w_2 w_3$ by a sequence of elementary reductions, we have
+        $$
+        \overline{\overline{w_1 w_2} w_3} = \overline{w_1 w_2 w_3} = \overline{w_1 \overline{w_2 w_3}},
+        $$
+        and thus the operation $\cdot$ is associative. This completes the proof that $(F(X), \cdot)$ is a group.
+        </p>
+        
 </section>
