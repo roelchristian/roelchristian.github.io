@@ -192,3 +192,93 @@ date: 2024-09-30
         </p>
         
 </section>
+<section>
+    <p>
+    We need to show that $F(X)$ satisfies the universal property for free
+    groups on the set $X$, i.e., there exists a map $\iota: X \to F(X)$ such
+    that for any group $G$ and any set function $\phi: X \to G$, there
+    exists a unique group homomorphism $\Phi: F(X) \to G$ such that $\Phi
+    \circ \iota = \phi$.
+    </p>
+    <p>
+        The map $\iota: X \to F(X)$ is the inclusion map that sends each element
+        of $X$ to the corresponding letter in $F(X)$. (From this we observe that
+        $X$ is contained in $F(X)$ as we intended it to be at the beginning of
+        this section.) Let $G$ be a group and let $\phi: X \to G$ be a set
+        function; we want to construct a group homomorphism $\Phi: F(X) \to G$
+        such that the diagram
+    </p>
+    <img
+    src="https://drive.google.com/thumbnail?id=18JXgIi9VWrkmhJeDCSpWLRyAFT39Nb6T&sz=w1000"
+    width="25%">
+    <p>
+        commutes. Since $F(X)$ is the set of reduced words in $X$, each $w \in
+        F(X)$ is of the form
+        $$
+            w = x_1^{\epsilon_1} x_2^{\epsilon_2} \cdots x_n^{\epsilon_n}
+        $$
+        where each $x_i \in X$ and each $\epsilon_i = \pm 1$ (in this notation,
+        $x^{-1} = x^{-1}$). We define $\Phi(w)$ to be the product
+        $$
+            \Phi(w) = \phi(x_1)^{\epsilon_1} \phi(x_2)^{\epsilon_2} \cdots \phi(x_n)^{\epsilon_n}.
+        $$
+        The expression $\phi(x)^{-1}$ is defined because $\phi(x) \in G$ and
+        inverses exist in $G$.
+    </p><p>
+        
+        We claim that $\Phi$ is a group homomorphism. We identify with $X$ its
+        image under $\iota$, i.e., we take $X$ to be a subset of the underlying
+        set of $F(X)$. To prove our claim, we first need to show that if $w$ is
+        a reduced word and $x \in X$, then $\Phi(x\cdot w) = \phi(x)\Phi(w)$ and
+        $\Phi(x^{-1} \cdot w) = \phi(x)^{-1}\Phi(w)$. From this it would then
+        follow, using the fact that the operation $\cdot$ on $F(X)$ is
+        associative, and by induction on the length of the reduced word $w$, that
+        for all reduced words $w_1$ and $w_2$, we have $\Phi(w_1 \cdot w_2) =
+        \Phi(w_1) \Phi(w_2)$ and thus $\Phi$ is a group homomorphism.
+    </p><p>
+        Write the reduced word $w$ as $w = x_1^{\epsilon_1} x_2^{\epsilon_2}
+        \cdots x_r ^{\epsilon_r}$ where each $x_i \in X$ and each $\epsilon_i =
+        \pm 1$ for some $r \in \N$. If $x \neq x_1$, or if $x_1 = x$ and
+        $\epsilon_1 = 1$, then $x \cdot w$ must be reduced and we have
+        $$
+        \begin{align*}
+            \Phi(x)\Phi(w) & \phi(x)(\phi(x_1)^{\epsilon_1} \cdots \phi(x_r)^{\epsilon_r}) = \phi(x)\phi(x_1)^{\epsilon_1} \cdots \phi(x_r)^{\epsilon_r} \\
+                           & = \phi(x x_1^{\epsilon_1} \cdots x_r^{\epsilon_r}) = \Phi(x \cdot w).
+        \end{align*}
+        $$
+        If $x = x_1$ and $\epsilon_1 = -1$, then  $x \cdot w$ is the reduced
+        word $x_2^{\epsilon_2} \cdots x_r^{\epsilon_r}$, so that
+        $$
+        \begin{align*}
+            \Phi(x \cdot w) & = \Phi(x_2^{\epsilon_2} \cdots x_r^{\epsilon_r}) = \phi(x_2)^{\epsilon_2} \cdots \phi(x_r)^{\epsilon_r} \\
+                & = \phi(x_1)\phi(x_1)^{-1}\phi(x_2)^{\epsilon_2} \cdots \phi(x_r)^{\epsilon_r} \\ &= \phi(x)(\phi(x_1)^{-1}\phi(x_2)^{\epsilon_2} \cdots \phi(x_r)^{\epsilon_r}) \\
+                & = \Phi(x)\Phi(w),
+        \end{align*}
+        $$
+        as desired. A similar argument establishes $\Phi(x^{-1} \cdot w) =
+        \Phi(x)^{-1}\Phi(w)$.
+    </p><p>
+        Now let $w_1$, $w_2$ be reduced words in $F(X)$ and let $w_1$ have
+        length $n$. We proceed by induction on $n$. The case $n = 1$ is the
+        result we have just established. Suppose that the result holds for $w_1$
+        of length $k$ and suppose that $w_1$ is of the form
+        $$
+            w_1 = x_0^{\epsilon_0} x_1^{\epsilon_1} \cdots x_k^{\epsilon_k}.
+        $$
+        Then $w_1w_2 = x_0^{\epsilon_0} (w'_1 w_2)$ where $w'_1 =
+        x_1^{\epsilon_1} \cdots x_k^{\epsilon_k}$. Since $w'_1w_2$ need not
+        necessarily be reduced, let $w_3 = \overline{w'_1 w_2}$ so that $w_1
+        \cdot w_2 = x_0^{\epsilon_0} \cdot w_3$. By the inductive hypothesis, we
+        have $\Phi(w_3) = \Phi(w'_1) \Phi(w_2)$ and thus we have
+        $$
+        \begin{align*}
+            \Phi(w_1 \cdot w_2) & = \Phi(x_0^{\epsilon_0}(\overline{w'_1 w_2})) = \Phi(x_0^{\epsilon_0} \cdot w_3) = \Phi(x_0^{\epsilon_0}) \Phi(w_3) \\
+                                & = \Phi(x_0^{\epsilon_0})\left(\Phi(w'_1) \Phi(w_2)\right) = \left(\Phi(x_0^{\epsilon_0}) \Phi(w'_1)\right) \Phi(w_2) \\
+                                & = \Phi(x_0^{\epsilon_0} \cdot w'_1) \Phi(w_2) = \Phi(w_1) \Phi(w_2).
+        \end{align*}
+        $$
+        This shows that $\Phi$ is a group homomorphism. By construction, $\Phi(x)
+        = \phi(x)$ for all $x \in X$, and $\Phi$ is uniquely determined by
+        $\phi$. This completes the proof that $F(X)$ is the free group on $X$.
+    </p>
+</section>
