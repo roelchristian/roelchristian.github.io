@@ -35,12 +35,12 @@ html {
   --accent-color-red-dark-mode: #F05C79;
   --accent-color-blue: #0366d6;
   --accent-color-blue-dark-mode: #9ac9fe;
-  --font-size: 16px;
+  --font-size: 18px;
   --var-font-size: 13px;
   --var-larger-font-size: 20px;
   --var-header-size: 24px;
   --footnote-size: 11px;
-  --line-height: calc(var(--font-size) * 1.5);
+  --line-height: calc(var(--font-size) * 1.75);
   --var-line-height: calc(var(--var-font-size) * 1.5);
   --var-larger-line-height: calc(var(--var-larger-font-size) * 1.35);
   --var-block-bg-color: rgba(197, 202, 193, 0.1);
