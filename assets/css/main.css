@@ -1138,6 +1138,13 @@ section.postscript::before{
   display: inline-block;
 }
 
+.link-date {
+  font-size: var(--var-font-size);
+  line-height: var(--var-line-height);
+  color: var(--var-color-gray);
+  font-weight: 500;
+}
+
 form {
   margin: 0;
   padding: 5px 30px;

@@ -7,7 +7,7 @@ permalink: "bookmarks"
 
 <div class="extlinks">
   <section class="intro-text">
-      <p>I&rsquo;m trying to keep track of all the interesting things I come across, whether it&rsquo;s an article from last week&rsquo;s <em>New Yorker</em> or a GIF of a penguin I saw on Reddit or a book I just picked up on the way home after buying groceries. Here are some of them.</p>
+      <p>A collection of interesting books, articles and other ephemera.</p>
   </section>
   
   <section class="aside">
@@ -31,7 +31,7 @@ permalink: "bookmarks"
         {% elsif link.category == 4 %}
         <p class="extlink-icon ext-other"></p>
         {% endif %}
-        <p class="extlink-description"><a href="{{ link.url }}" rel="noopener noreferrer" target="_blank">{{ link.description }}</a></p>
+        <p class="extlink-description"><a href="{{ link.url }}" rel="noopener noreferrer" target="_blank">{{ link.description }}</a><span class="link-date">{{ link.date }}</span></p>
       </div>
     
     {% endfor %}

@@ -25,5 +25,9 @@ links:
     category: 3
   - url: "https://www.goodreads.com/book/show/11472345-deng-xiaoping-and-the-transformation-of-china"
     description: "Deng Xiaoping and the transformation of China by Ezra F. Vogel"
-    date: 2016-12-01
+    date: 2024-10-01
+    category: 2
+  - url: "https://agape-biblia.org/literatura/Three-Treatises-on-the-Divine-Images_John-of-Damascus.pdf"
+    description: "St. John The Damascene&rsquo;s Three Treatises on the Divine Images"
+    date: 2025-05-13
     category: 2
