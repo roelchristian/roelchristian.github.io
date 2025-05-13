@@ -1,45 +1,17 @@
-<!DOCTYPE html>
-{% include header.html %}
+---
+layout: container
+---
 
+<div class="mt-5">
+  <h1 class="fs-4 mb-3">{{ page.title }}</h1>
+  <p class="text-secondary mb-4 small">
+    Posted on {{ page.date | date: "%B %-d, %Y" }} &middot;
+    <a href="/" class="text-secondary">
+      Back to notes index
+    </a>
+  </p>
+</div>
 
-{% assign gitlink = "https://github.com/roelchristian/roelchristian.github.io/tree/master/" %}
-{% assign mysource = gitlink | append: page.path %}
-
-
-<body>
-  
-<nav class="nav-home">
-  
-  <a href="/"><img src="https://gimlafraogh.files.wordpress.com/2021/11/logo-med-gray.png"></a>
-
-</nav>
-  
- {% include return.html %}
-  
-<article class="post">
-  
-  <section class="post-details">
-    <div class="h1-flourish"></div>
-    <h1>{{ page.title }}</h1>
-    <p class="subtitle">{{ page.date | date: "%B %-d, %Y" }}</p>
-  </section>
-
+<div class="mt-5">
   {{ content }}
-  
-  <section class="post-sharing-options">
-    <p>Share this post:
-      <span class="post-share-link"><a href="mailto:?subject={{ page.title }}&amp;body=Check out this article {{ site.url}}{{ page.url }}">Email</a></span>
-      <span class="post-share-link"><a href="https://twitter.com/intent/tweet?text=Check out this article {{ site.url}}{{ page.url }}">Twitter</a></span>
-      <span class="post-share-link"><a href="https://www.reddit.com/submit?url={{ site.url}}{{ page.url }}">Reddit</a></span>
-
-  </section>
-
-  
-{% include footer.html %}
-
-  
-</article>
-</body>
-</html>
-
-
+</div>

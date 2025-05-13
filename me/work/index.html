@@ -4,88 +4,227 @@ layout: container
 title: Work
 ---
 
-<section class="intro-text">
-  <p>I’m a data analytics professional with five years of industry experience focusing on data architecture and management, artificial intelligence and cloud-native solutions. I am passionate about telling stories that matter through data, through which I help businesses transform into data-driven organizations.</p>
-  <p class="cv-links"><a href="{{site.url}}/me/cv/cv_en.pdf"> Download my CV as a pdf&nbsp;↓</a></p>  
-</section>
-
-
-<section>
-<h2 class="cv-header">Professional experience</h2>
-{% for job in site.data.professional-exp.main %}
-<div class="cv-company-div">
-
-  <h3 class="cv-company-name">{{ job.company }}</h3>
-  {% for role in job.positions %}
-
-  <div class="cv-role-div">
-    <div class="cv-role-subdiv">
-    <h4>{{ role.title }}</h4>
-
-    <p>
-      {{ role.start-date }} &ndash; {% if role.end-date=="" %}present{% else %}{{ role.end-date }}{% endif %}
-    </p>
-    </div>
-
-    <ul class="cv-role-list">
-
-      {% for item in role.job-desc-list %}
-
-      <li>{{ item}}</li>
-
-      {% endfor %}
-
-    </ul>
-
-  {% endfor %}
-
+<div class="my-5" id="page-top">
+  <h1 class="fs-4 mt-5">
+    Work
+  </h1>
+  <p class="fs-6 mt-5">I’m a data analytics professional with five years of industry experience focusing on data architecture and management, artificial intelligence and cloud-native solutions. I am passionate about telling stories that matter through data, through which I help businesses transform into data-driven organizations.</p>
+  <p class="small mt-3"><a href="{{site.url}}/me/cv/cv_en.pdf" class="link-body-emphasis text-decoration-none">Download my CV as a pdf&nbsp;<i class="bi bi-arrow-down-circle ps-1"></i></a></p>  
 </div>
 
-{% endfor %}
-
-</section>
-
-<section>
-<h2 class="cv-header">Education</h2>
-
-<div class="cv-company-div">
-  <h3>Mathematics (MSc)</h3>
-  <div class="cv-other-dets">
-    <div class="cv-educ-inst">De La Salle University</div>
-    <div class="cv-company-tenure">2023&thinsp;&ndash;&thinsp;present</div>
+<nav class="toc-navigation sticky-top py-2 mb-4" aria-label="Page sections">
+  <div class="container-fluid">
+    <div class="d-flex align-items-center">
+      <span class="toc-label me-3">Jump to section:</span>
+      <ul class="list-inline mb-0 d-flex flex-nowrap overflow-x-auto">
+        <li class="list-inline-item me-3"><a href="#professional-experience" class="text-decoration-none text-secondary text-nowrap">Experience</a></li>
+        <li class="list-inline-item me-3"><a href="#education" class="text-decoration-none text-secondary text-nowrap">Education</a></li>
+        <li class="list-inline-item me-3"><a href="#licenses-certifications" class="text-decoration-none text-secondary text-nowrap">Certifications</a></li>
+        <li class="list-inline-item me-3"><a href="#languages" class="text-decoration-none text-secondary text-nowrap">Languages</a></li>
+      </ul>
+    </div>
   </div>
-</div>
+</nav>
 
-<div class="cv-company-div">
-    <h3>Accounting (BS)</h3>
-    <div class="cv-other-dets">
-      <div class="cv-educ-inst">Bulacan State University</div>
-      <div class="cv-company-tenure">2013&thinsp;&ndash;&thinsp;2017</div>
-    </div>
-</div>
+<div class="archive-listing">
   
-</section>
-<section>
-<h2 class="cv-header">Licenses and certifications</h2>
-
-<div class="cv-company-div">
-    <h3>Data science professional certificate</h3>
-    <div class="cv-other-dets">
-      <div class="cv-dets-certification">IBM, August 2020</div>
+  <section class="content-section mt-5 mb-5 pt-4 scroll-margin-top" id="professional-experience">
+    <h2 class="fs-4 fw-semibold pb-2 mb-4 border-bottom border-2 d-flex justify-content-between align-items-center">
+      <span>Professional experience</span>
+      <a href="#page-top" class="return-to-top-link ms-3" title="Return to top" aria-label="Return to top">
+        <i class="bi bi-arrow-up-circle"></i>
+      </a>
+    </h2>
+    {% for job in site.data.professional-exp.main %}
+    <div class="mb-5">
+      <h3 class="fs-5 fw-medium mb-2 mt-0">{{ job.company }}</h3>
+      {% for role in job.positions %}
+      <div class="mb-4 position-relative">
+        {% unless forloop.first %}
+        {% endunless %}
+        <div>
+          <h4 class="fs-6 fw-normal mb-0">{{ role.title }}</h4>
+          <p class="small text-secondary mb-1 pt-1">
+            {{ role.start-date }} &ndash; {% if role.end-date=="" %}present{% else %}{{ role.end-date }}{% endif %}
+          </p>
+        </div>
+        <ul class="list-unstyled mb-0 pt-1">
+          {% for item in role.job-desc-list %}
+          <li class="small mb-1 d-flex">
+            <div style="width: 1.2em; flex-shrink: 0; text-align: center;" class="text-secondary me-1">–</div>
+            <span>{{ item }}</span>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
     </div>
+    {% endfor %}
+  </section>
+
+  <section class="content-section mt-5 mb-5 pt-4 scroll-margin-top" id="education">
+    <h2 class="fs-4 fw-semibold pb-2 mb-4 border-bottom border-2 d-flex justify-content-between align-items-center">
+      <span>Education</span>
+      <a href="#page-top" class="return-to-top-link ms-3" title="Return to top" aria-label="Return to top">
+        <i class="bi bi-arrow-up-circle"></i>
+      </a>
+    </h2>
+    <div class="mb-3">
+      <h4 class="fs-6 fw-normal mb-0">Mathematics (MSc)</h4>
+      <p class="m-0 small text-secondary pt-1">De La Salle University</p>
+      <p class="m-0 small text-secondary pt-1">2023&thinsp;&ndash;&thinsp;present</p>
+    </div>
+    <div class="mb-3 pt-2">
+      <h4 class="fs-6 fw-normal mb-0">Accounting (BS)</h4>
+      <p class="m-0 small text-secondary pt-1">Bulacan State University</p>
+      <p class="m-0 small text-secondary pt-1">2013&thinsp;&ndash;&thinsp;2017</p>
+    </div>
+  </section>
+
+  <section class="content-section mt-5 mb-5 pt-4 scroll-margin-top" id="licenses-certifications">
+    <h2 class="fs-4 fw-semibold pb-2 mb-4 border-bottom border-2 d-flex justify-content-between align-items-center">
+      <span>Licenses and certifications</span>
+      <a href="#page-top" class="return-to-top-link ms-3" title="Return to top" aria-label="Return to top">
+        <i class="bi bi-arrow-up-circle"></i>
+      </a>
+    </h2>
+    <div class="mb-3">
+      <h4 class="fs-6 fw-normal mb-0">Data science professional certificate</h4>
+      <p class="m-0 small text-secondary pt-1">IBM, August 2020</p>
+    </div>
+    <div class="mb-3">
+      <h4 class="fs-6 fw-normal mb-0">Six Sigma yellow belt (Continuous Improvement)</h4>
+      <p class="m-0 small text-secondary pt-1">Infosys, December 2019</p>
+    </div>
+  </section>
+
+  <section class="content-section mt-5 mb-5 pt-4 scroll-margin-top" id="languages">
+    <h2 class="fs-4 fw-semibold pb-2 mb-4 border-bottom border-2 d-flex justify-content-between align-items-center">
+      <span>Languages</span>
+      <a href="#page-top" class="return-to-top-link ms-3" title="Return to top" aria-label="Return to top">
+        <i class="bi bi-arrow-up-circle"></i>
+      </a>
+    </h2>
+    <p class="fs-6">English, Filipino, Spanish, Portuguese, French</p>
+  </section>
+
 </div>
 
-<div class="cv-company-div">
-    <h3>Six Sigma yellow belt (Continuous Improvement)</h3>
-    <div class="cv-other-dets">
-      <div class="cv-dets-certification">Infosys, December 2019</div>
-    </div>
-</div>
+<style>
+  .scroll-margin-top {
+    scroll-margin-top: 100px; /* Increased to account for sticky TOC */
+  }
 
-</section>
+  .return-to-top-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--bs-tertiary-bg);
+    border: 1px solid var(--bs-border-color-translucent);
+    color: var(--bs-body-color);
+    text-decoration: none;
+    opacity: 0.7;
+    transition: opacity 0.2s ease-in-out, background-color 0.2s ease-in-out, transform 0.1s ease-in-out;
+  }
+  .return-to-top-link:hover,
+  .return-to-top-link:focus {
+    background-color: var(--bs-secondary-bg);
+    color: var(--bs-body-color); 
+    opacity: 1;
+    text-decoration: none;
+    transform: scale(1.1);
+  }
+  .return-to-top-link i {
+    font-size: 0.9rem;
+    vertical-align: middle; 
+  }
 
-<section>
-<h2 class="cv-header">Languages</h2>
+  .toc-navigation {
+    /* For dark theme, ensure background and border adapt */
+    background-color: var(--bs-body-bg); 
+    border-bottom: 1px solid var(--bs-border-color-translucent); /* More subtle border for dark theme */
+    z-index: 1020; 
+  }
 
-  <p>English, Filipino, Spanish, Portuguese, French</p>
-</section>
+  .toc-navigation .container-fluid {
+    padding-left: 1rem; /* Adjust as needed for overall page padding */
+    padding-right: 1rem;
+  }
+  
+  .toc-label {
+    font-size: 0.9rem;
+    font-weight: 500; /* Medium weight for the label */
+    color: var(--bs-emphasis-color); /* Adapts to light/dark theme for emphasis */
+    white-space: nowrap; /* Prevent label from wrapping */
+  }
+
+  .toc-navigation ul {
+    /* Hide scrollbar for the TOC links if they overflow */
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  .toc-navigation ul::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+  }
+
+  .toc-navigation a {
+    font-size: 0.9rem;
+    color: var(--bs-secondary-color); /* Use secondary color for less emphasis */
+    transition: color 0.15s ease-in-out;
+  }
+  .toc-navigation a:hover,
+  .toc-navigation a:focus {
+    color: var(--bs-emphasis-color) !important; /* Changed from --bs-primary to --bs-emphasis-color */
+  }
+
+  /* Dark theme specific overrides if needed, though Bootstrap vars should handle most */
+  [data-bs-theme="dark"] .toc-navigation {
+     background-color: var(--bs-tertiary-bg); /* Or a slightly different dark shade */
+     border-bottom-color: var(--bs-border-color);
+  }
+  [data-bs-theme="dark"] .toc-label {
+    color: var(--bs-light); /* Lighter label for dark theme */
+  }
+  [data-bs-theme="dark"] .toc-navigation a {
+    color: var(--bs-gray-500); /* Lighter gray for links on dark */
+  }
+  [data-bs-theme="dark"] .toc-navigation a:hover,
+  [data-bs-theme="dark"] .toc-navigation a:focus {
+    color: var(--bs-emphasis-color) !important; /* Changed from --bs-primary-text-emphasis to --bs-emphasis-color */
+  }
+  
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const returnToTopLinks = document.querySelectorAll('.return-to-top-link');
+    returnToTopLinks.forEach(link => {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    });
+
+    const internalNavLinks = document.querySelectorAll('a[href^="#"]:not([href="#page-top"]):not([href="#"])');
+    internalNavLinks.forEach(link => {
+        link.addEventListener('click', function(e) {
+            const targetId = this.getAttribute('href');
+            const targetElement = document.querySelector(targetId);
+            if (targetElement) {
+                e.preventDefault();
+                const tocHeight = document.querySelector('.toc-navigation')?.offsetHeight || 0;
+                const elementPosition = targetElement.getBoundingClientRect().top + window.pageYOffset;
+                const offsetPosition = elementPosition - tocHeight - 20; // Increased buffer slightly
+
+                window.scrollTo({
+                    top: offsetPosition,
+                    behavior: 'smooth'
+                });
+            }
+        });
+    });
+  });
+</script>
