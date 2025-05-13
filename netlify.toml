@@ -1,13 +1,3 @@
-[[plugins]]
-package = "netlify-plugin-rss"
-  [plugins.inputs]
-  # required configs, customize as needed
-  dirToScan = "/notes" # a subfolder to scan. "/" to scan all
-  authorName = "Roel Christian Yambao"
-  site_url = "https://roelchristian.com"
-  title = "roelchristian.com"
-  rssDescription = "roelchristian.com RSS Feed"
-
 [[redirects]]
   from = "/assets/pub_cv.pdf"
   to = "/me/cv/cv_en.pdf"
