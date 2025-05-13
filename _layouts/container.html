@@ -1,13 +1,10 @@
 <!DOCTYPE html>
 {% include header.html %}
 
-
 {% assign gitlink = "https://github.com/roelchristian/roelchristian.github.io/tree/master/" %}
 {% assign mysource = gitlink | append: page.path %}
 
-
 <body>
-
 <nav class="navbar navbar-expand-sm sticky-top bg-body border-bottom py-3">
   <div class="container-fluid">
     <a class="navbar-brand" href="/">roelchristian.com</a>
@@ -33,20 +30,19 @@
   </div>
 </nav>
 
-<div class="row">
-  <div class="col-md-3">
-
-  </div>
+<div class="container-fluid">
+  <div class="row justify-content-center">
+    <div class="col-md-3">
+    </div>
     
-  <div class="col-md-6 container px-5">
-    {{ content }}
-  </div>
-  <div class="col-md-3">
-  
-  </div>
-  
-</div>
+    <div class="col-md-6 px-md-5">
+      {{ content }}
+    </div>
 
+    <div class="col-md-3">
+    </div>
+  </div>
+</div>
 
 </body>
 </html>
