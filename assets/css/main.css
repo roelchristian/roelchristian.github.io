@@ -270,3 +270,27 @@ Retaining the 100px declaration as the effective style.
 .dash-width {
   min-width: 1.2em;
 }
+
+figure img {
+  width: 100% !important;
+}
+
+figure {
+  margin: 40px 0;
+}
+
+figcaption {
+  font-size: 0.875em !important;
+  margin-top: 20px !important;
+ }
+
+ section h2 {
+  font-size: var(--font-size) !important;
+  line-height: var(--line-height) !important;
+  margin: 0 !important;
+ }
+
+ section {
+  margin: 40px 0;
+
+ }

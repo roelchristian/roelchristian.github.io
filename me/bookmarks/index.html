@@ -8,7 +8,7 @@ permalink: "bookmarks"
   <h1 class="fs-4 mt-5">
     Bookmarks
   </h1>
-  <p class="fs-6 mt-3">A collection of interesting books, articles and other ephemera.</p>
+  <p class="fs-6 mt-5">A collection of interesting books, articles and other ephemera.</p>
 </div>
   
 <div class="text-secondary small mb-4">
@@ -67,7 +67,7 @@ permalink: "bookmarks"
     </div>
     <div class="flex-grow-1">
       <a href="{{ link.url }}" rel="noopener noreferrer" target="_blank" class="link-body-emphasis fw-medium d-block mb-1 text-decoration-none">
-        {{ link.description | escape }}
+        {{ link.description }}
       </a>
       <small class="text-secondary d-block"> {{ link.date | date: "%B %d, %Y" }}
       </small>
