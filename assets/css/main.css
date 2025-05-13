@@ -9,7 +9,6 @@
   font-feature-settings: "calt" 1;
   -webkit-font-feature-settings: "calt" 1;
   -moz-font-feature-settings: "calt" 1;
-  --main-font: "Inter", sans-serif;
   --small-caps-font: "Alegreya Sans SC", sans-serif;
   --mono-font: "IBM Plex Mono", Consolas;
   --cyrillic-font: "Merriweather", sans-serif;
@@ -34,7 +33,7 @@
   --var-larger-font-size: 20px;
   --var-header-size: 24px;
   --footnote-size: 11px;
-  --line-height: calc(var(--font-size) * 1.5);
+  --line-height: calc(var(--font-size) * 1.75);
   --var-line-height: calc(var(--var-font-size) * 1.5);
   --var-larger-line-height: calc(var(--var-larger-font-size) * 1.35);
   --var-block-bg-color: rgba(197, 202, 193, 0.1);
@@ -93,7 +92,7 @@ a:hover{
   font-size: var(--var-font-size);
   color: var(--var-color-gray);
   position: absolute;
-  right: 50%;
+  right: 30%;
 
 }
 
@@ -288,6 +287,14 @@ figcaption {
   font-size: var(--font-size) !important;
   line-height: var(--line-height) !important;
   margin: 0 !important;
+ }
+
+ section h3 {
+  font-size: var(--font-size) !important;
+  line-height: var(--line-height) !important;
+  color: rgba(var(--bs-secondary-rgb), 1);
+  font-weight: 500;
+
  }
 
  section {
