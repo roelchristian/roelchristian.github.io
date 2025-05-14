@@ -285,6 +285,14 @@ figcaption {
   margin-top: 20px !important;
  }
 
+
+img {
+  filter: grayscale(100%) !important;
+  -webkit-filter: grayscale(100%) !important; /* For older Safari browsers */
+  filter: saturate(0%);
+  -webkit-filter: saturate(0%);
+}
+
  section h2 {
   font-size: var(--font-size) !important;
   line-height: var(--line-height) !important;
@@ -304,11 +312,24 @@ figcaption {
 
  }
 
-.footnote a, .footnotes a {
+
+.post-content a, .footnotes li > a {
+  color: rgba(var(--bs-secondary-rgb), 1);
+  opacity: 1;
+}
+
+.post-content a:hove, .footnotes a:hover {
+  opacity: 0.7;
+}
+
+
+.footnote a {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
   color: rgba(var(--bs-secondary-rgb), 1) ;
   font-family: var(--mono-font) !important;
+  border-bottom: none !important;
+  font-weight: 600 !important;
 }
 .footnote a::after{
   content: ")";
@@ -343,4 +364,3 @@ figcaption {
 .footnotes li + li::before {
   content: " (" counter(fn) ") ";
 }
-
