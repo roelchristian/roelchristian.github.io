@@ -76,11 +76,7 @@ div.post-content p{
   margin: 0;
 }
 
-div.post-content p:not(:first-of-type):not(.hangind p),
-p.indent {
-  text-indent: 4em;
 
-}
 p.noindent {
   text-indent: 0;
 }
@@ -315,4 +311,35 @@ figcaption {
 }
 .footnote a::before{
   content: "(";
+}
+
+.footnotes {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-indent: 2em;
+}
+
+
+
+.footnotes li::before {
+  content: "(" counter(fn) ") ";
+  font-weight: 500; /* medium */
+  font-family: var(--mono-font) !important;
+}
+
+.footnotes {
+  counter-reset: fn;
+}
+
+.footnotes li {
+  counter-increment: fn;
+}
+
+.footnotes li + li::before {
+  content: " (" counter(fn) ") ";
+}
+
+div.post-content p:not(:first-of-type):not(.hangind p){
+  text-indent: 4em;
 }
