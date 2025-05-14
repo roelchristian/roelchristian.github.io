@@ -12,6 +12,32 @@ layout: container
   </p>
 </div>
 
-<div class="mt-5">
+<div class="mt-5 post-content">
   {{ content }}
+</div>
+
+<hr class="mt-5 mb-4">
+
+<div class="d-flex justify-content-between small text-muted">
+  {% if page.previous %}
+    <div class="text-start">
+      <div class="mb-1">Previous post</div>
+      <a href="{{ page.previous.url }}" class="text-decoration-none text-muted">
+        <i class="bi bi-chevron-left pe-1"></i>
+        {{ page.previous.title }}
+      </a>
+    </div>
+  {% else %}
+    <div></div>
+  {% endif %}
+
+  {% if page.next %}
+    <div class="text-end">
+      <div class="mb-1">Next post</div>
+      <a href="{{ page.next.url }}" class="text-decoration-none text-muted">
+        {{ page.next.title }}
+        <i class="bi bi-chevron-right ps-1"></i>
+      </a>
+    </div>
+  {% endif %}
 </div>

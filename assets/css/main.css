@@ -77,6 +77,10 @@ div.post-content p{
 }
 
 
+div.post-content p:not(:first-of-type){
+  text-indent: 4em;
+}
+
 p.noindent {
   text-indent: 0;
 }
@@ -86,7 +90,7 @@ p.noindent {
   padding: 1em 0;
 }
   
-.hangind p, p.hangind{
+div.post-content .hangind p, p.hangind{
   padding-left: 20px;
   text-indent: -20px;
   margin:0;
@@ -340,6 +344,3 @@ figcaption {
   content: " (" counter(fn) ") ";
 }
 
-div.post-content p:not(:first-of-type):not(.hangind p){
-  text-indent: 4em;
-}
