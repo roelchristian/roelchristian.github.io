@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=LXGW+WenKai+Mono+TC&family=Yuji+Mai&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Cormorant+SC:wght@300;400;500;600;700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=LXGW+WenKai+Mono+TC&family=Yuji+Mai&display=swap');
 
 :root{
   font-kerning: normal;
@@ -8,7 +8,7 @@
   font-feature-settings: "kern" 1, "liga" 1, "clig" 1, "calt" 1;
   -webkit-font-feature-settings: "calt" 1;
   -moz-font-feature-settings: "calt" 1;
-  --small-caps-font: "Alegreya Sans SC", sans-serif;
+  --small-caps-font: "Cormorant SC", serif;
   --mono-font: "IBM Plex Mono", Consolas;
   --serif-font: "Cormorant Garamond", serif;
   --greek-font: "EB Garamond", serif;
@@ -306,9 +306,9 @@ img {
 }
 
  section h2, .post-content h2 {
-  font-size: var(--font-size) !important;
-  line-height: var(--line-height) !important;
-  margin: 0 !important;
+  font-weight: 500;
+  font-style: italic;
+  font-size: calc(var(--font-size) * 1.2);
  }
 
  section h3 {
