@@ -13,17 +13,18 @@ title: Notes Archive
   {% for post in posts %}
     <li class="py-2">
       <a href="{{ post.url }}"
-         class="d-flex align-items-baseline text-decoration-none link-body-emphasis">
-        
-        <span class="text-nowrap">{{ post.title }}</span>
+        class="d-flex align-items-baseline text-decoration-none link-body-emphasis w-100 overflow-hidden">
 
-        <span class="dot-leader" aria-hidden="true"></span>
+        <span class="archive-title">{{ post.title }}</span>
+
+        <span class="dot-leader d-none d-sm-block" aria-hidden="true"></span>
 
         <time datetime="{{ post.date | date_to_xmlschema }}"
-              class="text-body-secondary flex-shrink-0">
+              class="archive-date text-body-secondary flex-shrink-0 d-none d-sm-inline">
           {{ post.date | date: '%b. %-d, %Y' }}
         </time>
       </a>
+
     </li>
   {% endfor %}
 </ul>

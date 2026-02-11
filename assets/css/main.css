@@ -30,12 +30,12 @@
   --accent-color-red-dark-mode: #F05C79;
   --accent-color-blue: #0366d6;
   --accent-color-blue-dark-mode: #9ac9fe;
-  --font-size: 18px;
+  --font-size: 20px;
   --var-font-size: 13px;
   --var-larger-font-size: 20px;
   --var-header-size: 24px;
   --footnote-size: 11px;
-  --line-height: calc(var(--font-size) * 1.75);
+  --line-height: calc(var(--font-size) * 1.5);
   --var-line-height: calc(var(--var-font-size) * 1.5);
   --var-larger-line-height: calc(var(--var-larger-font-size) * 1.35);
   --var-block-bg-color: rgba(197, 202, 193, 0.1);
@@ -44,7 +44,7 @@
   letter-spacing: -0.01em;
 }
 
-p[lang="gk"] {
+p[lang="gk"], span[lang="gk"] {
   font-family: var(--greek-font) !important;
 }
 
@@ -59,12 +59,10 @@ body {
   line-height: var(--line-height) !important;
 }
 
-a{
-    text-decoration: none;
-}
 
 a:hover{
-    text-decoration: underline;
+    text-decoration: none;
+    opacity: 0.5;
 }
 
 .ext-article{
@@ -333,11 +331,6 @@ img {
   opacity: 1;
 }
 
-.post-content a:hove, .footnotes a:hover {
-  opacity: 0.7;
-}
-
-
 .footnote a {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
@@ -379,18 +372,41 @@ img {
 .footnotes li + li::before {
   content: " (" counter(fn) ") ";
 }
+/* Make the title able to shrink inside a flex row (prevents horizontal scroll) */
+.archive-title{
+  flex: 1 1 auto;
+  min-width: 0;              /* critical for flex ellipsis */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;       /* single-line title on all sizes */
+}
 
-  .dot-leader {
-    flex-grow: 1;
-    /* This creates a 2px dot every 6px */
-    background-image: radial-gradient(circle, currentColor 1px, transparent 1.5px);
-    background-position: bottom;
-    background-size: 6px 2px;
-    background-repeat: repeat-x;
-    
-    /* Ensures it aligns with the text baseline */
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-    opacity: 0.15;
-    height: 1.2em; /* Matches the approximate height of your text */
+.dot-leader {
+  flex-grow: 1;
+  background-image: radial-gradient(circle, currentColor 1px, transparent 1.5px);
+  background-position: bottom;
+  background-size: 6px 2px;
+  background-repeat: repeat-x;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  opacity: 0.05;
+  height: 1.2em;
+}
+
+@media (max-width: 575.98px){
+  .archive-title{
+    position: relative;
+    padding-left: .65rem;   /* space for the bullet */
   }
+
+  .archive-title::before{
+    content: "•";
+    position: absolute;
+    left: 0;
+    top: 0;
+    line-height: 1.5;
+    opacity: .22;          /* subtle */
+    font-size: .85em;      /* slightly smaller than text */
+  }
+}
+
