@@ -3,8 +3,8 @@ layout: container
 ---
 
 <div class="mt-5">
-  <h1 class="fs-4 mb-3">{{ page.title }}</h1>
-  <p class="text-secondary mb-4 small">
+  <h1 class="fs-2 mb-3">{{ page.title }}</h1>
+  <p class="text-secondary mb-4">
     Posted on {{ page.date | date: "%B %-d, %Y" }} &middot;
     <a href="/" class="text-secondary">
       Back to notes index
@@ -17,27 +17,3 @@ layout: container
 </div>
 
 <hr class="mt-5 mb-4">
-
-<div class="d-flex justify-content-between small text-muted mb-5">
-  {% if page.previous %}
-    <div class="text-start">
-      <div class="mb-1">Previous post</div>
-      <a href="{{ page.previous.url }}" class="text-decoration-none text-muted">
-        <i class="bi bi-chevron-left pe-1"></i>
-        {{ page.previous.title }}
-      </a>
-    </div>
-  {% else %}
-    <div></div>
-  {% endif %}
-
-  {% if page.next %}
-    <div class="text-end">
-      <div class="mb-1">Next post</div>
-      <a href="{{ page.next.url }}" class="text-decoration-none text-muted">
-        {{ page.next.title }}
-        <i class="bi bi-chevron-right ps-1"></i>
-      </a>
-    </div>
-  {% endif %}
-</div>
