@@ -1,30 +1,53 @@
 ---
 layout: container
-title: Notes Archive
+title: Homepage
 ---
 
-<div class="my-5" id="page-top">
-  <h1 class="fs-2 mt-5">Notes</h1>
-</div>
+
 
 {% assign posts = site.posts | sort: "date" | reverse %}
 
-<ul class="list-unstyled mt-4 mb-0">
+<div class="row mt-5 mb-3">
+  <div class="col-md-8">
+    This is Roel Christian Yambao&rsquo;s personal website/archive.
+  </div>
+</div>
+
+<div class="row">
+<div class="col-md-6 me-2 mt-2">
+  <h2 class="fw-bold my-3 fs-5">Notes Archive</h2>
   {% for post in posts %}
-    <li class="py-2">
-      <a href="{{ post.url }}"
-        class="d-flex align-items-baseline text-decoration-none link-body-emphasis w-100 overflow-hidden">
-
-        <span class="archive-title">{{ post.title }}</span>
-
-        <span class="dot-leader d-none d-sm-block" aria-hidden="true"></span>
-
-        <time datetime="{{ post.date | date_to_xmlschema }}"
-              class="archive-date text-body-secondary flex-shrink-0 d-none d-sm-inline">
-          {{ post.date | date: '%b. %-d, %Y' }}
-        </time>
+    <p class="mb-1">
+      - <a href="{{ post.url }}" class="text-decoration-none link-body-emphasis">
+        {{ post.title }}
+        <span class="text-body-secondary">({{ post.date | date: "%b. %-d, %Y" }})</span>
       </a>
+    </p>
 
-    </li>
   {% endfor %}
-</ul>
+</div>
+<div class="col-md-4 ms-2 mt-2">
+    <h2 class="fw-bold my-3 fs-5">Bookmarks</h2>
+
+    <p class="text-body-secondary mb-3">
+      All links open in a new tab. I do not review these links after posting, so they may be broken or lead to content that is no longer relevant.
+    </p>
+
+    {% assign sorted_links = site.data.links.links | sort: "date" | reverse %}
+
+    {% for link in sorted_links %}
+      <p class="mb-1">
+        <a href="{{ link.url }}"
+           rel="noopener noreferrer"
+           target="_blank"
+           class="text-decoration-none link-body-emphasis">
+          {{ link.description }}
+          <span class="text-body-secondary">({{ link.date | date: "%b. %-d, %Y" }})</span>
+        </a>
+      </p>
+    {% endfor %}
+</div>
+</div>
+
+
+

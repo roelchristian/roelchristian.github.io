@@ -7,124 +7,12 @@
 <body>
 <nav class="navbar navbar-expand-sm sticky-top bg-body border-bottom py-3">
   <div class="container-fluid">
-    <a class="navbar-brand" href="/">roelchristian.com</a>
-    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+    <a class="navbar-brand" href="/">roelchristian.com</a> / {{ page.title }}
   </div>
 </nav>
 
-<div class="container-fluid">
-  <div class="row justify-content-center">
-    <div class="col-md-3">
-    </div>
-    
-    <div class="col-md-6 px-4">
+<div class="container-fluid px-5">
       {{ content }}
-    </div>
-
-    <div class="col-md-3">
-    </div>
-  </div>
 </div>
-<script>
-  /*!
-   * Color mode toggler for Bootstrap's docs (https://getbootstrap.com/)
-   * Copyright 2011-2024 The Bootstrap Authors
-   * Licensed under the Creative Commons Attribution 3.0 Unported License.
-   */
-  (() => {
-    'use strict';
-
-    const THEME_STORAGE_KEY = 'theme';
-    const THEME_ATTRIBUTE = 'data-bs-theme';
-    const LIGHT_THEME_VALUE = 'light';
-    const DARK_THEME_VALUE = 'dark';
-    const AUTO_THEME_VALUE = 'auto';
-
-    const getStoredTheme = () => localStorage.getItem(THEME_STORAGE_KEY);
-    const setStoredTheme = theme => localStorage.setItem(THEME_STORAGE_KEY, theme);
-
-    const getPreferredTheme = () => {
-      const storedTheme = getStoredTheme();
-      if (storedTheme) {
-        return storedTheme;
-      }
-      // If no stored theme, use 'auto' to respect system preference
-      return AUTO_THEME_VALUE;
-    };
-
-    const setTheme = theme => {
-      if (theme === AUTO_THEME_VALUE && window.matchMedia(`(prefers-color-scheme: ${DARK_THEME_VALUE})`).matches) {
-        document.documentElement.setAttribute(THEME_ATTRIBUTE, DARK_THEME_VALUE);
-      } else if (theme === AUTO_THEME_VALUE) {
-        document.documentElement.setAttribute(THEME_ATTRIBUTE, LIGHT_THEME_VALUE);
-      } else {
-        document.documentElement.setAttribute(THEME_ATTRIBUTE, theme);
-      }
-    };
-
-    // Apply the theme on initial load
-    setTheme(getPreferredTheme());
-
-    const showActiveTheme = (theme, focus = false) => {
-      const themeSwitcher = document.querySelector('#bd-theme'); // Assumes a theme switcher element with id="bd-theme"
-
-      if (!themeSwitcher) {
-        return;
-      }
-
-      const themeSwitcherText = document.querySelector('#bd-theme-text'); // Assumes a text element within the switcher
-      const activeThemeIcon = document.querySelector('.theme-icon-active use'); // Assumes an SVG icon
-      const btnToActive = document.querySelector(`[data-bs-theme-value="${theme}"]`);
-
-      document.querySelectorAll('[data-bs-theme-value]').forEach(element => {
-        element.classList.remove('active');
-        element.setAttribute('aria-pressed', 'false');
-      });
-
-      if (btnToActive) {
-        btnToActive.classList.add('active');
-        btnToActive.setAttribute('aria-pressed', 'true');
-        if (activeThemeIcon) {
-            const svgOfActiveBtn = btnToActive.querySelector('svg use')?.getAttribute('href');
-            if (svgOfActiveBtn) {
-                 activeThemeIcon.setAttribute('href', svgOfActiveBtn);
-            }
-        }
-        if (themeSwitcherText) {
-            const themeSwitcherLabel = `${themeSwitcherText.textContent.split('(')[0].trim()} (${btnToActive.dataset.bsThemeValue})`;
-            themeSwitcher.setAttribute('aria-label', themeSwitcherLabel);
-        }
-      }
-
-      if (focus) {
-        themeSwitcher.focus();
-      }
-    };
-
-    window.matchMedia(`(prefers-color-scheme: ${DARK_THEME_VALUE})`).addEventListener('change', () => {
-      const storedTheme = getStoredTheme();
-      if (storedTheme !== LIGHT_THEME_VALUE && storedTheme !== DARK_THEME_VALUE) {
-        // Only update if the stored theme is 'auto' or not set
-        setTheme(getPreferredTheme());
-      }
-    });
-
-    window.addEventListener('DOMContentLoaded', () => {
-      showActiveTheme(getPreferredTheme());
-
-      document.querySelectorAll('[data-bs-theme-value]')
-        .forEach(toggle => {
-          toggle.addEventListener('click', () => {
-            const theme = toggle.getAttribute('data-bs-theme-value');
-            setStoredTheme(theme);
-            setTheme(theme);
-            showActiveTheme(theme, true);
-          });
-        });
-    });
-  })();
-</script>
 </body>
 </html>
