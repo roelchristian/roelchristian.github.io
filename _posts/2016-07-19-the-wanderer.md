@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Wanderer
+title: The wanderer
 ---
 
 Because his face was always somber, they had always mistaken him for a
@@ -13,7 +13,9 @@ midnight, and The Wanderer (a fancy name their English teacher had bestowed him
 one Tuesday morning) would sit by the porch, waiting for the sun to set while
 looking at his mirror, asking what is wrong.
 
+<div markdown="1" class="fig-div">
 ![The Wanderer](https://gimlafraogh.wordpress.com/wp-content/uploads/2025/05/8172mt8172mt8172.jpg)
+</div>
 
 He wore red for a whole month to mourn his mother’s death, shaved his head
 daily that his scalp began bruising, drank the foul tea his mother loved: he was

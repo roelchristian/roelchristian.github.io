@@ -3,9 +3,8 @@ layout: post
 title: Bitter cherries
 ---
 
-<p class="small text-body-secondary mb-3" markdown="1">
 What follows is not a review but an attempt to answer a question. Abbas Kiarostami’s _A Taste of Cherry_ was first released in 1997 and won the Palme d’Or at Cannes the same year.
-</p>
+{: .text-body-secondary .mb-5}
 
 
 <section markdown="1">
