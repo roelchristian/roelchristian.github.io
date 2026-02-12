@@ -1,0 +1,30 @@
+---
+layout: post
+title: "Notes written while watching an episode of Bojack Horseman"
+---
+
+
+I wake up every day feeling I’m one step closer to ruin, wondering if this might be the day I fall down the abyss at last, the day my slow waltz to madness ends. I flush these thoughts down with a cup or two of coffee, face the mirror, smile.
+
+This has worked for me so far. Seeing myself smile makes me think I’m happy. But the method isn’t perfect. I still dread every second I have to spend awake, alive. I can only sustain the illusion so long: I don’t have the day to look at my face smiling or pretending to smile.
+
+But these little moments give me respite, even hope. I’m not sad, I think. I do not want to call it that. I just want to come to terms with my own inconsequentiality, with the meaninglessness of my life—and of capital-L life in general. But it’s hard.
+
+Growing up I’ve been told not to worry too much because it gets better in the end. Things will sort themselves out. If not here, then in that life to come. I think that’s bullshit now. It’s been a long time since I’ve stopped believing in that life to come. Or stopped caring.
+
+But I agree it gets better. But only because we humans have an infinite capacity to forget. And that’s a good thing. Our ability to forget is the thin, fragile wall that divides sanity from madness, that makes living from one day to another possible.
+
+I don’t even know why I’m writing this. I was watching Bojack a few hours ago, and late in one episode B. visits Sarah Lynn and she in a voice as calm as only those dying inside can muster says almost as an aside how the light inside her has gone.
+
+My heart broke a little over that scene. It was sad, but it was also beautiful. I would have cried if I haven’t forgotten how to. This flies over Bojack of course. It is this irony that makes this scene perfect.
+
+A minute later (a decade I think in the show’s timeline) Sarah Lynn dies, her death announced by a cheery news anchor in the same breath as a reality show advert. She didn’t kill herself, though. Not that it would have mattered.
+
+I remember a [line from Cioran](https://citations.ouest-france.fr/citation-emil-michel-cioran/peine-tuer-puisqu-tue-toujours-31707.html){:target="_blank"}: It’s no use killing yourself because you always end up too late deciding, that by the time you do, it hardly even matters (to you, for you) whether you actually kill yourself or not. That’s not a translation as much as my own colored interpretation.
+
+But I’ve been living by those words for some time now. I don’t even care how true those words really are. Everyone needs a religion, and those words are my religion. Maybe I will stop believing in them someday, as I did before with angels and demons and all that.
+
+I don’t know. This thread seems to long an essay over a three-second scene from something I only watched to pass the time while I’m waiting for my shift at work to end. But I couldn’t find my notebook and I had to write something lest I get mad.
+
+I hope I can make sense of it all someday, even though I feel it’s never gonna happen. I’m in the dark now, always gonna be.
+

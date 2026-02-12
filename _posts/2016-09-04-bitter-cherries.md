@@ -1,0 +1,42 @@
+---
+layout: post
+title: Bitter cherries
+---
+
+<p class="small text-body-secondary mb-3" markdown="1">
+What follows is not a review but an attempt to answer a question. Abbas Kiarostami’s _A Taste of Cherry_ was first released in 1997 and won the Palme d’Or at Cannes the same year.
+</p>
+
+
+<section markdown="1">
+
+I have watched Kiarostami’s _A Taste of Cherry_ some months ago. It is a pretentious film,[^1] redeemed only by its occasional playfulness, its detachment, and perhaps most importantly by its lead actor: Mr Badii a middle-aged Persian, on his face always the hint of a smile which tells you he knows you are watching him and he finds that fact amusing: a smile which in any other occasion you would have been angered by, had you not seen the man himself drowning in the quicksand of his disappointments: a smile, in short, which you reserve for strangers. But in _Taste of Cherry_ we are not shown the plagues afflicted on Mr Badii, our Job; instead we see him almost glowing with beatitude driving through the outskirts of Tehran. But then even this beatitude is an illusion.
+
+I would probably forget this film a year from now and all that I’ll remember are the dizzying Persian landscapes where Mr Badii had vainly sought his saviour. But even the wastelands of Tehran which seemed the perfect place on earth to be miserable and to contemplate suicide[^2] would become in my memories indistinguishable from the arid and (to their protagonists at least) awe-inspiring Egyptian landscapes of Hollywood mummy movies and Indiana Jones. Even more likely it might become another dimension in the vague geographic nothingness I have created in my mind from years[^3] of careless reading: a place which is at once the Little Prince’s Sahara and Durrell’s Alexandria and Cervantes’s La Mancha: that is to say, nowhere at all. Perhaps this truck-infested nowhere would be none of these things.
+
+But none of these bothered me: I didn’t care whether Kiarostami’s tricks were merited, whether they enhanced the film or whether they were simply showmanship (or even Kiarostami’s way of showing his contempt to his audience who were already deep in discussion even before the first frame). No, my concern was more primitive: why, I kept asking myself, did Mr Badii need someone to bury him in the first place? Was he afraid of the ravens?
+
+<div markdown="1" class="fig-div">
+![Taste of Cherry still](https://3.bp.blogspot.com/-OfAYv1Tx9Ow/TwZpAreqlzI/AAAAAAAAExk/Bjtao_6sJdQ/s1600/Taste+of+Cherry+%25281997%2529.png)
+
+‘You want to give up the taste of cherries?’[^4]
+</div>
+
+Any student of literature would recognise Mr Badii immediately. He is Prufrock, contemplating his peach. He is at once both Vladimir and Estragon waiting for a Godot they no longer cared to see. He is all of literature’s sad, old men, but it didn’t matter: to himself he was Mr Badii. Perhaps he is a bachelor, what did the facts matter. There are no women in his life—none that we know of at least—and Kiarostami even teasingly opens the film with him driving through a street filled with unemployed men, picking up boys for some seemingly shady purpose. One ignorant of Iran’s recent history would easily mistake the young Kurd soldier’s flightiness while talking to Mr Badii to be caused by the boy sensing something depraved in the man’s intentions. In fact he was afraid a passerby would see him and think he killed Mr Badii and was trying to get rid of the evidence by burying the man and the gun. And with the money on the car (that is, if Mr Badii was to be trusted) it would be harder to explain. He would be charged with murder and robbery. He would be imprisoned, or, more likely, he would be killed. Nobody would believe him even if he explained—_especially_ if he explained.
+</section>
+
+<section markdown="1">
+
+**But to the suicide again.** It is already halfway in the film when Mr Badii’s intention is first announced: he would kill himself, he needed someone to bury him. But why? It is never explained.
+
+Has it something to do with his religion, his beliefs? A conversation with an imam (which he tried to talk to agreement by pressing on the question of money) later in the film revealed Mr Badii is not religious. He even seems to hold a certain grudge on God. But Kiarostami does not dwell on this. Was it propriety: did he think it a last act of charity to spare his neighbours the sight (and the smell) of his rotting corpse? Or did he not want to be remembered that way, rotting, his body bloated, the flesh eaten by worms? Was it pride then? Perhaps it was pride.
+
+Suicide is always a private and personal act, and the presence of anyone—even with an invitation—tarnishes this privacy. By his presence alone this person becomes an accomplice to the act, himself an actor. Mr Badii didn’t want to commit suicide: he wanted to die, yes, but he was too cowardly[^5] or perhaps too cunning to think that it had to be a suicide. Mr Badii’s decision to die wasn’t pure and philosophical; it wasn’t born out of an impulse for truth, a refusal to continue to live by the rules of the absurd. It was a selfish act, a compulsion from and a confession of guilt, and perhaps by forcing somebody else to witness his act (though in hindsight) he wished to pass the burden and thus absolve himself. After everything, he still couldn’t convince himself that what he was about to do is right or justifiable. Mr Badii isn’t our pensive, reticent hero after all: in the sunset of dissolution we see instead a monster. I don’t think it matters whether or not he actually pulled the trigger.
+</section>
+
+
+[^1]: I think _ambitious_ would have been better: but one needs not redeem oneself from one’s ambition. Besides the term is in no way pejorative.
+[^2]: I have already discovered that I could not kill myself and the question of suicide will remain thus at a safe distance a philosophical game for rainy afternoons like today.
+[^3]: Five years, if you want to know.
+[^4]: The title comes from this quip by the professor who agrees to bury Mr Badii. He tries to persuade Mr Badii to reconsider his plan and take a moment to pause and reflect upon the beauty of life. He relates his own suicide attempt years before: then his epiphany. He is old, respectable and poor. Kariostami does not want us to trust this man.
+[^5]: At this point the halo dissipates.
