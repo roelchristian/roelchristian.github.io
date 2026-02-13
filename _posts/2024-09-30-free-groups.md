@@ -1,0 +1,324 @@
+---
+layout: post
+title: "Graduate school dispatch no. 2: free groups"
+---
+
+
+<section markdown="1">
+
+## 1
+
+I'm in the second year of my masters (whew!) and I'm currently taking a seminar
+course where my professor asked me to present at the end of the term a paper on
+universal quadratic forms (after a paper I had written a year ago for my number
+theory class). At the same time, I am trying to brush up on my algebra and thus
+decided to start learning some Galois theory (the algebra curriculum for the
+master's degree at La Salle did not include this) as I am planning to build on
+my paper and maybe write my thesis on some algebraic number theory topic.
+(Although to be honest I am still quite clueless at this point.) Besides, my
+qualifying exams are coming up (I am planning to take them in the next term if
+all goes well) and was about to start reviewing for it anyway. In any case, I've
+been studying from Aluffi's _Algebra: Chapter 0_ and have been enjoying it so
+far. In particular, even though I've already taken a course in algebraic
+rewriting earlier in the year, the notion of free groups only seemed to click
+now. (Although again we only ever talked about rewriting systems in that course
+without particular emphasis on the universal property of free groups and their
+construction.) This post is basically a rehash of what I've learned so far which
+I write here because of a newfound appreciation for the subject. (I wanted to
+write about the canonical decomposition of a group homomorphism &mdash; another
+topic I've recently gained an appreciation for &mdash; but I think I'll save
+that for another post.)
+
+</section>
+
+<section markdown="1">
+
+## 2
+The group $F(X)$ is a _free group_ on the set $X$ (or alternatively, we say that
+$F(X)$ is _free_ on $X$) if there is a set function $\iota: X \to F(X)$ such
+that for any group $G$ and any set function $\varphi: X \to G$, there exists a
+unique group homomorphism $\Phi: F(X) \to G$ such that $\Phi \circ \iota =
+\varphi$, i.e., the following diagram commutes:
+
+![](https://drive.google.com/thumbnail?id=18JXgIi9VWrkmhJeDCSpWLRyAFT39Nb6T&sz=w1000){: .w-25 }
+{: .noblur .text-center .my-3 }
+
+
+This means that every function from a set $X$ to a group $G$ can be
+decomposed into a function from $X$ to $F(X)$ followed by a homomorphism
+from $F(X)$ to $G$. Writing $F(X)$ is purely a notational convenience,
+to remind us that the group is free on $X$.
+If such a group exists, it is unique up to isomorphism. Consider for
+example a set $X$ and a set $G$ and suppose that $F_1$ and $F_2$ are
+groups satisfying the universal property in our definition. Then because
+$F_1$ is free on $X$ and $F_2$ is a group (and vice versa), we have:
+
+![](https://drive.google.com/thumbnail?id=1-1vwoT2f3nvmsLhQnqMj8BwFG1zt7QRX&sz=w1000){: .w-25 }
+{: .noblur .text-center .my-3 }
+
+where $\Phi$ and $\Psi$ are group homomorphisms whose existence is
+guaranteed by the universal property for $F_1$ and $F_2$, respectively.
+We then have $$\Phi \circ \iota_1 = \iota_2 \quad \text{and} \quad \Psi
+\circ \iota_2 = \iota_1.$$ Substituting $\iota_1$ in the first equation
+with $\Psi \circ \iota_2$ (and vice versa) gives us $$ \Phi \circ \Psi
+\circ \iota_2 = \iota_2 \quad \text{i.e.,} \quad \Phi \circ \Psi =
+\operatorname{id}_{F_2} $$ and $$ \Psi \circ \Phi \circ \iota_1 =
+\iota_1 \quad \text{i.e.,} \quad \Psi \circ \Phi =
+\operatorname{id}_{F_1}. $$
+That is $\Phi$ and $\Psi$ are inverses of each other, so $F_1$ and $F_2$
+are isomorphic.
+
+An alternative characterization would be to consider for a set $X$
+the category $\mathcal{F}^X$ whose objects are pairs $(k, G)$ where
+each $k$ is a set function $X \to G$ and each $G$ is a group, and
+whose morphisms are commutative diagrams of set functions of the
+form
+
+![](https://drive.google.com/thumbnail?id=18JXgIi9VWrkmhJeDCSpWLRyAFT39Nb6T&sz=w1000){: .w-25 }
+{: .noblur .text-center .my-3 }
+
+where again each $k_i$ is a set function $X \to G_i$ and each $G_i$
+is a group, and where $\varphi$ is a group homomorphism. Since we
+are considering all set functions $X \to G$, we are not encoding any
+group structure in the objects of $\mathcal{F}^X$. The free group
+$F(X)$ is then the group component of an initial object (which we
+write $(k_0, F(X))$) in $\mathcal{F}^X$.
+
+Because $(k_0, F(X))$ is initial in $\mathcal{F}^X$, there is a
+unique morphism from $(k_0, F(X))$ to any other object $(k, G)$ in
+$\mathcal{F}^X$. This morphism is a group homomorphism $\Phi: F(X)
+\to G$ such that $\Phi \circ k_0 = k$. This is the same as saying
+that $F(X)$ is free on $X$ (based on our earlier definition).
+Moreover, because $(k_0, F(X))$ is initial, it is unique up to
+isomorphism.
+
+</section>
+
+<section markdown="1">
+
+## 3
+
+An initial object in a category need not necessarily exist. We shall now
+show, however, that there exists an initial object in the category
+$\mathcal{F}^X$.
+
+Consider a set $X$ and let $X^{-1}$ be an isomorphic copy of $X$ with $X
+\cap X^{-1} = \emptyset$. Since $X \cong X^{-1}$, we can choose a
+bijection $\varphi : X \to X^{-1}$ and write $x^{-1}$ for $\varphi(x)$
+for all $x \in X$. (If $x^{-1} \in X^{-1}$ then the preimage of $x^{-1}$
+is $x$, and thus $x^{**} = x$ by definition.) We define a _word_
+in $X$ to be a finite $n$-tuple of elements of $x_i \in X \cup X^{-1}$
+of the form $$ (x_1, x_2, \ldots, x_n) $$ which we will denote by
+juxtaposition $$ w = x_1 x_2 \cdots x_n. $$ We shall call $X \cup
+X^{-1}$ the _alphabet_ on $X$ and each $a_i$ a _letter_ on
+this alphabet. The number $n$ is the _length_ of the word $w$.
+For example, if $X = \{a, b\}$, then $$ abba^{-1}b^{-1}a^{-1} $$ is a
+word of length $6$ on the alphabet $\{a, b, a^{-1}, b^{-1}\}$. For each
+$a$ we call $a^{-1}$ the _inverse_ of $a$, noting however that
+our usage here does not necessarily coincide with the group-theoretic
+notion of an inverse. (We shall later show that for each letter \(x\),
+its inverse is exactly \(x^{-1}\) but we shall stop short of this claim
+for now.) Write $W(X)$ for the set of all words in $X$, with the empty
+word (written $\varepsilon$) defined as the set containing no letters.
+
+The concatenation of two words $w_1 = x_1 x_2 \cdots x_m$ and $w_2 = y_1
+y_2 \cdots y_n$ is the word $$ w_1 w_2 = x_1 x_2 \cdots x_m y_1 y_2
+\cdots y_n. $$ A _substring_ of a word $w = x_1 x_2 \cdots x_n$
+is a word of the form $x_i x_{i + 1} \cdots x_j$ for some $i, j$ with $1
+\leq i \leq j \leq n$. We can immediately observe that the empty word is
+a substring of any word. We shall call a word $w = x_1 x_2 \cdots x_n$
+_reduced_ if it contains no substrings of the form $aa^{-1}$ or
+$a^{-1}a$. For example, the word $abb^{-1}a$ is not reduced, but the
+word $ab$ is.
+
+Now we want to introduce a process through which, say, two words $bab^{-1}bb$
+and $babb^{-1}baa^{-1}$ in $X = \{a, b\}$ both simplify to the same word $bab$,
+i.e., we want the _inverse_ $a^{-1}$ of $a$ to behave in a similar manner as a
+group inverse (in the limited sense that inverses _cancel out_ each other). To
+do this, we first define a map $W(X) \to W(X)$ that deletes from a given word
+$w$ any pair of the form $aa^{-1}$ or $a^{-1}a$. We call the image of $w$ under
+this map an _elementary reduction_ of $w$. Our goal then is to find for each
+word $w$ in $X$ a sequence of elementary reductions $$ w = w_0 \mapsto w_1
+\mapsto w_2 \mapsto \cdots \mapsto w_n $$ where $w_n$ is a word in $X$ that
+cannot be further reduced, i.e., any elementary reduction of $w_n$ is equal to
+$w_n$. (That is, $w_n$ is a reduced word by our earlier definition.) For each
+word $w$, at least one such sequence of elementary reductions exists, which we
+obtain by considering only reductions that delete the first occurrence of a pair
+of the form $aa^{-1}$ or $a^{-1}a$ from left to right. This must terminate after
+$\lfloor \frac{n}{2} \rfloor$ steps, where $n$ is the length of $w$, as each
+elementary reduction of this type decreases the length of the word by $2$. For
+the more general case, we refer to the following result, often called the
+_diamond lemma_.
+
+</section>
+
+<section markdown="1">
+
+## 4 Diamond lemma
+
+If $w \mapsto w_1$ and $w \mapsto w_2$ are two elementary reductions of
+a word $w$ in $X$, then there exists elementary reductions $w_1 \mapsto
+w_0$ and $w_2 \mapsto w_0$ of $w_1$ and $w_2$ such that the following
+diagram commutes:
+
+<!-- ID: 1y0xDaK0lR6ynaenvODYGBaadwTiTrOaM -->
+![](https://drive.google.com/thumbnail?id=1y0xDaK0lR6ynaenvODYGBaadwTiTrOaM&sz=w1000){: .w-25 }
+{: .noblur .text-center .my-3 }
+
+_Proof._ Let $\rho_1 : w \mapsto w_1$ and $\rho_2 : w \mapsto w_2$ be elementary
+reductions of $w$. Let $w = u\omega v$ be a word in $X$ where $u, v$ are
+(possibly empty) substrings of $w$ and $\omega \in X \cup X^{-1}$ is the
+substring undergoing an elementary reduction, i.e., $\omega$ must be of the form
+$aa^{-1}$ or $a^{-1}a$ or the empty string, and thus the reduction is given by
+$u\omega v \mapsto uv$. We consider two possible cases. If $\rho_1$ and $\rho_2$
+are disjoint, i.e., if they affect disjoint substrings $\omega_i$ of $w$
+(affected by the $\rho_i$), then $w$ must be of the form $u\omega_1v\omega_2y$
+where $u, v, y$ are (possibly empty) substrings of $w$, and composing the
+elementary reductions gives us $$ \rho_1 \circ \rho_2 : w \mapsto u\omega_1vy
+\mapsto uvy $$ and $$ \rho_2 \circ \rho_1 : w \mapsto uv\omega_2y \mapsto uvy,
+$$ and the lemma holds. On the other hand, if $\rho_1$ and $\rho_2$ are not
+disjoint, then $w$ must be of the form $u\omega v$ where $u, v$ are (possibly
+empty) substrings of $w$ and $\omega$ is the substring affected by both $\rho_1$
+and $\rho_2$, which must then be of the form $a^{-1}aa^{-1}$ or $aa^{-1}a$.
+Without loss of generality, suppose that $\omega = a^{-1}aa^{-1}$ and $\rho_1$
+reduces $a^{-1}a$ and $\rho_2$ reduces $aa^{-1}$. Then we have $$ \rho_1 : w =
+u(a^{-1}a)a^{-1}v \mapsto ua^{-1}v $$ and $$ \rho_2 : w = ua^{-1}(aa^{-1})v
+\mapsto ua^{-1}v $$ and thus the lemma also holds.
+
+</section>
+
+<section markdown="1">
+
+## 5 Theorem
+
+Let $w$ be a word in a set $X$. Then any sequence of elementary
+reductions $$ w \mapsto w_1' \mapsto w_2' \mapsto \cdots \mapsto w_n' $$
+and $$ w  \mapsto w_1'' \mapsto w_2'' \mapsto \cdots \mapsto w_m'' $$
+must terminate with the same reduced word $w_n = w_m'$.
+
+_Proof._ We prove this by induction on the length $k$ of the word $w$. If $k =
+0$, then the word is already reduced and there is nothing to prove.
+Similarly, if $k = 1$ then $w$ is a letter and is already reduced. Now,
+by the diamond lemma, there exists elementary reductions $w'_1 \mapsto
+w_1$ and $w''_1 \mapsto w_1$. Consider the sequence of elementary
+reductions $$ w_1 \mapsto w_2 \mapsto \cdots \mapsto w_j $$ where each
+$w_i$ is obtained by applying the lemma. That is, since $w_1$ is a
+reduction of both $w_1'$ and $w_1''$, it must follow that $w_2'$ and
+$w_2''$ (being reductions of $w_1'$ and $w_1''$) must reduce to the same
+word $w_2$. By induction, we therefore have $w'_n = w_j = w_m''$.
+
+</section>
+
+<section markdown="1">
+
+## 6
+
+Write $\overline{w}$ for the reduced word obtained from a word $w$ by a
+sequence of elementary reductions (this must exist and be unique by the
+results we have established thus far). Let $F(X)$ be the set of all
+reduced words in $X$. Then the empty word $\varepsilon$ is a reduced
+word and must be in $F(X)$. Define a binary operation $\cdot$ on $F(X)$
+by $$ w_1 \cdot w_2 = \overline{w_1 w_2} $$ where $w_1, w_2 \in F(X)$
+and $w_1 w_2$ is the concatenation of $w_1$ and $w_2$. We claim that
+$(F(X), \cdot)$ is a group under this operation.
+The empty word $\varepsilon$ is the identity element of $F(X)$ under
+this operation. Indeed, for any word $w$, we have $$ w \cdot \varepsilon
+= \overline{w \varepsilon} = \overline{w} = w = \overline{\varepsilon w}
+= \varepsilon \cdot w. $$
+We define the inverse of a word $w$ to be the word $w^{-1}$ obtained by
+reversing the order of the letters in $w$ and replacing each letter by
+its inverse. That is, if $w = x_1 x_2 \cdots x_n$ is a word, then its
+inverse is given by $$ w^{-1} = x_n^{-1} x_{n - 1}^{-1} \cdots x_1^{-1},
+$$ and thus $$ w \cdot w^{-1} = x_1 \cdots x_n x_n^{-1} \cdots x_1 =
+\varepsilon. $$
+
+(We can show the same for $w^{-1}w$.) Finally, we want to show that the
+operation $\cdot$ is associative. Let $w_1, w_2, w_3$ be words in
+$F(X)$. Then since $\overline{(\overline{w_1 w_2})w_3}$ and
+$\overline{w_1(\overline{w_2 w_3})}$ can be obtained from $w_1 w_2 w_3$
+by a sequence of elementary reductions, we have $$
+\overline{\overline{w_1 w_2} w_3} = \overline{w_1 w_2 w_3} =
+\overline{w_1 \overline{w_2 w_3}}, $$ and thus the operation $\cdot$ is
+associative. This completes the proof that $(F(X), \cdot)$ is a group.
+
+</section>
+
+<section markdown="1">
+    
+We need to show that $F(X)$ satisfies the universal property for free groups on
+the set $X$, i.e., there exists a map $\iota: X \to F(X)$ such that for any
+group $G$ and any set function $\varphi: X \to G$, there exists a unique group
+homomorphism $\Phi: F(X) \to G$ such that $\Phi \circ \iota = \varphi$.
+
+The map $\iota: X \to F(X)$ is the inclusion map that sends each element
+of $X$ to the corresponding letter in $F(X)$. (From this we observe that
+$X$ is contained in $F(X)$ as we intended it to be at the beginning of
+this section.) Let $G$ be a group and let $\varphi: X \to G$ be a set
+function; we want to construct a group homomorphism $\Phi: F(X) \to G$
+such that the diagram
+
+    <img
+    src="https://drive.google.com/thumbnail?id=18JXgIi9VWrkmhJeDCSpWLRyAFT39Nb6T&sz=w1000"
+    width="25%">
+
+commutes. Since $F(X)$ is the set of reduced words in $X$, each $w \in
+F(X)$ is of the form $$ w = x_1^{\varepsilon_1} x_2^{\varepsilon_2}
+\cdots x_n^{\varepsilon_n} $$ where each $x_i \in X$ and each
+$\varepsilon_i = \pm 1$. We define $\Phi(w)$ to be the product $$
+\Phi(w) = \varphi(x_1)^{\varepsilon_1} \varphi(x_2)^{\varepsilon_2}
+\cdots \varphi(x_n)^{\varepsilon_n}. $$ The expression $\varphi(x)^{-1}$
+is defined because $\varphi(x) \in G$ and inverses exist in $G$.
+
+We claim that $\Phi$ is a group homomorphism. We identify with $X$ its
+image under $\iota$, i.e., we take $X$ to be a subset of the underlying
+set of $F(X)$. To prove our claim, we first need to show that if $w$ is
+a reduced word and $x \in X$, then $\Phi(x\cdot w) = \varphi(x)\Phi(w)$
+and $\Phi(x^{-1} \cdot w) = \varphi(x)^{-1}\Phi(w)$. From this it would
+then follow, using the fact that the operation $\cdot$ on $F(X)$ is
+associative, and by induction on the length of the reduced word $w$,
+that for all reduced words $w_1$ and $w_2$, we have $\Phi(w_1 \cdot w_2)
+= \Phi(w_1) \Phi(w_2)$ and thus $\Phi$ is a group homomorphism.
+
+Write the reduced word $w$ as $w = x_1^{\varepsilon_1}
+x_2^{\varepsilon_2} \cdots x_r ^{\varepsilon_r}$ where each $x_i \in X$
+and each $\varepsilon_i = \pm 1$ for some $r \in \mathbb{N}$. If $x \neq
+x_1$, or if $x_1 = x$ and $\varepsilon_1 = 1$, then $x \cdot w$ must be
+reduced and we have $$ \begin{align*} \Phi(x)\Phi(w) &
+\varphi(x)(\varphi(x_1)^{\varepsilon_1} \cdots
+\varphi(x_r)^{\varepsilon_r}) = \varphi(x)\varphi(x_1)^{\varepsilon_1}
+\cdots \varphi(x_r)^{\varepsilon_r} \\ & = \varphi(x x_1^{\varepsilon_1}
+\cdots x_r^{\varepsilon_r}) = \Phi(x \cdot w). \end{align*} $$ If $x =
+x_1$ and $\varepsilon_1 = -1$, then  $x \cdot w$ is the reduced word
+$x_2^{\varepsilon_2} \cdots x_r^{\varepsilon_r}$, so that $$
+\begin{align*} \Phi(x \cdot w) & = \Phi(x_2^{\varepsilon_2} \cdots
+x_r^{\varepsilon_r}) = \varphi(x_2)^{\varepsilon_2} \cdots
+\varphi(x_r)^{\varepsilon_r} \\ & =
+\varphi(x_1)\varphi(x_1)^{-1}\varphi(x_2)^{\varepsilon_2} \cdots
+\varphi(x_r)^{\varepsilon_r} \\ &=
+\varphi(x)(\varphi(x_1)^{-1}\varphi(x_2)^{\varepsilon_2} \cdots
+\varphi(x_r)^{\varepsilon_r}) \\ & = \Phi(x)\Phi(w), \end{align*} $$ as
+desired. A similar argument establishes $\Phi(x^{-1} \cdot w) =
+\Phi(x)^{-1}\Phi(w)$.
+
+Now let $w_1$, $w_2$ be reduced words in $F(X)$ and let $w_1$ have
+length $n$. We proceed by induction on $n$. The case $n = 1$ is the
+result we have just established. Suppose that the result holds for $w_1$
+of length $k$ and suppose that $w_1$ is of the form $$ w_1 =
+x_0^{\varepsilon_0} x_1^{\varepsilon_1} \cdots x_k^{\varepsilon_k}. $$
+Then $w_1w_2 = x_0^{\varepsilon_0} (w'_1 w_2)$ where $w'_1 =
+x_1^{\varepsilon_1} \cdots x_k^{\varepsilon_k}$. Since $w'_1w_2$ need
+not necessarily be reduced, let $w_3 = \overline{w'_1 w_2}$ so that $w_1
+\cdot w_2 = x_0^{\varepsilon_0} \cdot w_3$. By the inductive hypothesis,
+we have $\Phi(w_3) = \Phi(w'_1) \Phi(w_2)$ and thus we have $$
+\begin{align*} \Phi(w_1 \cdot w_2) & =
+\Phi(x_0^{\varepsilon_0}(\overline{w'_1 w_2})) =
+\Phi(x_0^{\varepsilon_0} \cdot w_3) = \Phi(x_0^{\varepsilon_0})
+\Phi(w_3) \\ & = \Phi(x_0^{\varepsilon_0})\left(\Phi(w'_1)
+\Phi(w_2)\right) = \left(\Phi(x_0^{\varepsilon_0}) \Phi(w'_1)\right)
+\Phi(w_2) \\ & = \Phi(x_0^{\varepsilon_0} \cdot w'_1) \Phi(w_2) =
+\Phi(w_1) \Phi(w_2). \end{align*} $$ This shows that $\Phi$ is a group
+homomorphism. By construction, $\Phi(x) = \varphi(x)$ for all $x \in X$,
+and $\Phi$ is uniquely determined by $\varphi$. This completes the proof
+that $F(X)$ is the free group on $X$.
+
+</section>
