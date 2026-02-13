@@ -7,7 +7,8 @@
 <body>
 <nav class="navbar navbar-expand-sm sticky-top bg-body border-bottom">
   <div class="container-fluid">
-    <a class="navbar-brand" href="/">roelchristian.com</a> <div>/&nbsp;{{ page.title }}</div>
+    <a class="navbar-brand" href="/">{{ site.url | replace: 'https://', '' | replace: 'http://', '' | split: '/' | first }}
+</a> <div>/&nbsp;{{ page.title }}</div>
   </div>
 </nav>
 
