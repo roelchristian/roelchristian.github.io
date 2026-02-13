@@ -1,412 +1,133 @@
-@charset "UTF-8";
-
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Cormorant+SC:wght@300;400;500;600;700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=LXGW+WenKai+Mono+TC&family=Yuji+Mai&display=swap');
-
 :root{
-  font-kerning: normal;
-  font-variant-ligatures: common-ligatures;
-  font-feature-settings: "kern" 1, "liga" 1, "clig" 1, "calt" 1;
-  -webkit-font-feature-settings: "calt" 1;
-  -moz-font-feature-settings: "calt" 1;
-  --small-caps-font: "Cormorant SC", serif;
-  --mono-font: "IBM Plex Mono", Consolas;
-  --serif-font: "Cormorant Garamond", serif;
-  --greek-font: "EB Garamond", serif;
-  --chinese-font: "LXGW WenKai Mono TC", monospace;
-  --japanese-font: "Yuji Mai", serif;
-  --main-bg-color:  #fffff8;
-  --main-color: #171717;
-  --var-color-gray: #888;
-  --var-color-dark-gray: #2d2d2d;
-  --darkmode-bg-color: #222;
-  --darkmode-color: #ddd;
-  --accent-color-light-gray: #d5d5d5;
-  --accent-color-orange: #d18700;
-  --accent-color-dark-orange: #ab6700;
-  --accent-color-brown: #795b3d;
-  --accent-color-amber: #FFBF00;
-  /* crimson */
-  --accent-color-red: #A51C30;
-  --accent-color-red-dark-mode: #F05C79;
-  --accent-color-blue: #0366d6;
-  --accent-color-blue-dark-mode: #9ac9fe;
-  --font-size: 20px;
-  --var-font-size: 13px;
-  --var-larger-font-size: 20px;
-  --var-header-size: 24px;
-  --footnote-size: 11px;
-  --line-height: calc(var(--font-size) * 1.5);
-  --var-line-height: calc(var(--var-font-size) * 1.5);
-  --var-larger-line-height: calc(var(--var-larger-font-size) * 1.35);
-  --var-block-bg-color: rgba(197, 202, 193, 0.1);
-  --var-block-field-color: rgba(197, 202, 193, 0.3);
-  --var-block-button-color: rgba(197, 202, 193, 1);
-  letter-spacing: -0.01em;
+  --serif-font: "Times New Roman", serif;
+  --font-size: 18px;
+  --larger-font-size: 20px;
 }
 
-p[lang="gk"], span[lang="gk"] {
-  font-family: var(--greek-font) !important;
-}
-
-p[lang="jp"] {
-  font-family: var(--japanese-font) !important;
-}
-
-
-body {
+body{
   font-family: var(--serif-font) !important;
-  font-size: var(--font-size) !important;
-  line-height: var(--line-height) !important;
+  font-size: var(--font-size);
+  line-height: calc(var(--font-size) * 1.25);
 }
 
+li a:hover{
+  text-decoration: underline !important;
+}
+
+a{
+  color: inherit;
+}
 
 a:hover{
-    text-decoration: none;
-    opacity: 0.5;
+  opacity: 0.8;
 }
 
-.ext-article{
-    color: var(--accent-color-amber);
+.text-body-secondary{
+  color: #6c757d !important;
+  opacity: 0.8;
+}
+
+h1{
+  font-size: var(--larger-font-size) !important;
+  font-weight: bold;
+}
+
+h2{
+  font-size: var(--font-size) !important;
+  font-weight: bold;
+}
+
+p[lang="gk"], span[lang="gk"]{
+  font-style: italic;
+}
+
+section:not(:first-of-type) {
+  padding-top: 3em;
+}
+
+/* Make footnote numbers look like regular text (no clicks) */
+sup > a.footnote {
+  pointer-events: none; /* Disables clicking */
+  text-decoration: none;
+  color: inherit;
+  cursor: text;
+}
+
+/* Hide the back-link arrows in case they slip through */
+.reversefootnote {
+  display: none;
+}
+
+blockquote{
+  font-size: 16px;
+}
+
+/* 1) Make all images grayscale  with a slight blur */
+img{
+  -webkit-filter: grayscale(100%) blur(0.8px);
+  filter: grayscale(100%) blur(0.8px);
+}
+
+img.noblur, .noblur > img{
+  -webkit-filter: grayscale(100%) blur(0);
+  filter: grayscale(100%) blur(0);
+}
+
+.w-25{
+  width: 25% !important;
+}
+
+
+.fig-div{
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+p>img{
+  width: 100%;
+}
+@media (max-width: 575.98px){
+
+  .container-fluid.px-5{
+    padding-left: 5vw !important;
+    padding-right: 5vw !important;
   }
-  
-  .ext-book{
-    color: var(--accent-color-blue);
+
+  p, p>img{
+    width: 100%;
+    max-width: 90vw;
   }
-  
-  .ext-video{
-    color: var(--accent-color-red);
-  }
-  
-  .ext-other{
-    color: var(--var-color-gray);
-  }
+}
 
 div.post-content p{
   margin: 0;
 }
 
+p {
+  margin:0;
+}
 
-div.post-content p:not(:first-of-type){
-  text-indent: 4em;
+article.post-content p:not(:first-of-type){
+  text-indent: 2em;
 }
 
 p.noindent {
   text-indent: 0;
 }
 
-
 .hangind{
   padding: 1em 0;
 }
   
-div.post-content .hangind p, p.hangind{
-  padding-left: 20px;
+article.post-content .hangind p, p.hangind{
+  padding-left: 20px ;
   text-indent: -20px;
-  margin:0;
+  margin:0 ;
 }
 
-
-.hangind p { counter-increment: line 1;}
-
-.hangind p:nth-of-type(5n)::after {
-  content: counter(line);
-  font-weight: 300;
-  font-size: var(--var-font-size);
-  color: var(--var-color-gray);
-  position: absolute;
-  right: 30%;
-}
-
-.scroll-margin-top {
-  scroll-margin-top: 100px; /* This value was previously to account for a sticky TOC. As the TOC is no longer sticky, this value might need review. */
-}
-
-.return-to-top-link {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background-color: var(--bs-tertiary-bg);
-  border: 1px solid var(--bs-border-color-translucent);
-  color: var(--bs-body-color);
-  text-decoration: none;
-  opacity: 0.7;
-  transition: opacity 0.2s ease-in-out, background-color 0.2s ease-in-out, transform 0.1s ease-in-out;
-}
-.return-to-top-link:hover,
-.return-to-top-link:focus {
-  background-color: var(--bs-secondary-bg);
-  color: var(--bs-body-color); 
-  opacity: 1;
-  text-decoration: none;
-  transform: scale(1.1);
-}
-.return-to-top-link i {
-  font-size: 0.9rem;
-  vertical-align: middle; 
-}
-
-.year-navigation-wrapper { 
-  border-top-color: var(--bs-border-color) !important;
-  border-bottom-color: var(--bs-border-color) !important;
-}
-
-.year-navigation-carousel-container {
-  position: relative;
-  display: flex; 
-  align-items: center; 
-}
-
-.overflow-x-auto {
-  flex-grow: 1; 
-  overflow-x: auto;
-  -ms-overflow-style: none;  
-  scrollbar-width: none;  
-  position: relative; 
-}
-.overflow-x-auto::-webkit-scrollbar {
-  display: none; 
-}
-.overflow-x-auto ul {
-  padding-left: 5px; 
-  padding-right: 5px; 
-}
-
-.scroll-control {
-  background-color: var(--bs-tertiary-bg); 
-  border: 1px solid var(--bs-border-color-translucent); 
-  color: var(--bs-body-color); 
-  border-radius: 50%;
-  width: 36px;
-  height: 36px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  z-index: 10;
-  transition: opacity 0.2s ease-in-out, background-color 0.2s ease-in-out;
-  opacity: 0.8; 
-  flex-shrink: 0; 
-}
-.scroll-control:hover {
-  opacity: 1;
-  background-color: var(--bs-secondary-bg); 
-}
-.scroll-control:focus {
-  outline: none;
-  box-shadow: 0 0 0 0.2rem rgba(var(--bs-primary-rgb), 0.4); 
-}
-.scroll-control i { 
-  font-size: 1rem; 
-  vertical-align: middle;
-}
-
-[data-bs-theme="dark"] .year-navigation-carousel-container .nav-link.btn-outline-secondary {
-  color: var(--bs-secondary-color);
-  border-color: var(--bs-secondary-color);
-}
-[data-bs-theme="dark"] .year-navigation-carousel-container .nav-link.btn-outline-secondary:hover,
-[data-bs-theme="dark"] .year-navigation-carousel-container .nav-link.btn-outline-secondary:focus {
-  color: var(--bs-body-bg); 
-  background-color: var(--bs-secondary-color);
-  border-color: var(--bs-secondary-color);
-}
-
-.scroll-control-prev {
-  margin-right: 0.25rem; 
-}
-.scroll-control-next {
-  margin-left: 0.25rem; 
-}
-
-.toc-navigation {
-  position: static; /* Removed sticky top feature */
-  /* For dark theme, ensure background and border adapt */
-  background-color: var(--bs-body-bg); 
-  border-bottom: 1px solid var(--bs-border-color-translucent); /* More subtle border for dark theme */
-  /* z-index: 1020; /* Removed as it's not applicable to position: static and sticky feature is removed */
-}
-
-.toc-navigation .container-fluid {
-  padding-left: 1rem; /* Adjust as needed for overall page padding */
-  padding-right: 1rem;
-}
-
-.toc-label {
-  font-size: 0.9rem;
-  font-weight: 500; /* Medium weight for the label */
-  color: var(--bs-emphasis-color); /* Adapts to light/dark theme for emphasis */
-  white-space: nowrap; /* Prevent label from wrapping */
-}
-
-.toc-navigation ul {
-  /* Hide scrollbar for the TOC links if they overflow */
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
-}
-.toc-navigation ul::-webkit-scrollbar {
-  display: none; /* Safari and Chrome */
-}
-
-.toc-navigation a {
-  font-size: 0.9rem;
-  color: var(--bs-secondary-color); /* Use secondary color for less emphasis */
-  transition: color 0.15s ease-in-out;
-}
-.toc-navigation a:hover,
-.toc-navigation a:focus {
-  color: var(--bs-emphasis-color) !important; /* Changed from --bs-primary to --bs-emphasis-color */
-}
-
-/* Dark theme specific overrides if needed, though Bootstrap vars should handle most */
-[data-bs-theme="dark"] .toc-navigation {
-   /* position: static; from the base .toc-navigation rule will apply here */
-   background-color: var(--bs-tertiary-bg); /* Or a slightly different dark shade */
-   border-bottom-color: var(--bs-border-color);
-}
-[data-bs-theme="dark"] .toc-label {
-  color: var(--bs-light); /* Lighter label for dark theme */
-}
-[data-bs-theme="dark"] .toc-navigation a {
-  color: var(--bs-gray-500); /* Lighter gray for links on dark */
-}
-[data-bs-theme="dark"] .toc-navigation a:hover,
-[data-bs-theme="dark"] .toc-navigation a:focus {
-  color: var(--bs-emphasis-color) !important; /* Changed from --bs-primary-text-emphasis to --bs-emphasis-color */
-}
-
-.dash-width {
-  min-width: 1.2em;
-}
-
-figure img {
-  width: 100% !important;
-}
-
-figure {
-  margin: 40px 0;
-}
-
-figcaption {
-  font-size: 0.75em !important;
-  margin-top: 20px !important;
-  margin-left: 80px !important;
-  margin-right: 40px !important;
-  font-family: var(--mono-font) !important;
- }
-
-
-img {
-  filter: grayscale(100%) !important;
-  -webkit-filter: grayscale(100%) !important; /* For older Safari browsers */
-  filter: saturate(0%);
-  -webkit-filter: saturate(0%);
-}
-
- section h2, .post-content h2 {
-  font-weight: 500;
-  font-style: italic;
-  font-size: calc(var(--font-size) * 1.2);
- }
-
- section h3 {
-  font-size: var(--font-size) !important;
-  line-height: var(--line-height) !important;
-  color: rgba(var(--bs-secondary-rgb), 1);
-  font-weight: 500;
-  margin: 15px 0 !important;
-
- }
-
- section {
-  margin: 40px 0;
-
- }
-
-
-.post-content a, .footnotes li > a {
-  color: rgba(var(--bs-secondary-rgb), 1);
-  opacity: 1;
-}
-
-.footnote a {
-  padding-left: 0.25rem;
-  padding-right: 0.25rem;
-  color: rgba(var(--bs-secondary-rgb), 1) ;
-  font-family: var(--mono-font) !important;
-  border-bottom: none !important;
-  font-weight: 600 !important;
-}
-.footnote a::after{
-  content: ")";
-}
-.footnote a::before{
-  content: "(";
-}
-
-.footnotes {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  text-indent: 2em;
-}
-
-
-
-.footnotes li::before {
-  content: "(" counter(fn) ") ";
-  font-weight: 500; /* medium */
-  font-family: var(--mono-font) !important;
-}
-
-.footnotes {
-  counter-reset: fn;
-}
-
-.footnotes li {
-  counter-increment: fn;
-}
-
-.footnotes li + li::before {
-  content: " (" counter(fn) ") ";
-}
-/* Make the title able to shrink inside a flex row (prevents horizontal scroll) */
-.archive-title{
-  flex: 1 1 auto;
-  min-width: 0;              /* critical for flex ellipsis */
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;       /* single-line title on all sizes */
-}
-
-.dot-leader {
-  flex-grow: 1;
-  background-image: radial-gradient(circle, currentColor 1px, transparent 1.5px);
-  background-position: bottom;
-  background-size: 6px 2px;
-  background-repeat: repeat-x;
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-  opacity: 0.05;
-  height: 1.2em;
-}
-
-@media (max-width: 575.98px){
-  .archive-title{
-    position: relative;
-    padding-left: .65rem;   /* space for the bullet */
-  }
-
-  .archive-title::before{
-    content: "•";
-    position: absolute;
-    left: 0;
-    top: 0;
-    line-height: 1.5;
-    opacity: .22;          /* subtle */
-    font-size: .85em;      /* slightly smaller than text */
-  }
+blockquote{
+  margin-left: 1em;
+  margin-right: 0;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
