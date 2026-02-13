@@ -1,5 +1,5 @@
 ---
-title: Poem After Li Bai
+title: Poem after Li Bai
 layout: post
 ---
 
