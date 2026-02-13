@@ -5,7 +5,7 @@ title: The story of the luckless man, Ch’ien-hsi
 
 
 
-Translated from the Chinese by Pai Ho-shen, with help from Catherine So.</p>
+Translated from the Chinese of Pai Ho-shen, with help from Catherine So.</p>
 {: .text-body-secondary .mb-4 }
 
 <section markdown="1">

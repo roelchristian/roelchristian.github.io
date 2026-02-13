@@ -3,9 +3,8 @@ layout: post
 title: "Biograf&iacute;a de Carlos G&oacute;mez &Aacute;lava"
 ---
 
-<p>
 La muerte de Carlos Gómez Álava en 1988 le mereció un breve obituario en la
-<em>Revista Catalana de Literatura Extranjera</em>, que resultó ser una
+_Revista Catalana de Literatura Extranjera_, que resultó ser una
 enumeración innecesaria de nimiedades sobre su vida (como su nombre y fecha de
 nacimiento) en lugar de una verdadera semblanza biográfica. Ofrezco este ensayo
 ahora en penitencia por aquella omisión. No hay indicación alguna de que la
@@ -15,21 +14,19 @@ literarios del país, ni se ha publicado ninguna nueva edición de sus obras des
 entonces. Nadie conocía a Carlos Gómez Álava en 1988; de hecho, apenas alguien
 lo conoció jamás. Su única obra —sin incluir algunos escasos ensayos y poemas en
 varias revistas clandestinas—, un libro de poemas titulado
-<em>Excelsitudes</em>, apareció en Barcelona en 1971, impreso por Federico Sanz,
+_Excelsitudes_, apareció en Barcelona en 1971, impreso por Federico Sanz,
 célebre editor vanguardista de la época que solo eludía la persecución
 falangista gracias a la oscuridad de los textos que decidía imprimir. El libro,
-influido conscientemente por el <em>Gitanjali</em> de Tagore (si no una
+influido conscientemente por el _Gitanjali_ de Tagore (si no una
 imitación directa), apenas vendió 37 copias de la tirada original de 200. Se
 rumoreaba que Gómez rastreó la ciudad en busca de quienes habían comprado su
 libro para recomprarlos y pedirles disculpas por lo que él mismo llamó su gran
 fracaso. Gómez, que para entonces rondaba la cincuentena, no volvería a publicar
-nada después de <em>Excelsitudes</em>.
-</p>
+nada después de _Excelsitudes_.
 
-<p>
 Parece, sin embargo, que Gómez no logró recomprarlos todos. Descubrí hace unos
 meses, entre los libros de mi abuelo, una copia de la primera edición de
-<em>Excelsitudes</em>. Mi abuelo nunca había estado en Barcelona ni en España
+_Excelsitudes_. Mi abuelo nunca había estado en Barcelona ni en España
 (que yo sepa) y, por lo tanto, no sé cómo llegó el libro a sus manos. Pero eso
 es lo de menos; lo que importa es que lo tenía. Procedí a hojear el libro. El
 español de Gómez poseía la rusticidad de quien, aun conociendo bien la lengua,
@@ -42,42 +39,35 @@ en su propio país—, averigüé que Gómez era de Hagónoy y escribió en espa
 después de la guerra, mucho tiempo después de la edad de oro de la literatura
 hispanofilipina. (Este detalle adicional acentuó mi interés en él porque yo
 vivía en aquella época en Calumpit, justo en la frontera con Hagónoy).
-</p>
 
-<p>
 Gómez nació en 1926, en la década en que la lengua española finalmente sucumbía
 en Filipinas tras una agonía que había durado varios decenios. Poetas y
 políticos, al sentir soplar los vientos de cambio, decidieron olvidar lo que
 sabían de español para aprender el idioma de los nuevos vencedores americanos.
 En tagalo (o tal vez en inglés) habría escrito el gran poema épico filipino del
-siglo <span style="font-variant: small-caps;">XX</span>, habría ganado el premio
-Nobel y, a su muerte, recién cumplidos los sesenta años, lo habrían enterrado en
-el Panteón Nacional junto a otras figuras célebres de la historia de su país.
-Quizás lo habrían declarado héroe o algo similar. En cambio, eligió el español,
-sellando así su destino a la oscuridad. Ya antes de la Segunda Guerra Mundial,
-el inglés estaba suplantando al español en Filipinas, y quienes escribían en
-esta lengua lo hacían con la plena conciencia de que esta se estaba convirtiendo
-poco a poco en un <em>corpus</em> sin lectores; al escribir en ella, un autor se
-condenaba a sí mismo al olvido (una ironía, dado que el español es la segunda
-lengua más hablada del mundo).
-</p>
+siglo XX, habría ganado el premio Nobel y, a su muerte, recién cumplidos los
+sesenta años, lo habrían enterrado en el Panteón Nacional junto a otras figuras
+célebres de la historia de su país. Quizás lo habrían declarado héroe o algo
+similar. En cambio, eligió el español, sellando así su destino a la oscuridad.
+Ya antes de la Segunda Guerra Mundial, el inglés estaba suplantando al español
+en Filipinas, y quienes escribían en esta lengua lo hacían con la plena
+conciencia de que esta se estaba convirtiendo poco a poco en un _corpus_ sin
+lectores; al escribir en ella, un autor se condenaba a sí mismo al olvido (una
+ironía, dado que el español es la segunda lengua más hablada del mundo).
 
-<p>
-Nació en Bulacán, el corazón del <em>Katagalugan</em> —lugar donde también
+Nació en Bulacán, el corazón del _Katagalugan_ —lugar donde también
 nacieron Francisco Balagtás, José Corazón de Jesús, Amado Hernández, Virgilio
 Almario y otras figuras legendarias—, por lo que su decisión de escribir no en
 tagalo, ni siquiera en inglés, fue vista por algunos como una traición cultural,
 un caso más de la mentalidad colonial que proliferaba en el país. (Recuerdo un
-artículo del <em>Manila Bulletin</em> que planteaba cómo justificar la paradoja
+artículo del _Manila Bulletin_ que planteaba cómo justificar la paradoja
 del término «hispanofilipino», cómo reconciliar sus dos elementos). Se negaba a
 decir de qué barrio de Hagónoy procedía porque quería imitar a Cervantes —así lo
 afirmó él—, quien no quiso revelar el «lugar de La Mancha» para dejar que
 &laquo;todas las villas y lugares de Hagónoy contendiesen entre sí por
 ahijársele y tenérsele por suyo, como contendieron las siete ciudades de Grecia
 por Homero&raquo;. Fue, descubrí más tarde, el barrio de San Agustín.
-</p>
 
-<p>
 En las Filipinas del siglo pasado, para ser escritor, para ser intelectual, para
 ser alguien (incluso un tonto), era preciso ser rico. La familia Gómez era
 adinerada, su fortuna fundada sobre las cenizas de la revolución por un
@@ -86,7 +76,7 @@ dominicano que huyó de Vizcaya —y de sus deudas y crímenes allí— para com
 una nueva vida en los confines de la tierra. (El apellido vasco se perdió
 durante el viaje hasta aquí). El patriarca se aferró a esta exigua traza de
 españolidad para evitar que los despreciaran y ridiculizaran con la fervorosa
-burla que la alta sociedad reservaba a los <em>nouveaux-riches</em>. Los hijos
+burla que la alta sociedad reservaba a los _nouveaux-riches_. Los hijos
 fueron al Ateneo de Manila, y Carlos ya cursaba su primer año en la Universidad
 de Santo Tomás cuando estalló la guerra. Estudiaba filosofía como preparación
 para la carrera de derecho que su padre le había destinado desde siempre. Unos
@@ -96,8 +86,7 @@ sus estudios para obtener el bachillerato en artes. Se matriculó en la
 Universidad de Filipinas, decisión que encendió la ira de su padre y lo
 convirtió en objeto de burla entre sus amigos del Ateneo. Para aplacar a su
 padre, procedió a estudiar derecho y se licenció en 1951 o 1952.
-</p>
-<p>
+
 De este periodo sobrevive solo el poema &laquo;Ladrona&raquo;, donde declaró:
 &laquo;A mí no me gustan las mujeronas bulaqueñas&raquo;, lo que puso fin a su
 amistad con Blas Ople. La primera estrofa de &laquo;Ladrona&raquo; era una
@@ -105,25 +94,18 @@ traducción de una estrofa de un poema de José Corazón de Jesús (no sé cuál
 Gómez dejó intencionalmente sin atribución. Más tarde lamentaría: &laquo;Ninguno
 de aquellos críticos altivos notó que plagié a José Corazón de Jesús. ¿Tengo yo
 la culpa de encontrar feas a las mujeres de mi niñez?&raquo;.
-</p>
-<p>
+
 En algún momento de la década de 1960, llegó a Barcelona para no volver jamás a
 Filipinas. Su decisión de trasladarse a España se la explicó con gran pompa a su
 mejor (creo que único) amigo, Martín Yúmul, en una carta de noviembre de 1967:
-</p>
-<p>
-<blockquote class="small px-3 border-start border-2 my-3">
-  <p>
-He buscado durante mucho tiempo la sombra del caballero de la triste figura en
-nuestro país, pero nunca he conseguido encontrarla. El Quijote ya se fue; o,
-mejor dicho, nunca estuvo allí. La lengua española ya está muerta en nuestro
-país; murió hace muchos años, y solo un loco perdido creería que resurgiría y
-reflorecería. En cuanto a lo que llamas mi traición, solo digo que yo no
-pertenezco a ningún país, sino a la lengua española y a su literatura.
-  </p>
-</blockquote>
-</p>
-<p>
+
+> He buscado durante mucho tiempo la sombra del caballero de la triste figura en
+> nuestro país, pero nunca he conseguido encontrarla. El Quijote ya se fue; o,
+> mejor dicho, nunca estuvo allí. La lengua española ya está muerta en nuestro
+> país; murió hace muchos años, y solo un loco perdido creería que resurgiría y
+> reflorecería. En cuanto a lo que llamas mi traición, solo digo que yo no
+> pertenezco a ningún país, sino a la lengua española y a su literatura.
+
 En efecto, en su obra más controversial, un polémico ensayo donde identifica
 &laquo;tres faltas de la identidad hispanofilipina&raquo; que, según él,
 causaron el fallecimiento de la lengua española en Filipinas, continuaría
@@ -135,31 +117,27 @@ países hispánicos. En lugar de ello, el país pretendía ser asiático y que s
 rasgos eran como los de China, Japón o India. El ensayo (que escribió cuando ya
 estaba en Barcelona) suscitó la respuesta de una columnista en un diario
 manileño de simpatías proamericanas, quien advertía contra &laquo;los que desean
-un <em>Anschluss</em> español, una vuelta al seno colonial de España, con el
+un _Anschluss_ español, una vuelta al seno colonial de España, con el
 precio de la libertad por la cual nuestros antepasados habían luchado&raquo;.
 Gómez no escribió nada en respuesta; lo más probable es que ni siquiera la leyó.
-</p>
 
-<p>
 El ensayo, titulado «La imposibilidad de una literatura filipina en español» o
 «La imposibilidad de una literatura hispanofilipina» —existen ambas versiones—,
 fue su única obra polémica (si no directamente política). Gómez era
 decididamente apolítico y no creía que la función de los escritores fuera ser
 reformadores sociales o profetas del cambio. Esta opinión la mantenía también
 sobre Rizal y sus dos novelas: «Cuando leo a Rizal, finjo que no escribió ni el
-<em>Noli me tángere</em> ni <em>El filibusterismo</em> para poder apreciar su obra».
+_Noli me tángere_ ni _El filibusterismo_ para poder apreciar su obra».
 Su perspectiva resuena con la filosofía del «ars gratia artis» del también
 filipino (aunque residente en América) José García Villa (quizás su antítesis),
 a quien no conoció y de quien, probablemente, nunca había oído hablar.
-</p>
-<p>
+
 Las tres faltas que enumeraba eran: (1ª) la incapacidad de reconocer la propia
 identidad hispánica, confundiéndola con una falsa identidad asiática; (2ª) el no
 haberse apropiado del Quijote; y (3ª) la incapacidad de liberarse de la tiranía
 de Rizal. La tercera, que él consideraba la más importante, no concernía
 solamente a la literatura filipina en español, sino en cualquier lengua.
-</p>
-<p>
+
 El deseo de olvidar el pasado hispánico es común a todos los países que fueron
 colonias de España. Borges, refiriéndose a la situación argentina, escribe que
 la historia de su país puede definirse sin equivocación como «un querer
@@ -172,13 +150,13 @@ países latinoamericanos, descienden de españoles u otros europeos y, a pesar d
 percibirse como argentinos, mexicanos o peruanos, comparten en el fondo una
 herencia española (o europea). Es posible una continuidad entre la tradición de
 estos países y la de España y Europa, pero en Filipinas no, o, al menos,
-resultaría muy difícil. Gómez no deseaba un <em>Anschluss</em> español, como
+resultaría muy difícil. Gómez no deseaba un _Anschluss_ español, como
 algunos lo acusaron. De hecho, entre los años cuarenta y cincuenta, pensaba que
 los miembros del círculo hispanofilipino estaban encerrados en su torre de
 marfil, librando una lucha vana. Llevado a la desesperación por la falta de
 apoyo gubernamental a las actividades para promover la lengua española en
 Filipinas, le escribiría a Yúmul —cuando se enteró de la visita de buena
-voluntad del presidente Quirino a España y leyó en <em>La Vanguardia</em> el
+voluntad del presidente Quirino a España y leyó en _La Vanguardia_ el
 discurso del Generalísimo Franco en el banquete de recepción («Cuatro siglos de
 vivencia en el mismo seno familiar no pueden ser borrados por una ausencia»)—
 que «los hispanohablantes de Manila sueñan que hablan español. ¿Qué es el
@@ -188,8 +166,7 @@ tradición hispanofilipina, ya perdida hacía tres o cuatro generaciones; una
 vuelta al verdadero espíritu de la vieja Manila. Este retorno —pensaba él— no
 sería posible a menos que Filipinas se hermanara con los otros países
 hispánicos.
-</p>
-<p>
+
 Esta hermandad la veía Gómez en ese singular monumento de la lengua española que
 es el Quijote. Bastaría, según él, con reconocer que el Quijote pertenecía a
 Filipinas tanto como a todos los hispanohablantes; que los paisajes de La Mancha
@@ -200,8 +177,7 @@ perfecta. Al igual que otros quijotistas, Gómez interpretaba el Quijote
 críticamente, trascendiendo la simple veneración al autor. Alejo Carpentier dijo
 una vez que en el Quijote está todo; pienso que Gómez habría estado de acuerdo
 en que de Rizal no podría decirse lo mismo.
-</p>
-<p>
+
 Pero ¿de dónde —se preguntará el lector— le viene a Gómez este desamor por
 Rizal? Creo que «desamor» es un término aquí mal empleado. De joven, admiraba
 los poemas de Rizal. Dijo de «Mi último adiós» que, cuando leyó el verso «Soy
@@ -225,40 +201,27 @@ una apreciación equilibrados por la objetividad. Siempre señalaba, por ejemplo
 el defecto de que las novelas de Rizal abundaran en color local, con extensas
 enumeraciones de zoología y botánica filipina, con el «español de tienda» y con
 otros detalles exóticos fácilmente expurgables, pero que Rizal, sin embargo,
-había añadido para ser «más filipino». Incluso subtituló el <em>Noli</em> como
-«Novela tagala». En una ocasión, Gómez dijo que a quienes leen el <em>Noli me
-tángere</em> por primera vez, la novela les parecería una obra mal traducida del
+había añadido para ser «más filipino». Incluso subtituló el _Noli_ como
+«Novela tagala». En una ocasión, Gómez dijo que a quienes leen el _Noli me
+tángere_ por primera vez, la novela les parecería una obra mal traducida del
 tagalo. Más tarde escribiría:
-</p>
 
-<p>
-  <blockquote class="small px-3 border-start border-2 my-3">
-    <p>
-      ¿Qué significa «filipino»? ¿Es un poema de Rizal o de Bernabé
-      irreconciliable con los de Góngora o Bécquer? Los escritores filipinos de
-      cualquier lengua están todos bajo la tiranía de Rizal: era, sí, un buen
-      poeta, pero no era Rizal el único escritor filipino y, de todas maneras,
-      no era el mejor.
-    </p>
-  </blockquote>
-</p>
-<p>
-De <em>Excelsitudes</em>, sin embargo, no hay mucho que decir. Bastaría notar que
+> ¿Qué significa «filipino»? ¿Es un poema de Rizal o de Bernabé irreconciliable
+> con los de Góngora o Bécquer? Los escritores filipinos de cualquier lengua
+> están todos bajo la tiranía de Rizal: era, sí, un buen poeta, pero no era
+> Rizal el único escritor filipino y, de todas maneras, no era el mejor.
+  
+De _Excelsitudes_, sin embargo, no hay mucho que decir. Bastaría notar que
 sus 379 páginas contienen la vida de Carlos Gómez y que la vida de Carlos Gómez
 contiene, a su vez, la historia de la literatura filipina. Por lo tanto, no es
-sorprendente que el epígrafe de <em>Excelsitudes</em> esté en inglés, un párrafo
-que Gómez atribuye a la <em>Anatomy of Melancholy</em> de Burton:</p>
-<blockquote class="small px-3 border-start border-2 my-3">
-  <p>
-    Finish a thousand silly volumes to write a single word like love, eternity,
-    and soul and despair at how flimsy these all are, how infinitely better the
-    silence.
-  </p>
-</blockquote>
-<p>
-  El párrafo no aparece en ninguna página de la <em>Anatomy</em>, y me parece que
-  este fue una invención del propio Gómez.
-</p>
-<p>
+sorprendente que el epígrafe de _Excelsitudes_ esté en inglés, un párrafo
+que Gómez atribuye a la _Anatomy of Melancholy_ de Burton:
+  
+> Finish a thousand silly volumes to write a single word like love, eternity,
+> and soul and despair at how flimsy these all are, how infinitely better the
+> silence.
+
+El párrafo no aparece en ninguna página de la _Anatomy_, y me parece que
+este fue una invención del propio Gómez.
+
 El 9 de marzo de 1988 falleció Carlos Gómez Álava en Barcelona.
-</p>
