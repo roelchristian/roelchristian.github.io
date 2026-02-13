@@ -7,7 +7,7 @@ title: Homepage
 
 <div class="row mt-5 mb-3">
   <div class="col-md-8">
-    This is Roel Christian Yambao&rsquo;s personal website/archive.
+    This is Roel Christian Yambao&rsquo;s personal website/archive. <a href="/contact" >Click here to contact me.</a>
   </div>
 </div>
 
@@ -20,7 +20,7 @@ title: Homepage
         <li>
           <a href="{{ post.url }}" class="text-decoration-none link-body-emphasis">
             {{ post.title }}
-            <span class="text-body-secondary">({{ post.date | date: "%b. %-d, %Y" }})</span>
+            <span class="text-body-secondary">({{ post.date | date: "%d.%m.%y" }})</span>
           </a>
         </li>
       {% endfor %}
@@ -44,7 +44,7 @@ title: Homepage
              target="_blank"
              class="text-decoration-none link-body-emphasis">
              {{ link.description }}
-            <span class="text-body-secondary">({{ link.date | date: "%b. %-d, %Y" }})</span>
+            <span class="text-body-secondary">({{ link.date | date: "%d.%m.%y" }})</span>
           </a>
         </li>
       {% endfor %}
