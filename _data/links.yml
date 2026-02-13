@@ -2,11 +2,9 @@ links:
   - url: "https://www.internationalphoneticassociation.org/icphs-proceedings/ICPhS1999/papers/p14_0309.pdf"
     description: "Vowel devoicing in Parisian French"
     date: 2022-01-27
-    category: 1
   - url: "https://core.ac.uk/download/pdf/233185443.pdf"
     description: In praise of footnotes
     date: 2021-11-02
-    category: 1
   - url: "https://pudding.cool/2021/10/judge-my-music/"
     description: "How bad is your Spotify?"
     date: 2021-01-21
@@ -14,11 +12,9 @@ links:
   - url: "https://www.nytimes.com/2014/10/05/magazine/andre-braugher-the-undercover-comedian-of-brooklyn-nine-nine.html"
     description: "Andre Braugher, undercover comedian"
     date: 2020-06-30
-    category: 1
   - url: "https://www.theatlantic.com/magazine/archive/2017/06/lolas-story/524490/"
     description: "My family&rsquo;s slave"
     date: 2018-04-23
-    category: 1
   - url: "https://youtu.be/K2FsG1G1psw"
     description: "Vampire Weekend performs for La Blogoth&egrave;que"
     date: 2017-05-05
@@ -26,16 +22,31 @@ links:
   - url: "https://www.goodreads.com/book/show/11472345-deng-xiaoping-and-the-transformation-of-china"
     description: "Deng Xiaoping and the transformation of China by Ezra F. Vogel"
     date: 2024-10-01
-    category: 2
   - url: "https://agape-biblia.org/literatura/Three-Treatises-on-the-Divine-Images_John-of-Damascus.pdf"
-    description: "St. John the Damascene&rsquo;s Three Treatises on the Divine Images"
+    description: "St. John the Damascene’s three treatises on the divine images"
     date: 2025-05-13
-    category: 2
   - url: "https://antigonejournal.com/2023/05/writing-latin-diary/"
-    description: "The Joys and Perils of Keeping a Latin Diary"
+    description: "The joys and perils of Keeping a Latin diary"
     date: 2025-04-20
-    category: 1
   - url: "https://www.youtube.com/watch?v=lAudmA9oAoA"
     description: "Habemus Papam (2025)"
     date: 2025-05-09
     category: 3
+  - url: "https://www.amazon.com/Handbook-Catholic-Dogmatics-Matthias-Scheeben/dp/1645852393"
+    description: "Handbook of catholic dogmatics, Book 5 by Matthias Scheeben"
+    date: 2026-02-13
+  - url: "https://www.amazon.com/Streams-Gold-Rivers-Blood-D/dp/0190253223"
+    description: "Streams of gold, rivers of blood: the rise and fall of Byzantium, 955 A.D. to the First Crusade by Anthony Kaldellis"
+    date: 2025-11-19
+  - url: "https://archive.org/details/storychurchegyp06butcgoog/page/n15/mode/1up"
+    description: "The story of the church in Egypt by E. L. Butcher"
+    date: 2026-02-01
+  - url: "https://www.amazon.com/Reading-Church-Fathers-Development-Doctrine/dp/1644136562"
+    description: "Reading the church fathers by James L. Papandrea"
+    date: 2026-02-07
+  - url: "https://kconrad.math.uconn.edu/blurbs/"
+    description: "Expository papers by Keith Conrad"
+    date: 2024-12-01
+  - url: "https://www.youtube.com/watch?v=JODaYjDyjyQ"
+    description: "Natalia Lafourcade on NPR’s Tiny Desk Concert"
+    date: 2019-08-05
