@@ -105,9 +105,11 @@ layout: container
       const notes = [];
 
       for (const li of items) {
-        const fnId = li.id; 
-        const num = fnId.split(":")[1] || "";
+        const fnId = li.id;
         const refLink = main.querySelector(`a[href="#${CSS.escape(fnId)}"]`);
+        const num = refLink ? refLink.textContent.trim() : "";
+
+        // const refLink = main.querySelector(`a[href="#${CSS.escape(fnId)}"]`);
         if (!refLink) continue;
 
         const block = refLink.closest("p") || refLink.closest("li") || refLink.closest("blockquote") || refLink;

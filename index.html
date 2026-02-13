@@ -30,7 +30,7 @@ title: Homepage
   <div class="col-md-5 col-md-offset-1 mt-2">
     <h2 class="fw-bold my-3 fs-5">Bookmarks</h2>
 
-    <p class="text-body-secondary mb-3">
+    <p class="text-body-secondary mb-3 small">
       All links open in a new tab. I do not review these links after posting, so they may be broken or lead to content that is no longer relevant.
     </p>
 
@@ -50,4 +50,8 @@ title: Homepage
       {% endfor %}
     </ul>
   </div>
+</div>
+
+<div class="col-lg-6 mb-5">
+  &copy; {{ site.time | date: "%Y" }}. All rights reserved. <a href="/terms">Terms of Use.</a>
 </div>
