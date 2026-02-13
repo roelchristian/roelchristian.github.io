@@ -2,18 +2,166 @@
 layout: container
 ---
 
-<div class="mt-5">
-  <h1 class="fs-2 mb-3">{{ page.title }}</h1>
+<header class="mt-5">
+  <h1>{{ page.title }}</h1>
   <p class="text-secondary mb-4">
     Posted on {{ page.date | date: "%B %-d, %Y" }} &middot;
-    <a href="/" class="text-secondary">
-      Back to notes index
-    </a>
+    <a href="/" class="text-secondary text-decoration-none">Back to notes index</a>
   </p>
+</header>
+
+<div class="row g-4 mt-4 align-items-start mb-5 pb-5">
+  <!-- Main post -->
+  <article id="post-main" class="col-12 col-md-6 position-relative post-content">
+    {{ content }}
+  </article>
+
+  <!-- Right rail -->
+  <aside id="post-aside" class="col-12 col-md-3 offset-md-1">
+    <div id="sidenotes-wrapper" hidden>
+      <!-- keep heading only on mobile to not affect desktop alignment -->
+      <h2 class="h6 mb-3 text-uppercase text-body-secondary d-md-none">Footnotes</h2>
+
+      <!-- notes render here -->
+      <div id="sidenotes-layer" class="position-relative"></div>
+    </div>
+  </aside>
 </div>
 
-<div class="mt-5 post-content">
-  {{ content }}
-</div>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const main = document.getElementById("post-main");
+    const aside = document.getElementById("post-aside");
+    const wrapper = document.getElementById("sidenotes-wrapper");
+    const layer = document.getElementById("sidenotes-layer");
 
-<hr class="mt-5 mb-4">
+    // 1. Capture the source of truth
+    let rawFootnotesHTML = null;
+    const originalContainer = main.querySelector(".footnotes");
+    
+    if (originalContainer) {
+      rawFootnotesHTML = originalContainer.innerHTML;
+      originalContainer.remove(); 
+    } else {
+      if(wrapper) wrapper.hidden = true;
+      if(aside) aside.classList.add("d-none");
+      return; 
+    }
+
+    const isDesktop = () => window.matchMedia("(min-width: 768px)").matches;
+
+    // Helper: Removes the "↩" links from footnote content
+    function getCleanHTML(liElement) {
+      const clone = liElement.cloneNode(true);
+      clone.querySelectorAll(".reversefootnote").forEach(el => el.remove());
+      return clone.innerHTML.trim();
+    }
+
+    function renderFootnotes() {
+      layer.innerHTML = "";
+      const existingBottom = main.querySelector(".footnotes");
+      if (existingBottom) existingBottom.remove();
+
+      // SCENARIO A: Mobile (Bottom list with Header)
+      if (!isDesktop()) {
+        aside.classList.add("d-none");
+        wrapper.hidden = true;
+
+        const footerDiv = document.createElement("div");
+        // Added margin, padding, and border for separation
+        footerDiv.className = "footnotes mt-5 pt-4 border-top";
+        
+        const temp = document.createElement("div");
+        temp.innerHTML = rawFootnotesHTML;
+        
+        temp.querySelectorAll(".reversefootnote").forEach(el => el.remove());
+        
+        // Added H2 Header
+        footerDiv.innerHTML = `
+          <h2 class="h6 mb-3 text-uppercase text-body-secondary">Footnotes</h2>
+          ${temp.innerHTML}
+        `;
+        
+        main.appendChild(footerDiv);
+        return; 
+      }
+
+      // SCENARIO B: Desktop (Side notes)
+      aside.classList.remove("d-none");
+      wrapper.hidden = false;
+      
+      const tempDiv = document.createElement("div");
+      tempDiv.innerHTML = rawFootnotesHTML;
+      const items = Array.from(tempDiv.querySelectorAll("ol > li[id]"));
+
+      if (!items.length) return;
+
+      layer.style.minHeight = main.scrollHeight + "px";
+
+      const notes = [];
+
+      for (const li of items) {
+        const fnId = li.id; 
+        const num = fnId.split(":")[1] || "";
+        const refLink = main.querySelector(`a[href="#${CSS.escape(fnId)}"]`);
+        if (!refLink) continue;
+
+        const block = refLink.closest("p") || refLink.closest("li") || refLink.closest("blockquote") || refLink;
+
+        const note = document.createElement("div");
+        note.id = fnId;
+        note.className = "small position-absolute start-0 end-0";
+
+        note.innerHTML = `
+          <div class="d-flex align-items-baseline gap-2">
+            <span class="text-body-secondary flex-shrink-0">[${num}]</span>
+            <span class="sidenote-body"></span>
+          </div>
+        `;
+
+        const body = note.querySelector(".sidenote-body");
+        body.innerHTML = getCleanHTML(li);
+
+        body.querySelectorAll("p").forEach((p) => {
+          p.classList.add("d-inline", "mb-0");
+          p.style.display = "inline";
+          p.style.margin = "0";
+        });
+
+        const top = block.offsetTop;
+        note.dataset.desiredTop = String(top);
+        note.style.top = top + "px";
+
+        layer.appendChild(note);
+        notes.push(note);
+      }
+
+      // Collision avoidance
+      if (notes.length) {
+        const sorted = notes
+          .map(n => ({ el: n, top: parseFloat(n.dataset.desiredTop || "0") }))
+          .sort((a, b) => a.top - b.top);
+
+        let cursor = 0;
+        const gap = 12;
+
+        for (const { el, top } of sorted) {
+          const desired = isFinite(top) ? top : 0;
+          const placed = Math.max(desired, cursor);
+          el.style.top = placed + "px";
+          cursor = placed + el.offsetHeight + gap;
+        }
+        layer.style.minHeight = Math.max(main.scrollHeight, cursor) + "px";
+      }
+    }
+
+    let t = null;
+    function rebuildSoon() {
+      window.clearTimeout(t);
+      t = window.setTimeout(renderFootnotes, 100);
+    }
+
+    renderFootnotes();
+    window.addEventListener("resize", rebuildSoon);
+  });
+</script>
