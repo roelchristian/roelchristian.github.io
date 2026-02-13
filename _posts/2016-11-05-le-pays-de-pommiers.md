@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A translation of Bienvenido Santos’ &lsquo;Scent of Apples’
+title: A translation of Bienvenido Santos’ &lsquo;Scent of apples’
 
 ---
 
@@ -11,11 +11,11 @@ _A Note on the Translation._ &lsquo;Scent of Apples’ is a short story by the F
 
 <section markdown="1">
 
-C’était octobre quand j’arrivai à Kalamazoo et la guerre était toujours là. Des étoiles d’or et d’argent pendaient sur les fanions au-dessus des fenêtres des maisons blanches et rouges. Dans un arrière-cour un vieillard brûlait des feuilles mortes et des brindilles pendant qu’une femme aux cheveux gris s’assisait sur la porche, ses mains rouges tranquilles sur les genoux, regardant la fumée montant au-delà des ormes, tous les deux pensant à la même pensée, peut-être à un haut garçon souriant avec les yeux bleus et aux cheveux volants, qui fut allé à la guerre,— où était-il ce temps-ci quand les feuilles prenaient un teinte jaune d’or et le vent possédait le parfum de pommes ramassées ?
+C’était en octobre quand j’arrivai à Kalamazoo, et la guerre était toujours là. Des étoiles d’or et d’argent pendaient aux fanions au-dessus des fenêtres des maisons blanches et rouges. Dans une arrière-cour, un vieillard brûlait des feuilles mortes et des brindilles, tandis qu’une femme aux cheveux gris s’asseyait sur le porche, ses mains rouges et tranquilles posées sur les genoux, regardant la fumée monter au-delà des ormes — tous deux songeant à la même chose, peut-être à un grand garçon souriant, aux yeux bleus, les cheveux au vent, qui était parti à la guerre. Où se trouvait-il, en ce temps-là, quand les feuilles prenaient une teinte jaune d’or et que le vent portait le parfum des pommes cueillies ?
 
-Il faisait froid ce soir quand je partis la chambre d’hôtel dont je demeurais pour une allocution. Je ne marchai qu’un peu. Un vent lourd venait du lac Michigan : il sentit glaciale en touchant le visage. Il semblait que l’hiver se fût égaré tôt dans ces forêts du nord. Sous les lampadaires les feuilles brillèrent comme de bronze. Ils se roulèrent dans le trottoir comme des pieds d’un millier d’automnes mortes depuis longtemps, bien avant que les garçons partirent pour des pays lointains, aux pays sans les grands vents glaciaux qui eut la promesse de l’hiver, aux pays sans les pommiers, _les chants, et l’or !_
+Il faisait froid ce soir-là quand je quittai la chambre d’hôtel où je logeais pour aller à une conférence. Je ne marchai pas longtemps. Un vent lourd venait du lac Michigan : il était glacial sur le visage. Il semblait que l’hiver se fût égaré tôt dans ces forêts du nord. Sous les lampadaires, les feuilles brillèrent comme du bronze. Elles roulaient sur le trottoir comme les pas de mille automnes morts depuis longtemps, bien avant que les garçons ne partent pour des pays lointains — des pays sans ces grands vents glacés qui portent la promesse de l’hiver, des pays sans les pommiers, les chants et l’or !
 
-C’était la meme nuit quand je rencontrai Célestino Fabia — « juste un agriculteur philippin » — comme il aime s’appeler à lui-même, qui avait une ferme à environ soixante-dix kilomètres à l’est de Kalamazoo.
+C’était la même nuit que je rencontrai Célestino Fabia — « juste un agriculteur philippin » — comme il aime se qualifier, lui qui avait une ferme à environ soixante-dix kilomètres à l’est de Kalamazoo.
 
 « Ne me dites pas que vous avez affronté le froid en venant ici que pour m’entendre ? demandai-je.
 
