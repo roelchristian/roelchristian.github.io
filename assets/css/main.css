@@ -131,3 +131,8 @@ blockquote{
   margin-bottom: 1em;
 }
 
+.navbar-brand{
+  font-size: var(--font-size);
+  font-weight: bold;
+}
+
