@@ -36,63 +36,59 @@ it comes about, he says, that the polemical disputes of the Reformation, so
 commonly cast in the antithesis of “faith alone” and “faith plus works,” remain,
 for the Orthodox mind, largely alien, precisely because such disputes presuppose
 a forensic register which, on his account, developed in the West after the
-schism. The second point concerns purgatory, which the Orthodox reject; and in
-that connexion he mentions also the Orthodox notion of aerial
-toll-houses—something which I recall having heard before—while taking care to
-qualify it as not, strictly speaking, a doctrine in its own right, but rather a
-pious opinion, a θεολογούμενον.
+schism. The second point concerns purgatory, which the Orthodox categorically reject as a doctrine, although it should be readily demonstrable how this second point can, when properly analyzed, be seen as a downstream implication of the first.[^1a]
+
+[^1a]: To contrast, he further mentions the Orthodox notion of aerial toll-houses—something which I recall having heard before—while taking care to qualify it as not, strictly speaking, a doctrine in its own right, but rather a pious opinion, a θεολογούμενον.
 
 The core of Strickland’s argument, however, is not an excursus upon post-mortem
-states, but a proposal touching the very grammar in which salvation is to be
-spoken of; for he maintains, first, that Orthodoxy does not, properly speaking,
-enter into that post-Reformation controversy so often prosecuted under the
-headings of “faith alone” and “faith and works,” and this for the plain reason
-that the controversy itself is born within a Western polemical field and tends,
-by its own internal logic, to be carried on in a forensic key, wherein
-justification is construed as verdict, salvation as acquittal, and penance and
-satisfaction as liabilities and remissions. Orthodoxy, he says, if pressed to
-speak into that debate, will indeed insist upon faith in Jesus Christ as central
-and indispensable, and yet it will resist any neat disjunction between faith and
-works, since the two are not competing currencies but inseparable aspects of a
-single life in Christ.
+states, but a proposal concerning the idiom in which salvation is to be
+articulated. The familiar antithesis of “faith alone” and “faith plus works,” he
+suggests, is not a trans-ecclesial problem so much as a product of a particular
+Western polemical field—one whose internal logic tends to translate redemption
+into the categories of the courtroom: justification as verdict, salvation as
+acquittal, and penance and satisfaction as liabilities and remissions. If
+compelled to answer within that frame, he says, Orthodoxy will certainly insist
+upon faith in Jesus Christ as central and indispensable; but it will refuse any
+clean disjunction between faith and works, since the two are not competing
+currencies but inseparable expressions of a single life in Christ.
 
 Accordingly, Strickland renders the Orthodox account of salvation, not in
-forensic categories, but under the rubric of _theosis_ (deification), by which
-he intends, not that deification sometimes imputed to the Latter-day Saints, as
-though man were to become god in an autonomous or self-originating manner (a
-heresy, if there ever was one), but rather the creature’s gracious participation
-in the divine life, a participation flowing from, and rendered possible by, the
-Incarnation itself; for because the Word has assumed human nature, humanity can,
-by grace, be made a participant in God’s own life. Faith and works, therefore,
-do not admit of any clean separation, inasmuch as faith, precisely by its own
-nature, must disclose itself in works of love, not as though works were an
-additional mechanism set alongside faith, but as the enacted form in which faith
-subsists.
+forensic categories, but in the idiom of _theosis_ (deification)[^theosis]:
+because the Word has assumed human nature, humanity may, by grace, participate
+in God’s own life. Faith and works, therefore, do not admit of any clean
+separation, inasmuch as faith, by its very nature, must issue in works of
+love—not as though works were an additional mechanism set alongside faith, but
+as the enacted form in which faith subsists.
 
-From this starting-point Strickland proceeds to draw a contrast of emphases,
-suggesting that Orthodoxy is more decisively centred upon the Incarnation as the
-foundation of salvation, whereas Western Christianity tends to gravitate toward
-the Crucifixion and, at times, to treat it in a comparatively isolated manner;
-and once the Cross is construed chiefly as a transaction intended to resolve a
-determinate liability—whether described as guilt, punishment, or debt—salvation
-is readily redescribed in legal categories, within which register the familiar
-question, “what secures the verdict?”, naturally forces its way to the fore,
-whether it be faith alone, or faith together with works, and, if works be
-introduced, whether they are meritorious, instrumental, merely evidential, and
-the like. It is within this horizon, he suggests, that the indulgence
-controversy and the Reformation disputes are best grasped, not merely as
-historical accidents, but as crystallizations of a deeper polemical tension
-generated by a narrowed, transactional frame.
+[^theosis]: And here, following the typical definition of the term, he intends,
+    not that deification taught by the Latter-day Saints, by which through
+    &lsquo;exaltation&rsquo; men &lsquo;will become gods&rsquo; (Doctrines &
+    Covenants, 132, 20) &mdash; a heresy, if there ever was one, &mdash; but
+    rather the creature’s gracious participation in the divine life, a
+    participation flowing from, and rendered possible by, the Incarnation
+    itself.
+
+From this starting-point he draws a contrast of emphases: Orthodoxy, he
+suggests, is more decisively centred upon the Incarnation as the foundation of
+salvation, whereas Western Christianity tends to gravitate toward the
+Crucifixion and, at times, to treat it in relative isolation; and once the Cross
+is construed chiefly as a transaction ordered to the resolution of a determinate
+liability—be it described as guilt, punishment, or debt—salvation is readily
+redescribed in legal categories, and the familiar question (“what secures the
+verdict?”) presses to the fore. It is within this horizon, he argues, that the
+indulgence controversy and the Reformation disputes are best understood: not
+merely as historical accidents, but as crystallizations of a deeper polemical
+tension generated by a narrowed, transactional frame.
 
 That, at least, is the thesis as I heard it, namely, that theosis and
 Incarnation are not merely topics within soteriology, but the proper point of
 departure, precisely because they set the whole matter within a participatory
 model—communion, transformation, healing—rather than within a courtroom
 model—verdict, payment, satisfaction; and from this, on his account, the
-Orthodox rejection of purgatory follows as a downstream implication, inasmuch as
-purgatory appears to belong to a juridical soteriology wherein salvation is
-construed as remission of penalties and post-mortem purification as the
-completion of a legal satisfaction.
+Orthodox rejection of purgatory follows, inasmuch as purgatory appears to belong
+to a juridical soteriology wherein salvation is construed as remission of
+penalties and post-mortem purification as the completion of a legal
+satisfaction.
 
 </section>
 
