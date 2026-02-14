@@ -4,7 +4,7 @@ title: "Confiss&otilde;es de Guilherme O.&mdash;"
 ---
 
 Escreveu estas linhas nos seus derradeiros sete dias neste mundo. Ninguém sabe se morreu; e o seu pai diz, a quem o quiser ouvir, que «ele andou com Deus como Matusalém» [sic].
-{: .text-secondary .mb-5}
+{: .text-body-secondary .mb-5}
 
 
 <section>

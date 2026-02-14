@@ -3,7 +3,7 @@ layout: post
 title: "NB = nota bene = nuclear brightness"
 ---
 
-<section class="small text-secondary" markdown="1">
+<section class="small text-body-secondary" markdown="1">
 
 After Ezra K. Although this is not a post about [ghost shoez.](http://internetvibes.blogspot.com/2006/02/nota-bene-new-balance-nuclear.html){:target="_blank" rel="noopener"}
 </section>
