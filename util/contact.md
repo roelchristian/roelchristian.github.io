@@ -9,7 +9,7 @@ Please use the form below to get in touch with me. I will do my best to respond 
 
 <div class="row mb-5">
   <div class="col-12 col-lg-7 col-xl-6">
-    <div class="border border-1 p-4 bg-white rounded-0">
+    <div class="p-0">
       <form name="contact"
             method="POST"
             action="/thanks"
