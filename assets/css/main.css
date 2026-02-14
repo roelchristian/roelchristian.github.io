@@ -7,7 +7,12 @@
 body{
   font-family: var(--serif-font) !important;
   font-size: var(--font-size);
-  line-height: calc(var(--font-size) * 1.25);
+  line-height: calc(var(--font-size) * 1.15);
+  /* slightly off-white background */
+}
+
+.navbar, body {
+  background-color: #FFF8F0;
 }
 
 li a:hover{
@@ -139,4 +144,8 @@ blockquote{
 
 .noindent {
   text-indent: 0 !important;
+}
+
+span[lang="ird"], .ird{
+  font-style: italic;
 }

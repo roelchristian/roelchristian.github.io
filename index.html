@@ -20,8 +20,8 @@ title: Homepage
         <li>
           <a href="{{ post.url }}" class="text-decoration-none link-body-emphasis">
             {{ post.title }}
-            <span class="text-body-secondary">({{ post.date | date: "%d.%m.%y" }})</span>
           </a>
+            <span class="text-body-secondary">({{ post.date | date: "%d.%m.%y" }})</span>
         </li>
       {% endfor %}
     </ul>
@@ -30,7 +30,7 @@ title: Homepage
   <div class="col-md-5 col-md-offset-1 mt-2">
     <h2 class="fw-bold my-3 fs-5">Bookmarks</h2>
 
-    <p class="text-body-secondary mb-3 small">
+    <p class="text-body-secondary mb-3">
       All links open in a new tab. I do not review these links after posting, so they may be broken or lead to content that is no longer relevant.
     </p>
 
@@ -44,12 +44,18 @@ title: Homepage
              target="_blank"
              class="text-decoration-none link-body-emphasis">
              {{ link.description }}
-            <span class="text-body-secondary">({{ link.date | date: "%d.%m.%y" }})</span>
           </a>
+            <span class="text-body-secondary">({{ link.date | date: "%d.%m.%y" }})</span>
         </li>
       {% endfor %}
     </ul>
   </div>
+</div>
+
+<div class="col-lg-6 my-5">
+  Other projects (inactive):
+  <a href="projects/iridian/">Iridian (conlang)</a> &middot;
+  <a href="projects/math/">Grad school math notes</a>
 </div>
 
 <div class="col-lg-6 mb-5">
