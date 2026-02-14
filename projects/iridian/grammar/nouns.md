@@ -1,9 +1,24 @@
 ---
-layout: grammar
+layout: post
 title:  "Кадѣц"
 ---
 
-{% include under-construction.html %}
+
+
+## Number
+
+Iridian nouns are marked for number: singular or plural. The plural is formed by adding the suffix _-урь_ or _-рь_ to the noun, depending on whether the noun ends in a consonant or a vowel, respectively. The following morphological considerations should also be taken into consideration:
+
+1. A noun containing a fleeting _-е_ (see below) drops the _-е_ before the plural suffix, e.g. _лобек_ ‘fruit’ → _лубкурь_ ‘fruits’.
+2. Nouns ending in _-е_ or _-ѣ_ use the plural suffix _-лурь_ instead of _-рь_, respectively as would be expected. Thus we have _втаре_ ‘morning’ → _втарелурь_ ‘mornings’ and _схорѣ_ ‘group’ → _схорѣлурь_ ‘groups’.
+3. Nouns ending in _-о_ or _-оў_ drop the final vowel and take the plural suffix -урь. Thus we have _хлабо_ ‘lamp’ → _хлабурь_ ‘lamps’ and _малоў_ ‘snack’ → _малурь_ ‘snacks’.
+
+The plural form is not used where the noun is otherwise quantified, e.g. with a numeral or a quantifier. Thus we _бъл_ ‘child’ and _бълурь_ ‘children’ but _вуц бъл_ ‘two children’ and _бала бъл_ ‘a few children’ instead of вуц _бълурь_ and _бала бълурь_, respectively.
+
+Iridian also does not use the plural form where the possessor is plural but the noun possessed is singular, either per se or in a partitive sense. Thus one sees _думаль_ which can mean ‘their house’ (in a collective sense, i.e., the house they share) or ‘their houses’ (i.e., the houses each of them owns) as opposed to _думуряль_ which would mean ‘their houses’ which refer to multiple houses owned by multiple people either collectively or partitively.
+
+The plural form cannot be used with a limited number of nouns, mostly referring to paired body parts and related objects, which in the base form is understood to refer to the pair itself and thus cannot be pluralized. If the speaker wishes to explicitly refer to one piece of the pair, the noun нома (an otherwise obsolete form of the word for one-half, now surviving only in this construction) and the genitive form of the body part or paired noun is used instead.
+
 
 <section>
     <h2 class="grammar-header">
