@@ -15,37 +15,37 @@ C’était en octobre quand j’arrivai à Kalamazoo, et la guerre était toujou
 
 Il faisait froid ce soir-là quand je quittai la chambre d’hôtel où je logeais pour aller à une conférence. Je ne marchai pas longtemps. Un vent lourd venait du lac Michigan : il était glacial sur le visage. Il semblait que l’hiver se fût égaré tôt dans ces forêts du nord. Sous les lampadaires, les feuilles brillèrent comme du bronze. Elles roulaient sur le trottoir comme les pas de mille automnes morts depuis longtemps, bien avant que les garçons ne partent pour des pays lointains — des pays sans ces grands vents glacés qui portent la promesse de l’hiver, des pays sans les pommiers, les chants et l’or !
 
-C’était la même nuit que je rencontrai Célestino Fabia — « juste un agriculteur philippin » — comme il aime se qualifier, lui qui avait une ferme à environ soixante-dix kilomètres à l’est de Kalamazoo.
+C’était la même nuit que je rencontrai Célestino Fabia — « juste un agriculteur philippin », comme il aimait à se qualifier — lui qui possédait une ferme à environ soixante-dix kilomètres à l’est de Kalamazoo.
 
-« Ne me dites pas que vous avez affronté le froid en venant ici que pour m’entendre ? demandai-je.
+« Ne me dites pas que vous avez affronté le froid en venant ici rien que pour m’entendre ? demandai-je.
 
-— Ce n’est rien. Ça fait longtemps que j’ai encontré quelqu’un de notre pays, répondit-il vite. C’est pour ça que je me suis venu en toute hâte quand j’ai lu dans le journal que quelqu’un de nos &Icirc;les viendrait ici &agrave; donner un discours. »
+— Ce n’est rien. Cela faisait longtemps que je n’avais pas rencontré quelqu’un de notre pays, répondit-il vivement. C’est pour ça que je suis venu en toute hâte, quand j’ai lu dans le journal que quelqu’un de nos îles viendrait ici donner un discours. »
 
-Plus tôt dans cette nuit j’adressai une bande collégiale, la plupart de laquelle était des femmes. Il parut qu’elles me voulussent parler de mon pays. Elles me voulurent parler de mon pays parce que mon pays eut devenu à un pays perdu. Partout dans le pays l’ennemi en harcelait : par-là le silence et si profond : et leurs garçons étaient là-bas, sans contact, ou ils étaient en route à quelque île inconnue de Pacifique, des jeunes garçons, tous eux, à peine d’être des hommes, pensant à la lune des moissons et l’odeur des feux de forêts.
+Plus tôt dans la nuit, je m’étais adressé à un groupe d’étudiants, dont la plupart étaient des femmes. Il me sembla qu’elles voulaient me parler de mon pays. Elles le voulaient parce que mon pays était devenu, pour elles, un pays perdu. Partout dans le pays, l’ennemi le harcelait : par endroits, un silence si profond ; et leurs garçons étaient là-bas, sans nouvelles, ou bien en route vers quelque île inconnue du Pacifique — de jeunes garçons tous, à peine des hommes, pensant à la lune des moissons et à l’odeur des feux de forêt.
 
-Ce ne fut pas dur de parler de mon peuple. Je les connaissais bien et je les aimais. Et ils semblaient très loin pendant ces ans terribles afin que j’aie probablement parlé avec un peu d’ardeur, un peu de nostalgie.
+Ce ne fut pas difficile de parler de mon peuple. Je les connaissais bien et je les aimais. Et ils me semblaient très loin pendant ces années terribles, si bien que je parlai sans doute avec un peu d’ardeur, un peu de nostalgie.
 
-Dans la discussion suivante, l’audience me demanda s’il y avait beaucoup de différences entre nos femmes et les américaines. J’essayai répondre que je ne sais pas beaucoup de femmes américaines, sauf qu’elle me paraissent avoir l’air sympathique, mais des différences ou des similitudes intérieures comme telles qui appartinrent naturellement au cœur ou à l’esprit, je ne pouvait parler qu’avec incertitude.
+Dans la discussion qui suivit, l’auditoire me demanda s’il y avait beaucoup de différences entre nos femmes et les Américaines. J’essayai de répondre que je ne connaissais pas beaucoup de femmes américaines, sinon qu’elles me paraissaient sympathiques ; mais des différences ou des similitudes intérieures — celles qui appartiennent au cœur ou à l’esprit — je ne pouvais parler qu’avec incertitude.
 
-Pendant que j’essayais d’expliquer que ce n’est pas facile à faire des comparaisons, un homme se leva d’arriere du hall, pour dire quelque chose. Au loin, il avait l’air léger ; il était vieux et très brun. Même avant qu’il parla, je sus qu’il était, comme moi, Philippin.
+Pendant que j’essayais d’expliquer qu’il n’est pas facile de faire des comparaisons, un homme se leva au fond de la salle pour dire quelque chose. De loin, il avait l’air léger ; il était vieux et très hâlé. Avant même qu’il ne parlât, je sus qu’il était, comme moi, philippin.
 
-« Je suis Philippin, commença-t-il, fort et clair, en une voix qui semblait habituée aux grands espaces. Je ne suis qu’un agriculteur philippin paysan. Il fit signe à la porte. J’ai quité les Philippines il y a plus de vingt ans et je n’y ai retourné plus. Jamais encore peut-être. Je voudrais savoir, monsieur, si les femmes philippines d’aujourd’hui sont comme lesquelles il y a vingt ans. »
+« Je suis Philippin, commença-t-il, fort et clair, d’une voix qui semblait habituée aux grands espaces. Je ne suis qu’un agriculteur, un paysan. » Il fit signe vers la porte. « J’ai quitté les Philippines il y a plus de vingt ans et je n’y suis plus retourné. Peut-être n’y retournerai-je jamais. Je voudrais savoir, monsieur, si les femmes philippines d’aujourd’hui sont comme celles d’il y a vingt ans. »
 
-Tandis qu’il s’assoyait, le hall se remplit de voix, tues et intriguées. Je ne voulus pas mensonger mais je ne voulus pas dire une rengaine, quelque chose insincère. Mais plus important que ces considérations, dès l’instant où je vis mon compatriote, j’estimai que je lui devais donner une réponse qui ne le ferait pas trop malheureux. Certes, toutes ces années, il maintenait certains idéals, certaines croyances, même certaines illusions qui étaient particulières à l’exile.
+Tandis qu’il se rasseyait, la salle se remplit de voix, puis se tut, intriguée. Je ne voulais pas mentir, mais je ne voulais pas non plus servir une rengaine, quelque chose d’insincère. Mais, plus important que ces considérations, dès l’instant où je vis mon compatriote, j’estimai que je lui devais une réponse qui ne le rendît pas trop malheureux. Certes, toutes ces années, il avait maintenu certains idéaux, certaines croyances, et même certaines illusions particulières à l’exil.
 
-« D’abord, dis-je, tandis que les voix se mouraient et tous les yeux semblaient fixés à moi. D’abord dites-moi comment étaient nos femmes il y a vingt ans. »
+« D’abord, dis-je, tandis que les voix s’éteignaient et que tous les yeux se fixaient sur moi, dites-moi comment étaient nos femmes il y a vingt ans. »
 
-L’homme se leva pour répondre :
+L’homme se leva pour répondre :
 
-« Mais oui, dit-il, vous êtes trop jeune. Jadis nos femmes étaient gentilles, elles étaient modestes, elles portaient les cheveux longs. Leur tenue était toujours appropriée, elle ne faisait des bêtises. Elles étaient naturelles, elles allaient à l’église tous les dimanches, et elles sont fidèles. » Il eu parlé lentement, et en ce qui sembla un après coup il ajouta : « C’est les hommes, ce qui c’est pas comme ça. »
+« Mais oui, dit-il, vous êtes trop jeune. Jadis, nos femmes étaient gentilles ; elles étaient modestes ; elles portaient les cheveux longs. Leur tenue était toujours appropriée ; elles ne faisaient pas de bêtises. Elles étaient naturelles ; elles allaient à l’église tous les dimanches ; et elles étaient fidèles. » Il parla lentement, puis, comme après coup, il ajouta : « C’est les hommes, eux, qui ne sont plus comme ça. »
 
-Or je sus ce que je dirais.
+Alors je sus ce que je dirais.
 
-« Eh bien, commençai-je, ça vous intéressera que si, nos femmes ont changé. Mais la change n’est qu’à l’extérieur. Dedans, ici,— montrant la cœur,— elles sont toujours les mêmes : religieuses, fidèles, modestes, et _gentilles._ »
+« Eh bien, commençai-je, cela vous intéressera d’apprendre que oui : nos femmes ont changé. Mais le changement n’est qu’à l’extérieur. Dedans, ici » — montrant mon cœur — « elles sont toujours les mêmes : religieuses, fidèles, modestes et gentilles. »
 
-L’homme fut visiblement ému. « Je suis très content, monsieur » dit-il, avec l’air d’un homme qui, ayant de l’intérêt au pays, n’avait découvert aucune raison pour regretter son investissement sentimental.
+L’homme fut visiblement ému. « Je suis très content, monsieur », dit-il, avec l’air d’un homme qui, ayant tant investi au pays, n’avait découvert aucune raison de regretter son investissement sentimental.
 
-Ensuite tout ce qui fut dit et fait dans ce hall cette nuit ne semblait que d’une déception : et plus tard lorsqu’on marchait dehors, il me dit son nom et il me raconta la ferme à environ soixante-dix kilomètres à l’est de la cité.
+Ensuite, tout ce qui fut dit et fait dans cette salle, cette nuit-là, ne me sembla plus qu’une déception ; et plus tard, en marchant dehors, il me dit son nom et me parla de sa ferme, à environ soixante-dix kilomètres à l’est de la ville.
 
 Nous nous arrêtâmes à l’entrée principale du hall d’hôtel. Nous ne parlions pas trop en chemin. En fait nous n’étions jamais seuls. Des amis américains parlèrent avec nous, nous posèrent des questions, nous dirent des bonnes nuits. Or je le demandai s’il se souciait d’entrer en l’hôtel avec moi pour parler.
 
@@ -99,7 +99,7 @@ Nous voyagions un chemin accidenté et la voiture faisait du grand bruit afin qu
  
 <section markdown="1">
 
-Dans cette vieille ville de Visailles les rues sont étroites et sales et jonchées de corail. Avez-vous été là ? C’est impossible que vous la manquez, notre maison, c’est la plus grande de la ville, une de la plus vieille, la nôtre était une grande famille. La maison se trouvait juste au coin de la rue. Une porte se ouvrait et l’on entre dans un couloir sombre, et puis l’escalier. Il y a toujours l’odeur des poulets perchants aux murs, leur bruit familier, et l’on tâtonne à l’escalier et les mains tremblants fait les rampes lisses à toucher. Des telles nuits, ce n’est pas mieux que les jours, les fenêtres étaient fermées au soleil, elles se fermaient lourdement._
+Dans cette vieille ville des Bisailles les rues sont étroites et sales et jonchées de corail. Avez-vous été là ? C’est impossible que vous la manquez, notre maison, c’est la plus grande de la ville, une de la plus vieille, la nôtre était une grande famille. La maison se trouvait juste au coin de la rue. Une porte se ouvrait et l’on entre dans un couloir sombre, et puis l’escalier. Il y a toujours l’odeur des poulets perchants aux murs, leur bruit familier, et l’on tâtonne à l’escalier et les mains tremblants fait les rampes lisses à toucher. Des telles nuits, ce n’est pas mieux que les jours, les fenêtres étaient fermées au soleil, elles se fermaient lourdement._
 
 Maman s’assoyait au coin de la salle; elle paraissait très pâle et malade. Ceci était son monde, sa domaine. Pendant toutes ces années je ne me peux pas souvenir le son de sa voix. Papa, il était différent. Il se déplaçait. Il criait. Il fulminait. Il vivait dans le passé et parlait de l’honneur comme s’il soit tout.
 
