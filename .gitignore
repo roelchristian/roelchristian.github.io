@@ -3,3 +3,4 @@ _drafts/
 *.log
 **/.DS_Store
 *.backup
+.venv/
