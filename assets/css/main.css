@@ -2,34 +2,34 @@
   --serif-font: "Times New Roman", serif;
   --font-size: 18px;
   --larger-font-size: 20px;
+  --text-color: #1F1A17;
+  --bg-color: #FFF8F0;
+  --secondary-color: #625D55;
 }
 
 body{
   font-family: var(--serif-font) !important;
   font-size: var(--font-size);
   line-height: calc(var(--font-size) * 1.15);
+  color: var(--text-color);
   /* slightly off-white background */
 }
 
-.navbar, body {
-  background-color: #FFF8F0;
+.navbar, body, .form-control {
+  background-color: var(--bg-color);
+}
+
+.text-body-secondary, a{
+  color: var(--secondary-color) !important;
+  opacity: 0.8;
 }
 
 li a:hover{
   text-decoration: underline !important;
 }
 
-a{
-  color: inherit;
-}
-
 a:hover{
-  opacity: 0.8;
-}
-
-.text-body-secondary{
-  color: #6c757d !important;
-  opacity: 0.8;
+  opacity: 1;
 }
 
 h1{
@@ -136,9 +136,10 @@ blockquote{
   margin-bottom: 1em;
 }
 
-.navbar-brand{
+a.navbar-brand {
   font-size: var(--font-size);
   font-weight: bold;
+  color: var(--text-color) !important;
 }
 
 
