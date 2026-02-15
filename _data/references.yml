@@ -1,7 +1,71 @@
-- reftitle: "&Eacute;l&eacute;ments de syntaxe structurale"
-  url: "https://archive.org/details/LucienTesniereElementsDeSyntaxeStructurale"
-  archurl: "https://archive.org/details/LucienTesniereElementsDeSyntaxeStructurale"
-  author: "Tesnière, Lucien"
-  year: 1959
-  bibname: tesniere1959
-  reftype: "book"
+- title: Catechism of the Catholic Church
+  key: catechism
+  publication_year: 1970
+  url: https://www.vatican.va/archive/ENG0015/_INDEX.HTM
+- title: De incarnatione verbi
+  key: athan_deincarnatione
+  url: https://www.newadvent.org/fathers/2802.htm
+  publication_year: 325
+  publication_year_display: "4th c."
+  authors:
+    - name: St. Athanasius of Alexandria
+      name_sort: Athanasius of Alexandria
+- title: Adversus haereses
+  key: iren_adversus
+  publication_year: 180
+  publication_year_display: "2nd c."
+  url: https://www.newadvent.org/fathers/0103.htm
+  authors:
+    - name: St. Irenaeus of Lyons
+      name_sort: Irenaeus of Lyons
+- title: The Glass Bead Game
+  key: hesse_glassbead
+  publication_year: 1943
+  url: https://www.goodreads.com/book/show/16634.The_Glass_Bead_Game
+  authors:
+    - name: Hermann Hesse
+      name_sort: Hesse, Hermann
+- title: The Name of the Rose
+  title_original: Il nome della rosa
+  key: eco_nameoftherose
+  publication_year: 1980
+  url: https://www.goodreads.com/book/show/119073.The_Name_of_the_Rose
+  authors:
+    - name: Umberto Eco
+      name_sort: Eco, Umberto
+- title: De spirituali amicitia
+  key: aelred_amicitia
+  publication_year: 1100
+  publication_year_display: "12th c"
+  url: https://www.thelatinlibrary.com/aelredus.html
+  authors:
+    - name: Aelred of Rievaulx
+      name_sort: Aelred of Rievaulx
+- title: Letters of St. Jerome
+  key: jerome_letters
+  publication_year: 393
+  publication_year_display: "4th c"
+  url: https://wesleyscholar.com/wp-content/uploads/2019/04/NPNF-2nd-series-6.pdf
+  authors:
+    - name: St. Jerome
+      name_sort: Jerome, St.
+  translators:
+    - name: W. H. Fremantle
+      name_sort: Fremantle, W. H.
+    - name: G. Lewis
+      name_sort: Lewis, G.
+    - name: W.G. Martley
+      name_sort: Martley, W. G.
+  translation_year: 1893
+- title: On Spiritual Friendship
+  key: aelred_amicitia_english
+  publication_year: 1100
+  publication_year_display: "12th c"
+  url: http://frontporchacademy.org/aelred.pdf
+  authors:
+    - name: Aelred of Rievaulx
+      name_sort: Aelred of Rievaulx
+  translators:
+    - name: Lawrence C. Braceland
+      name_sort: Braceland, Lawrence C.
+  translation_year: 2010

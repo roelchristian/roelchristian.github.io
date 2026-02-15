@@ -150,3 +150,19 @@ a.navbar-brand {
 span[lang="ird"], .ird{
   font-style: italic;
 }
+
+.refs li.is-target {
+  background: rgba(255, 230, 150, 0.45);
+  border-radius: 0.5rem;
+  padding-top: 0.15rem;
+  padding-bottom: 0.15rem;
+}
+
+.refs li:target {
+  background: rgba(255, 230, 150, 0.45);
+  border-radius: 0.5rem;
+}
+
+.refs a {
+  text-decoration: none;
+}

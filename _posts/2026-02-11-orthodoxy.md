@@ -342,6 +342,8 @@ commercial exchange.
 
 <section markdown="1">
 
+## 5. An aside on mysteries
+
 One further consideration, commonly remaining tacit beneath these comparisons
 yet requiring, if the comparison is to be conducted with intellectual fairness,
 to be articulated with some explicitness, is that when Strickland opposes an
@@ -406,6 +408,8 @@ whose visible rites ‘signify and make present’ what they confer[^49].
 </section>
 
 <section markdown="1">
+
+## Conclusion
 
 Strickland’s proem—Incarnation, then theosis—is plainly intended to displace, as
 the controlling grammar of redemption, a narrowed courtroom model in which
@@ -480,10 +484,10 @@ Christ.
 
 
 [^1]: e.g., St. John Chrys., _Homilies on Romans_, X.
-[^2]: The _Catechism of the Catholic Church_ (CCC) 460; _ibid_., 1996–2000; _Lumen gentium_ 2, 40.
-[^3]: _De Incarnatione Verbi_, 54.3.
-[^4]: _Adversus Haereses_, V, Pref.
-[^5]: CCC 1989–1990, 1992; Council of Trent, Sess. VI, _Decree on Justification_, ch. 7.
+[^2]: The [_Catechism of the Catholic Church_ (CCC)](/references#catechism) 460; _ibid_., 1996–2000; _Lumen gentium_ 2, 40.
+[^3]: [_De Incarnatione Dei Verbi_](/references#athan_deincarnatione), 54.3.
+[^4]: [_Adversus Haereses_](/references#iren_adversus), V, Pref.
+[^5]: [CCC](/references#catechism) 1989–1990, 1992; Council of Trent, Sess. VI, _Decree on Justification_, ch. 7.
 [^6]: _De Spiritu et Littera_, ch. 15 [IX].
 [^7]: Council of Trent, Sess. VI, can. 1.
 [^8]: 2 Pet 1, 4.
