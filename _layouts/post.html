@@ -2,26 +2,26 @@
 layout: container
 ---
 
-<header class="mt-5">
+<header class="mt-5 offset-md-1 col-md-6">
   <h1>{{ page.title }}</h1>
 
   {% if page.url == '/blog/' or page.url contains '/blog/' %}
     <p class="text-body-secondary mb-4">
       Posted on {{ page.date | date: "%B %-d, %Y" }} &middot;
-      <a href="/" class="text-body-secondary text-decoration-none">Back to notes index</a>
+      <a href="/">Back to notes index</a>
     </p>
   {% endif %}
 </header>
 
 
-<div class="row g-4 mt-4 align-items-start mb-5 pb-5">
+<div class="row g-4 mt-4 align-items-start mb-5 pb-5 ">
   <!-- Main post -->
-  <article id="post-main" class="col-12 col-md-6 position-relative post-content">
+  <article id="post-main" class="col-md-6 offset-md-1 position-relative post-content pe-2">
     {{ content }}
   </article>
 
   <!-- Right rail -->
-  <aside id="post-aside" class="col-12 col-md-4">
+  <aside id="post-aside" class="col-12 col-md-4 ps-5 pe-5">
     <div id="sidenotes-wrapper" hidden>
       <!-- keep heading only on mobile to not affect desktop alignment -->
       <h2 class="h6 mb-3 text-uppercase text-body-secondary d-md-none">Footnotes</h2>
@@ -120,7 +120,7 @@ layout: container
 
         note.innerHTML = `
           <div class="d-flex align-items-baseline gap-2">
-            <span class="text-body-secondary flex-shrink-0">[${num}]</span>
+            <span class="text-body-secondary flex-shrink-0">${num}. </span>
             <span class="sidenote-body"></span>
           </div>
         `;

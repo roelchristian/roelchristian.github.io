@@ -1,17 +1,33 @@
+/* ========================================================================== */
+/* Tokens */
+/* ========================================================================== */
 :root{
-  --serif-font: "Times New Roman", serif;
-  --font-size: 18px;
-  --larger-font-size: 20px;
+  --serif-font: "Cormorant Garamond", serif;
+  --display-font: "Source Sans 3", sans-serif;
+  --font-size: 22px;
+  --small-font-size: 19px;
+  --larger-font-size: 34px;
   --text-color: #1F1A17;
   --bg-color: #FFF8F0;
   --secondary-color: #625D55;
+  --red-accent-color: #B33A3A;
 }
 
+/* ========================================================================== */
+/* Base */
+/* ========================================================================== */
 body{
   font-family: var(--serif-font) !important;
   font-size: var(--font-size);
-  line-height: calc(var(--font-size) * 1.15);
+  font-weight: 400;
+  line-height: calc(var(--font-size) * 1.45);
+  font-kerning: normal;
+  font-variant-numeric: oldstyle-nums;
+  font-variant-ligatures: common-ligatures contextual;
+  font-feature-settings: "liga" 1, "clig" 1, "calt" 1, "onum" 1;
+  text-rendering: optimizeLegibility;
   color: var(--text-color);
+  letter-spacing: -0.004em;
   /* slightly off-white background */
 }
 
@@ -19,9 +35,101 @@ body{
   background-color: var(--bg-color);
 }
 
-.text-body-secondary, a{
+.navbar, .navbar-brand {
+  font-size: 18px;
+}
+
+section:not(:first-of-type) {
+  padding-top: 3em;
+}
+
+/* ========================================================================== */
+/* Typography */
+/* ========================================================================== */
+p {
+  margin: 0;
+}
+
+div.post-content p{
+  margin: 0;
+}
+
+article.post-content p:not(:first-of-type){
+  text-indent: 2em;
+}
+
+.small {
+  font-size: var(--small-font-size) !important;
+}
+
+.sidenote-body, blockquote p{
+  font-size: var(--small-font-size) !important;
+  line-height: calc(var(--small-font-size) * 1.25);
+}
+
+h1{
+  font-size: var(--larger-font-size) !important;
+  font-weight: 400;
+}
+
+h2{
+  font-family: "Cormorant SC", serif !important;
+  font-size: var(--font-size) !important;
+  text-transform: lowercase;
+  letter-spacing: .05em;
+  font-weight: 3400;
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+blockquote{
+  font-size: 16px;
+  margin-left: 1em;
+  margin-right: 0;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+p[lang="gk"], span[lang="gk"]{
+  font-style: italic;
+  font-family: "EB Garamond", serif !important;
+}
+
+span[lang="ird"], .ird{
+  font-style: italic;
+}
+
+.text-body-secondary{
   color: var(--secondary-color) !important;
   opacity: 0.8;
+}
+
+.sans {
+  font-family: var(--display-font) !important;
+}
+
+.index-date, .sans-note {
+  font-size: 16px !important;
+  font-weight: 300 !important;
+}
+
+.homepage {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.homepage ul {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+/* ========================================================================== */
+/* Links */
+/* ========================================================================== */
+a {
+  color: var(--red-accent-color) !important;
+  text-decoration: none;
 }
 
 li a:hover{
@@ -30,24 +138,7 @@ li a:hover{
 
 a:hover{
   opacity: 1;
-}
-
-h1{
-  font-size: var(--larger-font-size) !important;
-  font-weight: bold;
-}
-
-h2{
-  font-size: var(--font-size) !important;
-  font-weight: bold;
-}
-
-p[lang="gk"], span[lang="gk"]{
-  font-style: italic;
-}
-
-section:not(:first-of-type) {
-  padding-top: 3em;
+  text-decoration: underline !important;
 }
 
 /* Make footnote numbers look like regular text (no clicks) */
@@ -63,14 +154,34 @@ sup > a.footnote {
   display: none;
 }
 
-blockquote{
-  font-size: 16px;
+/* ========================================================================== */
+/* Layout */
+/* ========================================================================== */
+.fig-div{
+  margin-top: 3em;
+  margin-bottom: 3em;
 }
 
-/* 1) Make all images grayscale  with a slight blur */
+p>img{
+  width: 100%;
+}
+
+/* ========================================================================== */
+/* Components */
+/* ========================================================================== */
+a.navbar-brand {
+  font-size: var(--font-size);
+  color: var(--red-accent-color) !important;
+}
+
+
+/* ========================================================================== */
+/* Images */
+/* ========================================================================== */
+/* Make all images grayscale with a slight blur */
 img{
-  -webkit-filter: grayscale(100%) blur(0.8px);
-  filter: grayscale(100%) blur(0.8px);
+  -webkit-filter: grayscale(100%) blur(0.5px);
+  filter: grayscale(100%) blur(0.5px);
 }
 
 img.noblur, .noblur > img{
@@ -78,41 +189,15 @@ img.noblur, .noblur > img{
   filter: grayscale(100%) blur(0);
 }
 
+/* ========================================================================== */
+/* Utilities */
+/* ========================================================================== */
 .w-25{
   width: 25% !important;
 }
 
-
-.fig-div{
-  margin-top: 3em;
-  margin-bottom: 3em;
-}
-p>img{
-  width: 100%;
-}
-@media (max-width: 575.98px){
-
-  .container-fluid.px-5{
-    padding-left: 5vw !important;
-    padding-right: 5vw !important;
-  }
-
-  p, p>img{
-    width: 100%;
-    max-width: 90vw;
-  }
-}
-
-div.post-content p{
-  margin: 0;
-}
-
-p {
-  margin:0;
-}
-
-article.post-content p:not(:first-of-type){
-  text-indent: 2em;
+.noindent {
+  text-indent: 0 !important;
 }
 
 p.noindent {
@@ -122,35 +207,16 @@ p.noindent {
 .hangind{
   padding: 1em 0;
 }
-  
+
 article.post-content .hangind p, p.hangind{
   padding-left: 20px ;
   text-indent: -20px;
   margin:0 ;
 }
 
-blockquote{
-  margin-left: 1em;
-  margin-right: 0;
-  margin-top: 1em;
-  margin-bottom: 1em;
-}
-
-a.navbar-brand {
-  font-size: var(--font-size);
-  font-weight: bold;
-  color: var(--text-color) !important;
-}
-
-
-.noindent {
-  text-indent: 0 !important;
-}
-
-span[lang="ird"], .ird{
-  font-style: italic;
-}
-
+/* ========================================================================== */
+/* References */
+/* ========================================================================== */
 .refs li.is-target {
   background: rgba(255, 230, 150, 0.45);
   border-radius: 0.5rem;
@@ -165,4 +231,19 @@ span[lang="ird"], .ird{
 
 .refs a {
   text-decoration: none;
+}
+
+/* ========================================================================== */
+/* Responsive */
+/* ========================================================================== */
+@media (max-width: 575.98px){
+  .container-fluid.px-5{
+    padding-left: 5vw !important;
+    padding-right: 5vw !important;
+  }
+
+  p, p>img{
+    width: 100%;
+    max-width: 90vw;
+  }
 }
