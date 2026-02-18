@@ -38,7 +38,7 @@ for the Orthodox mind, largely alien, precisely because such disputes presuppose
 a forensic register which, on his account, developed in the West after the
 schism. The second point concerns purgatory, which the Orthodox categorically reject as a doctrine, although it should be readily demonstrable how this second point can, when properly analyzed, be seen as a downstream implication of the first.[^1a]
 
-[^1a]: To contrast, he further mentions the Orthodox notion of aerial toll-houses—something which I recall having heard before—while taking care to qualify it as not, strictly speaking, a doctrine in its own right, but rather a pious opinion, a θεολογούμενον.
+[^1a]: To contrast, he further mentions the Orthodox notion of aerial toll-houses—something which I recall having heard before—while taking care to qualify it as not, strictly speaking, a doctrine in its own right, but rather a pious opinion, a <span lang="gk">θεολογούμενον.</span>
 
 The core of Strickland’s argument, however, is not an excursus upon post-mortem
 states, but a proposal concerning the idiom in which salvation is to be

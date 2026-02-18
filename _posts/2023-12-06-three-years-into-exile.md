@@ -3,7 +3,7 @@ layout: post
 title:  "Three years into exile (2021)"
 ---
 
-> ἥκω Διὸς παῖς ... λοχευθεῖσ᾽ ἀστραπηφόρῳ πυρί
+> <span lang="gk">ἥκω Διὸς παῖς ... λοχευθεῖσ᾽ ἀστραπηφόρῳ πυρί</span>
 >
 > Eur., _Bacchae_.
 {: .mb-5 }
