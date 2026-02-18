@@ -6,11 +6,13 @@
   --display-font: "Source Sans 3", sans-serif;
   --font-size: 22px;
   --small-font-size: 19px;
+  --smaller-font-size: 16px;
   --larger-font-size: 34px;
   --text-color: #1F1A17;
   --bg-color: #FFF8F0;
   --secondary-color: #625D55;
   --red-accent-color: #B33A3A;
+  --border-color: #E6D9CC;
 }
 
 /* ========================================================================== */
@@ -60,6 +62,10 @@ article.post-content p:not(:first-of-type){
 
 .small {
   font-size: var(--small-font-size) !important;
+}
+
+.smaller {
+  font-size: var(--smaller-font-size) !important;
 }
 
 .sidenote-body, blockquote p{
@@ -171,6 +177,10 @@ p>img{
 a.navbar-brand {
   font-size: var(--font-size);
   color: var(--red-accent-color) !important;
+}
+
+.border-bottom {
+  border-color: var(--border-color) !important;
 }
 
 

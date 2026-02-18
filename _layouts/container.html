@@ -5,12 +5,16 @@
 {% assign mysource = gitlink | append: page.path %}
 
 <body>
-<nav class="navbar navbar-expand-sm sticky-top border-bottom p-0">
+<nav class="navbar navbar-expand-sm sticky-top border-bottom p-0 pb-1">
   <div class="container-fluid">
-    <a class="navbar-brand" href="/">{{ site.url | replace: 'https://', '' | replace: 'http://', '' | split: '/' | first }}
-</a> <div>/&nbsp;{{ page.title }}</div>
+    <a class="navbar-brand" href="/">{{ site.url | replace: 'https://', '' | replace: 'http://', '' | split: '/' | first }}</a>
+
+    {% unless page.url == "/" %}
+      <div><em>{{ page.title }}</em></div>
+    {% endunless %}
   </div>
 </nav>
+
 
 <div class="container-fluid px-5">
       {{ content }}
