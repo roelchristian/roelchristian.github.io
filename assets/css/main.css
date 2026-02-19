@@ -226,6 +226,19 @@ article.post-content .hangind p, p.hangind{
 /* ========================================================================== */
 /* References */
 /* ========================================================================== */
+.refs {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.refs li {
+  padding-left: 1.5em;
+  text-indent: -1.5em;
+  margin-bottom: 0.5em;
+  line-height: 1.25;
+}
+
 .refs li.is-target {
   background: rgba(255, 230, 150, 0.45);
   border-radius: 0.5rem;
