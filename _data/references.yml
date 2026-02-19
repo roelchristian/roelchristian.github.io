@@ -69,3 +69,22 @@
     - name: Lawrence C. Braceland
       name_sort: Braceland, Lawrence C.
   translation_year: 2010
+- title: Sententiae
+  key: isidore_sent
+  publication_year: 610
+  publication_year_display: "7th c."
+  url: https://www.thelatinlibrary.com/isidore.html
+  authors:
+    - name: St. Isidore of Seville
+      name_sort: Isidore of Seville, St.
+- title: The Sickness Unto Death
+  key: kierkegaard_sickness
+  publication_year: 1849
+  url: https://ia601400.us.archive.org/32/items/in.ernet.dli.2015.189042/2015.189042.The-Sickness-Unto-Death_text.pdf
+  authors:
+    - name: Søren Kierkegaard
+      name_sort: Kierkegaard, Søren
+  translators:
+    - name: Walter Lowrie
+      name_sort: Lowrie, Walter
+  translation_year: 1941
