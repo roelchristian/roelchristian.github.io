@@ -19,7 +19,7 @@ title: Homepage
         {% for post in posts %}
           <li class="d-flex align-items-baseline">
             <a href="{{ post.url }}" class="text-decoration-none link-body-emphasis">
-              {{ post.title }}
+              {{ post.short_title | default: post.html_title | default: post.title }}
             </a>
             <span class="text-body-secondary sans index-date ms-auto ps-2 text-end">
               {{ post.date | date: "%d.%m.%y" }}
