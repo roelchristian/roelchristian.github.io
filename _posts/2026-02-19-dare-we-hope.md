@@ -1,0 +1,502 @@
+---
+
+layout: post
+title: "Notes on von Balthasar’s Dare we hope, ‘that all men be saved?’"
+html_title: "Notes on von Balthasar’s <em>Dare we hope, ‘that all men be saved?’</em>"
+short_title: "Notes on von Balthasar’s <em>Dare we hope</em>"
+---
+
+<section markdown="1">
+
+## I.
+
+I recently picked up Hans Urs von Balthasar’s _Dare we hope ‘that all men be
+saved?’_ and began reading it with a background that is, frankly, more
+secondhand than I would like.[^origen-preface] One early surprise is that von
+Balthasar does not treat the familiar ‘Origen-as-universalist’ shorthand as an
+uncomplicated datum, but immediately raises the question whether the widespread
+attribution is as secure as repetition makes it feel, and he associates that
+caution with the retrieval work of Henri de Lubac and with more careful modern
+Origen scholarship.[^origen-schol]
+
+The epigraph that frames the book, from Jean Daniélou, sets the tone for the
+sense in which von Balthasar intends ‘hope’ to be understood, namely, not as a
+private mood concerning my own prospects, but as a theological posture keyed to
+God’s action toward the whole of creation and the destiny of all
+humanity.[^danielou] The centre of gravity is displaced from the solitary
+interior to the ecclesial and cosmic horizon in which, as the Catechism itself
+intimates, hope is inseparable from the Church’s prayer ‘for all men to be
+saved.’[^ccc-hope] In that register the question ‘Dare we hope?’ is not, or not
+chiefly, a speculative indulgence, but a matter that presses upon the shape of
+Christian prayer, intercession, and love. It is therefore important to state at
+the outset what von Balthasar is (and is not) attempting: he is not offering
+certain knowledge that all will in fact be saved, but arguing for the
+permissibility—indeed, at points, for something like an obligation—of hoping and
+praying that hell might be empty of human persons, in a manner that neither
+denies the Church’s teaching on hell nor converts hope into a
+guarantee.[^ccc-hell] What follows, accordingly, will move from von Balthasar’s
+diagnosis of hope’s corruptions, to his claim that Scripture sustains an
+irreducible tension, and then to the ethical logic by which hope for others is
+bound to charity, before ending with a concrete application in which ‘knowing
+too much’ about judgment shows itself as a spiritual weapon rather than a
+confession of faith.
+
+Von Balthasar, following Josef Pieper, begins by relocating the question within
+hope—more precisely, within two corruptions of hope that masquerade as its
+completion.[^pieper] He names two kinds of ‘hopelessness,’ despair and
+presumption, and insists that both are forms of perverse anticipation: despair
+‘knows in advance’ that hope will not be fulfilled; presumption ‘knows in
+advance’ that it will. Hence the ancient severity of Isidore of Seville—‘to
+despair is to descend into hell’—and hence, too, von Balthasar’s treatment of
+presumption as an anticipatory verdict, an eager and premature claim to have
+already secured the outcome.[^isidore]
+
+At this point one can hear an echo of Søren Kierkegaard, though it remains
+unclear whether the resemblance is doctrinal or chiefly psychological: despair
+appears not merely as an emotion but as a stance, a willed posture of the self
+against hope, a refusal of mercy that decides ahead of time that one stands
+outside grace.[^kierkegaard] Yet von Balthasar’s insistence on pairing despair
+with presumption presses the analysis further, for it suggests that certainty of
+condemnation and certainty of salvation can become mirror-images—rival ways of
+taking judgment into one’s own hands. From this angle ‘presumption’ begins to
+resemble, however imperfectly, a familiar caricature of predestinarian assurance
+often associated with John Calvin: the drama is reduced to a binary, and
+assurance becomes an advance closure of what ought to remain open as petition.
+The practical effect, in either direction, is the same. Whether I ‘know’ the end
+is condemnation (despair) or ‘know’ the end is salvation (presumption), I treat
+the future as already settled, and so evade the posture of prayer by which hope
+lives.
+
+A particularly sharp line appears early. If one sees humanity from the outset as
+a _massa damnata_, what becomes of the promise that Christ, lifted up on the
+Cross, will ‘draw all men’ to himself? Von Balthasar suggests that the
+consequence can only be ‘a sort of despairing squirm at the sight of the
+Cross.’[^dare-p16] The phrase is vivid and, to my mind, diagnostic: the Cross is
+no longer received as the place where hope is given, but handled as a problem to
+be managed, because its universal address sits uneasily beside an imagination
+that has already assigned most persons to loss. In this, one sees a compelling
+feature of the book’s method. Von Balthasar is not primarily amassing
+proof-texts for or against universal salvation; he is asking what forms of
+Christian life are quietly generated by different points of departure. If one
+begins from the thought that others are probably lost, what does that do to
+love, to intercession, to patience, and to missionary urgency? If, conversely,
+one begins from the conviction that salvation is inevitable, what becomes of
+repentance, of vigilance, and of a salutary fear of sin? The argument returns,
+with deliberate persistence, to a single spiritual diagnosis: eschatological
+‘certainty,’ whether bleak or buoyant, tends to deform moral and spiritual
+posture by closing in advance what ought to remain open to prayer.
+
+</section>
+
+<section markdown="1">
+
+## II.
+
+Von Balthasar maintains that within the New Testament two series of utterances
+run strictly side by side, and do so without yielding any synthesis that could
+be rendered either ‘permissible’ or ‘achievable.’ On the one hand there is the
+repeated warning of definitive loss; on the other there is the breadth of God’s
+will and power to save all. His claim, accordingly, is not that Scripture lapses
+into contradiction in any careless sense, but that it resists the intellect’s
+recurrent desire to dissolve tension into a manageable formula—and that this
+resistance, precisely as resistance, calls forth a different mode of response
+than the construction of a neutral theorem.
+
+What is here named the ‘two series’ is, in truth, the double cadence of the
+apostolic kerygma itself. On the one side, an unrelenting sobriety concerning
+the possibility of a final refusal of God, spoken not as a merely pedagogical
+threat but as a real danger: the creature may ‘perish,’ may be ‘shut out,’ may
+go away ‘into eternal punishment,’ and may discover that there remains ‘no
+longer any sacrifice for sins’ but only judgment.[^two-series-loss] On the other
+side, an equally unembarrassed amplitude in speaking of God’s salvific intention
+and of Christ’s victorious efficacy, since God ‘wills all’ to be saved, is ‘not
+willing that any should perish,’ and in Christ purposes to ‘sum up’ all things,
+even as the Son is said to be the ‘propitiation … for the sins of the whole
+world,’ and to draw ‘all’ unto himself.[^two-series-all] The point, then, is not
+that the sacred page contradicts itself in a cheap fashion, but that it refuses
+the mind’s instinct to convert the drama of salvation into a conclusion already
+secured in advance.
+
+Among the more illuminating threads in von Balthasar’s handling of this tension
+is a movement from speculation to prayer: not an evasion of doctrinal gravity,
+but a reordering of speech in the presence of God. In the account suggested by
+Helmut Thielicke, certain realities—most pointedly the condition of those whom
+St. Paul names ‘those who are perishing’—are not, in the first instance,
+materials for dogmatic inventory, but burdens for intercession.[^thielicke] Such
+a move does not deny that judgment is real; it denies, rather, that we are
+positioned to populate hell by ‘knowledge,’ as though the eschaton were ours to
+administer. The proper stance toward those who reject Christ is therefore not a
+metaphysical choreography—stage sets of heaven and hell—but pleading: that
+rejection not be final, that their histories remain open to God, that divine
+love not draw back even before them. And prayer, precisely because it retains
+the proviso ‘Thy will be done,’ does not smuggle in a loophole; it makes an act
+of trust, in which the petition is spoken without reservation and the outcome is
+surrendered without resentment.
+
+This posture can be anchored in the New Testament’s own way of linking
+universality and crisis. The revealed will-to-save is universal, and therefore
+the Church’s prayer for all is not sentimental optimism but obedience that takes
+its measure from revelation.[^will-to-save] Yet in the Gospel of John,
+universality is interwoven with sharpness: the insistence on faith, the force of
+‘if’ and ‘unless,’ the possibility of refusing the light. Here the striking
+claim is that love itself is <span lang="gk">κρίσις</span>: love, as the utmost
+gift, is also the utmost demand, because it calls for reception. Judgment is not
+portrayed as a divine pleasure in condemnation but as the form truth takes when
+it is refused; in Johannine terms, one ‘judges oneself’ by clinging to darkness
+when the light has come.[^john-crisis]
+
+In this way the imperative to universal intercession is grounded not in vague
+benevolence, but in the revealed <span lang="gk">θέλημα σωτηρίας</span>, the
+will-to-save, before which the Church’s speech is most truthful when it becomes
+prayer.[^thelema] John Chrysostom, expounding the same Pauline passage, takes
+its universality with full seriousness: precisely because the priestly and
+ecclesial office is, as it were, ‘common’ to the world, it bears the world in
+prayer, refusing to exclude even those who are not yet
+believers.[^chrysostom-prayer] To pray for all, then, is not to assert the
+outcome; it is to enact the commandment of love in the form most proper to
+pilgrims who do not yet see.
+
+This distinction also keeps two failures from collapsing into one another. On
+the one hand, the ‘all’ cannot be reduced to a merely ‘objective redemption’
+that hovers above subjective response, as though salvation were a cosmic
+transaction completed over our heads. On the other hand, the demand for response
+cannot be made into a warrant for shrinking the ‘all,’ until the universality of
+God’s salvific will becomes only a manner of speaking. Von Balthasar appears
+intent on preserving the scandal of both claims at once: that the divine
+will-to-save is universal, and that human freedom is sufficiently real to render
+refusal intelligible. Properly used, the shorthand ‘objective redemption’
+safeguards Catholic teaching that Christ’s redemptive act is universally
+sufficient and universally intended: God’s love excludes no one, and the Church
+teaches that Christ died for all without exception.[^ccc-605] Yet that same
+doctrine refuses to depict redemption as an impersonal mechanism that bypasses
+the personal mystery of grace and freedom. The ‘all,’ therefore, is not a
+floating abstraction; it names the concrete universality of an offered
+communion, established in the incarnate Son. And in him, as Athanasius
+formulates in the classic language of deification, ‘He was made man that we
+might be made God.’[^athanasius] What is offered is participation; what is
+required is reception; and what is feared is not that God will prove less than
+love, but that the creature may, tragically, persist in a refusal which love
+does not coerce.
+
+</section>
+
+<section markdown="1">
+
+## III.
+
+The book then confronts the relationship between hope for others and love,
+posing the question whether Scripture and Tradition oblige one to assume, not
+merely in the abstract but concretely, that even one other besides oneself is in
+fact in hell or infallibly destined for it, as though one’s moral imagination
+were permitted—under the pretext of realism—to settle into the thought that the
+perdition of another is a datum with which charity must learn to
+live.[^ccc-1033] Von Balthasar suggests, however, that the contrary temptation
+is often the more spiritually plausible. When the labour of relationship grows
+difficult, and when the other becomes burdensome to my patience, the notion of
+his final loss offers itself, almost furtively, as a permission to ‘leave the
+other to himself,’ to abandon him to his own interior solitude, and thus to
+convert eschatology into a moral alibi, as though my resignation were but the
+sober acceptance of divine justice. If hope is forbidden to write any man off,
+it imposes an ethical demand of almost intolerable amplitude: a patience that
+refuses to capitulate, a willingness to wait—if need be—‘infinitely long’ for
+the other’s conversion, and a refusal to shelter myself behind the ancient
+evasion, ‘Am I my brother’s keeper?’ as though fraternity could be affirmed in
+principle and denied in act.[^gen-49][^ccc-1818]
+
+This moral construal is then connected to a notably Thomistic sobriety. St.
+Thomas Aquinas explicitly asks whether one can hope for another’s eternal life,
+and he permits the objection—drawn from St. Augustine—that men are warned
+against ‘false hopes of impunity,’ lest what is named hope be only presumption
+in devotional dress. Yet his response turns upon the inner form of charity
+itself. If love truly unites me to my neighbour, the same infused habit whereby
+I hope for myself extends, by reason of that union, to the other also, because
+charity regards him, not as an alien whose destiny may be contemplated at
+leisure, but as ‘another self.’ Hope, far from being a private possession
+confined within the frontiers of the ego, is enlarged according to the measure
+of love.[^aquinas-hope]
+
+That enlargement is further secured by the communal grammar of Christian prayer.
+St. Cyprian of Carthage, in his exposition of the Lord’s Prayer, insists that we
+do not say ‘My Father’ but ‘Our Father,’ and that we do not pray ‘give me’ but
+‘give us,’ precisely because the prayer of the Church is not the private
+monologue of isolated souls but the common supplication of one body. What first
+appears a small liturgical observation becomes, in this context, a rebuke to any
+individualistic soteriology that would treat the salvation of others as none of
+my concern, since, if my prayer is ecclesial in its very syntax, my hope must be
+ecclesial also, intercessory rather than solitary, and therefore intrinsically
+ordered to the good of those for whom I am bid to
+pray.[^cyprian-ourfather][^ccc-ourfather]
+
+Yet von Balthasar is careful to prevent this from hardening into a cosy
+universalism, for he repeatedly refuses ‘certitude’ in the epistemic sense, as
+though hope were a species of foreknowledge.[^certitudo] Even where scholastic
+theology speaks of a _certitudo_ proper to hope, he notes—following St.
+Bonaventure—that its definition is elusive, since what is attained is not
+evident knowledge, as though the outcome lay open before the mind, but rather a
+security of trustfulness grounded in God’s fidelity and not in the will’s own
+instability, and therefore inseparable from living faith and genuine
+love.[^bonaventure] The apparent firmness of hope must not be confused with the
+complacency of presumption.
+
+From this personal and ecclesial address it follows that one may be tempted to
+leave concern for the salvation of others to divine mercy and to concentrate
+upon one’s own situation before God. The book’s point, however, is that such
+concentration, if it becomes a refusal of intercession, is already a contraction
+of charity. The Church teaches at once that each man, at death, receives his
+recompense in the particular judgment, and that the faithful, while trembling
+for themselves, are not thereby licensed to pronounce others
+lost.[^ccc-particular]
+
+It is here that the Kierkegaardian paradox is allowed to strike with particular
+force: one may be ‘literally quite certain’ that everyone else will attain
+heaven while fearing for oneself, not as a theatrical inversion but as a
+spiritual discipline that denies, on the one hand, the pleasure of condemning
+others, and denies, on the other, the self-flattery of presumption. Fear is
+thereby relocated to its proper object, which is not speculative curiosity about
+the doom of my neighbour, but my own responsibility before God, whose mercy I
+must not convert into a licence.[^kierkegaard-paradox]
+
+At this point von Balthasar’s historical sketches intensify the same concern by
+showing how readily the Church’s discourse can drift into ‘knowing too much’
+about hell. In the _City of God_ St. Augustine devotes extensive attention to
+the punishments of the damned and, with a polemical vigilance, closes those
+apertures through which compassionate readers might deny a populated hell,
+precisely because compassion is easily accused of disguising moral laxity. Von
+Balthasar does not caricature St. Augustine, but uses him to mark a trajectory
+in which suspicion of mercy seeks to present itself as zeal for
+justice.[^augustine-cdg]
+
+Other figures add nuance in a more modern register. Maurice Blondel,
+particularly in _L’Action_, struggles with the possibility of everlasting hell
+while seeking to absolve God of responsibility for damnation, and therefore
+emphasises free choice and the terrifying capacity of the will to enclose
+itself. In that connexion his rejection of Dante Alighieri’s inscription over
+the infernal gate (‘the work of primal and highest love’) is matched by his
+preference for Fra Angelico’s depiction of Christ at judgment as simply
+displaying his wounds, before which the unrepentant turn away and condemn
+themselves, so that imagery becomes catechesis, training the imagination either
+toward projection and panic or toward responsibility and
+sorrow.[^blondel-dante-angelico]
+
+Alongside this, von Balthasar attends to the relation of justice and mercy,
+refusing to treat judgment as God’s ‘pure’ attribute and mercy as a
+discretionary add-on. Instead he retrieves, in the Thomistic line (with St.
+Anselm of Canterbury discernible in the background), the claim that justice is
+not annulled by mercy but, in a certain manner, is taken up within it, since
+creation itself is not owed by justice but given by goodness, and divine works
+therefore manifest both mercy and justice according to God’s simple
+perfection.[^thomas-justice-mercy]
+
+A technically clarifying remark is then introduced by Otto Betz, who cautions
+against speaking of the ‘eternity’ of hell in the same sense as God’s eternity,
+since God alone is eternal in the strict sense, whereas the ‘endlessness’ of
+damnation is better conceived as a fixation in despair than as a parallel
+kingdom endowed with any theological dignity.[^betz-eternity] Even if one does
+not wholly adopt the terminology, the intuition stands: hell is privation and
+anti-teleology, not a rival good.[^ccc-1037]
+
+Finally, and with an unexpected literary compression, Dostoevsky’s parable of
+the ‘Little Onion’ in _The Brothers Karamazov_ functions as a severe spiritual
+anthropology. The old woman is drawn from the lake of fire by the single onion
+of her one merciful act, yet when others seize her so as to be pulled up with
+her she kicks them away—insisting, in effect, upon goodness as private
+property—and the onion breaks, so that damnation appears, not principally as an
+externally imposed sentence, but as the refusal of solidarity and the will’s
+anti-communion.[^dostoevsky-onion]
+
+</section>
+
+<section markdown="1">
+
+## IV.
+
+As I read those passages, I could not help recalling a memory from high school.
+A classmate, a Protestant of what I would have guessed was a Pentecostal milieu,
+once relayed—almost casually, with chilling certainty—that their pastor had
+spoken of a vision in which Pope John Paul II was burning in hell. What stayed
+with me was not the claim’s implausibility (though it was that), but the
+confidence with which the judgment was narrated, as if eschatology were a kind
+of clairvoyant reporting. Von Balthasar’s book helped me name what disturbed me:
+the ease with which ‘knowledge’ of another’s damnation can become a spiritual
+weapon, a way of protecting one’s identity by consigning others to perdition. It
+felt like despair on someone else’s behalf—a theft of the future—and, more
+subtly, like presumption as well, inasmuch as it assumed an advance possession
+of what belongs to the Lord alone, and therefore displaced the Gospel’s call to
+intercession with something closer to spiritual policing.
+
+In the end, what I take from von Balthasar’s book is less a resolved ‘position’
+on universal salvation than a disciplined posture. Hope, as he construes it, is
+not knowledge; where we try to turn it into knowledge, whether knowledge that
+most are damned or knowledge that all are saved, the old corruptions of hope
+reappear under theological clothing, as despair and presumption. This is why his
+insistence on Scripture’s ‘two series’ matters. The New Testament refuses to
+grant us the satisfaction of a synthesis that would allow us to speak as
+administrators of the eschaton; it keeps before us both the real possibility of
+final refusal and the unembarrassed universality of God’s will-to-save, and in
+doing so it trains Christian speech toward petition rather than prediction.
+Certain realities are given to us less as items for cartography than as burdens
+for prayer, and the Church’s universal intercession is therefore not an
+ornamental piety but obedience to what has been revealed.
+
+At the same time, the universality of Christ’s saving will cannot be
+domesticated into a merely ‘objective’ mechanism that bypasses freedom, and the
+seriousness of freedom cannot be turned into a reason to shrink the ‘all’ into a
+rhetorical flourish. The point is not to evacuate warning, but to resist the
+peculiar temptation to treat warning as an invitation to name names. If hope is
+enlarged by charity, then to refuse hope for another is not simply to adopt a
+hardheaded realism; it is to permit myself, under the guise of doctrinal
+sobriety, to ‘leave the other to himself,’ to resign the labour of patience, and
+to convert eschatology into a moral alibi. The ethical weight of hope is
+immense. Far from licensing laxity, the refusal to write anyone off binds one to
+a patience that does not relinquish the other, even when human togetherness
+grows difficult. And this returns one, finally, to a chastened humility before
+judgment: not vagueness, but a refusal of the murderous comfort of consigning
+others to final ruin. As Paul says, ‘I do not even judge myself… it is the Lord
+who judges.’[^paul-judge] If Christian speech about hell has a point, it is
+first to awaken me to my own responsibility and to press me into conversion, not
+to give me the authority to speak final words over anyone else. If von Balthasar
+is right, then the question ‘Dare we hope?’ is a test of whether my theology of
+judgment has become detached from the Gospel’s command to love, pray, and suffer
+with others: to hope because love hopes all things, and to leave the verdict
+where it belongs, before the Lord who brings to light what is hidden in
+darkness.
+
+</section>
+
+[^origen-preface]: My prior exposure to ‘universalism’ has come mainly through
+    historical discussions of Origen and the much-cited theme of the <span
+    lang="gk">ἀποκατάστασις πάντων</span> (‘restoration of all things’) in [Acts
+    3:21](https://www.biblegateway.com/passage/?search=Acts%203%3A21&version=NRSVCE,SBLGNT).
+    I should begin with a clear preface that I have not read Origen’s relevant
+    works themselves. The only Origen I have even partially read is his
+    _Homilies on Isaiah_, and even there ‘read’ is a charitable description of
+    what was mostly a glancing contact. Most of what I ‘know’ about Origen’s
+    _apokatastasis_ is filtered through historical summaries and polemical
+    shorthand rather than through direct engagement with the texts. My working
+    impression (provisional) is that Origen can read ‘restoration’ not only as a
+    healing and recapitulation of creation under Christ, but, in his more
+    speculative moments, as the eventual return of every rational creature to
+    God—so comprehensive that even demons, and at last the devil himself, would
+    be restored.
+
+[^origen-schol]: For the Acts passage: [Acts
+    3:21](https://www.biblegateway.com/passage/?search=Acts%203%3A21&version=NRSVCE,SBLGNT).
+    For von Balthasar’s appeal to modern retrieval: Henri de Lubac is a key name
+    in his opening chapters; later he also invokes modern Origen scholarship
+    (Henri Crouzel among others) as a reason to treat the standard caricature
+    with more methodological caution.
+
+[^danielou]: The book’s epigraph is from Jean Daniélou; von Balthasar uses it to
+    signal that ‘hope’ is to be read ecclesially and cosmically rather than as a
+    private forecast.
+
+[^ccc-hope]: [CCC](/references#catechism) 1817–1821.
+
+[^ccc-hell]: [CCC](/references#catechism) 1033–1037; especially 1037.
+
+[^pieper]: Josef Pieper, _Faith, Hope, Love_, p. 113.
+
+[^isidore]: Isidore of Seville, _Sententiae_, lib. II, cap. 14.
+
+[^kierkegaard]: Kierkegaard’s account in _The Sickness Unto Death_ treats
+    despair not as a passing affect but as a spiritual sickness of the self, a
+    disordered willing (whether ‘not willing to be oneself,’ or ‘willing to be
+    oneself’ in defiance), whose deepest sting is that it refuses to ‘rest
+    transparently in the power that posited it.’ Although his idiom is not
+    Catholic and his categories are shaped by a distinct Protestant interiority,
+    the resemblance remains instructive: in both analyses despair is construed
+    as a rebellion of the self, an act in which the creature takes the place of
+    God with respect to judgment and possibility by determining in advance what
+    God may, or may not, do.
+
+[^dare-p16]: Hans Urs von Balthasar, _Dare We Hope ‘That All Men Be Saved?’_, p.
+    16.
+
+[^two-series-loss]: John 3:16; Matthew 25:10–12; Matthew 25:46; Hebrews
+    10:26–27.
+
+[^two-series-all]: 1 Timothy 2:4; 2 Peter 3:9; Ephesians 1:10 (often rendered
+    ‘to sum up,’ sometimes ‘to recapitulate’; translations vary); 1 John 2:2;
+    John 12:32.
+
+[^thielicke]: Helmut Thielicke, _The Waiting Father_ (trans. John W.
+    Doberstein).
+
+[^will-to-save]: The grounding text is 1 Timothy 2:4 (‘God desires all to be
+    saved’), with the related ecclesial logic of universal intercession
+    reflected in the Catechism’s treatment of hope and prayer; see
+    [CCC](/references#catechism) 1817–1821 and the sections on intercession.
+
+[^john-crisis]: For the Johannine linkage of light, refusal, and self-judgment:
+    John 3:18–21 is the central passage; ‘unless’/‘if’ language and the demand
+    of reception recur throughout John.
+
+[^thelema]: On <span lang="gk">θέλημα σωτηρίας</span> (‘will-to-save’) as a
+    conceptual shorthand: see the Pauline framing in 1 Timothy 2 and the way
+    later theology speaks of the universality of God’s salvific will.
+
+[^chrysostom-prayer]: John Chrysostom’s exposition of 1 Timothy 2 underscores
+    the breadth of the Church’s intercession and the priestly duty to pray ‘for
+    all,’ including those not yet believers; von Balthasar cites Chrysostom to
+    reinforce the ecclesial form of hope.
+
+[^ccc-605]: [CCC](/references#catechism) 605.
+
+[^athanasius]: Athanasius, classic formulation of deification: ‘He was made man
+    that we might be made God,’ commonly associated with _On the Incarnation_
+    (the wording appears in various translations and patristic summaries).
+
+[^ccc-1033]: [CCC](/references#catechism) 1033; 1037.
+
+[^gen-49]: Genesis 4:9.
+
+[^ccc-1818]: [CCC](/references#catechism) 1818; 2091–2092.
+
+[^aquinas-hope]: Thomas Aquinas, _Summa Theologiae_ II–II, q. 17, a. 3; see also
+    [CCC](/references#catechism) 1817–1818 for the Catechism’s synthesis of hope
+    as theological virtue.
+
+[^cyprian-ourfather]: Cyprian of Carthage, _De oratione dominica_, 8.
+
+[^ccc-ourfather]: [CCC](/references#catechism) 2791–2793; 2634–2636.
+
+[^certitudo]: Von Balthasar repeatedly distinguishes the firmness proper to
+    theological hope from epistemic certainty; he treats ‘hope’ as a posture of
+    trust rather than a claim to foreknown outcomes.
+
+[^bonaventure]: Bonaventure, _In III Sent._, d. 26, a. 1, q. 5; d. 26, q. 2, a.
+    4 ad 4–5. For the broader Catholic cautions against presumption and despair
+    in relation to hope: Council of Trent, Session VI (especially ch. 9; can.
+    13–16), and [CCC](/references#catechism) 2091–2092.
+
+[^ccc-particular]: [CCC](/references#catechism) 1021–1022; 2091–2092.
+
+[^kierkegaard-paradox]: The ‘certainty for others, fear for oneself’ formulation
+    appears in Kierkegaardian spiritual rhetoric as a discipline against judging
+    one’s neighbour and against presuming upon mercy; von Balthasar invokes the
+    paradox as a way of reassigning fear to its proper object.
+
+[^augustine-cdg]: Augustine, _De civitate Dei_, XXI.18.
+
+[^blondel-dante-angelico]: Maurice Blondel, especially _L’Action_; Dante
+    Alighieri, _Inferno_ III (the inscription over the gate); Fra Angelico’s
+    judgment imagery (often framed as Christ displaying his wounds) as a
+    counter-idiom to infernal spectacle.
+
+[^thomas-justice-mercy]: Thomas Aquinas, _Summa Theologiae_ I, q. 21, a. 3–4;
+    with Anselm of Canterbury, _Proslogion_, 9, commonly invoked in the
+    background of later discussions of justice and mercy.
+
+[^betz-eternity]: Otto Betz, _Die Eschatologie in der Glaubensunterweisung_
+    (1965), 223.
+
+[^ccc-1037]: [CCC](/references#catechism) 1037; with 1033 for the description of
+    hell as definitive self-exclusion from communion with God.
+
+[^dostoevsky-onion]: Fyodor Dostoevsky, _The Brothers Karamazov_, Part III, Book
+    VII, ch. 3 (‘The Little Onion’); compare the Catechism’s emphasis on charity
+    and intercession in [CCC](/references#catechism) 1818; 2634–2636.
+
+[^paul-judge]: 1 Corinthians 4:3–5 (especially the line ‘it is the Lord who
+    judges,’ and the promise that he will ‘bring to light what is hidden in
+    darkness’).
