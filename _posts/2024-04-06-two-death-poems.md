@@ -4,11 +4,12 @@ title:  Two death poems
 ---
 
 
-<div class="fig-div" markdown="1">
+<div markdown="1" class="fig-div">
 
 ![Yamauba combing her hair with Kintarō](https://gimlafraogh.wordpress.com/wp-content/uploads/2025/05/e5b1b1e5a7a5e381a8e98791e5a4aae9838e-yamauba_combing_her_hair_and_kintoki_met_dp135580-edit.jpg)
 
-Kitagawa Utamaro, _Yamauba Combing Her Hair with Kintarō_, ca. 1801. The Metropolitan Museum of Art, New York.
+Kitagawa Utamaro, _Yamauba Combing Her Hair with Kintarō_, ca. 1801. [Public domain image archive.](https://pdimagearchive.org/images/381f45da-f4cf-41b1-b24f-334e842d603d/){: target="_blank" rel="noopener" }
+{: .small .noindent .ms-4 my-2}
 
 </div>
 
