@@ -1,5 +1,4 @@
 ---
-
 layout: post
 title: "Notes on von Balthasar’s Dare we hope, ‘that all men be saved?’"
 html_title: "Notes on von Balthasar’s <em>Dare we hope, ‘that all men be saved?’</em>"
@@ -31,8 +30,8 @@ chiefly, a speculative indulgence, but a matter that presses upon the shape of
 Christian prayer, intercession, and love. It is therefore important to state at
 the outset what von Balthasar is (and is not) attempting: he is not offering
 certain knowledge that all will in fact be saved, but arguing for the
-permissibility—indeed, at points, for something like an obligation—of hoping and
-praying that hell might be empty of human persons, in a manner that neither
+permissibility — indeed, at points, for something like an obligation — of hoping
+and praying that hell might be empty of human persons, in a manner that neither
 denies the Church’s teaching on hell nor converts hope into a
 guarantee.[^ccc-hell] What follows, accordingly, will move from von Balthasar’s
 diagnosis of hope’s corruptions, to his claim that Scripture sustains an
@@ -42,14 +41,14 @@ too much’ about judgment shows itself as a spiritual weapon rather than a
 confession of faith.
 
 Von Balthasar, following Josef Pieper, begins by relocating the question within
-hope—more precisely, within two corruptions of hope that masquerade as its
+hope — more precisely, within two corruptions of hope that masquerade as its
 completion.[^pieper] He names two kinds of ‘hopelessness,’ despair and
 presumption, and insists that both are forms of perverse anticipation: despair
 ‘knows in advance’ that hope will not be fulfilled; presumption ‘knows in
-advance’ that it will. Hence the ancient severity of Isidore of Seville—‘to
-despair is to descend into hell’—and hence, too, von Balthasar’s treatment of
+advance’ that it will. Hence the ancient severity of Isidore of Seville — ‘to
+despair is to descend into hell’[^isidore] — and hence, too, von Balthasar’s treatment of
 presumption as an anticipatory verdict, an eager and premature claim to have
-already secured the outcome.[^isidore]
+already secured the outcome.
 
 At this point one can hear an echo of Søren Kierkegaard, though it remains
 unclear whether the resemblance is doctrinal or chiefly psychological: despair
@@ -57,7 +56,7 @@ appears not merely as an emotion but as a stance, a willed posture of the self
 against hope, a refusal of mercy that decides ahead of time that one stands
 outside grace.[^kierkegaard] Yet von Balthasar’s insistence on pairing despair
 with presumption presses the analysis further, for it suggests that certainty of
-condemnation and certainty of salvation can become mirror-images—rival ways of
+condemnation and certainty of salvation can become mirror-images — rival ways of
 taking judgment into one’s own hands. From this angle ‘presumption’ begins to
 resemble, however imperfectly, a familiar caricature of predestinarian assurance
 often associated with John Calvin: the drama is reduced to a binary, and
@@ -98,7 +97,7 @@ be rendered either ‘permissible’ or ‘achievable.’ On the one hand there 
 repeated warning of definitive loss; on the other there is the breadth of God’s
 will and power to save all. His claim, accordingly, is not that Scripture lapses
 into contradiction in any careless sense, but that it resists the intellect’s
-recurrent desire to dissolve tension into a manageable formula—and that this
+recurrent desire to dissolve tension into a manageable formula — and that this
 resistance, precisely as resistance, calls forth a different mode of response
 than the construction of a neutral theorem.
 
@@ -120,13 +119,13 @@ secured in advance.
 Among the more illuminating threads in von Balthasar’s handling of this tension
 is a movement from speculation to prayer: not an evasion of doctrinal gravity,
 but a reordering of speech in the presence of God. In the account suggested by
-Helmut Thielicke, certain realities—most pointedly the condition of those whom
-St. Paul names ‘those who are perishing’—are not, in the first instance,
+Helmut Thielicke, certain realities — most pointedly the condition of those whom
+St. Paul names ‘those who are perishing’ — are not, in the first instance,
 materials for dogmatic inventory, but burdens for intercession.[^thielicke] Such
 a move does not deny that judgment is real; it denies, rather, that we are
 positioned to populate hell by ‘knowledge,’ as though the eschaton were ours to
 administer. The proper stance toward those who reject Christ is therefore not a
-metaphysical choreography—stage sets of heaven and hell—but pleading: that
+metaphysical choreography — stage sets of heaven and hell — but pleading: that
 rejection not be final, that their histories remain open to God, that divine
 love not draw back even before them. And prayer, precisely because it retains
 the proviso ‘Thy will be done,’ does not smuggle in a loophole; it makes an act
@@ -188,7 +187,7 @@ The book then confronts the relationship between hope for others and love,
 posing the question whether Scripture and Tradition oblige one to assume, not
 merely in the abstract but concretely, that even one other besides oneself is in
 fact in hell or infallibly destined for it, as though one’s moral imagination
-were permitted—under the pretext of realism—to settle into the thought that the
+were permitted — under the pretext of realism — to settle into the thought that the
 perdition of another is a datum with which charity must learn to
 live.[^ccc-1033] Von Balthasar suggests, however, that the contrary temptation
 is often the more spiritually plausible. When the labour of relationship grows
@@ -198,14 +197,14 @@ other to himself,’ to abandon him to his own interior solitude, and thus to
 convert eschatology into a moral alibi, as though my resignation were but the
 sober acceptance of divine justice. If hope is forbidden to write any man off,
 it imposes an ethical demand of almost intolerable amplitude: a patience that
-refuses to capitulate, a willingness to wait—if need be—‘infinitely long’ for
+refuses to capitulate, a willingness to wait — if need be — ‘infinitely long’ for
 the other’s conversion, and a refusal to shelter myself behind the ancient
 evasion, ‘Am I my brother’s keeper?’ as though fraternity could be affirmed in
 principle and denied in act.[^gen-49][^ccc-1818]
 
 This moral construal is then connected to a notably Thomistic sobriety. St.
 Thomas Aquinas explicitly asks whether one can hope for another’s eternal life,
-and he permits the objection—drawn from St. Augustine—that men are warned
+and he permits the objection — drawn from St. Augustine — that men are warned
 against ‘false hopes of impunity,’ lest what is named hope be only presumption
 in devotional dress. Yet his response turns upon the inner form of charity
 itself. If love truly unites me to my neighbour, the same infused habit whereby
@@ -230,8 +229,8 @@ pray.[^cyprian-ourfather][^ccc-ourfather]
 Yet von Balthasar is careful to prevent this from hardening into a cosy
 universalism, for he repeatedly refuses ‘certitude’ in the epistemic sense, as
 though hope were a species of foreknowledge.[^certitudo] Even where scholastic
-theology speaks of a _certitudo_ proper to hope, he notes—following St.
-Bonaventure—that its definition is elusive, since what is attained is not
+theology speaks of a _certitudo_ proper to hope, he notes — following St.
+Bonaventure — that its definition is elusive, since what is attained is not
 evident knowledge, as though the outcome lay open before the mind, but rather a
 security of trustfulness grounded in God’s fidelity and not in the will’s own
 instability, and therefore inseparable from living faith and genuine
@@ -299,8 +298,8 @@ Finally, and with an unexpected literary compression, Dostoevsky’s parable of
 the ‘Little Onion’ in _The Brothers Karamazov_ functions as a severe spiritual
 anthropology. The old woman is drawn from the lake of fire by the single onion
 of her one merciful act, yet when others seize her so as to be pulled up with
-her she kicks them away—insisting, in effect, upon goodness as private
-property—and the onion breaks, so that damnation appears, not principally as an
+her she kicks them away — insisting, in effect, upon goodness as private
+property — and the onion breaks, so that damnation appears, not principally as an
 externally imposed sentence, but as the refusal of solidarity and the will’s
 anti-communion.[^dostoevsky-onion]
 
@@ -312,14 +311,14 @@ anti-communion.[^dostoevsky-onion]
 
 As I read those passages, I could not help recalling a memory from high school.
 A classmate, a Protestant of what I would have guessed was a Pentecostal milieu,
-once relayed—almost casually, with chilling certainty—that their pastor had
+once relayed — almost casually, with chilling certainty — that their pastor had
 spoken of a vision in which Pope John Paul II was burning in hell. What stayed
 with me was not the claim’s implausibility (though it was that), but the
 confidence with which the judgment was narrated, as if eschatology were a kind
 of clairvoyant reporting. Von Balthasar’s book helped me name what disturbed me:
 the ease with which ‘knowledge’ of another’s damnation can become a spiritual
 weapon, a way of protecting one’s identity by consigning others to perdition. It
-felt like despair on someone else’s behalf—a theft of the future—and, more
+felt like despair on someone else’s behalf — a theft of the future — and, more
 subtly, like presumption as well, inasmuch as it assumed an advance possession
 of what belongs to the Lord alone, and therefore displaced the Gospel’s call to
 intercession with something closer to spiritual policing.
@@ -351,8 +350,8 @@ immense. Far from licensing laxity, the refusal to write anyone off binds one to
 a patience that does not relinquish the other, even when human togetherness
 grows difficult. And this returns one, finally, to a chastened humility before
 judgment: not vagueness, but a refusal of the murderous comfort of consigning
-others to final ruin. As Paul says, ‘I do not even judge myself… it is the Lord
-who judges.’[^paul-judge] If Christian speech about hell has a point, it is
+others to final ruin. As St. Paul says, ‘I do not even judge myself… it is the
+Lord who judges.’[^paul-judge] If Christian speech about hell has a point, it is
 first to awaken me to my own responsibility and to press me into conversion, not
 to give me the authority to speak final words over anyone else. If von Balthasar
 is right, then the question ‘Dare we hope?’ is a test of whether my theology of
@@ -376,7 +375,7 @@ darkness.
     impression (provisional) is that Origen can read ‘restoration’ not only as a
     healing and recapitulation of creation under Christ, but, in his more
     speculative moments, as the eventual return of every rational creature to
-    God—so comprehensive that even demons, and at last the devil himself, would
+    God — so comprehensive that even demons, and at last the devil himself, would
     be restored.
 
 [^origen-schol]: For the Acts passage: [Acts
@@ -396,12 +395,13 @@ darkness.
 
 [^pieper]: Josef Pieper, _Faith, Hope, Love_, p. 113.
 
-[^isidore]: Isidore of Seville, _Sententiae_, lib. II, cap. 14.
+[^isidore]: Isidore of Seville, [_Sententiae_](/references#isidore_sent), lib.
+    II, cap. 14.
 
-[^kierkegaard]: Kierkegaard’s account in _The Sickness Unto Death_ treats
-    despair not as a passing affect but as a spiritual sickness of the self, a
-    disordered willing (whether ‘not willing to be oneself,’ or ‘willing to be
-    oneself’ in defiance), whose deepest sting is that it refuses to ‘rest
+[^kierkegaard]: Kierkegaard’s account in [_The sickness unto death_](/references#kierkegaard_sickness)
+    treats despair not as a passing affect but as a spiritual sickness of the
+    self, a disordered willing (whether ‘not willing to be oneself,’ or ‘willing
+    to be oneself’ in defiance), whose deepest sting is that it refuses to ‘rest
     transparently in the power that posited it.’ Although his idiom is not
     Catholic and his categories are shaped by a distinct Protestant interiority,
     the resemblance remains instructive: in both analyses despair is construed
@@ -409,8 +409,7 @@ darkness.
     God with respect to judgment and possibility by determining in advance what
     God may, or may not, do.
 
-[^dare-p16]: Hans Urs von Balthasar, _Dare We Hope ‘That All Men Be Saved?’_, p.
-    16.
+[^dare-p16]: _Dare we hope &c._, p. 16.
 
 [^two-series-loss]: John 3:16; Matthew 25:10–12; Matthew 25:46; Hebrews
     10:26–27.
