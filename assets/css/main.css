@@ -23,7 +23,7 @@
   --serif-font: 'Junicode', serif;
   --sans-font: "Source Sans 3", sans-serif;
   --font-size: 21px;
-  --small-font-size: 19px;
+  --small-font-size: 18px;
   --smaller-font-size: 16px;
   --larger-font-size: 34px;
   --text-color: #1F1A17;
@@ -40,9 +40,9 @@ body{
   font-family: var(--serif-font) !important;
   font-size: var(--font-size);
   font-weight: 0;
-  line-height: calc(var(--font-size) * 1.5);
+  line-height: calc(var(--font-size) * 1.35);
   font-kerning: normal;
-  font-feature-settings: "onum" 1, "ss18" 1 !important;
+  font-feature-settings: "onum" 1, "cv79" 2, "ss18" 1 !important;
   text-rendering: optimizeLegibility;
   color: var(--text-color);
   letter-spacing: -0.004em;
@@ -105,6 +105,14 @@ h2{
   text-indent: -1em;
 }
 
+h3 {
+  text-indent: 0;     /* Pulls the first line back by 1em to create the hang */
+  font-style: italic;
+  margin-bottom: 12px;
+  margin-top: 30px;
+  font-size: var(--font-size);
+}
+
 blockquote{
   font-size: var(--smaller-font-size);
   margin-left: 1em;
@@ -115,6 +123,7 @@ blockquote{
 
 p[lang="gk"], span[lang="gk"]{
   font-style: italic;
+  font-feature-settings: "hlig" 1, "locl" 1, "ccmp" 1;
 }
 
 span[lang="ird"], .ird{
@@ -149,6 +158,11 @@ span[lang="ird"], .ird{
 .post-list-hang li{
   padding-left: 1.4em;
   text-indent: -1.4em;
+}
+
+.small-caps{
+  font-feature-settings: "smcp" 1;
+  text-transform: lowercase;
 }
 
 /* ========================================================================== */
