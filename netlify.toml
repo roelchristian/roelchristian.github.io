@@ -1,16 +1,4 @@
 [[redirects]]
-  from = "/assets/pub_cv.pdf"
-  to = "/me/cv/cv_en.pdf"
-  status = 301
-  force = true
-  
-[[redirects]]
-  from = "/cv"
-  to = "/me/cv/cv_en.pdf"
-  status = 301
-  force = true
-
-[[redirects]]
   from = "/connect"
   to = "/contact"
   status = 301
