@@ -15,4 +15,8 @@ cities in the world). Maybe we (I) long for this almost idyllic detachedness,
 this impossibility. Roger Ebert
 [writes this of the movie](https://www.rogerebert.com/reviews/frances-ha-2013){:target="_blank" rel="noreferrer noopener"}:
 
-> The film’s shambling story is rooted in a particular passage of life. Frances Halliday (Gerwig) at age 27 finds herself in that Janus-like, post-college phase where part of her seems to want to retreat to the womb, or at least Vassar, while another part wants to forge confidently into the realities of grown-up life in New York.
+> The film’s shambling story is rooted in a particular passage of life. Frances
+> Halliday (Gerwig) at age 27 finds herself in that Janus-like, post-college
+> phase where part of her seems to want to retreat to the womb, or at least
+> Vassar, while another part wants to forge confidently into the realities of
+> grown-up life in New York.

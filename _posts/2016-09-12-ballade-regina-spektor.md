@@ -29,23 +29,7 @@ For a short time I thought you’d be one of them supermarket poets the world ha
 
 Pepper me with Latin: your voice is most beautiful when I don’t understand you.
 
-The
-
-other
-{: style="margin-left: 2em;"}
-
-one:
-{: style="margin-left: 4.5em;"}
-
-what was his name again?
-{: style="margin-left: 10.5em;"}
-
-I forgot darling.
-
-—has been eyeing you
-{: style="margin-left: 10.5em;"}
-
-like you’re a shiny green apple, a jar of pickles, a pineapple (do not pontificate about pineapples: why do you always pontificate about pineapples?).
+The other one: what was his name again?—I forgot darling.—has been eyeing you like you’re a shiny green apple, a jar of pickles, a pineapple (do not pontificate about pineapples: why do you always pontificate about pineapples?).
 His is a burglar’s eye.
 
 I envy him for finding love in your face. I still haven’t found love love love or whatever it is I’ve been looking for. I’m still searching for love (perhaps I’ll never find it) and while I’m searching I’ll be happy to contemplate your face in the morning and dream of love love love and perhaps in the evening discover it.

@@ -42,23 +42,27 @@ upon their husbands to indulge the poor fellow, urging them to consider naught
 but the arduousness of his journey across deserts, rivers, and oceans, merely to
 partake in a pleasant afternoon’s discourse with them – and were they not,
 indeed, singularly honoured by such attention?
+
 </section>
 
 <section markdown="1">
+
 Here, then, was a man sprung from piratical stock, a mystic, by all
-accounts;[^4] and here, his brother, one whose character has been much traduced, a veritable voyeur, and doubtless the new Cassandra of some forsaken domain; and here, their
-descendant, thrice, perhaps five times removed, bearing a prophecy and the
-promise of salvation.
+accounts;[^4] and here, his brother, one whose character has been much traduced,
+a veritable voyeur, and doubtless the new Cassandra of some forsaken domain; and
+here, their descendant, thrice, perhaps five times removed, bearing a prophecy
+and the promise of salvation.
 
 During his final weeks in London, I resolved to join the throngs that gathered
-at Temple Hall, desirous of hearing this unkempt boddhi[^5] denounce the Empire so painstakingly erected by our forefathers. Yet, there were
-no incendiary orations, no wrathful condemnations, no foretellings of impending
-disaster. I was ill-prepared for the tales he spun: of a humble rabbit that
-chanced upon Brahma; of a widow who abstained from sustenance for a decade,
-awaiting the return of her husband, whom the heavens themselves had purloined
-(for the sky, it was said, had become enamoured of him); of a Tiger-King who
-forged a peace with the first Raj of India, after his own daughter conceived an
-affection for the said Raj…
+at Temple Hall, desirous of hearing this unkempt boddhi[^5] denounce the Empire
+so painstakingly erected by our forefathers. Yet, there were no incendiary
+orations, no wrathful condemnations, no foretellings of impending disaster. I
+was ill-prepared for the tales he spun: of a humble rabbit that chanced upon
+Brahma; of a widow who abstained from sustenance for a decade, awaiting the
+return of her husband, whom the heavens themselves had purloined (for the sky,
+it was said, had become enamoured of him); of a Tiger-King who forged a peace
+with the first Raj of India, after his own daughter conceived an affection for
+the said Raj…
 
 A fortnight later, I found myself aboard a vessel bound for Goa. By then, Lady
 Bexborough had entirely faded from my recollection, as had the communication
