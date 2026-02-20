@@ -6,3 +6,7 @@ author: Roel Christian Yambao
 markdown: kramdown
 permalink: /blog/:year/:title
 
+collections:
+  commonplace:
+    output: true
+    permalink: /commonplace/:path/
