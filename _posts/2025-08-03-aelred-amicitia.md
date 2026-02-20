@@ -1,7 +1,7 @@
 ---
 layout: post
 title: From Aelred of Rievaulx's De spirituali amicitia
-html_title: Aelred of Rievaulx&rsquo; <em>De spirituali amicitia</em>
+html_title: From Aelred of Rievaulx&rsquo;s <em>De spirituali amicitia</em>
 date: 2025-08-04
 ---
 

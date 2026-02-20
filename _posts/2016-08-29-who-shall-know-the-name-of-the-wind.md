@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Who shall know the name of the wind"
+title: Who shall know the name of the wind?
 ---
 
 <section markdown="1">

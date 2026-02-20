@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Notes written while watching an episode of Bojack Horseman"
+title: Notes written while watching an episode of Bojack Horseman
+html_title: "Notes written while watching an episode of <em>Bojack Horseman</em>"
 ---
 
 
