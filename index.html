@@ -6,14 +6,14 @@ title: Homepage
 {% assign posts = site.posts | sort: "date" | reverse %}
 
 <div class="row mt-5 mb-3">
-  <div class="col-md-8 offset-md-1">
+  <div class="col-md-6 offset-md-1">
     This is Roel Christian Yambao&rsquo;s personal reading and writing archive,
     a commonplace of notes, excerpts, and occasional essays.
   </div>
 </div>
 
-<div class="row mb-4 small">
-  <div class="col-md-8 offset-md-1">
+<div class="row mb-4">
+  <div class="col-md-6 offset-md-1">
     {% assign current_year = "" %}
     {% for post in posts %}
       {% assign post_year = post.date | date: "%Y" %}
@@ -28,7 +28,7 @@ title: Homepage
       {% endif %}
       
       <li>
-        <a href="{{ post.url }}" class="text-body">{{ post.html_title | default: post.title }}</a> &middot; <span class="text-body-secondary">{{ post.date | date: "%-d %-b" }}</span>
+        <a href="{{ post.url }}" class="text-body">{{ post.html_title | default: post.title }}</a> &middot; <span class="text-body-secondary">{{ post.date | date: "%-d/%-m" }}</span>
       </li>
       
       {% if forloop.last %}
