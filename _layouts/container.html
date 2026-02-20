@@ -10,7 +10,7 @@
     <a class="navbar-brand" href="/">{{ site.url | replace: 'https://', '' | replace: 'http://', '' | split: '/' | first }}</a>
 
     {% unless page.url == "/" %}
-      <div><em>{{ page.title }}</em></div>
+      <div class="page-title-head"><em>{{ page.title }}</em></div>
     {% endunless %}
   </div>
 </nav>
