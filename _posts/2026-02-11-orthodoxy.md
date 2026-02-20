@@ -490,67 +490,131 @@ Christ.
 
 
 [^1]: e.g., St. John Chrys., _Homilies on Romans_, X.
+
 [^2]: The [_Catechism of the Catholic Church_ (CCC)](/references#catechism) 460;
     _ibid_., 1996–2000; _Lumen gentium_ 2, 40.
+
 [^3]: [_De Incarnatione Dei Verbi_](/references#athan_deincarnatione), 54.3.
+
 [^4]: [_Adversus Haereses_](/references#iren_adversus), V, Pref.
+
 [^5]: [CCC](/references#catechism) 1989–1990, 1992; Council of Trent, Sess. VI,
     _Decree on Justification_, ch. 7.
+
 [^6]: _De Spiritu et Littera_, ch. 15 [IX].
+
 [^7]: Council of Trent, Sess. VI, can. 1.
+
 [^8]: 2 Pet 1, 4.
+
 [^9]: CCC 1989–1991; Council of Trent, Sess. VI, _Dec. on Just., ch.&nbsp;7.
+
 [^10]: CCC 460.
+
 [^11]: _ibid_.; cf. also CCC 1996–1997.
+
 [^12]: _De inc._
+
 [^13]: _Adv. haer._ 3.19.1.
+
 [^14]: CCC 460.
+
 [^15]: _ibid._; CCC 1989–1991
+
 [^16]: _Unitatis Redintegratio_ 4.
+
 [^17]: CCC 517; cf. CCC 512–515; CCC 571–618.
+
 [^18]: _Ep._ 101.5.
+
 [^19]: _Sermo_ 21.2.
+
 [^20]: CCC 1265–1266; CCC 1989–1991.
+
 [^21]: Council of Trent, Sess. VI, _Dec. on Just._ ch. 7; CCC 1990–1991; CCC 1999.
+
 [^22]: Council of Trent, Sess. VI, can. 1
+
 [^23]: CCC 1996–2001
+
 [^24]: Gal 5:6.
+
 [^25]: CCC 1814–1816; CCC 2008–2011.
+
 [^26]: CCC 1996–2000; Council of Trent, Sess. VI, can. 1–3.
+
 [^27]: Gal 5:6; Council of Trent, Sess. VI, ch. 7–8.
+
 [^28]: Council of Trent, Sess. VI, can. 4; CCC 2001–2002.
+
 [^29]: Council of Trent, Sess. VI, can. 4; CCC 2001–2002.
+
 [^30]: CCC 2006–2011; Council of Trent, Sess. VI, ch. 16.
+
 [^31]: St. Augustine, *Epistula* 194, 5.19 (to St. Sixtus); cf. CSEL 57:190.
+
 [^32]: CCC 1471.
+
 [^33]: CCC 1472–1473.
+
 [^34]: Council of Trent, Sess. XXV (4 Dec 1563), Decree Concerning Indulgences.
+
 [^35]: St. Paul VI, *Indulgentiarum doctrina* (1 Jan 1967), 11.
+
 [^36]: CCC 1030–1032.
+
 [^37]: CCC 1030–1031; cf. 1 Cor 3:15.
+
 [^38]: Council of Florence, Bull of Union with the Greeks *Laetentur caeli* (6
     Jul 1439), DH 1304.
+
 [^39]: Council of Trent, Sess. XXV, _Decree Concerning Purgatory._
+
 [^40]: CCC 1032; cf. 2 Macc 12:46.
+
 [^41]: St. Cyril of Jerusalem, *Catechetical Lectures*, 23.9–10.
+
 [^42]: St. John Chrys., *Homilies on Philippians*, Homily 3, 65–66.
+
 [^43]: Cf. St. John Paul II, *Fides et Ratio* (14 Sep 1998).
+
 [^44]: CCC 42–43.
+
 [^45]: CCC 43; Fourth Lateran Council (Lateran IV), DS 806.
+
 [^46]: CCC 251.
+
 [^47]: St. Thomas Aquinas, *Summa theologiae*, I, q. 13, a. 1, ad 1.
+
 [^48]: Second Vatican Council, *Dei Verbum*, 10; cf. CCC 86.
+
 [^49]: CCC 1131.
+
 [^50]: 2 Pet 1:4; CCC 460; St. Athanasius, *De Incarnatione*, 54.3.
+
 [^51]: CCC 1987–1995; CCC 1996–2005; 2 Cor 5:17; Rom 6:4.
+
 [^52]: Rom 3:21–26; Rom 5:1; Gal 2:16; Rom 8:1–17; 1 Cor 12:12–13.
+
 [^53]: CCC 1691–1698; CCC 1990–1991.
+
 [^54]: CCC 1987–1995; Eph 2:8–10; Council of Trent, Sess. VI (1547), *Decree on Justification*, cap. 8.
+
 [^55]: Gal 5:6; CCC 1814–1816; CCC 1822–1829.
+
 [^56]: CCC 2008–2011.
-[^57]: CCC 2006–2011; Council of Trent, Sess. VI (1547), *Decree on Justification*, cap. 16.
-[^58]: CCC 1030–1032; CCC 1471–1479; Council of Trent, Sess. XXV (1563), *Decree concerning Purgatory*; Council of Trent, Sess. XXV (1563), *Decree concerning Indulgences*; Joint Declaration on the Doctrine of Justification (1999), §§15–17.
+
+[^57]: CCC 2006–2011; Council of Trent, Sess. VI (1547), *Decree on
+    Justification*, cap. 16.
+
+[^58]: CCC 1030–1032; CCC 1471–1479; Council of Trent, Sess. XXV (1563), *Decree
+    concerning Purgatory*; Council of Trent, Sess. XXV (1563), *Decree
+    concerning Indulgences*; Joint Declaration on the Doctrine of Justification
+    (1999), §§15–17.
+
 [^59]: 2 Pet 1:4; CCC 460; CCC 1987–1995.
+
 [^60]: CCC 1987–1995; CCC 1996–2005.
+
 [^61]: CCC 515–518; CCC 599–618; St. Gregory of Nazianzus, *Ep.* 101.32.
 
