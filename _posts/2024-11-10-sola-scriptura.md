@@ -121,7 +121,7 @@ but as the Church’s inspired witness to Christ—written within and for the
 Church. It belongs to Scripture’s own self-presentation that interpretation is
 perilous when detached from the Church’s common mind: some things are ‘hard to
 understand’ and are ‘twisted’ by the unstable[^2pet316]; prophecy is not ‘of
-own’s own interpretation’[^2pet120]; the apostolic injunction is to ‘hold fast
+one’s own interpretation’[^2pet120]; the apostolic injunction is to ‘hold fast
 the traditions’ delivered both ‘by word of mouth’ and ‘by letter’[^2thes215];
 and the Church is named ‘the pillar and bulwark of the truth’[^1tim315]. The
 pattern of Acts 15 is equally decisive: a doctrinal crisis is not resolved by
